@@ -9,6 +9,7 @@ Lembrando que após a execução do Ransomware, o Cl0p acrescenta a extensão ao
 A operação do Clop deixou de ser entregue a sua carga final por meio de phishing, sendo e iniciando seus ataques utilizando-se de vulnerabilidades que ocasionaram a exploração e infecção destas infraestruturas das vítimas. 
 
 ![Imagem1](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/3a3b54a0-133e-402e-92b6-75277f6abd7d)
+
 (Declaração do Cl0p)
 
 Houve esforços conjuntos para desmantelar os cartéis de ransomwares, envolvendo cinco continentes que resultou na prisão de seis supostos membros do Clop em junho de 2021. 
