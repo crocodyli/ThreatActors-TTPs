@@ -11,3 +11,17 @@ O intuito é mapear todas as possíveis estratégias adotadas por operadores de 
 Dúvidas
 Twitter: https://twitter.com/crocodylii 
 LinkedIn: https://www.linkedin.com/in/caiquebarqueta/ 
+
+
+#### Vítimas Mês a Mês
+
+![Imagem5](images/Xnip2023-07-29_14-42-31.png)
+
+#### Top 10 Países
+
+![Imagem5](images/Xnip2023-07-29_14-42-37.png)
+
+
+#### Top 10 Segmentos
+
+![Imagem5](images/Xnip2023-07-29_14-42-42.png)

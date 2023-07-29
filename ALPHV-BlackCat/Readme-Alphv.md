@@ -9,3 +9,18 @@ Como forma de segurança, os operadores do ALPHV implementaram a necessidade de 
 Os afiliados do ALPHV utilizam técnicas de extorsões dupla e tripla, ou seja, a publicação do nome da empresa no site de vazamento, ameaça de vazamento de dados e por último ameaça de ataques DDoS contra a organização. 
 
 ![Imagem3](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/7856aa07-424b-4c34-aa91-860f182f4f14)
+
+
+
+#### Vítimas Mês a Mês
+
+![Imagem5](images/Xnip2023-07-29_14-04-54.png)
+
+#### Top 10 Países
+
+![Imagem5](images/Xnip2023-07-29_14-04-42.png)
+
+
+#### Top 10 Segmentos
+
+![Imagem5](images/Xnip2023-07-29_14-04-46.png)

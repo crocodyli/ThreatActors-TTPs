@@ -24,3 +24,13 @@ Como exemplo, realizei a análise do ransomware 8base apresentado em um incident
 A análise foi publicada no site da empresa ISH, bem como foi possível indicar os TTPs de acordo com a amostra obtida e elaborada uma tabela contendo as TTPs utilizadas pelo payload do Ransomware.
 
 Não existem muitas informações relacionadas a incidentes de segurança publicamente sobre o ransomware, apenas que utilizam builders de outros grupos.  
+
+
+#### Top 10 Países
+
+![Imagem5](images/Xnip2023-07-29_13-48-00.png)
+
+
+#### Top 10 Segmentos
+
+![Imagem5](images/Xnip2023-07-29_13-48-06.png)
