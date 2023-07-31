@@ -25,3 +25,8 @@ LinkedIn: https://www.linkedin.com/in/caiquebarqueta/
 #### Top 10 Segmentos
 
 ![Imagem5](images/Xnip2023-07-29_14-42-42.png)
+=======
+Contribuídores e agradecimentos: 
+
+Andrey (@Iam4ndr3y) https://twitter.com/Iam4ndr3y
+Þ4ŊD³m¹©BøY ☣ (@P4nd3m1cb0y) https://twitter.com/P4nd3m1cb0y
