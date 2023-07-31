@@ -11,3 +11,8 @@ O intuito é mapear todas as possíveis estratégias adotadas por operadores de 
 Dúvidas
 Twitter: https://twitter.com/crocodylii 
 LinkedIn: https://www.linkedin.com/in/caiquebarqueta/ 
+
+
+Contribuídores e agradecimentos: 
+
+Andrey (@Iam4ndr3y) https://twitter.com/Iam4ndr3y
