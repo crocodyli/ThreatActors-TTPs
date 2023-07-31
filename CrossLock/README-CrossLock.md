@@ -20,19 +20,6 @@ CrossLock é uma nova variante da família de ransomware, visto pela primeira ve
 | Ransomnote | — CrossLock_readme_To_Decrypt — .txt
 | SHA256 | [495fbfecbcadb103389cc33828db139fa6d66bece479c7f70279834051412d72](https://www.virustotal.com/gui/file/495fbfecbcadb103389cc33828db139fa6d66bece479c7f70279834051412d72/detection)
 
-## ATT&CK
-| **Tactic** | **Technique** | **Sub-Technique**
-| ----- |  ------- | ------- 
-| Execution| Command and Scripting Interpreter| Windows Command Shell
-| Defense Evasion| Process Injection| Process Hollowing
-| Defense Evasion| Indicator Removal| Clear Windows Event Logs
-| Privilege Escalation| Abuse Elevation Control Mechanism| Bypass User Account Control
-| Discovery| System Service Discovery| -
-| Discovery| Process Discovery| -
-| Discovery| File and Directory Discovery| -
-| Lateral Movement| Remote Services| SMB/Windows Admin Shares
-| Impact| Data Encrypted for Impact| -
-| Impact| Inhibit System Recovery| -
 
 # Referências:
 - [CrossLock a new ransomware in the market](https://medium.com/@Pandemicboy/crosslock-a-new-ransomware-in-the-market-435b3e0b23a8)
