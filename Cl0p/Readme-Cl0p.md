@@ -20,3 +20,15 @@ Fonte: https://twitter.com/DailyDarkWeb/status/1684488806240509953/photo/1
 O Ransomware Clop é considerado um dos grupos com mudanças de suas táticas, técnicas e procedimentos (TTPs). 
 
 
+#### Vítimas Mês a Mês
+
+![Imagem5](images/Xnip2023-07-29_14-44-17.png)
+
+#### Top 10 Países
+
+![Imagem5](images/Xnip2023-07-29_14-44-23.png)
+
+
+#### Top 10 Segmentos
+
+![Imagem5](images/Xnip2023-07-29_14-44-27.png)
