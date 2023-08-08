@@ -40,4 +40,4 @@ Além disso, o agente optou por manter nessa variante é a capacidade antirecupe
 Referência:
 https://blog.talosintelligence.com/new-threat-actor-using-yashma-ransomware/
 
- 	Por fim, podemos afirmar que a adaptação do código do Ransomware Yashma é perceptível quanto a utilização e evolução do agente de ameaça para a sua operação, apresentando desta vez, detalhes de uma operação no início.
+A adaptação do código do Ransomware Yashma é perceptível quanto a utilização e evolução do agente de ameaça para a sua operação, apresentando desta vez, detalhes de uma operação no início.
