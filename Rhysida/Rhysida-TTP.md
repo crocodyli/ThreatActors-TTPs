@@ -75,3 +75,67 @@
 |                        |                                                              |                                                                        “CriticalBreachDetected.pdf”                                                                        |
 |                        |             Desfiguração: Desfiguração   interna             | Ele altera o papel de parece da área de trabalho   após a criptografia e impede que o usuário o altere de volta, modificando o   valor do registro “NoChangingWallpaper”.  |
 |                        |                           T1491.001                          |                                                                                                                                                                            |
+
+
+
+
+RANSOMWARE TTP - Helth Sector Cybersecurity Coordination Center (HC3)
+
+| Técnica                                                                              | ID        |
+|--------------------------------------------------------------------------------------|-----------|
+| Reconhecimento                                                                       | TA0043    |
+| Verificação Ativa                                                                    | T1595     |
+| Phishing para informações                                                            | T1598     |
+|                                                                                      |           |
+| Desenvolvimento de Recursos                                                          | TA0042    |
+| Adquirir Infraestrutura                                                              | T1583     |
+| Desenvolver capacidade                                                               | T1587     |
+|                                                                                      |           |
+| Acesso Inicial                                                                       | TA0001    |
+| Phishing                                                                             | T1566     |
+| Mecanismo de controle de elevação de   abuso: ignorar o controle de conta do usuário | T1548.002 |
+|                                                                                      |           |
+| Execução                                                                             | TA0002    |
+| Interpretador de Comandos e Scripts                                                  | T1059     |
+| Módulos Compartilhados                                                               | T1129     |
+|                                                                                      |           |
+| Persistência                                                                         | TA0003    |
+| Chaves de Execução do Registro/ Pasta de   Inicialização                             | T1547.001 |
+|                                                                                      |           |
+| Escalação de Privilégios                                                             | TA0004    |
+| Injeção de processo                                                                  | T1055     |
+| Sequestro de execução de thread                                                      | T1055.003 |
+| Chaves de Execução do Registro                                                       | T1547.001 |
+|                                                                                      |           |
+| Evasão de Defesa                                                                     | TA0005    |
+| Arquivos ou informações ofuscadas                                                    | T1027     |
+| Remoção do Indicador das Ferramentas                                                 | T1027.005 |
+| Mascaramento                                                                         | T1036     |
+| Injeção de processo                                                                  | T1055     |
+| Sequestro de execução de thread                                                      | T1055.003 |
+| Evasão de Virtualização/Sandbox                                                      | T1497     |
+| Ocultar Artefatos                                                                    | T1564     |
+| Atributos do arquivo NTFS                                                            | T1564.004 |
+| Carregamento de código reflexivo                                                     | T1620     |
+|                                                                                      |           |
+| Descoberta                                                                           | TA0007    |
+| Descoberta da janela do aplicativo                                                   | T1010     |
+| Descoberta de processo                                                               | T1057     |
+| Descoberta de informações do sistema                                                 | T1082     |
+| Descoberta de arquivos e diretórios                                                  | T1083     |
+| Evasão de Virtualização/Sandbox                                                      | T1497     |
+| Descoberta de software de segurança                                                  | T1518.001 |
+|                                                                                      |           |
+| Coleção                                                                              | TA0009    |
+| Dados do Sistema Local                                                               | T1005     |
+| Recolha Automática                                                                   | T1119     |
+|                                                                                      |           |
+| Comando e Controle                                                                   | TA0011    |
+| Protocolo da Camada de Aplicação                                                     | T1071     |
+| Protocolos Web                                                                       | T1071.001 |
+|                                                                                      |           |
+| Exfiltração                                                                          | TA0010    |
+| Exfiltração sobre o Canal C2                                                         | T1041     |
+|                                                                                      |           |
+| Impacto                                                                              | TA0040    |
+| Dados criptografados para impacto                                                    | T1486     |
