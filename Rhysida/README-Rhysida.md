@@ -21,4 +21,5 @@ Por fim, o grupo possui um site na rede Tor hospedando as empresas que foram vio
 REFERÊNCIAS
 
 https://www.trendmicro.com/en_dk/research/23/h/an-overview-of-the-new-rhysida-ransomware.html 
+
 https://www.hhs.gov/sites/default/files/rhysida-ransomware-sector-alert-tlpclear.pdf 
