@@ -21,6 +21,7 @@ Publicando um método de TTPs de acordo com o diagrama abaixo.
 Além disso, existem outros relatórios publicados por organizações e disponibilizada de forma pública. 
 
 Referência: 
+
 https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america
 
 https://www.mandiant.com/resources/blog/unc2596-cuba-ransomware
