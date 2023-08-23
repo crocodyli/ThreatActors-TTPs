@@ -33,4 +33,6 @@ https://www.elastic.co/security-labs/cuba-ransomware-campaign-analysis
 
 https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-335a
 
+https://www.ic3.gov/Media/News/2021/211203-2.pdf
+
 https://profero.io/posts/cubaransomware/Cuba-Ransomware-Group-on-a-roll.pdf
