@@ -1,4 +1,4 @@
-O Ransomware Cuba, também conhecido como Ransomware Colddraw foi identificado pela primeira vez no cenário de ameaças em 2019 e construiu uma lista relativamente pequena de vítimas, mas selecionadas. O grupo também é conhecido como Ransomware Fidel, devido a um marcador característico colocado no início de todos os arquivos criptografados. Esse marcado de arquivo é usado como um indicador para o ransomware e seu decodificador de que o arquivo foi criptografado. 
+O **Ransomware Cuba**, também conhecido como Ransomware Colddraw foi identificado pela primeira vez no cenário de ameaças em 2019 e construiu uma lista relativamente pequena de vítimas, mas selecionadas. O grupo também é conhecido como Ransomware Fidel, devido a um marcador característico colocado no início de todos os arquivos criptografados. Esse marcado de arquivo é usado como um indicador para o ransomware e seu decodificador de que o arquivo foi criptografado. 
  
 Apesar de seu nome e do estilo nacionalista cubano em seu site de vazamento, é difícil afirmar que possua qualquer conexão ou afiliação com a República de Cuba. O grupo já teria sido vinculado a um ator de ameaça de língua russa por pesquisadores da Profero devido a alguns detalhes linguísticos de tradução incorreta que descobriram, bem como à descoberta de uma página 404 contendo texto em russo no próprio site de vazamento do agente de ameaça.
 
@@ -20,7 +20,10 @@ Publicando um método de TTPs de acordo com o diagrama abaixo.
 
 Além disso, existem outros relatórios publicados por organizações e disponibilizada de forma pública. 
 
-Referência: 
+**Link da rede Tor:**
+http[:]//cuba4ikm4jakjgmkezytyawtdgr2xymvy6nvzgw5cglswg3si76icnqd[.]onion/
+
+**Referência:** 
 
 https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america
 
