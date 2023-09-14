@@ -8,6 +8,8 @@ Além de mapeamento de TTPs, será realizado a inserção de dados de ferramenta
 
 O intuito é mapear todas as possíveis estratégias adotadas por operadores de Ransomwares e contribuições serão bem-vindas! 
 
+**A pasta COMANDOS, representa comandos utilizados por ransomwares ou coletados durante incidentes de segurança.**
+
 Dúvidas
 Twitter: https://twitter.com/crocodylii 
 
