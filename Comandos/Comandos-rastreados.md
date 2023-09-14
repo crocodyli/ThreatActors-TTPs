@@ -1,27 +1,38 @@
 #Utilizado para ativar a regra do Firewall que permite a descoberta de rede. 
+
 "netsh.exe" advfirewall firewall set rule "group=”Network Discovery”" new enable=Yes
 
 #Usado para excluir todas as cópias de backup do estado do sistema no Windows Server Backup, mantendo zero versões.
+
 "wbadmin.exe" delete systemstatebackup -keepVersions:0 -quiet
 
 #Utilizado para excluir uma cópia de backup do estado do sistema Windows Server Backup.
+
 "wbadmin.exe" DELETE SYSTEMSTATEBACKUP
 
 #Utilizado para excluir a cópia mais antiga do backup do sistema no Windows Server Backup. 
+
 "wbadmin.exe" DELETE SYSTEMSTATEBACKUP -deleteOldest
 
 #Utilizado para manipular a configuração do Boot Configuration Data (BDC) no Windows, desabilita a recuperação do sistema no menu de inicialização do Windows. 
+
 "bcdedit.exe" /set {default} recoveryenabled No
 
 #Utilizado para configurar a política de inicialização do Windows para ignorar todas as falhas. 
+
 "bcdedit.exe" /set {default} bootstatuspolicy ignoreallfailures
 
 #Utilizado o wevutil para limpezar dos logs Security, System e Application.
+
 "cmd.exe" /c wevtutil cl security
+
 "cmd.exe" /c wevtutil cl system
+
 "cmd.exe" /c wevtutil cl application
 
+
 #Comando utilizado para interrupção de serviços de rede, o parâmetro /y é para não solicitar confirmação do usuário. 
+
 "net" stop /y vmcomp
 "net" stop /y vmwp
 "net" stop /y veeam
@@ -106,8 +117,10 @@
 "net" stop /y YooBackup
 "net" stop /y YooIT
 
-#Excluir todas as cópias de sombra (shadow copies) armazenadas pelo serviço VSS
+#Excluir todas as cópias de sombra (shadow copies) armazenadas pelo serviço VSS.
+
 vssadmin.exe delete shadows /all /quiet
 
 #Utilizado para todas as cópias de sombra do sistema usando o WMIC. 
+
 "wmic.exe" SHADOWCOPY DELETE /nointeractive
