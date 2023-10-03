@@ -10,6 +10,8 @@ O intuito é mapear todas as possíveis estratégias adotadas por operadores de 
 
 **A pasta COMANDOS, representa comandos utilizados por ransomwares ou coletados durante incidentes de segurança.**
 
+**A pasta LOCAIS, representa os locais que potencialmente poderão ser encontrados os ransomwares na sua execução ou posteriormente**
+
 Dúvidas
 Twitter: https://twitter.com/crocodylii 
 
