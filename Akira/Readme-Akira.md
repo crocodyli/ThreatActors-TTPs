@@ -16,6 +16,7 @@ Além disso, foi identificado a exploração das CVEs: CVE-2019-6693 e CVE-2022-
 Após a criptografia, o ransomware akira exige que a vítima acesse por meio do portal de negociação da rede Tor. 
 
 akiralkzxzq2dsrzsrvbr2xgbbu2wgsmxryd4csgfameg52n7efvr2id[.]onion
+
 akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad[.]onion
 
 
