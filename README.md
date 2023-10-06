@@ -25,3 +25,5 @@ Andrey (@Iam4ndr3y) https://twitter.com/Iam4ndr3y
 
 Þ4ŊD³m¹©BøY ☣ (@P4nd3m1cb0y) https://twitter.com/P4nd3m1cb0y
 
+carlosadrianosj https://www.linkedin.com/in/carlosadrianosj
+
