@@ -7,3 +7,5 @@ Este arquivo mantém comandos identificados que podem afetar o funcionamento do 
 "cmd.exe" /c wevtutil cl system
 
 "cmd.exe" /c wevtutil cl application
+
+fsutil behavior set SymlinkEvaluation R2L:1
