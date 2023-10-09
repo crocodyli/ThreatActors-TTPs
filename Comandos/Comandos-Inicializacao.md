@@ -9,5 +9,4 @@ Este arquivo mantém comandos identificados que podem afetar o funcionamento da 
 
 "bcdedit.exe" /set {default} bootstatuspolicy ignoreallfailures
 
-
-**%windir%\System32\svchost.exe –k WerSvcGroup**
+%windir%\System32\svchost.exe –k WerSvcGroup
