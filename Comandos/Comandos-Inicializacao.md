@@ -8,3 +8,6 @@ Este arquivo mantém comandos identificados que podem afetar o funcionamento da 
 **Utilizado para configurar a política de inicialização do Windows para ignorar todas as falhas.**
 
 "bcdedit.exe" /set {default} bootstatuspolicy ignoreallfailures
+
+
+**%windir%\System32\svchost.exe –k WerSvcGroup**
