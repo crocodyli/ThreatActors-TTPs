@@ -9,4 +9,6 @@ Este arquivo mantém comandos identificados que podem afetar o funcionamento da 
 
 "bcdedit.exe" /set {default} bootstatuspolicy ignoreallfailures
 
+**O comando %windir%\System32\svchost.exe –k WerSvcGroup está iniciando o processo svchost.exe e especificando que ele deve pertencer ao grupo de serviços responsável pelo "Windows Error Reporting Service"**
+
 %windir%\System32\svchost.exe –k WerSvcGroup
