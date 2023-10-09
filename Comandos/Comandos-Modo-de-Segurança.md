@@ -13,6 +13,10 @@ bootcfg /raw /a /safeboot:network /id 1
 
 bcdedit /deletevalue {current} safeboot
 
-Antes que o Windows Vista
+**Antes que o Windows Vista**
 
 bootcfg /raw /fastdetect /id 1
+
+**Configura a entrada de inicialização atual para iniciar no modo de inicialização segura com os drivers essenciais mínimos necessários para o funcionamento básico do sistema**
+
+bcdedit.exe /set {current} safeboot minimal
