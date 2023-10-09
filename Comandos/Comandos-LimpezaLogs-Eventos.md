@@ -11,4 +11,5 @@ Este arquivo mantém comandos identificados que podem afetar o funcionamento do 
 fsutil behavior set SymlinkEvaluation R2L:1
 
 for /F \”tokens=*\” %1 in (‘wevtutil.exe el’) DO wevtutil.exe cl \”%1\”
-(Utilizado como um loop para percorrer a lsita de registros de eventos e limpar cada um deles). 
+
+*(Utilizado como um loop para percorrer a lsita de registros de eventos e limpar cada um deles).* 
