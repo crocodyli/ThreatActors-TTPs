@@ -11,3 +11,8 @@ vssadmin.exe delete shadows /all /quiet
 **Adiciona um novo valor à cheva de Registro que configura o serviço Volume Shadow Copy para iniciar em modo de inicialização segura mínima**
 
 REG ADD HKLM\SYSTEM\CurrentControlSet\Control\SafeBoot\Minimal\VSS /VE /T REG_SZ /F /D Service
+
+
+**Comando utilizado para exclusão da VSS através do PowerShell** 
+
+powershell.exe -Command "Get-WmiObject Win32_Shadowcopy | Remove-WmiObject"
