@@ -9,8 +9,7 @@ Este repositório foi criado com o intuito de auxiliar as empresas e pesquisador
 
 Além de mapeamento de TTPs, será realizado a inserção de dados de ferramentas, descrição da operação de determinado grupo e outros detalhes adicionais. 
 
-
-#**ESTRUTURA DO REPOSITÓRIO RANSOMWARE-TTP**
+## ESTRUTURA DO REPOSITÓRIO RANSOMWARE-TTP
 | PASTA | DESCRIÇÃO |
 |--------------------------------------------|--------------------------------------------------------------------------------------|
 | Nome do Ransomware | Descritivo de atividades, detalhes de operação, TTPs e Ferramentas utilizadas |
@@ -19,6 +18,6 @@ Além de mapeamento de TTPs, será realizado a inserção de dados de ferramenta
 
 
 
-#Dúvidas: https://twitter.com/crocodylii
+## Dúvidas: https://twitter.com/crocodylii
 
 **O intuito é mapear todas as possíveis estratégias adotadas por operadores de Ransomwares e contribuições serão bem-vindas!**
