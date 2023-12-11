@@ -6,8 +6,9 @@ Get-ADUser -Filter * -Properties * | Select-Object Enabled, CanonicalName, CN, N
 SamAccountName, MemberOf, Company, Title, Description, Created,
 Modified, PasswordLastSet, LastLogonDate, logonCount, Department,
 telephoneNumber, MobilePhone, OfficePhone, EmailAddress, mail, HomeDirectory, homeMDB
-> C:\ProgramData\AdUsers.txt
+"> C:\ProgramData\AdUsers.txt
 Get-ADComputer -Filter * -Property * | Select-Object Enabled, Name, DNSHostName, IPv4Address,
 OperatingSystem, Description, CanonicalName,
-servicePrincipalName, LastLogonDate, whenChanged, whenCreated > C:\ProgramData\AdComp.txt
+servicePrincipalName, LastLogonDate, whenChanged, whenCreated 
+"> C:\ProgramData\AdComp.txt
 nltest /domaintrusts
