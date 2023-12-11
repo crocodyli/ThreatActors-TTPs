@@ -21,3 +21,5 @@ nltest /domaintrusts
 | cmd.exe /C net group /domain Domain Computers | Utilizado para listar todos os computadores que são membros do Domain Computer em um AD |
 | cmd.exe /C netstat -nap tcp | Utilizado para listar ações em Windows e Linux por meio de portas e conexões TCP |
 | cmd.exe /C whoami | Exibe informações sobre o nome de usuário logado, juntamente com informações relacionadas ao domínio ou ao computador local |
+| cmd.exe /c wevtutil qe Microsoft-Windows-TerminalServices- LocalSessionManager/Operational /c:5 /q:*[System [(EventID=25)]] /rd:true /f:text | Utilizado para consultar eventos nos logs de eventos do Sistema |
+| cmd.exe /c dir /a c:\users\ | Utilizado para listar o conteúdo do diretório C:\Users, incluido arquivos e pastas ocultos ou de sistema |
