@@ -1,3 +1,3 @@
-**Comandos identificados gerais utilizados para iniciar arquivos no sistema operacional**
-
-cmd /d /c cmd /d /c cmd /d /c start " " C:\Users\grade1\AppData\Local\PRETTYOCEANluvApplication\PRETTYOCEANApplicationidf.bi
+| COMANDO | DESCRIÇÃO |
+|--------------------------------------------|--------------------------------------------------------------------------------------|
+| cmd /d /c cmd /d /c cmd /d /c start " " <local para abrir arquivo> | Utilizado para iniciar um arquivo ou aplicativo. A natureza repetida de cmd parece que pode ser ocasionado por erro ou tentativa de ofuscar a ação real |
