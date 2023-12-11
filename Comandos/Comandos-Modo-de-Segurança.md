@@ -4,5 +4,4 @@
 | bootcfg /raw /a /safeboot:network /id 1 | Antes que o Windows Vista |
 | bcdedit /deletevalue {current} safeboot | Utilizado para remover a configuração de inicialização segurança do Modo de Segurança no BCD do Windows |
 | bootcfg /raw /fastdetect /id 1 | Antes que o Windows Vista |
-| bcdedit.exe /set {current} safeboot minimal
- | Configura a entrada de inicialização atual para iniciar no modo de inicialização segura com os drivers essenciais mínimos necessários para o funcionamento básico do sistema |
+| bcdedit.exe /set {current} safeboot minimal | Configura a entrada de inicialização atual para iniciar no modo de inicialização segura com os drivers essenciais mínimos necessários para o funcionamento básico do sistema |
