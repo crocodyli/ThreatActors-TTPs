@@ -1,4 +1,4 @@
-| "net" stop /y vmcomp
+"net" stop /y vmcomp
 "net" stop /y vmwp
 "net" stop /y veeam
 "net" stop /y Back
@@ -80,4 +80,4 @@
 "net" stop /y CASAD2WebSvc
 "net" stop /y CAARCUpdateSvc
 "net" stop /y YooBackup
-"net" stop /y YooIT" |
+"net" stop /y YooIT" 
