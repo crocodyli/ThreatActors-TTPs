@@ -1,3 +1,5 @@
+# Yashma
+
 A empresa Cisco Talos identificou um novo agente de ameaça desconhecido de origem vietnamita, conduzindo uma operação de ransomware que começou pelo menos em 04 de junho de 2023. 
 
 O ataque em andamento utiliza uma variante do Ransomware Yashma que provavelmente visa várias áreas geográficas, imitando as características do WannaCry. 
@@ -37,7 +39,7 @@ A variante identificada também estabeleceu persistência na chave de registro R
 
 Além disso, o agente optou por manter nessa variante é a capacidade antirecuperação do Yashma. Depois da criptografia de um arquivo, o ransomware limpa o conteúdo dos arquivos originais não criptografados, escreve um único caractere “?” e, em seguida, exclui o arquivo. A referida técnica torna mais difícil os respondentes de incidentes e a forense de recuperar os arquivos excluídos do disco rígido da vítima.
 
-Referência:
+## Referência:
 https://blog.talosintelligence.com/new-threat-actor-using-yashma-ransomware/
 
 A adaptação do código do Ransomware Yashma é perceptível quanto a utilização e evolução do agente de ameaça para a sua operação, apresentando desta vez, detalhes de uma operação no início.
