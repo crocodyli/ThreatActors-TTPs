@@ -1,4 +1,4 @@
-#3AM
+# 3AM
 
 Uma nova família de Ransomware identificada pelo nome de “3AM” ou “ThreeAM" em Setembro de 2023. A operação do ransomware foi observada pela equipe da Symantec na qual um afiliado de ransomware tentou implantar outro ransomware, o LockBit na rede alvo e depois mudou para 3AM quando o LockBit teria sido bloqueado. 
 
