@@ -1,3 +1,5 @@
+# 8base
+
 O grupo de Ransomware 8base teve sua primeira aparição no início de março de 2022, permanecendo de certa forma quieto após os ataques. O referido grupo atua como os demais atores de ransomwares, realizando a extorsão dupla. 
  
 Ocorre que em meados de maio e junho de 2023, a operação do ransomware teve um pico de atividade contra organizações de vários setores listando até o momento 131 organizações em apenas 3 meses. 
