@@ -10,3 +10,14 @@ SamAccountName, MemberOf, Company, Title, Description, Created, Modified, Passwo
 nltest /domaintrusts
 
 **Remover as aspas antes de ">".**
+
+
+| COMANDO | DESCRIÇÃO |
+|--------------------------------------------|--------------------------------------------------------------------------------------|
+| cmd.exe /C ipconfig /all | Utilizado para exibir informações detalhadas sobre a configuração de rede do seu computador |
+| cmd.exe /C ver | Utilizado para verificar a versão do sistema operacional Windows que está sendo utilizado |
+| cmd.exe /C wmic os get osarchitecture | Utilizado para verificar a arquitetura do sistema operacional |
+| cmd.exe /C WMIC /Node:localhost /Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName | utilizado para listar os produtos de antivírus instalados e reconhecidos pelo CSW do Windows |
+| cmd.exe /C net group /domain Domain Computers | Utilizado para listar todos os computadores que são membros do Domain Computer em um AD |
+| cmd.exe /C netstat -nap tcp | Utilizado para listar ações em Windows e Linux por meio de portas e conexões TCP |
+| cmd.exe /C whoami | Exibe informações sobre o nome de usuário logado, juntamente com informações relacionadas ao domínio ou ao computador local |
