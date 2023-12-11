@@ -1,4 +1,6 @@
-****Rhysida**** é um grupo de ransomware como serviço (RAAS) que surgiu em maio de 2023. O grupo utiliza um ransomware homônimo por meio de ataques de phishing e Cobalt Strike para violar as redes dos alvos e implantar suas cargas úteis. 
+# ****Rhysida**** 
+
+É um grupo de ransomware como serviço (RAAS) que surgiu em maio de 2023. O grupo utiliza um ransomware homônimo por meio de ataques de phishing e Cobalt Strike para violar as redes dos alvos e implantar suas cargas úteis. 
 
 O grupo ameaça distribuir publicamente os dados exfiltrados se o resgate não for pago, bem como podemos mencionar que o Rhysida ainda está nos estágios iniciais de desenvolvimento. 
 
@@ -18,7 +20,7 @@ Por fim, o grupo possui um site na rede Tor hospedando as empresas que foram vio
 ![ransom](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/77fa0ac2-0d8d-4f9c-9f48-9c3728b42823)
 
 
-REFERÊNCIAS
+## REFERÊNCIAS
 
 https://www.trendmicro.com/en_dk/research/23/h/an-overview-of-the-new-rhysida-ransomware.html 
 
