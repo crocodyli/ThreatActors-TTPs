@@ -5,3 +5,6 @@
 | cmd.exe /c net user <nome> /add | Utilizado para criar novo usuário no Windows |
 | cmd.exe /c net localgroup Administrators <nome> /add | Instrução para o CMD que adiciona um usuário específico ao grupo local de Administradores do computador |
 | cmd.exe /c net localgroup Administrators | Utilizado para exibir todos os membros do grupo local "Administrators" no sistema |
+| net localgroup Administrators [USERNAME] /ADD | Adiciona um usuário específico ao gp de adm |
+| net localgroup ‘Remote Desktop Users’ [USERNAME] /add | Adiciona usuário ao grupo RDP |
+| net localgroup Remote Desktop Users [USERNAME] /add 1> \\127.0.0.1\ADMIN$\__[TIMESTAMP] 2>&1 | Combinação de várias instruções para adicionar um usuário e redirecionar a saída do comando para um arquivo em um compartilhamento de rede |
