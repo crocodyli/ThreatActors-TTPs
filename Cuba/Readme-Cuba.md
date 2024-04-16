@@ -1,29 +1,26 @@
-O **Ransomware Cuba**, também conhecido como Ransomware Colddraw foi identificado pela primeira vez no cenário de ameaças em 2019 e construiu uma lista relativamente pequena de vítimas, mas selecionadas. O grupo também é conhecido como Ransomware Fidel, devido a um marcador característico colocado no início de todos os arquivos criptografados. Esse marcado de arquivo é usado como um indicador para o ransomware e seu decodificador de que o arquivo foi criptografado. 
- 
-Apesar de seu nome e do estilo nacionalista cubano em seu site de vazamento, é difícil afirmar que possua qualquer conexão ou afiliação com a República de Cuba. O grupo já teria sido vinculado a um ator de ameaça de língua russa por pesquisadores da Profero devido a alguns detalhes linguísticos de tradução incorreta que descobriram, bem como à descoberta de uma página 404 contendo texto em russo no próprio site de vazamento do agente de ameaça.
+The **Cuba Ransomware**, also known as Colddraw Ransomware, was first identified in the threat landscape in 2019 and built a relatively small but selected list of victims. The group is also known as Fidel Ransomware, due to a characteristic marker placed at the beginning of all encrypted files. This file marker is used as an indicator for the ransomware and its decoder that the file has been encrypted.
 
-Segundo a BlackBerry, com base na análise das strings do código utilizado na campanha analisada em 2023, foi possível encontrar indícios de que o desenvolvedor por trás do ransomware Cuba fala Russo. 
+Despite its name and the Cuban nationalist style on its leak site, it is difficult to assert any connection or affiliation with the Republic of Cuba. The group has been linked to a Russian-language threat actor by Profero researchers due to some details of incorrect translation they discovered, as well as the discovery of a 404 page containing text in Russian on the threat actor's own leak site.
 
-Os operadores do ransomware utilizam a abordagem de dupla extorsão e, seguindo os EUA, em agosto de 2022 acreditou-se que o grupo de ransomware Cuba teria comprometido 101 entidades, exigindo US$145 milhões em pagamentos de resgates e recebeu até US$60 milhões.
+According to BlackBerry, based on the analysis of the code strings used in the campaign analyzed in 2023, there were indications that the developer behind the Cuba ransomware speaks Russian.
 
-O grupo utilizou um conjunto semelhante de TTPs, havendo apenas uma ligeira mudança a cada ano, pois, geralmente consistem em LOLBins (executáveis que fazem parte do sistema operacional e podem ser explorados para dar suporte a um ataque), exploits, malware de commodities e personalizado, bem como ferramentas de intrusões como Cobalt Strike e Metasploit. 
+The ransomware operators use a double extortion approach, and following the USA, in August 2022, it was believed that the Cuba ransomware group had compromised 101 entities, demanding $145 million in ransom payments and receiving up to $60 million.
 
-Em 2022, o grupo ainda teria desenvolvido um relacionamento com os operadores do mercado Industrial Spy, utilizando sua plataforma como forma de vazamento de dados. 
+The group used a similar set of TTPs, with only a slight change each year, as they generally consist of LOLBins (executables that are part of the operating system and can be exploited to support an attack), exploits, off-the-shelf and custom malware, as well as intrusion tools like Cobalt Strike and Metasploit.
+
+In 2022, the group allegedly developed a relationship with operators of the Industrial Spy market, using their platform as a means of data leakage.
 
 ![cuba](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/ff9c40f2-7693-4bb0-b068-d743aca92843)
 
-Conforme mencionado, a BlackBerry publicou o relatório da análise de incidente de segurança envolvendo o Ransomware Cuba. 
-https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america
+As mentioned, BlackBerry has published the report on the security incident analysis involving the Cuba Ransomware. You can find the report at the following link: [Cuba Ransomware Deploys New Tools, Targets Critical Infrastructure Sector in the USA and IT Integrator in Latin America](https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america).
 
-Publicando um método de TTPs de acordo com o diagrama abaixo. 
+Publishing a TTPs method according to the diagram below.
 ![cuba2](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/65609628-4f61-463b-9d8b-a77c1aa545f1)
 
-Além disso, existem outros relatórios publicados por organizações e disponibilizada de forma pública. 
+**Tor Network Link:**
+[http://cuba4ikm4jakjgmkezytyawtdgr2xymvy6nvzgw5cglswg3si76icnqd.onion/](http://cuba4ikm4jakjgmkezytyawtdgr2xymvy6nvzgw5cglswg3si76icnqd.onion/)
 
-**Link da rede Tor:**
-http[:]//cuba4ikm4jakjgmkezytyawtdgr2xymvy6nvzgw5cglswg3si76icnqd[.]onion/
-
-**Referência:** 
+**Reference:**
 
 https://blogs.blackberry.com/en/2023/08/cuba-ransomware-deploys-new-tools-targets-critical-infrastructure-sector-in-the-usa-and-it-integrator-in-latin-america
 
