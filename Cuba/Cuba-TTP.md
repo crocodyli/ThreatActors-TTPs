@@ -1,3 +1,4 @@
+```markdown
 # Tactic                               | Technique                                                                                        | ID      
 |--------------------------------------|--------------------------------------------------------------------------------------------------|----------
 | Initial Access                       | External Remote Services                                                                         | T1133    
@@ -32,6 +33,4 @@ By: BlackBerry
 | Attack Vector                       | Credential Theft, RDP                                                                          
 | Network Infrastructure              | TOR, IPs, Ports: 5050 and 443                                                                 
 | Targets                             | Critical infrastructure company USA and IT-based LATAM    
-                                     
-
-By: BlackBerry
+```  
