@@ -23,16 +23,3 @@
 |                                      | Multi-hop Proxy                                                                                 | T1090.003|
 |                                      | Application Layer Protocol: DNS                                                                  | T1071.004|
 |                                      | Application Layer Protocol: Web Protocols                                                        | T1071.001|
-
-
-
-                       
-# Weapons Used
-
-|--------------------------------------|---------------------------------------------------------------|
-| EXEs, DLLs, LOLBins, PS, Metasploit, Cobalt Strike, Exploits                                      |
-|--------------------------------------|---------------------------------------------------------------|
-| Attack Vector                       | Credential Theft, RDP                                          |
-| Network Infrastructure              | TOR, IPs, Ports: 5050 and 443                                  |                               
-| Targets                             | Critical infrastructure company USA and IT-based LATAM       |
-
