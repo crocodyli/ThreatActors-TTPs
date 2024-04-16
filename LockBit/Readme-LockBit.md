@@ -1,13 +1,11 @@
+# **LockBit**
 
+The LockBit Ransomware group began its operations in mid-2019 under the name Ransomware ABCD and has since been evolving and improving its malicious code and infrastructure. The group operates a Ransomware-as-a-Service (RaaS) operation, which started in mid-2020 in conjunction with the release of the new variant known as LockBit2.0 or LockBit Red.
 
-![lockbit](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/065ec14a-835b-48a1-ae6f-870a269d98d4)
+The malicious actor behind the group goes by the persona LockBitSupp on Dark Web forums (XSS), exhibiting extremely narcissistic and egocentric behavior. Over the years of operation, they have consistently defamed other ransomware groups and sought to promote their own operation.
 
-O grupo de Ransomware LockBit iniciou suas operações em meados de 2019, utilizando o nome de Ransomware ABCD e desde então, continua evoluindo e melhorando seu código malicioso e sua infraestrutura. O grupo possui a operação de Ransomware-as-a-Service (RaaS),  cuja operação se deu início em meados de 2020 em conjunto com a publicação da nova variante do grupo conhecida como LockBit2.0 ou LockBit Red. 
+In mid-2022, a new variant of the ransomware was announced as LockBit3.0 or LockBit Black due to the hiring of the former developer from the DarkSide (Ransomware BlackMatter) malicious actors. Additionally, the same developer leaked a LockBit Ransomware builder in September 2022, making it available for other threat actors to use in creating other groups.
 
-O ator malicioso por trás do referido grupo atende pela persona de LockBitSupp em fóruns da Dark Web (XSS), o qual possui um comportamento extremamente narcisista e egocêntrico, visto que por todos os anos de operação, sempre realizava a difamação de outros grupos de ransomwares e procurava promover a sua operação. 
-  
-Em meados de 2022, uma nova variante do Ransomware foi anunciada como LockBit3.0 ou LockBit Black devido a contratação do antigo desenvolvedor dos atores maliciosos da DarkSide (Ransomware BlackMatter). Além disso, o mesmo desenvolvedor veio em setembro de 2022 vazar um builder do Ransomware LockBit, tornando disponível para outros atores de ameaças realizarem o uso do builder para criação de outros grupos. 
-  
-Outro fato relevante é que o operador de Ransomware constantemente está anunciando e procurando pessoas para a sua operação, seja para auxiliar nas infraestruturas, desenvolvimento de novos recursos ou até mesmo para verificar a qualidade de seus “produtos”, como por exemplo na identificação de uma contratação de um “tester” que pude encontrar em pesquisas na Dark Web.
+Another noteworthy fact is that the ransomware operator is constantly announcing and seeking people for their operation, whether to assist with infrastructure, develop new features, or even to verify the quality of their "products". For example, I found evidence of a hiring for a "tester" during research on the Dark Web.
 
-  ![Imagem1](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/cef50066-b2ca-4283-b10a-00f97a134d1a)
+![Image1](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/cef50066-b2ca-4283-b10a-00f97a134d1a)
