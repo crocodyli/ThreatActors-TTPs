@@ -1,13 +1,13 @@
 **HSHARADA RANSOMWARE**
 
-O ransomware foi identificado no início de abril de 2023 e teria como alvo usuários que falam inglês e potencialmente outras linguas. 
+The ransomware was identified in early April 2023 and is said to target English-speaking users and potentially other languages.
 
-A extensão adicionada aos arquivos criptografados são: ".m9SRob" (potencialmente aleatória). 
+The extension added to encrypted files is: ".m9SRob" (potentially random).
 
-A nota de resgate se chama **m9SRob-README.txt"**. 
+The ransom note is named **"m9SRob-README.txt"**.
 
 ![note-2w](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/e21962da-ebe7-4b3f-b7d4-e58f34d4ec91)
 
-Não há maiores detalhes sobre o referido grupo ou potencialmente arquivos. 
+There are no further details about the mentioned group or potentially files.
 
-O fato é que acrescenta um ID para cada vítima. 
+The fact is that it adds an ID for each victim.
