@@ -1,23 +1,22 @@
-**RANSOMWARE AKIRA**
+**AKIRA RANSOMWARE**
 
-O grupo de ransomware Akira teria surgido em março de 2023 e muito se comenta sobre quanto o grupo Akira estaria envolvido com o antigo grupo de ransomware CONTI. 
+The Akira ransomware group is said to have emerged in March 2023, and there's much speculation about its ties to the former CONTI ransomware group.
 
-Vale salientar que com o término da operação, diversos afiliados migraram para campanhas independentes, como Royal, BlackBasta e outras. 
+It's worth noting that with the end of CONTI's operation, several affiliates migrated to independent campaigns such as Royal, BlackBasta, and others.
 
-De acordo com alguns relatórios, os afiliados do Akira também trabalham com outras operações de ransomware, como o Snatch e BlackByte, já que foi identificado um diretório aberto de ferramentas utilizadas por um operador do Akira que também havia conexão com o Ransomware Snatch. 
+According to some reports, Akira affiliates also work with other ransomware operations, such as Snatch and BlackByte, as an open directory of tools used by an Akira operator was identified, which also had connections to the Snatch ransomware.
 
-A primeira versão do ransomware Akira foi escrita em C++ e anexava arquivos com a extensão ".akira" e criava uma resgate chamana "akira_readme.txt" que foi escrito parcialmente baseado no código-fonte do Conti V2, porém em 29 de junho de 2023, um descriptografador para a versão teria sido publicada pela Avast. 
+The first version of the Akira ransomware was written in C++ and appended files with the ".akira" extension, creating a ransom note named "akira_readme.txt," partially based on the Conti V2 source code. However, on June 29, 2023, a decryptor for this version was reportedly released by Avast.
 
-Ocorre que uma versão foi lançada e corrigiu a falha de descriptografia em 2 de julho de 2023 e, desde então a nova versão teria sido escrita em Rusty, desta vez chamado de "megazord.exe" e alterava a extensão para ".powerranges" para os arquivos criptografados. 
+Subsequently, a version was released that fixed the decryption flaw on July 2, 2023. Since then, the new version is said to be written in Rust, this time called "megazord.exe," and it changes the extension to ".powerranges" for encrypted files.
 
-A maioria de vetor de acesso inicial do Akira usa a tentativa de força bruta em dispositivos Cisco VPN (as quais usam apenas autenticação de único fator). 
-Além disso, foi identificado a exploração das CVEs: CVE-2019-6693 e CVE-2022-40684 para acesso inicial. 
+Most of Akira's initial access vectors use brute-force attempts on Cisco VPN devices (which use single-factor authentication only). Additionally, exploitation of CVEs: CVE-2019-6693 and CVE-2022-40684 for initial access has been identified.
 
-Após a criptografia, o ransomware akira exige que a vítima acesse por meio do portal de negociação da rede Tor. 
+After encryption, the Akira ransomware demands that the victim access through the Tor network's negotiation portal.
 
 akiralkzxzq2dsrzsrvbr2xgbbu2wgsmxryd4csgfameg52n7efvr2id[.]onion
 
-akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad[.]onion 
+akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad[.]onion
 
 
 ![akira](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/e86fd08d-620a-4a90-975e-9280a76371c8)
