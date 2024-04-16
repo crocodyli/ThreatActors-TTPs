@@ -17,7 +17,7 @@ Após a criptografia, o ransomware akira exige que a vítima acesse por meio do 
 
 akiralkzxzq2dsrzsrvbr2xgbbu2wgsmxryd4csgfameg52n7efvr2id[.]onion
 
-akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad[.]onion
+akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad[.]onion 
 
 
 ![akira](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/e86fd08d-620a-4a90-975e-9280a76371c8)
