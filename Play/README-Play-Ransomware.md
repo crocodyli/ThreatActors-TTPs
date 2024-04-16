@@ -1,8 +1,9 @@
 # Play Ransomware
 
-## Resumo da Ameaça:
-Inicialmente visto em junho de 2022. O ransomware Play (a.k.a PlayCrypt) opera por meio de duble extortion tendo como alvo muitas organizações da América Latina. Sua forma de Inital Access é bastante similar a de outros ransowmares, envolvendo ataques como: Phishing, Exposed Services to the Internet, Valid Account.
-No dia **19/04/2023** a empresa de segurança Symantec publicou duas novas ferramentas desenvolvidas pelo grupo Play. Essas duas ferramentas permitem ao ator maliciso enumerar e exfiltrar dados da rede interna. No post é mencionado o seguinte - "Ps agentes de ameaças usam o infostealer .NET para enumear o software e serviços via WMI, WinRM, Remote Registry e Remote Service. O malware verifica a existência de software de segurança e backup, bem como ferramentas de adminstração remota e outros programas, salvando as informações em arquivos .CSV que são compactados em um arquivo .ZIP para posteriomente poder ser exifiltrado manualmente pelos agentes da ameaça." - Essas ferramentas fazem o uso dos seguintes framework em .NET ([Costura](https://github.com/Fody/Costura), [AlphaVSS](https://github.com/alphaleonis/AlphaVSS)). 
+## Threat Summary:
+Initially observed in June 2022, the Play ransomware (a.k.a PlayCrypt) operates through double extortion, targeting numerous organizations in Latin America. Its Initial Access method is quite similar to other ransomwares, involving attacks such as Phishing, Exposed Services to the Internet, and Valid Account compromises.
+
+On **April 19, 2023**, the security company Symantec published two new tools developed by the Play group. These tools allow the malicious actor to enumerate and exfiltrate data from the internal network. The post mentions the following: "Play threat actors use the .NET infostealer to enumerate software and services via WMI, WinRM, Remote Registry, and Remote Service. The malware checks for the existence of security and backup software, as well as remote administration tools and other programs, saving the information in .CSV files that are compressed into a .ZIP file for later manual exfiltration by threat actors." These tools make use of the following .NET frameworks ([Costura](https://github.com/Fody/Costura), [AlphaVSS](https://github.com/alphaleonis/AlphaVSS)). 
 
 ## CVEs:
 | CVE | Vendor | Product | v3 Severity | CVSS Severity |
