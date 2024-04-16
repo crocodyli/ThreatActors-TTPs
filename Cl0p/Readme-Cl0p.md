@@ -1,22 +1,22 @@
-O grupo de ransomwares conhecido como Cl0p é uma variante de uma cepa previamente conhecida e apelidada como CryptoMix. Vale salientar que esta variante foi entregue como carga final em uma campanha de phishing em 2019 e que possuía exclusivamente motivação financeira, cujos ataques foram realizados pelos atores de ameaça TA505. 
+# **Cl0p**
 
-Os atores maliciosos na época enviaram e-mails de phishing que levariam a um documento habilitado para macro que descartaria um loader chamado “Get2”. 
+The ransomware group known as Cl0p is a variant of a previously known strain dubbed CryptoMix. It is worth noting that this variant was delivered as the final payload in a phishing campaign in 2019 and was exclusively financially motivated, with attacks carried out by the threat actors TA505.
 
-Após obterem um ponto de acesso inicial no sistema ou infra os atores iniciaram a utilização de técnicas de reconhecimentos, movimentação lateral e exfiltração para preparar a implantação do ransomwares. 
+At that time, malicious actors sent phishing emails that led to a macro-enabled document that would drop a loader called "Get2." After gaining an initial foothold in the system or infrastructure, the actors began using reconnaissance, lateral movement, and exfiltration techniques to prepare for the deployment of the ransomware.
 
-Lembrando que após a execução do Ransomware, o Cl0p acrescenta a extensão ao final dos arquivos “.clop”, ou outros tipos de extensões utilizadas como “.CIIp, .Cllp e .C_L_O_P”, bem como diferentes versões da nota de resgate que também foram observadas após a criptografia e, a depender da variante, qualquer um dos arquivos de texto de resgate eram criados com os nomes: “ClopReadMe.txt, README_README.txt, Cl0pReadMe.txt e READ_ME_!!!.TXT”. 
+After the execution of the ransomware, Cl0p appends the extension ".clop" to the end of files, or other types of extensions such as ".CIIp, .Cllp, and .C_L_O_P," as well as different versions of the ransom note that were also observed after encryption. Depending on the variant, any of the ransom text files were created with names like "ClopReadMe.txt, README_README.txt, Cl0pReadMe.txt, and READ_ME_!!!.TXT."
 
-A operação do Clop deixou de ser entregue a sua carga final por meio de phishing, sendo e iniciando seus ataques utilizando-se de vulnerabilidades que ocasionaram a exploração e infecção destas infraestruturas das vítimas. 
+The Clop operation has shifted from delivering its final payload via phishing and has begun initiating attacks using vulnerabilities that resulted in the exploitation and infection of victims' infrastructures. 
 
 ![Imagem1](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/3a3b54a0-133e-402e-92b6-75277f6abd7d)
 
-(Declaração do Cl0p)
+(Cl0p Statement)
 
-Houve esforços conjuntos para desmantelar os cartéis de ransomwares, envolvendo cinco continentes que resultou na prisão de seis supostos membros do Clop em junho de 2021. 
+There have been joint efforts to dismantle ransomware cartels, involving five continents, which resulted in the arrest of six alleged members of Clop in June 2021.
 
 ![F2B1Il0WEAARACQ](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/039da36b-3b18-4665-9676-16d4f6750027)
 Fonte: https://twitter.com/DailyDarkWeb/status/1684488806240509953/photo/1 
 
-O Ransomware Clop é considerado um dos grupos com mudanças de suas táticas, técnicas e procedimentos (TTPs). 
+The Clop ransomware is considered one of the groups with changes in its tactics, techniques, and procedures (TTPs).
 
 
