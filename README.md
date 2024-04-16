@@ -1,8 +1,4 @@
-# ThreatActors-TTPs
-
-
-![Design sem nome](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/4b8c8e8c-4d91-4d3a-8a18-cddb87feb78a)
-
+# THREATACTORS-TTPs
 
 This repository was created with the aim of assisting companies and independent researchers about Tactics, Techniques and Procedures adopted by Ransomware Operators/Groups active or not and also threat actors that are operating in society.
 
@@ -12,12 +8,14 @@ The main focus is to assist organizations and individual researchers on each typ
 
 
 
-## STRUCTURE OF THE THREATACTORS-TTP REPOSITORY
-| FOLDER | DESCRIPTION |
-|--------------------------------------------|---- -------------------------------------------------- --------------------------------|
-| Actor's Name | Description of activities, operation details, TTPs and Tools used |
-| Commands | Repository intended to insert commands captured based on DFIR and CTI activities of Threat Actores, Ransomware groups and affiliates |
-| Payload locations| Repository designed to inform locations commonly used to execute ransomware e others threats |
+## STRUCTURE OF THE REPOSITORY
+
+| FOLDER            | DESCRIPTION                                                                                     |
+|-------------------|-------------------------------------------------------------------------------------------------|
+| Actor's Name      | Description of activities, operation details, TTPs and Tools used                              |
+| Commands          | Repository intended to insert commands captured based on DFIR and CTI activities of Threat Actors, Ransomware groups and affiliates |
+| Payload locations | Repository designed to inform locations commonly used to execute ransomware and other threats |
+
 
 
 ### Questions: https://twitter.com/crocodylii
