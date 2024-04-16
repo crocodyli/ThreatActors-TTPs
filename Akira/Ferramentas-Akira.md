@@ -1,12 +1,14 @@
+Here's the translation and formatting of the table:
+
 | Tática                   | Ferramenta                                                                                                                                                                              |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Reconhecimento   Externo | Masscan e ReconFTW                                                                                                                                                                      |
-| Enumeração   Interna     | PCHunter64, Advanced   IP Scanner, LANsweeper, SharpHound, AdFind, SoftPerfect NetScan e Windows   Nltest                                                                               |
-| Roubo de   credenciais   | Minidump, Mimikatz,   LaZagne e DonPAPI                                                                                                                                                 |
-| Persistência             | RMM tools, como o   AnyDesk, RustDesk, Radmin e ScreenConnect, desabilitar firewalls seguindo de   habilitar o RDP e PuTTy. O RAT de crimeware SystemBC também foi usado pelo   Akira.  |
-| Evasão de   Defesa       | Desabilite   ferramentas de EDR com o Terminator.exe e ToolPow, e um lote de scripts para   desabilitar a proteção LSA e o Windows Defender.                                            |
-| Movimentação   Lateral   | Impacket (wmiexec.py   and atexec.py), RDP e SSH                                                                                                                                        |
-| Coleção                  | Pesquisando e   baixando arquivos do Microsoft SharePoint                                                                                                                               |
-| Exfiltração              | Ferramenta de   Compressão (7zip, WinRAR, etc), Rclone, FileZilla e  WinSCP                                                                                                             |
-| Comando e   Controle     | Cloudflare Tunnel   (Cloudflared), MobaXterm e Ngrok                                                                                                                                    |
-| Impacto                  | Lançado normalmente   através de PsExec.                                                                                                                                                |
+| External Reconnaissance  | Masscan and ReconFTW                                                                                                                                                                    |
+| Internal Enumeration     | PCHunter64, Advanced IP Scanner, LANsweeper, SharpHound, AdFind, SoftPerfect NetScan, and Windows Nltest                                                                               |
+| Credential Theft         | Minidump, Mimikatz, LaZagne, and DonPAPI                                                                                                                                                |
+| Persistence              | RMM tools such as AnyDesk, RustDesk, Radmin, and ScreenConnect; disabling firewalls followed by enabling RDP and PuTTY. The crimeware RAT SystemBC was also used by Akira.              |
+| Defense Evasion          | Disable EDR tools with Terminator.exe and ToolPow, and a batch of scripts to disable LSA protection and Windows Defender.                                                               |
+| Lateral Movement         | Impacket (wmiexec.py and atexec.py), RDP, and SSH                                                                                                                                       |
+| Collection               | Searching and downloading files from Microsoft SharePoint                                                                                                                               |
+| Exfiltration             | Compression Tool (7zip, WinRAR, etc.), Rclone, FileZilla, and WinSCP                                                                                                                   |
+| Command and Control      | Cloudflare Tunnel (Cloudflared), MobaXterm, and Ngrok                                                                                                                                   |
+| Impact                   | Typically deployed via PsExec.                                                                                                                                                           |
