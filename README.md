@@ -1,4 +1,4 @@
-# THREATACTORS-TTPs
+# THREAT ACTORS - TTPs
 
 This repository was created with the aim of assisting companies and independent researchers about Tactics, Techniques and Procedures adopted by Ransomware Operators/Groups active or not and also threat actors that are operating in society.
 
@@ -6,6 +6,7 @@ In addition to mapping Tactics, Techniques and Procedures, I am inserting data o
 
 The main focus is to assist organizations and individual researchers on each type of actor, providing a summary of their trajectory and additional information that can be used.
 
+![68b1a982-b834-4501-84f1-de4ce964754e](https://github.com/crocodyli/ThreatActors-TTPs/assets/113185400/755f61e9-b234-47a6-856b-afdf93944864)
 
 
 ## STRUCTURE OF THE REPOSITORY
