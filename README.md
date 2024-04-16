@@ -1,24 +1,25 @@
-# Ransomwares-TTP
+# ThreatActors-TTPs
 
 
 ![Design sem nome](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/4b8c8e8c-4d91-4d3a-8a18-cddb87feb78a)
 
 
-Este repositório foi criado com o intuito de auxiliar as empresas e pesquisadores independentes acerca de Táticas, Técnicas e Procedimentos adotados por Operadores/Grupos de Ransomwares ativos e não ativos. 
+This repository was created with the aim of assisting companies and independent researchers about Tactics, Techniques and Procedures adopted by Ransomware Operators/Groups active or not and also threat actors that are operating in society.
 
+In addition to mapping Tactics, Techniques and Procedures, I am inserting data on commands, tools, useful locations for researching artifacts and others.
 
-Além de mapeamento de TTPs, será realizado a inserção de dados de ferramentas, descrição da operação de determinado grupo e outros detalhes adicionais. 
-
-
-## ESTRUTURA DO REPOSITÓRIO RANSOMWARE-TTP
-| PASTA | DESCRIÇÃO |
-|--------------------------------------------|--------------------------------------------------------------------------------------|
-| Nome do Ransomware | Descritivo de atividades, detalhes de operação, TTPs e Ferramentas utilizadas |
-| Comandos| Repositório destinado a inserir comandos capturados com base em atividades de DFIR e CTI dos grupos de Ransomwares e afiliados |
-| Locais do payload| Repositório destinado a informar locais comumente utilizados para execução de ransomwares |
+The main focus is to assist organizations and individual researchers on each type of actor, providing a summary of their trajectory and additional information that can be used.
 
 
 
-### Dúvidas: https://twitter.com/crocodylii
+## STRUCTURE OF THE THREATACTORS-TTP REPOSITORY
+| FOLDER | DESCRIPTION |
+|--------------------------------------------|---- -------------------------------------------------- --------------------------------|
+| Actor's Name | Description of activities, operation details, TTPs and Tools used |
+| Commands | Repository intended to insert commands captured based on DFIR and CTI activities of Threat Actores, Ransomware groups and affiliates |
+| Payload locations| Repository designed to inform locations commonly used to execute ransomware e others threats |
 
-**O intuito é mapear todas as possíveis estratégias adotadas por operadores de Ransomwares e contribuições serão bem-vindas!**
+
+### Questions: https://twitter.com/crocodylii
+
+**The aim is to map all possible strategies adopted by Ransomware operators and contributions are welcome!**
