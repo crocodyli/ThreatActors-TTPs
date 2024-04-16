@@ -1,12 +1,12 @@
-# 3AM
+3AM
 
-Uma nova família de Ransomware identificada pelo nome de “3AM” ou “ThreeAM" em Setembro de 2023. A operação do ransomware foi observada pela equipe da Symantec na qual um afiliado de ransomware tentou implantar outro ransomware, o LockBit na rede alvo e depois mudou para 3AM quando o LockBit teria sido bloqueado. 
+A new Ransomware family identified by the name "3AM" or "ThreeAM" in September 2023. The ransomware operation was observed by the Symantec team, in which a ransomware affiliate attempted to deploy another ransomware, LockBit, on the target network and then switched to 3AM when LockBit was reportedly blocked.
 
-A operação de ransomware de acordo com a publicação no seu site baseado na rede Tor estaria operando desde meados de: agosto de 2023, de acordo com a publicação de sua primeira vítima. 
+The ransomware operation, according to the publication on its Tor-based website, has been operating since mid-August 2023, according to the publication from its first victim.
 
-Link rede tor: http[:]//threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad[.]onion/index[.]html  
+Tor network link: http[:]//threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad[.]onion/index[.]html
 
-O referido ransomware só foi identificado devido a sua utilização em um ataque cibernético que teria resultado na criptografia de alguns arquivos na rede da vítima, cujo fato foi relatado pela Symantec. 
+The said ransomware was only identified due to its use in a cyberattack resulting in the encryption of some files on the victim's network, which was reported by Symantec. 
 
 ![3am](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/1e3012b3-51b4-42b3-9074-815d049786ae)
 
