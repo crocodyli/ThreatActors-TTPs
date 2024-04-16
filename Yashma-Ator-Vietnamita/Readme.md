@@ -1,45 +1,40 @@
-# Yashma
+## Yashma
 
-A empresa Cisco Talos identificou um novo agente de ameaça desconhecido de origem vietnamita, conduzindo uma operação de ransomware que começou pelo menos em 04 de junho de 2023. 
+Cisco Talos has identified a new, previously unknown threat actor of Vietnamese origin conducting a ransomware operation that began at least on June 4, 2023.
 
-O ataque em andamento utiliza uma variante do Ransomware Yashma que provavelmente visa várias áreas geográficas, imitando as características do WannaCry. 
+The ongoing attack utilizes a variant of the Yashma Ransomware, likely targeting multiple geographical areas and mimicking the characteristics of WannaCry.
 
-O agente de ameaça utiliza uma técnica incomum para entregar a nota de resgate, sendo que ao invés de incorporar as strings da nota de resgate no binário, o agente realiza o download da nota de resgate do repositório GitHub controlado pelo ator executando um arquivo em lote incorporado.
+The threat actor uses an unusual technique to deliver the ransom note, as instead of embedding the ransom note strings in the binary, the actor downloads the ransom note from a GitHub repository controlled by the actor by executing an embedded batch file.
 
 ![ransomware1](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/d9f9c8d2-f844-48b3-bc04-3a4cdeb9799e)
 
-(GitHub do Ator Malicioso)
+(GitHub of Malicious Actor)
 
+Talos stated that this threat actor targets victims in English-speaking countries, Bulgaria, China, and Vietnam, as the GitHub account of the actor "nguyenvientphat" contains ransomware notes written in the languages of these countries. The presence of the ransom note may indicate that the actor intends to expand its geographical area of operation.
 
-A Talos afirmou que este ator de ameaça tem como alvo vítimas em países de língua inglesa, Bulgária, China e Vietnã, já que a conta do GitHub do ator “nguyenvientphat”, tem notas de ransomwares escritas nos idiomas dos países. A presença da nota de resgate pode indicar que o ator pretende expandir a sua área geográfica de atuação. 
+The company also stated that the threat actor may have Vietnamese origin because the GitHub account name and email contact in the ransom notes fake the name of a legitimate organization. The ransom note also asks victims to contact between 19:00 and 23:00 UTC +07:00, coinciding with the Vietnam time zone.
 
-A empresa afirmou ainda que o agente de ameaça poderá ter oriegem vietnamita porque o nome da conta do GitHub e contato de e-mail nas notas do ransomware falsificam o nome de uma organização legítima. A nota de resgate também pede que as vítimas entre em contato entre 19h e 23h UTC +07:00, o que coincide com o fuso horário do Vietnã.
+A difference was also identified in the Vietnamese language ransom note, as it begins with "Sorry, your file is encrypted!" compared to the other notes that state "Oops, your files are encrypted!". By saying "sorry," the threat actor may intend to show greater sensitivity to victims in Vietnam, indicating that the attackers themselves are Vietnamese.
 
-Foi identificado ainda uma diferença na nota de resgate do idioma vietnamita, pois começa com “Desculpe, seu arquivo está criptografado!”, em comparação com as outras notas que apresenta “Oops, seus arquivos estão criptografados!”. Ao dizer “desculpe”, o agente de ameaça pode ter a intenção de mostrar uma maior sensibilidade em relação às vítimas no Vietnã, o que pode indicar que os próprios atacantes são vietnamitas. 
+Talos further mentioned that the threat actor started the campaign around June 4, 2023, as they joined GitHub and created a public repository called "Ransomware." In the repository, the threat actor added text files of ransom notes in five languages: English, Bulgarian, Vietnamese, simplified Chinese, and traditional Chinese.
 
-A Talos ainda que o agente da ameaça iniciou a campanha por volta de 04 de junho de 2023, porque se juntou ao GitHub e criou um repositório público chamado “Ransomware”. No repositório, o ator de ameaça adicionou arquivos de texto de notas de resgates em cinco idiomas: inglês, búlgaro, vietnamita, chinês simplificado e chinês tradicional.
- 
+The note presents the email address "nguyenvietphat[.]n@gmail[.]com," for victims to contact them. At the time of analysis, no Bitcoin was observed in the wallet, and the ransom note did not specify an amount, indicating that the ransomware operation could still be in its early stages.
 
-Na nota é apresentado o endereço de e-mail “nguyenvietphat[.]n@gmail[.]com, para que as vítims possam contatá-los. No momento da análise, não foi observado nenhum Bitcoin na carteira, e a nota de resgate não especificava um valor, indicando que a operação do ransomware ainda poderia estar em estágio inicial. 
+Examples of ransom notes:
 
-Exemplos de notas de resgates:
+![note1](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/af93dcc8-89c7-40bf-94c0-ae87a0dd1fbd)
 
- ![nota1](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/af93dcc8-89c7-40bf-94c0-ae87a0dd1fbd)
- 
-![nota2](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/aaa95efd-1c01-48f8-a1c4-7d5d66096808)
+![note2](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/aaa95efd-1c01-48f8-a1c4-7d5d66096808)
 
- 
+The threat actor deployed a variant of the Yashma ransomware, which they compiled on June 4, 2023. It is worth noting that Yashma is a 32-bit executable written in .NET and a renamed version of the Chaos Ransomware V5, which appeared in May 2022. In the variant, most of Yashma's features remained unchanged and were described by BlackBerry security researchers, with some notable modifications.
 
-O agente de ameaça implantou uma variante do ransomware Yashma, que eles compilaram em 04 de junho de 2023. Vale salientar que o Yashma é um executável de 32 bits escrito em .NET e uma versão renomeada do Chaos Ransomware V5, que apareceu em maio de 2022. Na variante, a maioria dos recursos do Yashma permaneceram inalterados e foram descritos pelos pesquisadores de segurança da BlackBerry, com exceção de algumas modificações notáveis.
+The ransomware stores the ransom note text as strings in the binary, but this Yashma variant executes an embedded batch file, which contains the commands to download the ransom note from the actor-controlled GitHub repository. This modification avoids endpoint detection solutions and antivirus software, which typically detect embedded ransom note strings in the binary.
 
-O ransomware armazena o texto da nota de resgate como strings no binário, porém esta variante do Yashma executa um arquivo de lote incorporado, que possui os comandos para baixar a nota de resgate do repositório GitHub controlado pelo ator. A referida modificação evita soluções de detecções de endpoint e software antivírus, que geralmente detectam sequência de notas de resgates incorporadas ao binário.
+Previous versions of Yashma established persistence on the victim's machine in the Run registry key and by dropping a Windows shortcut file pointing to the executable path of the ransomware in the startup folder. The identified variant also established persistence in the Run registry key. However, it was modified to create a ".url" favorites file in the startup folder pointing to the executable located in "%AppData%\Roaming\svchost.exe."
 
-As versões anteriores do Yashma estabeleceram persistência na máquina da vítima na chave de registro Run e descartando um arquivo de atalho do Windows apontando para o caminho executável do Ransomware na pasta de inicialização. 
-A variante identificada também estabeleceu persistência na chave de registro Run. Ainda assim, ele teria sido modificado para criar um arquivo de favoritos “.url” na pasta de inicialização que aponta para o executável localizado em “%AppData%\Roaming\svchost.exe”
+Additionally, the threat actor chose to maintain Yashma's anti-recovery capability in this variant. After encrypting a file, the ransomware wipes the content of the original unencrypted files, writes a single "?" character, and then deletes the file. This technique makes it more difficult for incident responders and forensic analysts to recover deleted files from the victim's hard drive.
 
-Além disso, o agente optou por manter nessa variante é a capacidade antirecuperação do Yashma. Depois da criptografia de um arquivo, o ransomware limpa o conteúdo dos arquivos originais não criptografados, escreve um único caractere “?” e, em seguida, exclui o arquivo. A referida técnica torna mais difícil os respondentes de incidentes e a forense de recuperar os arquivos excluídos do disco rígido da vítima.
-
-## Referência:
+## Reference:
 https://blog.talosintelligence.com/new-threat-actor-using-yashma-ransomware/
 
-A adaptação do código do Ransomware Yashma é perceptível quanto a utilização e evolução do agente de ameaça para a sua operação, apresentando desta vez, detalhes de uma operação no início.
+The adaptation of the Yashma Ransomware code is noticeable in the use and evolution of the threat actor for their operation, presenting details of an early-stage operation this time.
