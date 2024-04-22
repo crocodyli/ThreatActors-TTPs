@@ -34,14 +34,21 @@ According to researcher **@rivitna2**, the code of the **Hunters International r
 During the investigation, it was possible to observe that the group had used several servers in Russia for hosting their services, as well as one server in the USA. 
 
 ![image](https://github.com/crocodyli/ThreatActors-TTPs/assets/113185400/ab4aa2a7-3ebd-43d8-a3c9-60c470aa4def)
+
 Ref: https://twitter.com/crocodylii/status/1781290861680038183 
 
 Below is the mapping and the IP addresses used.
+
 193.106.175[.]48
+
 185.185.68[.]40
+
 193.106.174[.]58
+
 109.172.85[.]126
+
 185.185.69[.]129
+
 185.12.127[.]116
 
 
