@@ -6,6 +6,8 @@ There is little known information about the ransomware group, except that it eme
 
 As mentioned earlier, the ransomware especially exploits vulnerabilities in VPNs, also utilizing obfuscation techniques to conceal its activities, such as employing UPX and utilizing encryption algorithms like OpenSSL, AES OCB, ChaCha20_Poly1305, system reinitializations, and others.
 
+DLS Onion: https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/
+
 ![image](https://github.com/crocodyli/ThreatActors-TTPs/assets/113185400/bc3f3613-8ede-4d4e-bc84-73c9348ee2b3)
 
 
@@ -94,6 +96,11 @@ It is worth mentioning that CVE-2023-48365 is the result of an incomplete patch 
 
 
 
+## References: 
+https://www.kroll.com/en/insights/publications/cyber/cactus-ransomware-prickly-new-variant-evades-detection
+https://socradar.io/dark-web-profile-cactus-ransomware/
+https://securityscorecard.com/wp-content/uploads/2024/01/Whitepaper-Cactus-Ransomware.pdf
+https://thehackernews.com/2023/11/cactus-ransomware-exploits-qlik-sense.html
 
 
 
