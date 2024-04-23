@@ -98,9 +98,13 @@ It is worth mentioning that CVE-2023-48365 is the result of an incomplete patch 
 
 ## References: 
 https://www.kroll.com/en/insights/publications/cyber/cactus-ransomware-prickly-new-variant-evades-detection
+
 https://socradar.io/dark-web-profile-cactus-ransomware/
+
 https://securityscorecard.com/wp-content/uploads/2024/01/Whitepaper-Cactus-Ransomware.pdf
+
 https://thehackernews.com/2023/11/cactus-ransomware-exploits-qlik-sense.html
+
 
 
 
