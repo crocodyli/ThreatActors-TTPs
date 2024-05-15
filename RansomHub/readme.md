@@ -1,4 +1,4 @@
-#RANSOMHUB HISTORY
+# RANSOMHUB HISTORY
 
 A new ransomware group is said to have emerged in the cyber threat landscape. This time, it is a group known as RansomHub. The group emerged in mid-February 2024 and has already listed several organizations as alleged victims of their attacks, resulting from extortion through encryption and data leaks.
 
