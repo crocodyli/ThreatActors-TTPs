@@ -1,4 +1,4 @@
-#**AKIRA RANSOMWARE**
+# **AKIRA RANSOMWARE**
 
 The Akira ransomware group emerged in March 2023, with speculation about potential ties to the former CONTI group. Following the end of CONTI's operations, many affiliates moved on to independent campaigns, such as Royal, BlackBasta, and others. Reports suggest that Akira affiliates also collaborate with other ransomware operations, including Snatch and BlackByte, especially after an open directory of tools used by an Akira operator was identified, which showed connections with Snatch ransomware.
 
