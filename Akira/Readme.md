@@ -1,18 +1,14 @@
-**AKIRA RANSOMWARE**
+#**AKIRA RANSOMWARE**
 
-The Akira ransomware group is said to have emerged in March 2023, and there's much speculation about its ties to the former CONTI ransomware group.
+The Akira ransomware group emerged in March 2023, with speculation about potential ties to the former CONTI group. Following the end of CONTI's operations, many affiliates moved on to independent campaigns, such as Royal, BlackBasta, and others. Reports suggest that Akira affiliates also collaborate with other ransomware operations, including Snatch and BlackByte, especially after an open directory of tools used by an Akira operator was identified, which showed connections with Snatch ransomware.
 
-It's worth noting that with the end of CONTI's operation, several affiliates migrated to independent campaigns such as Royal, BlackBasta, and others.
+The first version of Akira ransomware was developed in C++, appending the ".akira" extension to encrypted files and creating a ransom note named "akira_readme.txt." This initial version, partially based on the Conti V2 source code, had a decryption flaw that led Avast to release a decryptor on June 29, 2023. Shortly after, a new version was released on July 2, 2023, fixing this decryption flaw and introducing significant changes, including the transition to the Rust programming language and a new filename, "megazord.exe." This version began encrypting files with the ".powerranges" extension.
 
-According to some reports, Akira affiliates also work with other ransomware operations, such as Snatch and BlackByte, as an open directory of tools used by an Akira operator was identified, which also had connections to the Snatch ransomware.
+In mid-August 2023, a new Akira variant, known as "Megazord," introduced further changes to encrypted file names, now using the ".Powerrangers" extension. This variant was attributed to the Akira group due to the ransom note, which pointed to Akira’s Data Leak Site (DLS) on the Tor network. While maintaining similarities with the original Akira ransomware, the Megazord variant was developed in Rust — a language widely used by other ransomware groups, such as Alphv/Black Cat — contrasting with the original Akira, which was developed in C++.
 
-The first version of the Akira ransomware was written in C++ and appended files with the ".akira" extension, creating a ransom note named "akira_readme.txt," partially based on the Conti V2 source code. However, on June 29, 2023, a decryptor for this version was reportedly released by Avast.
+Among the Tactics, Techniques, and Procedures (TTPs) of the Akira group, one notable change is the requirement of a "buildid" at runtime for encryption to occur, making analysis difficult without the specific key. The group frequently uses brute-force attempts on Cisco VPN devices with single-factor authentication as an initial access vector and exploits vulnerabilities, including CVEs: CVE-2019-6693 and CVE-2022-40684.
 
-Subsequently, a version was released that fixed the decryption flaw on July 2, 2023. Since then, the new version is said to be written in Rust, this time called "megazord.exe," and it changes the extension to ".powerranges" for encrypted files.
-
-Most of Akira's initial access vectors use brute-force attempts on Cisco VPN devices (which use single-factor authentication only). Additionally, exploitation of CVEs: CVE-2019-6693 and CVE-2022-40684 for initial access has been identified.
-
-After encryption, the Akira ransomware demands that the victim access through the Tor network's negotiation portal.
+After encryption, the Akira ransomware instructs victims to access a negotiation portal on the Tor network. These methods and techniques have been covered in other intelligence reports, providing a comprehensive overview of the group’s activities, practices, and tools.
 
 akiralkzxzq2dsrzsrvbr2xgbbu2wgsmxryd4csgfameg52n7efvr2id[.]onion
 
