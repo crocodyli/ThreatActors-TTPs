@@ -10,9 +10,10 @@ Among the Tactics, Techniques, and Procedures (TTPs) of the Akira group, one not
 
 After encryption, the Akira ransomware instructs victims to access a negotiation portal on the Tor network. These methods and techniques have been covered in other intelligence reports, providing a comprehensive overview of the group’s activities, practices, and tools.
 
+```
 akiralkzxzq2dsrzsrvbr2xgbbu2wgsmxryd4csgfameg52n7efvr2id[.]onion
 
 akiral2iz6a7qgd3ayp3l6yub7xx2uep76idk3u2kollpj5z3z636bad[.]onion
-
+``` 
 
 ![akira](https://github.com/crocodyli/Ransomwares-TTP/assets/113185400/e86fd08d-620a-4a90-975e-9280a76371c8)
