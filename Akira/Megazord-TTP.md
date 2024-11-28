@@ -1,4 +1,4 @@
-# Variante "megazord" Akira Ransomware
+# Variant "megazord" Akira Ransomware
 
 | TACTIC  	| TECHNIQUE  	| DETAILS 	|
 |:---:	|:---:	|:---:	|
