@@ -18,3 +18,5 @@ New Logo:
 ## Results:
 - https://en.fofa.info/result?qbase64=dGl0bGU9IlZhbkhlbHNpbmcgQmxvZyI%3D
 - https://en.fofa.info/result?qbase64=dGl0bGU9IlZhbkhlbHNpbmcgQ2hhdCI%3D
+- https://www.ransomware.live/group/VanHelsing
+- https://www.cyfirma.com/research/vanhelsing-ransomware/
