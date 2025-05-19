@@ -75,6 +75,6 @@ But does it really matter? Attribution? Use of Mythic C2 by Devman’s group? Hm
 
 Ref: 
 - https://www.virustotal.com/gui/ip-address/38.132.122.214/community
-- https://www.virustotal.com/gui/user/drb_ra/comments
+- https://www.virustotal.com/gui/ip-address/38.132.122.213/community
 
 I think that's it for today, the TTPs according to what he released are public in the TTP repository.
