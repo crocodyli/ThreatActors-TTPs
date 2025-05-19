@@ -15,7 +15,7 @@
 | TA0008 	| Lateral Movement 	| T1021.002 - SMB/Windows Admin Shares 	| Lateral movement through SMB confirmed by CME 	|
 | TA0009 	| Collection 	| T1005 - Data from Local System 	| File extraction from local system using PowerShell 	|
 | TA0010 	| Exfiltration 	| T1041 - Exfiltration Over C2 Channel 	| Downloading files like notepad.exe via smbclient 	|
-| TA0040 	| Impact 	| T1486 - Data Encrypted for Impact 	| Encryption of files with .apos extension 	|
+| TA0040 	| Impact 	| T1486 - Data Encrypted for Impact 	| Encryption of files with .devman extension (Changed at the operator's request)  	|
 | TA0040 	| Impact 	| T1490 - Inhibit System Recovery 	| Disabling backups and system recovery 	|
 | TA0040 	| Impact 	| T1489 - Service Stop 	| Halting operations and rendering systems unavailable 	|
 | TA0040 	| Impact 	| T1491 - Defacement 	| Ransom notes (ransom.txt) deployed across infected systems 	|
