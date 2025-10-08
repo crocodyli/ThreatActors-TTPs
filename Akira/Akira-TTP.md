@@ -1,47 +1,58 @@
-#  Akira Ransomware TTP's
+# Akira Ransomware — Consolidated TTPs (2023–2025)
 
-| TACTIC | TECHNIQUE | DETAILS |
+The table below consolidates and groups all **Tactics, Techniques, and Procedures (TTPs)** observed in **Akira ransomware operations** from its emergence in 2023 through 2025.  
+It merges public reporting, incident analyses, and campaign evolution (e.g., the "megazord" variant, Linux/ESXi expansion, and RaaS operations).
+
+
+| **TACTIC** | **TECHNIQUE** | **DETAILS** |
 |:---:|:---:|:---|
-| Initial Access | Exploit Public-Facing Application (T1190) | Exploitation of vulnerabilities in internet-facing services/devices (e.g., Cisco VPNs without MFA). Notable CVEs: **CVE-2020-3259**, **CVE-2023-20269**. |
-| Initial Access | External Remote Services (T1133) | Use of VPN/RDP and other remote access services, often with stolen or purchased credentials. |
-| Initial Access | Phishing: Spearphishing Attachment (T1566.001) | Phishing emails with malicious attachments to obtain initial access. |
-| Initial Access | Phishing: Spearphishing Link (T1566.002) | Phishing emails containing malicious links to deliver malware or harvest credentials. |
-| Initial Access | Valid Accounts (T1078) | Use of valid credentials (e.g., VPN/domain accounts) for initial entry and re-entry. |
-| Execution | Command and Scripting Interpreter (T1059) | Use of PowerShell, **cmd.exe**, **.bat** and Bash to execute payloads, automate lateral movement, and disable defenses. |
-| Execution | Windows Management Instrumentation (T1047) | WMI used for remote execution and task automation. |
-| Persistence | Create Account — Local (T1136.001) | Creation of new local admin accounts to maintain access. |
-| Persistence | Create Account — Domain (T1136.002) | Creation of new domain/admin accounts (in some cases an account like **itadm**). |
-| Persistence / C2 | Remote Access Software (T1219) | Deployment/abuse of legitimate tools (AnyDesk, Radmin, RustDesk, MobaXterm, DWAgent, Cloudflare Tunnel/Ngrok) for persistent remote access. |
-| Discovery | Domain Trust Discovery (T1482) | Use of **Nltest**, **AdFind**, `net`, etc., to map AD trusts in the victim environment. |
-| Discovery | Account Discovery (T1087) | Enumeration of users and groups within the domain. |
-| Discovery | System Information Discovery (T1082) | Collection of system/process information (e.g., **PCHunter64**, **SharpHound**). |
-| Discovery | Remote System Discovery (T1018) | Identification of remote hosts in the environment. |
-| Discovery | System Network Configuration Discovery (T1016) | Scanning devices/networks to identify active remote services. |
-| Discovery | Network Service Discovery (T1046) | Scanning for active network services/ports. |
-| Discovery | Permission Groups Discovery (T1069) | Enumeration of permission groups. |
-| Discovery | File and Directory Discovery (T1083) | Enumeration of files and directories. |
-| Discovery | Process Discovery (T1057) | Observation of terminal activity and running processes. |
-| Credential Access | Credential Dumping (T1003) | Credential dumping on compromised systems/in memory. |
-| Credential Access | OS Credential Dumping: LSASS Memory (T1003.001) | Dumping LSASS to extract credentials. |
-| Credential Access | OS Credential Dumping: Security Account Manager (T1003.002) | Credentials extracted from the SAM database. |
-| Credential Access | Unsecured Credentials: Credentials in Files (T1552.001) | Capturing password hashes/creds stored in files (e.g., AD/backup artifacts). |
-| Credential Access | Unsecured Credentials: Credentials in Registry (T1552.002) | Searching Windows Registry for insecurely stored credentials. |
-| Credential Access | Steal Web Session Cookie (T1555.003) | Theft of browser session data (e.g., Chrome) to hijack sessions. |
-| Defense Evasion | Impair Defenses: Disable or Modify Tools (T1562.001) | Disabling/modifying security software (e.g., PowerTool; driver abuse) to avoid detection. |
-| Defense Evasion | Impair Defenses: Disable Windows Event Logging (T1562.002) | Disabling Windows Defender real-time monitoring/logging via native commands. |
-| Defense Evasion | Modify Registry (T1112) | Registry changes for evasion/persistence. |
-| Defense Evasion | Abuse Elevation Control Mechanism: Bypass UAC (T1548.002) | Use of `runas`/similar methods to execute with elevated privileges. |
-| Lateral Movement | Remote Services: Remote Desktop Protocol (T1021.001) | Lateral movement via RDP and other remote services. |
-| Lateral Movement | Lateral Tool Transfer (T1570) | Moving tools across hosts to facilitate further actions. |
-| Collection | Archive Collected Data: Archive via Utility (T1560.001) | Rapid compression/staging of stolen data (e.g., WinRAR); notably fast on backup servers (e.g., Veeam). |
-| Exfiltration | Exfiltration Over Web Service: Exfiltration to Cloud Storage (T1567.002) | Exfiltration to cloud services (e.g., **Rclone**, **MEGA**, **CloudZilla**, **WinSCP**). |
-| Exfiltration | Exfiltration Over Alternate Protocol (T1048) | Data transfers over alternate protocols (e.g., SFTP/SSH, FTP). |
-| Exfiltration | Transfer Data to Cloud Account (T1537) | Moving data into attacker-controlled cloud accounts. |
-| Exfiltration | Exfiltration Over Other Network Medium *(as reported)* (T1567.001) | Use of **rclone** to exfiltrate data to attacker-controlled IPs (e.g., over port 22). |
-| Command & Control | Web Service (T1071.004) | C2 and remote operations over web protocols; persistence via remote-access utilities. |
-| Command & Control | Remote File Copy (T1105) | Copying/staging files (e.g., **rclone**) across hosts or to external infrastructure. |
-| Command & Control | Remote Services (T1021) | Use of remote services and custom trojans (invoked via `cmd.exe`) to maintain access. |
-| Impact | Data Encrypted for Impact (T1486) | Akira payload encrypts files (extensions **“.akira”**, **“.powerrangers”**). Observed algorithms include **ChaCha20/ChaCha8**; runtime **buildid** requirement present. |
-| Impact | Service Stop (T1489) | Stopping services to enable uninterrupted encryption (e.g., backup/DB/AV). |
-| Impact | Inhibit System Recovery (T1490) | Deleting Volume Shadow Copies via PowerShell/commands to hinder rapid restoration. |
+| **Initial Access** | Exploit Public-Facing Application (T1190) | Exploitation of vulnerabilities in exposed VPNs and edge devices — **Cisco ASA/FTD**, **SonicWall SSL VPN**, etc. Known CVEs include **CVE-2020-3259**, **CVE-2023-20269**, and **CVE-2024-40766**. |
+| **Initial Access** | External Remote Services (T1133) | Use of **VPN** or **RDP** connections with stolen credentials; exploitation of misconfigured remote access portals. |
+| **Initial Access** | Valid Accounts (T1078 / T1078.002) | Reuse of stolen credentials from prior breaches (including MFA-enabled accounts) or inactive/third-party accounts for initial access and re-entry. |
+| **Initial Access** | Phishing: Spearphishing Attachment (T1566.001) | Malicious email attachments delivering loaders or credential stealers used for lateral infection. |
+| **Initial Access** | Phishing: Spearphishing Link (T1566.002) | Phishing links directing victims to download infected files or credential-harvesting sites. |
+| **Initial Access** | Credentials / RDP (Operational Vector) | Login via compromised VPN or RDP accounts; observed use of “ghost” accounts (inactive vendors or suppliers). |
+| **Execution** | Command and Scripting Interpreter (T1059) | Use of **PowerShell**, **cmd.exe**, and **Bash** to execute payloads, disable defenses, automate lateral movement, and deploy encryption binaries. |
+| **Execution** | Windows Management Instrumentation (T1047) | **WMI** leveraged for remote command execution and persistence tasks. |
+| **Execution** | Remote Access Software (T1219) | Abuse of legitimate tools — **AnyDesk**, **Radmin**, **RustDesk**, **ScreenConnect**, **MobaXterm**, **Cloudflare Tunnel**, **Ngrok** — for remote control and payload deployment. |
+| **Persistence** | Create Account — Local (T1136.001) | Creation of new local admin accounts to maintain post-compromise access. |
+| **Persistence** | Create Account — Domain (T1136.002) | Addition of privileged accounts (e.g., *itadm*) to maintain access in Active Directory environments. |
+| **Persistence** | Registry Modifications (T1112) | Modification of registry keys like `UserList` and `DisableRestrictedAdmin` to hide accounts or maintain elevated access. |
+| **Privilege Escalation** | Credential Dumping (T1003 / T1003.001 / T1003.002) | Theft of credentials from **LSASS**, **SAM**, or **memory dumps** using tools like **Mimikatz**, **LaZagne**, and **DonPAPI**. |
+| **Privilege Escalation** | Kerberoasting (T1558.003 / T1550) | Abuse of the **Kerberos** protocol to obtain service-account hashes for lateral escalation. |
+| **Defense Evasion** | Impair Defenses: Disable or Modify Tools (T1562.001) | Disabling AV/EDR using **PowerTool**, **Terminator.exe**, or **ToolPow**; exploitation of vulnerable drivers (**BYOVD**). |
+| **Defense Evasion** | Impair Defenses: Disable Windows Event Logging (T1562.002) | Turning off Windows Defender and logging through native PowerShell and registry edits. |
+| **Defense Evasion** | Modify Registry (T1112) | Registry changes for evasion, persistence, or disabling protection features. |
+| **Defense Evasion** | Clear Event Logs (T1070.001) | Deletion of Windows event logs post-compromise to hide evidence. |
+| **Defense Evasion** | Abuse Elevation Control Mechanism: Bypass UAC (T1548.002) | Use of `runas` and custom scripts to elevate privileges without triggering UAC alerts. |
+| **Defense Evasion** | Living-off-the-Land Binaries (T1218 / T1059) | Use of native Windows binaries such as **certutil**, **rundll32**, or **wmic** to execute and persist without dropping additional files. |
+| **Discovery** | Domain Trust Discovery (T1482) | Enumeration of Active Directory trust relationships using **Nltest**, **AdFind**, and **SharpHound**. |
+| **Discovery** | Network & System Discovery (T1016 / T1018 / T1046 / T1082) | Network scanning and system mapping with **Advanced IP Scanner**, **LANsweeper**, **Masscan**, and **PCHunter64**. |
+| **Discovery** | Account Discovery (T1087) | Identification of domain users, admin accounts, and permission groups. |
+| **Discovery** | File and Directory Discovery (T1083) | Enumeration of files and directories for high-value data (HR, Finance, Legal). |
+| **Discovery** | Process Discovery (T1057) | Enumeration of running processes and monitoring for backup or EDR services. |
+| **Lateral Movement** | Remote Services: RDP / SSH (T1021.001 / T1021.004) | Use of **RDP**, **SSH**, and **Impacket** modules (**wmiexec.py**, **atexec.py**) for remote execution. |
+| **Lateral Movement** | Lateral Tool Transfer (T1570) | Moving tools and payloads between systems for internal propagation. |
+| **Lateral Movement** | Rapid Propagation (Operational Behavior) | Transition from initial access to encryption within **4 hours** observed in several 2025 incidents. |
+| **Collection** | Archive Collected Data (T1560 / T1560.001) | Compression and staging of data using **7zip**, **WinRAR**, or **zip utilities** before exfiltration. |
+| **Exfiltration** | Exfiltration Over Web Service (T1567.002) | Data exfiltration via **Rclone**, **WinSCP**, **FileZilla**, and **CloudZilla** to attacker-controlled storage. |
+| **Exfiltration** | Exfiltration Over Alternate Protocol (T1048) | Exfiltration via **SFTP**, **SSH**, or **FTP** channels outside standard HTTP/S. |
+| **Exfiltration** | Transfer Data to Cloud Account (T1537) | Upload of archives to cloud storage or attacker-managed infrastructure. |
+| **Command & Control** | Web Service / Cloud Tunnel (T1071.004 / T1219) | Persistent command-and-control via **Cloudflare Tunnel**, **Ngrok**, or remote admin tools. |
+| **Command & Control** | Remote File Copy (T1105) | File staging and transfer using **rclone**, **scp**, or similar utilities. |
+| **Impact** | Data Encrypted for Impact (T1486) | Hybrid encryption combining **ChaCha20** and **RSA**; file extensions **“.akira”**, **“.powerrangers”**, or **“.powerrangers2”** observed. |
+| **Impact** | Service Stop (T1489) | Termination of backup, database, and security services using **PsExec** or **cmd**. |
+| **Impact** | Inhibit System Recovery (T1490) | Deletion of **Volume Shadow Copies** and restoration points via PowerShell. |
+| **Impact** | Linux / ESXi Variants | Deployment of **Akira_v2** targeting **Linux** and **VMware ESXi** environments — focused on virtual infrastructure encryption. |
+| **Impact** | Data Theft / Double Extortion | Theft and publication threats on **Tor leak sites**; exfiltrated data used to increase ransom pressure. |
+| **Operational Model** | Ransomware-as-a-Service (RaaS) | Affiliate-based structure: core developers provide payloads and leak infrastructure; affiliates conduct intrusions. |
+| **Operational Behavior** | Continuous Adaptation (2023–2025) | Shift from **C++** to **Rust** builds, obfuscation improvements, cross-platform expansion, and faster intrusion-to-encryption timelines. |
 
+
+### Notes
+
+- **2023:** Initial C++ build; decryptor released by Avast after flawed implementation.  
+- **2024:** Transition to Rust-based “megazord” variant; adoption of `.powerrangers` extension.  
+- **2025:** Targeting of **SonicWall SSL VPNs**, abuse of stolen credentials, faster operations, and use of hybrid encryption (ChaCha20 + RSA).  
+
+Akira’s evolution demonstrates a clear **move from opportunistic exploitation to rapid, credential-driven edge intrusions**, with growing sophistication in defense evasion and cross-platform capabilities.
