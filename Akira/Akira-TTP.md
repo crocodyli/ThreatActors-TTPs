@@ -1,6 +1,7 @@
-# Akira Ransomware — Consolidated TTPs (2023–2025)
+# Akira Ransomware — Consolidated TTPs 
 
 The table below consolidates and groups all **Tactics, Techniques, and Procedures (TTPs)** observed in **Akira ransomware operations** from its emergence in 2023 through 2025.  
+
 It merges public reporting, incident analyses, and campaign evolution (e.g., the "megazord" variant, Linux/ESXi expansion, and RaaS operations).
 
 
