@@ -1,24 +1,29 @@
-# THREAT ACTORS - TTPs
+<img width="1024" height="1024" alt="dajsdhasjkdhas" src="https://github.com/user-attachments/assets/39f9402f-6bdf-4c86-859a-996dec55416e" />
 
-This repository was created with the aim of assisting companies and independent researchers about Tactics, Techniques and Procedures adopted by Ransomware Operators/Groups active or not and also threat actors that are operating in society.
+# THREAT ACTORS AND RANSOMWARES - TTPs
 
-In addition to mapping Tactics, Techniques and Procedures, I am inserting data on commands, tools, useful locations for researching artifacts and others.
+This repository was created with the aim of assisting **companies** and **independent researchers** in studying the **Tactics, Techniques, and Procedures (TTPs)**, based on the **MITRE ATT&CK** framework, adopted by active or inactive **Ransomware operators/groups** and other **Threat Actors**.
 
-The main focus is to assist organizations and individual researchers on each type of actor, providing a summary of their trajectory and additional information that can be used.
+This content includes TTP mapping, the **history of activities**, and the record of exploited **CVEs (Common Vulnerabilities and Exposures)**. Furthermore, I am including data on **commands**, **tools**, and **useful locations for researching artifacts** in the DFIR/CTI field.
 
-![68b1a982-b834-4501-84f1-de4ce964754e](https://github.com/crocodyli/ThreatActors-TTPs/assets/113185400/755f61e9-b234-47a6-856b-afdf93944864)
+The primary focus is to offer a summary of each actor's **trajectory**, providing essential information that can be utilized by security organizations and individual researchers.
 
+## COLLABORATION AND DATA SHARING
 
-## STRUCTURE OF THE REPOSITORY
+This project relies on contributions from various researchers in the community. The data collected here is also intended to serve as a resource for other security projects, such as **RANSOMWARE.LIVE** (accessible at: https://www.ransomware.live/), fostering a wider collaboration ecosystem.
 
-| FOLDER            | DESCRIPTION                                                                                     |
-|-------------------|-------------------------------------------------------------------------------------------------|
-| Actor's Name      | Description of activities, operation details, TTPs and Tools used                              |
-| Commands          | Repository intended to insert commands captured based on DFIR and CTI activities of Threat Actors, Ransomware groups and affiliates |
-| Payload locations | Repository designed to inform locations commonly used to execute ransomware and other threats |
+---
 
+## REPOSITORY STRUCTURE
 
+| FOLDER | DESCRIPTION |
+|---|---|
+| **Actor's Name** | Detailed profile containing: **TTPs (MITRE ATT&CK)**, **History/Trajectory** of the group, and a list of exploited **CVEs** (where applicable). |
+| Commands | Repository designed to insert commands captured based on DFIR and CTI activities of Threat Actors, Ransomware groups, and affiliates. |
+| Payload locations | Repository designed to inform locations commonly used for the execution of ransomware and other threats. |
 
-### Questions: https://twitter.com/crocodylii
+---
 
-**The aim is to map all possible strategies adopted by Ransomware operators and contributions are welcome!**
+### Contact: https://twitter.com/crocodylii
+
+**The goal is to map all possible strategies adopted by Ransomware operators, and contributions are highly welcome!**
