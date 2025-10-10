@@ -1,67 +1,37 @@
-| Execution                         | ID        |
-| --------------------------------- | --------- |
-| Technique Title                   | T1053     |
-| Scheduled Task/Job                | T1059     |
-| Command and Scripting Interpreter | T1129     |
+# 8Base — TTP Mapping (MITRE ATT&CK)
 
-| Persistence                       |           |
-| --------------------------------- | --------- |
-| Technique Title                   | T1053     |
-| Boot or Logon Autostart Execution | T1547     |
-| Registry Run Keys/Startup Folder  | T1547.001 |
-
-| Privilege Escalation              |           |
-| --------------------------------- | --------- |
-| Technique Title                   | T1053     |
-| Boot or Logon Autostart Execution | T1547     |
-| Registry Run Keys/Startup Files   | T1547.001 |
-| Token Impersonation/Theft         | T1134.001 |
-
-| Defense Evasion                   |           |
-| --------------------------------- | --------- |
-| Technique Title                   | T1027     |
-| Modify Registry                   | T1112     |
-| Indirect Command Execution        | T1202     |
-| Software Packing                  | T1027.002 |
-| Masquerading                      | T1036     |
-| Hidden Files and Directories      | T1564.001 |
-| File Deletion                     | T1070.004 |
-| Virtualization/Sandbox Evasion    | T1497     |
-| Disable or Modify Tools           | T1562.001 |
-| Hidden Files and Directories      | T1564.001 |
-
-
-| Credential Access                |           |
-|:---------------------------------:|:---------:|
-| Technique Title                  | ID        |
-| OS Credential Dumping            | T1003     |
-| Input Capture                    | T1056     |
-
-| Discovery                        |           |
-|:---------------------------------:|:---------:|
-| Technique Title                  | ID        |
-| Process Discovery                | T1057     |
-| Network Share Discovery          | T1135     |
-| System Information Discovery      | T1082     |
-| File and Directory Discovery     | T1083     |
-| Virtualization/Sandbox Evasion   | T1497     |
-| Security Software Discovery      | T1518.001 |
-
-| Lateral Movement                 |           |
-|:---------------------------------:|:---------:|
-| Technique Title                  | ID        |
-| Taint Shared Content             | T1080     |
-
-| Collection                       |           |
-|:---------------------------------:|:---------:|
-| Technique Title                  | ID        |
-| Data from Local System           | T1005     |
-| Data Staged                      | T1074     |
-| Input Capture                    | T1056     |
-
-| Impact                           |           |
-|:---------------------------------:|:---------:|
-| Technique Title                  | ID        |
-| Inhibit System Recovery          | T1490     |
-| Data Encrypted for Impact        | T1486     |
-| Data Destruction                 | T1485     |
+| **TACTIC** | **TECHNIQUE** | **DETAILS** |
+|:---:|:---:|:---|
+| Initial Access | Phishing (T1566) | Targeted emails containing malicious payloads, links, or attachments that trick users into executing code or divulging credentials. Frequently used to gain initial foothold on workstations. |
+| Initial Access | Initial Access Brokers / Purchased Access (T1587.001) | Buying pre-compromised access from brokers to reduce initial effort — allows direct infiltration into already-compromised networks. |
+| Execution | Command and Scripting Interpreter (T1059) | Execution of batch/PowerShell/WSH scripts (e.g., `defoff.bat`) to automate malicious tasks, disable defenses, and launch secondary payloads. |
+| Execution | Scheduled Task / Job (T1053) | Creation of scheduled tasks (Task Scheduler) for time-based persistence and automatic execution of malicious components at defined times or on reboot. |
+| Execution | Secondary Payload Delivery (T1105) | Use of loaders or staged components (e.g., SmokeLoader) to download and execute the final payload, avoiding direct delivery and reducing initial detection. |
+| Persistence | Boot or Logon Autostart Execution (T1547) | Autostart mechanisms at boot/logon (services, Run keys, Startup folder) to ensure malware restarts automatically after a reboot. |
+| Persistence | Registry Run Keys / Startup Folder (T1547.001) | Insertion of Run/RunOnce registry keys or placing shortcuts/executables in the Startup folder to execute malware at user logon. |
+| Privilege Escalation | Token Impersonation / Theft (T1134.001) | Theft or abuse of process tokens to perform actions with elevated privileges without additional credentials; facilitates lateral movement and privileged operations. |
+| Defense Evasion | Obfuscation / Garbage Code (T1027) | Binary obfuscation and insertion of dead/garbage code to hinder static analysis; techniques to mask signatures and behavior. |
+| Defense Evasion | Software Packing (T1027.002) | Use of packers/cryptors to wrap executables and evade static scanners; increases reverse-engineering effort. |
+| Defense Evasion | Masquerading (T1036) | Renaming files/processes and using paths that mimic legitimate software (e.g., Windows service names) to reduce suspicion during manual inspection and automated tools. |
+| Defense Evasion | Modify Registry (T1112) | Registry changes to disable logging or security features, configure persistent behavior, or hide indicators. |
+| Defense Evasion | Indirect Command Execution (T1202) | Use of indirect execution mechanisms (e.g., `rundll32`, `wmic`, `schtasks`) to run commands, avoiding direct execution of malicious binaries and reducing typical telemetry. |
+| Defense Evasion | Hidden Files and Directories (T1564.001) | Creation of files/directories with hidden attributes or in overlooked locations to store artifacts; may include misleading names or prefixes. |
+| Defense Evasion | File Deletion (T1070.004) | Removal of files and logs generated by malicious activity to hamper evidence recovery and forensic investigation. |
+| Defense Evasion | Virtualization / Sandbox Evasion (T1497) | Checks for sandbox/VM environments (hardware, drivers, timing) and behavior changes (sleep, no payload execution) to avoid automated analysis. |
+| Defense Evasion | Disable or Modify Security Tools (T1562.001) | Disabling Windows Defender, altering firewall rules, or manipulating security services to reduce chances of runtime detection. |
+| Credential Access | OS Credential Dumping (T1003) | Dumping credentials from LSASS, SAM, or extracting password hashes using tools (Mimikatz-like) to obtain local and domain credentials. |
+| Credential Access | Input Capture (T1056) | Keylogging, form capture, or API interception to harvest credentials entered by users, enabling escalation and lateral movement. |
+| Discovery | Process Discovery (T1057) | Enumerating running processes to identify AV/EDR, critical services, and candidate processes for injection/termination. |
+| Discovery | Network Share Discovery (T1135) | Scanning the network for SMB shares to find targets for encryption, exfiltration, or lateral replication. |
+| Discovery | System Information Discovery (T1082) | Collecting system inventory (OS, hostname, architecture, users) to plan next steps and select compatible payloads. |
+| Discovery | File and Directory Discovery (T1083) | Indexing files and directories of interest (documents, backups, databases) to prioritize encryption and exfiltration targets. |
+| Discovery | Security Software Discovery (T1518.001) | Identifying security solutions, agents and their configurations to disable, bypass or remove them. |
+| Lateral Movement | Taint Shared Content (T1080) | Dropping malicious files into shared locations to infect other hosts that mount those shares. |
+| Collection | Data from Local System (T1005) | Aggregating sensitive files (documents, databases, dumps) from the local system prior to exfiltration; prioritizing high-value data. |
+| Collection | Data Staged (T1074) | Consolidating and organizing collected data into temporary locations or archives (e.g., ZIP) for efficient exfiltration. |
+| Collection | Input Capture (T1056) | (reiterated) Capturing user input to collect credentials, documents or transaction-related information. |
+| Exfiltration | Exfiltration Over Other Network Mediums / RClone & Cloud (T1567) | Use of tools like `rclone` to transfer stolen data to cloud buckets or external services, sometimes chunking and encrypting payloads to avoid inspection. |
+| Impact | Data Encrypted for Impact (T1486) | Encrypting files (e.g., AES-256) and protecting the encryption key with asymmetric encryption, appending the `.8base` extension and denying legitimate access. |
+| Impact | Inhibit System Recovery / Delete Shadow Copies (T1490) | Deleting Volume Shadow Copies and restore points to prevent native recovery and increase pressure to pay. |
+| Impact | Data Destruction (T1485) | Deliberate removal of data to amplify operational impact and force acceptance of attacker demands. |
+| Impact | Extortion / Name-and-Shame (T1657) | Double extortion: exfiltrate data and publish it on a leak site to publicly pressure the victim into paying. |
