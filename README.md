@@ -1,4 +1,5 @@
-<img width="1024" height="1024" alt="dajsdhasjkdhas" src="https://github.com/user-attachments/assets/39f9402f-6bdf-4c86-859a-996dec55416e" />
+<img width="1024" height="444" alt="dajsdhasjkdhas" src="https://github.com/user-attachments/assets/7e59026e-779a-4b3b-96bf-085bc8cc2f76" />
+
 
 # THREAT ACTORS AND RANSOMWARES - TTPs
 
