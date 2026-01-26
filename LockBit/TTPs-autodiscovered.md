@@ -63,3 +63,4 @@
 | T4975 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
 | T1486, T1490, T1489 | Data Encrypted for Impact, Inhibit System Recovery | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
 | T1486, T1490, T1489 | Data Encrypted for Impact, Inhibit System Recovery | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T1204.002 | Malicious File | https://arcticwolf.com/ransomware-explained-understanding-the-ransomware-ecosystem/ | 2026-01-26 |
