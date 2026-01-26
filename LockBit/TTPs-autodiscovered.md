@@ -49,3 +49,15 @@
 | T1102.002 | Bidirectional Communication | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | T1531 | Account Access Removal | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | T1561.001 | Disk Content Wipe | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
+| T1583.001 | Domains | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T1059 | Command and Scripting Interpreter | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T1055.012 | Process Hollowing | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T1562 | Impair Defenses | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T1560 | Archive Collected Data | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T4718 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T5946 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T6476 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T3216 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T6733 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T7610 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T4975 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
