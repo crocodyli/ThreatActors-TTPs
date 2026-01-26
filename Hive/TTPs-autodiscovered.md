@@ -1,0 +1,39 @@
+# Hive - Auto-discovered TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
+| T1583.001 | Domains | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1608.004 | Drive-by Target | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1588 | Obtain Capabilities | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1189 | Drive-by Compromise | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1059 | Command and Scripting Interpreter | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1064 | Scripting | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1548.002 | Bypass User Account Control | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1222 | File and Directory Permissions Modification | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1027 | Obfuscated Files or Information | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1056 | Input Capture | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1001 | Data Obfuscation | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1573.001 | Symmetric Cryptography | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1550 | Use Alternate Authentication Material | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1021 | Remote Services | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1482 | Domain Trust Discovery | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1087 | Account Discovery | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1016 | System Network Configuration Discovery | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1005 | Data from Local System | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1567.002 | Exfiltration to Cloud Storage | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1020 | Automated Exfiltration | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1570 | Lateral Tool Transfer | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1490 | Inhibit System Recovery | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1486 | Data Encrypted for Impact | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1566.002 | Spearphishing Link | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1588.001 | Malware | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1588.002 | Tool | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1204 | User Execution | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1072 | Software Deployment Tools | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1078 | Valid Accounts | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1543.003 | Windows Service | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1134 | Access Token Manipulation | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+| T1070 | Indicator Removal | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+
+---
+*Auto-generated by IncidentBuddy TTP Finder*
