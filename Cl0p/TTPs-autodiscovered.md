@@ -16,3 +16,4 @@
 | Multiple | MITRE ATT&CK Techniques | https://www.sophos.com/en-us/blog/keeping-it-real-sophos-and-the-2024-mitre-attck-evaluations-enterprise | 2026-01-26 |
 | Multiple | MITRE ATT&CK Techniques | https://www.sophos.com/en-us/blog/keeping-it-real-sophos-and-the-2024-mitre-attck-evaluations-enterprise | 2026-01-26 |
 | Multiple MITRE ATT&CK | Enterprise Evaluation Techniques | https://www.sophos.com/en-us/press/press-releases/2024/12/sophos-xdr-excels-mitre-attckr-evaluations-enterprise | 2026-01-26 |
+| Multiple | Double Extortion TTPs | https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-100-percent-2025-mitre-attack-enterprise-evaluation/ | 2026-01-26 |
