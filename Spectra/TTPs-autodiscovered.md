@@ -1,0 +1,64 @@
+# Spectra - Auto-discovered TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
+| T1486 | Data Encrypted for Impact | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1053 | Scheduled Task/Job | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1059 | Command and Scripting Interpreter | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1106 | Native API | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1176 | Software Extensions | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1542 | Pre-OS Boot | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1542.003 | Bootkit | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1543 | Create or Modify System Process | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1543.003 | Windows Service | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1547 | Boot or Logon Autostart Execution | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1547.001 | Registry Run Keys / Startup Folder | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1574 | Hijack Execution Flow | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1574.002 | DLL Side-Loading | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1055 | Process Injection | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1548 | Abuse Elevation Control Mechanism | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1014 | Rootkit | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1027 | Obfuscated Files or Information | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1036 | Masquerading | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1070 | Indicator Removal | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1070.004 | File Deletion | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1070.006 | Timestomp | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1112 | Modify Registry | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1140 | Deobfuscate/Decode Files or Information | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1202 | Indirect Command Execution | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1222 | File and Directory Permissions Modification | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1497 | Virtualization/Sandbox Evasion | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1562 | Impair Defenses | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1562.001 | Disable or Modify Tools | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1564 | Hide Artifacts | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1564.001 | Hidden Files and Directories | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1564.003 | Hidden Window | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1003 | OS Credential Dumping | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1552 | Unsecured Credentials | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1552.001 | Credentials In Files | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1010 | Application Window Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1012 | Query Registry | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1033 | System Owner/User Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1057 | Process Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1082 | System Information Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1083 | File and Directory Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1087 | Account Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1518 | Software Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1518.001 | Security Software Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1005 | Data from Local System | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1114 | Email Collection | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1115 | Clipboard Data | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1185 | Browser Session Hijacking | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1071 | Application Layer Protocol | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1485 | Data Destruction | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1489 | Service Stop | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1490 | Inhibit System Recovery | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1496 | Resource Hijacking | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1190 | Exploit Public-Facing Application | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1133 | External Remote Services | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1218 | System Binary Proxy Execution | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1119 | Automated Collection | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+| T1041 | Exfiltration Over C2 Channel | https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/ | 2026-01-26 |
+
+---
+*Auto-generated by IncidentBuddy TTP Finder*
