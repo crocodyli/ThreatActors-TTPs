@@ -1,4 +1,6 @@
-<img width="1024" height="444" alt="dajsdhasjkdhas" src="https://github.com/user-attachments/assets/7e59026e-779a-4b3b-96bf-085bc8cc2f76" />
+
+
+# NOTE: This is a fork from Crocodyli - All I'm doing is adding to it for my own purposes. Of course I will submit PRs upstream but no guarantee if they'll be included in their dataset! I'm using it to power the gapMATRIX pages on https://incidentbuddy.ai
 
 
 # THREAT ACTORS AND RANSOMWARES - TTPs
