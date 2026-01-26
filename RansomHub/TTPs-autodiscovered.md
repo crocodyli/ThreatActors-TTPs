@@ -119,3 +119,4 @@
 | Multiple MITRE tactics | Defense evasion, execution, lateral movement | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | Multiple MITRE ATT&CK | Defense Evasion & Exfiltration | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | Multiple MITRE tactics | Defense evasion, execution, lateral movement | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
+| Multiple | Defense Evasion & Exfiltration | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
