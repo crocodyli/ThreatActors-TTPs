@@ -10,3 +10,4 @@
 | Multiple | MITRE ATT&CK Techniques | https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/ | 2026-01-26 |
 | Multiple | MITRE ATT&CK Techniques | https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/ | 2026-01-26 |
 | Multiple | MITRE ATT&CK Techniques | https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/ | 2026-01-26 |
+| Multiple | MITRE ATT&CK Techniques | https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/ | 2026-01-26 |
