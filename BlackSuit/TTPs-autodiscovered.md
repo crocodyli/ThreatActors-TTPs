@@ -46,3 +46,5 @@
 | T1059 | Command and Scripting Interpreter | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-26 |
 | Multiple | MITRE ATT&CK Framework Mapped | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-26 |
 | Multiple | MITRE ATT&CK Mapped | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-26 |
+| Multiple | Ransomware TTPs | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-26 |
+| Multiple | MITRE ATT&CK Mapped | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-26 |
