@@ -1,6 +1,6 @@
 
 
-# NOTE: This is a fork from Crocodyli - All I'm doing is adding to it for my own purposes. Of course I will submit PRs upstream but no guarantee if they'll be included in their dataset! I'm using it to power the gapMATRIX pages on https://incidentbuddy.ai
+# NOTE: This is a fork from Crocodyli - All I'm doing is adding to it for my own purposes. I'm using it to power the gapMATRIX pages on https://incidentbuddy.ai
 
 
 # THREAT ACTORS AND RANSOMWARES - TTPs
