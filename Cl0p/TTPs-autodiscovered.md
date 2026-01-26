@@ -9,3 +9,4 @@
 | Multiple | MITRE ATT&CK Techniques | https://www.sophos.com/en-us/blog/keeping-it-real-sophos-and-the-2024-mitre-attck-evaluations-enterprise | 2026-01-26 |
 | Multiple | MITRE ATT&CK Techniques | https://www.sophos.com/en-us/blog/keeping-it-real-sophos-and-the-2024-mitre-attck-evaluations-enterprise | 2026-01-26 |
 | Multiple | MITRE ATT&CK Techniques | https://www.sophos.com/en-us/blog/keeping-it-real-sophos-and-the-2024-mitre-attck-evaluations-enterprise | 2026-01-26 |
+| Multiple | MITRE ATT&CK Techniques | https://www.sophos.com/en-us/blog/keeping-it-real-sophos-and-the-2024-mitre-attck-evaluations-enterprise | 2026-01-26 |
