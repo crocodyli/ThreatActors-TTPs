@@ -84,3 +84,16 @@
 | Multiple | MITRE Tactics and Techniques | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | Multiple | MITRE Tactics and Techniques | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | Multiple | MITRE Tactics and Techniques | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
+| T1583.001 | Domains | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T1055.012 | Process Hollowing | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T1027 | Obfuscated Files or Information | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T1560 | Archive Collected Data | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T1567 | Exfiltration Over Web Service | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T4718 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T5946 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T6476 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T3216 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T6733 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T7610 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| T4975 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
+| Multiple | MITRE Tactics and Techniques | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
