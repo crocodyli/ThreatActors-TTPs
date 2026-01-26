@@ -10,3 +10,4 @@
 | T1078 | Valid Accounts | https://www.sophos.com/en-us/blog/game-of-clones-sophos-and-the-mitre-attck-enterprise-2025-evaluations | 2026-01-26 |
 | T1098 | Account Manipulation | https://www.sophos.com/en-us/blog/game-of-clones-sophos-and-the-mitre-attck-enterprise-2025-evaluations | 2026-01-26 |
 | T1566.001 | Phishing - Spearphishing Attachment | https://www.sophos.com/en-us/blog/game-of-clones-sophos-and-the-mitre-attck-enterprise-2025-evaluations | 2026-01-26 |
+| Multiple | Cross-domain Attack Techniques | https://www.sophos.com/en-us/blog/game-of-clones-sophos-and-the-mitre-attck-enterprise-2025-evaluations | 2026-01-26 |
