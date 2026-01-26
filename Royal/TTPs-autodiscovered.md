@@ -26,3 +26,4 @@
 | T1005 | Data from Local System | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-26 |
 | T1567.002 | Exfiltration to Cloud Storage | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-26 |
 | T1003.001 | LSASS Memory Credential Dumping | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-26 |
+| T1537, T1020, T1486, T1490 | Data Transfer to Cloud, Automated Exfiltration, Da | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-26 |
