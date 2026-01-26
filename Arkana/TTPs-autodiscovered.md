@@ -9,3 +9,4 @@
 | T1078 | Valid Accounts | https://socradar.io/dark-web-profile-arkana-ransomware/ | 2026-01-26 |
 | T1098 | Valid Accounts | https://socradar.io/dark-web-profile-arkana-ransomware/ | 2026-01-26 |
 | T1041 | Exfiltration Over C2 Channel | https://socradar.io/dark-web-profile-arkana-ransomware/ | 2026-01-26 |
+| T1566 | Phishing | https://socradar.io/dark-web-profile-arkana-ransomware/ | 2026-01-26 |
