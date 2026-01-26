@@ -10,3 +10,10 @@
 | T1204 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a | 2026-01-26 |
 | T1059 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a | 2026-01-26 |
 | T1562 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a | 2026-01-26 |
+| T1204.002 | Malicious File | https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis | 2026-01-26 |
+| T1059.007 | JavaScript | https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis | 2026-01-26 |
+| T1003 | OS Credential Dumping | https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis | 2026-01-26 |
+| T1021 | Remote Services | https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis | 2026-01-26 |
+| T1509 |  | https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis | 2026-01-26 |
+| T1021.002 | SMB/Windows Admin Shares | https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis | 2026-01-26 |
+| T1053 | Scheduled Task/Job | https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis | 2026-01-26 |
