@@ -98,3 +98,5 @@
 | T4975 |  | https://redpiranha.net/news/threat-intelligence-report-december-2-december-8-2025 | 2026-01-26 |
 | Multiple | MITRE Tactics and Techniques | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | Multiple | MITRE Tactics and Techniques | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
+| Multiple | Defense Evasion and Impact Tactics | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
+| Multiple | MITRE Tactics and Techniques | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
