@@ -113,3 +113,4 @@
 | Multiple | Defense Evasion and Execution | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | Multiple | Defense Evasion and Impact Tactics | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | Multiple | MITRE Tactics and Techniques | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
+| Multiple MITRE tactics | Defense evasion, execution, lateral movement | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
