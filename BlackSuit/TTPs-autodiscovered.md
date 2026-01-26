@@ -82,3 +82,4 @@
 | Multiple MITRE ATT&CK | Various TTPs Mapped | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-26 |
 | Multiple | MITRE ATT&CK Framework Mapping | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-26 |
 | Multiple | Various TTPs mapped | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-26 |
+| T1057, T1490 | Process Discovery, Inhibit System Recovery | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-26 |
