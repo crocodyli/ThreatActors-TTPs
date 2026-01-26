@@ -80,3 +80,4 @@
 | Multiple | MITRE Tactics and Techniques | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | Multiple Tactics | MITRE ATT&CK Framework | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | Multiple Tactics | MITRE ATT&CK Framework | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
+| T1572 | Protocol Tunneling | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
