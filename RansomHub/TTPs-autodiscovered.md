@@ -77,3 +77,4 @@
 | T1531 | Account Access Removal | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | T1561.001 | Disk Content Wipe | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | T1133 | External Remote Services | https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a | 2026-01-26 |
+| Multiple | MITRE Tactics and Techniques | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
