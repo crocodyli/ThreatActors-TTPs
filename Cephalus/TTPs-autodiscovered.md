@@ -39,3 +39,4 @@
 | T1078, T1567, T1486 | Valid Accounts, Exfiltration Over Web Service, Dat | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-26 |
 | T1078, T1567, T1486 | Valid Accounts, Exfiltration Over Web Service, Dat | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-26 |
 | T1078, T1567, T1486 | Valid Accounts, Exfiltration Over Web Service, Dat | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-26 |
+| T1020 | Data Staging | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-26 |
