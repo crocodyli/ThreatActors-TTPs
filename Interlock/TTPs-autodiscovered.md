@@ -43,3 +43,4 @@
 | T1070.004 | File Deletion | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-26 |
 | T1657 | Financial Theft | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-26 |
 | T1565 | Data Manipulation | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-26 |
+| T0011 | Command and Control | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-26 |
