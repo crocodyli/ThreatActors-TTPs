@@ -1,0 +1,29 @@
+{
+  "name": "Arkana",
+  "techniques": [
+    "T1041",
+    "T1078",
+    "T1098",
+    "T1486",
+    "T1566"
+  ],
+  "techniqueCount": 5,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": [
+          "T1041",
+          "T1078",
+          "T1098",
+          "T1486",
+          "T1566"
+        ]
+      }
+    ]
+  }
+}

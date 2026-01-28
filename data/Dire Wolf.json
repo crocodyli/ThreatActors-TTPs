@@ -1,0 +1,27 @@
+{
+  "name": "Dire Wolf",
+  "techniques": [
+    "T1020",
+    "T1041",
+    "T1486",
+    "T1566"
+  ],
+  "techniqueCount": 4,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": [
+          "T1020",
+          "T1041",
+          "T1486",
+          "T1566"
+        ]
+      }
+    ]
+  }
+}

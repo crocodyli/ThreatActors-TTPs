@@ -1,0 +1,43 @@
+{
+  "name": "Generic",
+  "techniques": [
+    "T1003",
+    "T1027",
+    "T1036",
+    "T1047",
+    "T1053",
+    "T1055",
+    "T1059",
+    "T1112",
+    "T1204",
+    "T1486",
+    "T1490",
+    "T1562"
+  ],
+  "techniqueCount": 12,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": [
+          "T1003",
+          "T1027",
+          "T1036",
+          "T1047",
+          "T1053",
+          "T1055",
+          "T1059",
+          "T1112",
+          "T1204",
+          "T1486",
+          "T1490",
+          "T1562"
+        ]
+      }
+    ]
+  }
+}

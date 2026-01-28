@@ -1,0 +1,27 @@
+{
+  "name": "MUSTANG PANDA",
+  "techniques": [
+    "T1016",
+    "T1018",
+    "T1078",
+    "T1087"
+  ],
+  "techniqueCount": 4,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": [
+          "T1016",
+          "T1018",
+          "T1078",
+          "T1087"
+        ]
+      }
+    ]
+  }
+}

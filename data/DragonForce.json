@@ -1,0 +1,33 @@
+{
+  "name": "DragonForce",
+  "techniques": [
+    "T1005.002",
+    "T1070.004",
+    "T1083",
+    "T1486",
+    "T1562.001"
+  ],
+  "techniqueCount": 5,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "DragonForce-TTP.md",
+        "techniques": [
+          "T1005.002",
+          "T1070.004",
+          "T1083",
+          "T1486",
+          "T1562.001"
+        ]
+      },
+      {
+        "name": "readme.md",
+        "techniques": []
+      }
+    ]
+  }
+}

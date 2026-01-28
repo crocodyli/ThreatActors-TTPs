@@ -1,0 +1,17 @@
+{
+  "name": "FIN8",
+  "techniques": [],
+  "techniqueCount": 0,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Cuba",
+  "techniques": [
+    "T1003.001",
+    "T1059.001",
+    "T1068",
+    "T1072",
+    "T1078",
+    "T1090",
+    "T1133",
+    "T1190",
+    "T1558.003",
+    "T1562.001",
+    "T1566",
+    "T1584.001"
+  ],
+  "techniqueCount": 12,
+  "cveCount": 0,
+  "metadata": {
+    "description": "|  TÁTICA                               \t|  TÉCNICA                                                                                                        \t|  DETALHES                                 ",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "Cuba-TTP.md",
+        "techniques": [
+          "T1003.001",
+          "T1059.001",
+          "T1068",
+          "T1072",
+          "T1078",
+          "T1090",
+          "T1133",
+          "T1190",
+          "T1558.003",
+          "T1562.001",
+          "T1566",
+          "T1584.001"
+        ]
+      },
+      {
+        "name": "Readme.md",
+        "techniques": []
+      }
+    ]
+  }
+}

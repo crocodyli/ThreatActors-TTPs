@@ -1,0 +1,41 @@
+{
+  "name": "0mega",
+  "techniques": [
+    "T1041",
+    "T1078",
+    "T1119",
+    "T1136",
+    "T1486",
+    "T1490",
+    "T1531"
+  ],
+  "techniqueCount": 7,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| **Access Type / Vulnerability** | **Exploitation Description** |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "CVEs-0mega.md",
+        "techniques": []
+      },
+      {
+        "name": "TTPs-0mega.md",
+        "techniques": [
+          "T1041",
+          "T1078",
+          "T1119",
+          "T1136",
+          "T1486",
+          "T1490",
+          "T1531"
+        ]
+      },
+      {
+        "name": "readme-0mega.md",
+        "techniques": []
+      }
+    ]
+  }
+}

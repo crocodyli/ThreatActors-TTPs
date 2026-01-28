@@ -1,0 +1,47 @@
+{
+  "name": "BlackCatALPHV",
+  "techniques": [
+    "T1003",
+    "T1021.001",
+    "T1027",
+    "T1059.001",
+    "T1068",
+    "T1074",
+    "T1078",
+    "T1105",
+    "T1136",
+    "T1219",
+    "T1482",
+    "T1486",
+    "T1567.002",
+    "T1592"
+  ],
+  "techniqueCount": 14,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": [
+          "T1003",
+          "T1021.001",
+          "T1027",
+          "T1059.001",
+          "T1068",
+          "T1074",
+          "T1078",
+          "T1105",
+          "T1136",
+          "T1219",
+          "T1482",
+          "T1486",
+          "T1567.002",
+          "T1592"
+        ]
+      }
+    ]
+  }
+}

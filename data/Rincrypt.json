@@ -1,0 +1,51 @@
+{
+  "name": "Rincrypt",
+  "techniques": [
+    "T1005",
+    "T1027",
+    "T1036",
+    "T1059",
+    "T1082",
+    "T1083",
+    "T1129",
+    "T1140",
+    "T1202",
+    "T1486",
+    "T1497.001",
+    "T1518.001",
+    "T1548",
+    "T1574.002"
+  ],
+  "techniqueCount": 14,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "Rincrypt-TTP.md",
+        "techniques": [
+          "T1005",
+          "T1027",
+          "T1036",
+          "T1059",
+          "T1082",
+          "T1083",
+          "T1129",
+          "T1140",
+          "T1202",
+          "T1486",
+          "T1497.001",
+          "T1518.001",
+          "T1548",
+          "T1574.002"
+        ]
+      },
+      {
+        "name": "readme.md",
+        "techniques": []
+      }
+    ]
+  }
+}

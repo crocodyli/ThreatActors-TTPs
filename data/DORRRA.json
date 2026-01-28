@@ -1,0 +1,57 @@
+{
+  "name": "DORRRA",
+  "techniques": [
+    "T1012",
+    "T1027",
+    "T1027.002",
+    "T1057",
+    "T1059",
+    "T1059.003",
+    "T1070",
+    "T1082",
+    "T1083",
+    "T1129",
+    "T1135",
+    "T1202",
+    "T1222",
+    "T1486",
+    "T1518",
+    "T1564.003",
+    "T1614"
+  ],
+  "techniqueCount": 17,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "DORRA-TTP.md",
+        "techniques": [
+          "T1012",
+          "T1027",
+          "T1027.002",
+          "T1057",
+          "T1059",
+          "T1059.003",
+          "T1070",
+          "T1082",
+          "T1083",
+          "T1129",
+          "T1135",
+          "T1202",
+          "T1222",
+          "T1486",
+          "T1518",
+          "T1564.003",
+          "T1614"
+        ]
+      },
+      {
+        "name": "readme.md",
+        "techniques": []
+      }
+    ]
+  }
+}

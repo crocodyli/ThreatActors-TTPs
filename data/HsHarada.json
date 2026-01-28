@@ -1,0 +1,17 @@
+{
+  "name": "HsHarada",
+  "techniques": [],
+  "techniqueCount": 0,
+  "cveCount": 0,
+  "metadata": {
+    "description": "**HSHARADA RANSOMWARE**",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "Readme.md",
+        "techniques": []
+      }
+    ]
+  }
+}

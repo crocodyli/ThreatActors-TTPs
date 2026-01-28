@@ -1,0 +1,45 @@
+{
+  "name": "3AM",
+  "techniques": [
+    "T1018",
+    "T1048",
+    "T1070.001",
+    "T1135",
+    "T1136",
+    "T1486",
+    "T1490",
+    "T1543.003",
+    "T1548.002",
+    "T1562.004",
+    "T1615"
+  ],
+  "techniqueCount": 11,
+  "cveCount": 0,
+  "metadata": {
+    "description": "|              Tactic             |                               Technique                              |                                                                   Details                    ",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "3AM-TTP.md",
+        "techniques": [
+          "T1018",
+          "T1048",
+          "T1070.001",
+          "T1135",
+          "T1136",
+          "T1486",
+          "T1490",
+          "T1543.003",
+          "T1548.002",
+          "T1562.004",
+          "T1615"
+        ]
+      },
+      {
+        "name": "readme.md",
+        "techniques": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Comandos",
+  "techniques": [],
+  "techniqueCount": 0,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| COMANDO | DESCRIÇÃO |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "Comandos-Backups.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-Coleta-Credenciais.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-Criar-arquivos.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-Descoberta.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-Downloads-de-Arquivos.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-Encerrar-Processos.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-Evasao-AV.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-Firewall.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-Inicializacao.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-InicializarArquivos.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-LimpezaLogs-Eventos.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-LimpezadeIndicador.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-Modo-de-Segurança.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-RDP.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-Rede.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-Registros.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-Sistema-Windows.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-UploadFile-C2.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-Usuarios.md",
+        "techniques": []
+      },
+      {
+        "name": "Comandos-VSS.md",
+        "techniques": []
+      }
+    ]
+  }
+}

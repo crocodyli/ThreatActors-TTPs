@@ -1,0 +1,29 @@
+{
+  "name": "Scattered Spider",
+  "techniques": [
+    "T1078",
+    "T1098",
+    "T1133",
+    "T1566",
+    "T1566.001"
+  ],
+  "techniqueCount": 5,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": [
+          "T1078",
+          "T1098",
+          "T1133",
+          "T1566",
+          "T1566.001"
+        ]
+      }
+    ]
+  }
+}

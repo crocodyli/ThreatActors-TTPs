@@ -1,0 +1,21 @@
+{
+  "name": "CrossLock",
+  "techniques": [],
+  "techniqueCount": 0,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| **Tactic** | **Technique** | **Sub-Technique**",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "Crosslock-TTP.md",
+        "techniques": []
+      },
+      {
+        "name": "Readme.md",
+        "techniques": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "AlphaLocker",
+  "techniques": [
+    "T1020",
+    "T1190",
+    "T1486",
+    "T1566",
+    "T1567"
+  ],
+  "techniqueCount": 5,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| **TACTIC** | **TECHNIQUE (ID)** | **DETAILS** |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-Alphalocker.md",
+        "techniques": [
+          "T1020",
+          "T1190",
+          "T1486",
+          "T1566",
+          "T1567"
+        ]
+      },
+      {
+        "name": "readme-alphalocker.md",
+        "techniques": []
+      }
+    ]
+  }
+}

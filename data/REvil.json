@@ -1,0 +1,37 @@
+{
+  "name": "REvil",
+  "techniques": [
+    "T1005",
+    "T1021",
+    "T1068",
+    "T1078",
+    "T1133",
+    "T1190",
+    "T1203",
+    "T1486",
+    "T1586"
+  ],
+  "techniqueCount": 9,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": [
+          "T1005",
+          "T1021",
+          "T1068",
+          "T1078",
+          "T1133",
+          "T1190",
+          "T1203",
+          "T1486",
+          "T1586"
+        ]
+      }
+    ]
+  }
+}

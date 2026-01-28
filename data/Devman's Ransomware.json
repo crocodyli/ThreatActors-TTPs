@@ -1,0 +1,59 @@
+{
+  "name": "Devman's Ransomware",
+  "techniques": [
+    "T1003",
+    "T1005",
+    "T1018",
+    "T1021.002",
+    "T1036",
+    "T1041",
+    "T1046",
+    "T1059.001",
+    "T1068",
+    "T1078",
+    "T1082",
+    "T1203",
+    "T1210",
+    "T1486",
+    "T1489",
+    "T1490",
+    "T1491",
+    "T1562.001"
+  ],
+  "techniqueCount": 18,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Tactic \t| Tactic \t| Technique (ID - Name) \t| Details \t|",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "Devman's-TTP.md",
+        "techniques": [
+          "T1003",
+          "T1005",
+          "T1018",
+          "T1021.002",
+          "T1036",
+          "T1041",
+          "T1046",
+          "T1059.001",
+          "T1068",
+          "T1078",
+          "T1082",
+          "T1203",
+          "T1210",
+          "T1486",
+          "T1489",
+          "T1490",
+          "T1491",
+          "T1562.001"
+        ]
+      },
+      {
+        "name": "readme.md",
+        "techniques": []
+      }
+    ]
+  }
+}
