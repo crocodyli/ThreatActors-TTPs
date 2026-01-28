@@ -1,0 +1,37 @@
+name: Generate TTP JSON from Markdown
+
+on:
+  push:
+    paths:
+      - '**.md'
+  workflow_dispatch:
+
+jobs:
+  generate-json:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      
+      - name: Generate JSON from Markdown
+        run: node scripts/generate-ttp-json.js
+        
+      - name: Commit JSON
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "TTP JSON Generator"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: regenerate TTP JSON from markdown - $(date -u +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
