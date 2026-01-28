@@ -45,3 +45,4 @@
 | T1565 | Data Manipulation | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-26 |
 | T0011 | Command and Control | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-26 |
 | TA0011 | Command and Control (C2) | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-26 |
+| T1013 | Command and Control (TA0011) | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-28 |
