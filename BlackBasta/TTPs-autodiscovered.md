@@ -18,3 +18,5 @@
 | T1021.002 | SMB/Windows Admin Shares | https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis | 2026-01-26 |
 | T1053 | Scheduled Task/Job | https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis | 2026-01-26 |
 | T1567.002, T1219 | Exfiltration to Cloud Storage, Remote Access Softw | https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis | 2026-01-26 |
+| T1566.002 | Spearphishing Link | https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis | 2026-01-29 |
+| T1562 | Impair Defenses | https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis | 2026-01-29 |
