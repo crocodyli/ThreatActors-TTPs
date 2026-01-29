@@ -85,3 +85,23 @@
 | Multiple | Defense Evasion & Exfiltration | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
 | TA0011, TA0006, TA0005 | Command and Control, Credential Access, Defense Ev | https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-242a | 2026-01-26 |
 | Multiple | Defense Evasion & Exfiltration | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-26 |
+| T1567.002 | Exfiltration to Cloud Storage | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1566.004 | Spearphishing Voice | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1547.001 | Registry Run Keys / Startup Folder | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1547 | Boot or Logon Autostart Execution | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1480 | Execution Guardrails | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1564.003 | Hidden Window | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1562.006 | Indicator Blocking | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1562.009 | Safe Mode Boot | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1555.005 | Password Managers | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1529 | System Shutdown/Reboot | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1566.001 | Spearphishing Attachment | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1547.004 | Winlogon Helper DLL | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1484.001 | Group Policy Modification | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1548.002 | Bypass User Account Control | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1564 | Hide Artifacts | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1620 | Reflective Code Loading | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1562.001 | Disable or Modify Tools | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1482 | Domain Trust Discovery | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1531 | Account Access Removal | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
+| T1561.001 | Disk Content Wipe | https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub | 2026-01-29 |
