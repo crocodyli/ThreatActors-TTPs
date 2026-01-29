@@ -1,0 +1,10 @@
+{
+  "group": "Black Basta",
+  "cves": [
+    {
+      "id": "CVE-2023-34362",
+      "source": "https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis",
+      "dateFound": "2026-01-29"
+    }
+  ]
+}
