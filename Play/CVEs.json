@@ -1,0 +1,30 @@
+{
+  "group": "Play",
+  "cves": [
+    {
+      "id": "CVE-2018-13379",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2020-12812",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2022-41040",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2022-41082",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2024-57727",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-352a",
+      "dateFound": "2026-01-29"
+    }
+  ]
+}
