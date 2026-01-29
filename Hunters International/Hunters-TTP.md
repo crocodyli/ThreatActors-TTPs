@@ -1,13 +1,9 @@
-|      **Tática**      |             **Técnica**               |                                                      **Detalhes**                                                                             |
-|:-------------------:|:----------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------:|
-|      **Execution**      |          Native API T1106             | The threat actor utilizes the application programming interface to execute malicious behaviors.                                       |
-|                          |      Shared Modules T1129             | The threat actor executes payloads by loading shared modules.                                                                                   |
-|      **Persistence**   | Boot or Logon Autostart Execution T1547| The threat actor may set system configurations to automatically execute malware during system startup or login.             |
-|   **Defense Evasion**   | Obfuscated Files or Information T1027 | The threat actor utilizes obfuscation on files used for their attack, encrypting, encoding, or obfuscating their content.      |
-|                          |     Impair Defenses T1562             | The actor may maliciously modify victim environment components to hinder or disable defense mechanisms.                      |
-|      **Discovery**      | Process Discovery T1057               | The threat actor may attempt to gather information about running processes on a system.                                                      |
-|                          | System Information Discovery T1082     | The actor may try to obtain detailed information about the operating system and hardware, including version, patches, hotfixes, and other details.|
-|                          | File and Directory Discovery T1083    | The threat actor may enumerate files and directories or search specific locations on a host or network share for certain information within a file system.|
-| **Command and Control** | Application Layer Protocol T1071      | The threat actor can communicate using OSI application layer protocols to avoid network detection/filtering, blending in with existing traffic.   |
-|                          | Application Layer Protocol: Web Protocols T1071.001| The threat actor can communicate using web traffic associated application layer protocols to avoid detection.                        |
-|         **Impact**      | Data Encrypted for Impact T1486       | The threat actor can encrypt data on the target system or on a large number of systems to disrupt system availability.             |
+| TACTIC | TECHNIQUE | ID | DETAILS |
+|:---|:---|:---:|:---|
+| Execution | Native API | T1106 | The threat actor utilizes the application programming interface to execute malicious behaviors. |
+| Persistence | Boot or Logon Autostart Execution | T1547 | The threat actor may set system configurations to automatically execute malware during system startup or login. |
+| Defense Evasion | Obfuscated Files or Information | T1027 | The threat actor utilizes obfuscation on files used for their attack, encrypting, encoding, or obfuscating their content. |
+| Discovery | Process Discovery | T1057 | The threat actor may attempt to gather information about running processes on a system. |
+| Command and Control | Application Layer Protocol | T1071 | The threat actor can communicate using OSI application layer protocols to avoid network detection/filtering, blending in with existing traffic. |
+| Impact | Data Encrypted for Impact | T1486 | The threat actor can encrypt data on the target system or on a large number of systems to disrupt system availability. |
+| **Tática** | **Técnica** |  | **Detalhes** |
