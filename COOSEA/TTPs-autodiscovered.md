@@ -1,60 +1,41 @@
 # COOSEA - Auto-discovered TTPs
-
 | Technique | Name | Source | Date |
 |-----------|------|--------|------|
-
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1059 | Command and Scripting Interpreter | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1129 | Shared Modules | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1112 | Modify Registry | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-
-
-
-
-| T1134.004 | Parent PID Spoofing | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
+| T1134.004 | Access Token Manipulation | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1014 | Rootkit | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1027 | Obfuscated Files or Information | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-| T1027.002 | Software Packing | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-| T1027.005 | Indicator Removal from Tools | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
+| T1027.002 | Obfuscated Files or Information | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
+| T1027.005 | Obfuscated Files or Information | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1070 | Indicator Removal | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-| T1070.004 | File Deletion | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
+| T1070.004 | Indicator Removal | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1140 | Deobfuscate/Decode Files or Information | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1202 | Indirect Command Execution | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1222 | File and Directory Permissions Modification | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-
-
-
-
 | T1056 | Input Capture | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-| T1056.001 | Keylogging | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
+| T1056.001 | Input Capture | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1010 | Application Window Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1012 | Query Registry | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1016 | System Network Configuration Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1082 | System Information Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1083 | File and Directory Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-
 | T1074 | Data Staged | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1071 | Application Layer Protocol | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1090 | Proxy | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1105 | Ingress Tool Transfer | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-
-
-
-| T1204.002 | Malicious File | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
+| T1204.002 | User Execution | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1036 | Masquerading | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1053 | Scheduled Task/Job | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-
-
 | T1115 | Clipboard Data | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1005 | Data from Local System | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-| T1119 | Automated Collection | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-
+| T1119 | Automated Exfiltration | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 | T1048 | Exfiltration Over Alternative Protocol | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-
-| T1059.001 | PowerShell | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-| T1059.005 | Visual Basic | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-| T1053.005 | Scheduled Task | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-| T1036.005 | Match Legitimate Resource Name or Location | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
-
-
----
+| T1059.001 | Command and Scripting Interpreter | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
+| T1059.005 | Command and Scripting Interpreter | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
+| T1053.005 | Scheduled Task/Job | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
+| T1036.005 | Masquerading | https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/ | 2026-01-26 |
 *Auto-generated by IncidentBuddy TTP Finder*

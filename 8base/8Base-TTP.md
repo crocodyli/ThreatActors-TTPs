@@ -1,5 +1,4 @@
 # 8Base — TTP Mapping (MITRE ATT&CK)
-
 | **TACTIC** | **TECHNIQUE** | **DETAILS** |
 |:---:|:---:|:---|
 | Initial Access | Phishing (T1566) | Targeted emails containing malicious payloads, links, or attachments that trick users into executing code or divulging credentials. Frequently used to gain initial foothold on workstations. |

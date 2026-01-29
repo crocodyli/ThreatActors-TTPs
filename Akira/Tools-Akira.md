@@ -1,5 +1,4 @@
 # Tools and Techniques Used by Akira Ransomware
-
 | **Tactic** | **Tool(s)** |
 |:---:|:---:|
 | **External Reconnaissance** | **Masscan** and **ReconFTW** |

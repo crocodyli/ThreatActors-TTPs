@@ -1,5 +1,4 @@
 # Vulnerabilities and Exploitation by Akira Ransomware (2025)
-
 | **Vulnerability / Issue** | **Description of Exploitation by Akira** |
 |:---:|:---|
 | **Abuse of Stolen Credentials** | The most common vector involves the use of valid credentials — including accounts protected by MFA/OTP — stolen during previous breaches. Attackers leverage these credentials to log into VPNs even when devices are patched. |

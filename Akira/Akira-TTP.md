@@ -1,10 +1,6 @@
 # Akira Ransomware — Consolidated TTPs 
-
 The table below consolidates and groups all **Tactics, Techniques, and Procedures (TTPs)** observed in **Akira ransomware operations** from its emergence in 2023 through 2025.  
-
 It merges public reporting, incident analyses, and campaign evolution (e.g., the "megazord" variant, Linux/ESXi expansion, and RaaS operations).
-
-
 | **TACTIC** | **TECHNIQUE** | **DETAILS** |
 |:---:|:---:|:---|
 | **Initial Access** | Exploit Public-Facing Application (T1190) | Exploitation of vulnerabilities in exposed VPNs and edge devices — **Cisco ASA/FTD**, **SonicWall SSL VPN**, etc. Known CVEs include **CVE-2020-3259**, **CVE-2023-20269**, and **CVE-2024-40766**. |
@@ -48,12 +44,8 @@ It merges public reporting, incident analyses, and campaign evolution (e.g., the
 | **Impact** | Data Theft / Double Extortion | Theft and publication threats on **Tor leak sites**; exfiltrated data used to increase ransom pressure. |
 | **Operational Model** | Ransomware-as-a-Service (RaaS) | Affiliate-based structure: core developers provide payloads and leak infrastructure; affiliates conduct intrusions. |
 | **Operational Behavior** | Continuous Adaptation (2023–2025) | Shift from **C++** to **Rust** builds, obfuscation improvements, cross-platform expansion, and faster intrusion-to-encryption timelines. |
-
-
 ### Notes
-
 - **2023:** Initial C++ build; decryptor released by Avast after flawed implementation.  
 - **2024:** Transition to Rust-based “megazord” variant; adoption of `.powerrangers` extension.  
 - **2025:** Targeting of **SonicWall SSL VPNs**, abuse of stolen credentials, faster operations, and use of hybrid encryption (ChaCha20 + RSA).  
-
 Akira’s evolution demonstrates a clear **move from opportunistic exploitation to rapid, credential-driven edge intrusions**, with growing sophistication in defense evasion and cross-platform capabilities.

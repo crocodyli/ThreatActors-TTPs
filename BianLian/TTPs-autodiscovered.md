@@ -1,63 +1,45 @@
 # BianLian - Auto-discovered TTPs
-
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | Technique | Name | Source | Date |
 |-----------|------|--------|------|
 | T1078 | Valid Accounts | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-
 | T1033 | System Owner/User Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
 | T1018 | Remote System Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1133 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-
-| T1190 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-
-
-| T1105 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1219 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1136 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1136.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1098 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1090 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1090.002 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1068 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1059.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1059.003 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-
-
-| T1112 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1036.004 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1027 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1046 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1135 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1069 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1069.002 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1087 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1087.002 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1057 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-
-
-
-| T1003 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1003.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1003.003 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-
-| T1021 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1021.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-
-| T1021.002 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1136.002 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1136.003 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-
-
-| T1012 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1115 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-
-| T1048 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-
-
-
-| T1053 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-| T1053.005 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
-
----
+| T1133 | External Remote Services | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1190 | Exploit Public-Facing Application | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1105 | Ingress Tool Transfer | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1219 | Remote Access Software | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1136 | Create Account | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1136.001 | Create Account | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1098 | Account Manipulation | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1090 | Proxy | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1090.002 | Proxy | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1068 | Exploitation for Privilege Escalation | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1059.001 | Command and Scripting Interpreter | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1059.003 | Command and Scripting Interpreter | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1112 | Modify Registry | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1036.004 | Masquerading | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1027 | Obfuscated Files or Information | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1046 | Network Service Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1135 | Network Share Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1069 | Permission Groups Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1069.002 | Permission Groups Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1087 | Account Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1087.002 | Account Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1057 | Process Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1003 | OS Credential Dumping | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1003.001 | OS Credential Dumping | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1003.003 | OS Credential Dumping | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1021 | Remote Service Session Initiation | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1021.001 | Remote Service Session Initiation | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1021.002 | Remote Service Session Initiation | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1136.002 | Create Account | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1136.003 | Create Account | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1012 | Query Registry | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1115 | Clipboard Data | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1048 | Exfiltration Over Alternative Protocol | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1053 | Scheduled Task/Job | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
+| T1053.005 | Scheduled Task/Job | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-136a | 2026-01-26 |
 *Auto-generated by IncidentBuddy TTP Finder*
-| T1003.002 | Security Account Manager | https://unit42.paloaltonetworks.com/bianlian-ransomware-group-threat-assessment/ | 2026-01-26 |
+| T1003.002 | OS Credential Dumping | https://unit42.paloaltonetworks.com/bianlian-ransomware-group-threat-assessment/ | 2026-01-26 |

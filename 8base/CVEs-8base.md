@@ -1,5 +1,4 @@
 # Vulnerabilities Exploited — 8Base Ransomware Group
-
 | **CATEGORY** | **DETAILS** |
 |:---:|:---|
 | **General Overview** | Intelligence sources from **2024–2025** indicate that **8Base** does **not focus on exploiting specific vulnerabilities** (0-day or high-profile N-day exploits). Instead, the group targets **weak security controls** and **unpatched Windows systems** vulnerable to common exploitation techniques (MITRE: **T1203 – Exploitation for Client Execution**). |

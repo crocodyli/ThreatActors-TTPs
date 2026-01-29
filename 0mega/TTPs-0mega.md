@@ -1,5 +1,4 @@
 # MITRE ATT&CK Matrix – 0mega Ransomware
-
 | **TACTIC** | **TECHNIQUE (ID)** | **DETAILS** |
 |---|---|---|
 | Initial Access | `T1078` — Valid Accounts | Access was obtained through the compromise of global Microsoft SaaS administrator accounts that were weakly protected. |

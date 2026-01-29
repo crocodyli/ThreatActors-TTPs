@@ -1,5 +1,4 @@
 Estes comandos são utilizados para criar persistências e criação de outros arquivos no SO.
-
 | COMANDO | DESCRIÇÃO |
 |--------------------------------------------|--------------------------------------------------------------------------------------|
 | echo [InternetShortcut] > "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\NOTEPAD.url" | Criar persistência utilizando arquivo .URL em diretório, sendo construído o arquivo em questão |
