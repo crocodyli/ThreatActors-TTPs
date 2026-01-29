@@ -1,14 +1,15 @@
-|  TÁTICA                               	|  TÉCNICA                                                                                                        	|  DETALHES                                                                                                                                                       	|
-|:---:	|:---:	|:---:	|
-| Resource Development 	| Infrastructure   Compromise: Domains (T1584.001) 	| Adversaries   may hijack domains and/or subdomains that can be used during targeting. 	|
-| Initial   Access 	| Valid Accounts   (T1078) 	| Leverages   compromised credentials to gain entry into networks. 	|
-| Initial   Access 	| External Remote   Services (T1133) 	| Adversaries   may leverage external remote services to initially access and/or persist in a   network. Remote services like VPNs, Citrix, and other access mechanisms allow   users to connect to internal corporate network resources from external   locations. 	|
-| Initial   Access 	| Exploit   Public-Facing Application (T1190) 	| Exploits   unpatched Microsoft Exchange servers (ProxyShell CVEs). 	|
-| Initial   Access 	| Phishing (T1566) 	| Adversaries   may send phishing messages to gain access to victims' systems. All forms of   phishing are delivered electronically. 	|
-| Initial   Access 	| Command and   Scripting Interpreter: PowerShell (T1059.001) 	| Adversaries   may use PowerShell to perform various actions, including information   discovery and code execution. 	|
-| Initial   Access 	| Software   Deployment Tools (T1072) 	| Adversaries   may gain access to and use third-party software packages installed in a   corporate network, such as administration, monitoring, and deployment   systems, to move laterally through the network. 	|
-| Privilege   Escalation 	| Exploitation   for Privilege Escalation (T1068) 	| Adversaries   may exploit software vulnerabilities in an attempt to elevate privileges.   Exploiting a software vulnerability occurs when an adversary takes advantage   of a programming error in a program, service, or within the operating system   software or the kernel itself to execute adversary-controlled code. 	|
-| Defense Evasion 	| Disable   or Modify Tools (T1562.001) 	| Adversaries   may modify and/or disable security tools to evade potential detection of   their malware/tools and activities. 	|
-| Credential Access 	| Operating   System Credential Dumping: LSASS Memory (T1003.001) 	| Creates   a dump file of the LSASS process to steal credentials via malware or task   manager. 	|
-| Credential Access 	| Steal   or Forge Kerberos Tickets: Kerberoasting (T1558.003) 	| Adversaries   may abuse a valid Kerberos Ticket Granting Ticket (TGT) or sniff network   traffic to obtain a Ticket Granting Service (TGS) ticket, which may be   vulnerable to brute force. 	|
-| Command and Control 	| Proxy   (T1090) 	| Adversaries   may use a connection proxy to route network traffic between systems or act as   an intermediary for network communications with a command-and-control server   to avoid direct connections to their infrastructure. 	|
+| TACTIC | TECHNIQUE | ID | DETAILS |
+|:---|:---|:---:|:---|
+| Defense Evasion | Disable   or Modify Tools | T1562.001 | Adversaries   may modify and/or disable security tools to evade potential detection of   their malware/tools and activities. |
+| Credential Access | Operating   System Credential Dumping: LSASS Memory | T1003.001 | Creates   a dump file of the LSASS process to steal credentials via malware or task   manager. |
+| Credential Access | Steal   or Forge Kerberos Tickets: Kerberoasting | T1558.003 | Adversaries   may abuse a valid Kerberos Ticket Granting Ticket (TGT) or sniff network   traffic to obtain a Ticket Granting Service (TGS) ticket, which may be   vulnerable to brute force. |
+| Command and Control | Proxy | T1090 | Adversaries   may use a connection proxy to route network traffic between systems or act as   an intermediary for network communications with a command-and-control server   to avoid direct connections to their infrastructure. |
+| Tática | TÉCNICA |  | DETALHES |
+| Resource Development | Infrastructure   Compromise: Domains | T1584.001 | Adversaries   may hijack domains and/or subdomains that can be used during targeting. |
+| Initial   Access | Valid Accounts | T1078 | Leverages   compromised credentials to gain entry into networks. |
+| Initial   Access | External Remote   Services | T1133 | Adversaries   may leverage external remote services to initially access and/or persist in a   network. Remote services like VPNs, Citrix, and other access mechanisms allow   users to connect to internal corporate network resources from external   locations. |
+| Initial   Access | Exploit   Public-Facing Application | T1190 | Exploits   unpatched Microsoft Exchange servers (ProxyShell CVEs). |
+| Initial   Access | Phishing | T1566 | Adversaries   may send phishing messages to gain access to victims' systems. All forms of   phishing are delivered electronically. |
+| Initial   Access | Command and   Scripting Interpreter: PowerShell | T1059.001 | Adversaries   may use PowerShell to perform various actions, including information   discovery and code execution. |
+| Initial   Access | Software   Deployment Tools | T1072 | Adversaries   may gain access to and use third-party software packages installed in a   corporate network, such as administration, monitoring, and deployment   systems, to move laterally through the network. |
+| Privilege   Escalation | Exploitation   for Privilege Escalation | T1068 | Adversaries   may exploit software vulnerabilities in an attempt to elevate privileges.   Exploiting a software vulnerability occurs when an adversary takes advantage   of a programming error in a program, service, or within the operating system   software or the kernel itself to execute adversary-controlled code. |
