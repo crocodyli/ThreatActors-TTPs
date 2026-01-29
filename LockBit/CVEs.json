@@ -1,0 +1,10 @@
+{
+  "group": "LockBit 3.0",
+  "cves": [
+    {
+      "id": "CVE-2026-21962",
+      "source": "https://arcticwolf.com/ransomware-explained-understanding-the-ransomware-ecosystem/",
+      "dateFound": "2026-01-29"
+    }
+  ]
+}
