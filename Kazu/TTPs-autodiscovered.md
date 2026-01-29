@@ -31,3 +31,15 @@
 | T1048.003, T1041, T1567, T1486, T1490 | Exfiltration Over Encrypted Channel, Exfiltration  | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-26 |
 | T1048.003, T1041, T1567, T1486, T1490 | Exfiltration Over Encrypted Channel, Exfiltration  | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-26 |
 | T1048.003, T1041, T1567, T1486, T1490 | Exfiltration Over Encrypted Channel, Exfiltration  | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-26 |
+| T1543.002 | Systemd Service | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-29 |
+| T1566.001 | Spearphishing Attachment | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-29 |
+| T1569.002 | Service Execution | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-29 |
+| T1543.003 | Windows Service | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-29 |
+| T1547 | Boot or Logon Autostart Execution | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-29 |
+| T1548.002 | Bypass User Account Control | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-29 |
+| T1562 | Impair Defenses | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-29 |
+| T1518.001 | Security Software Discovery | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-29 |
+| T1482 | Domain Trust Discovery | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-29 |
+| T1560.001 | Archive via Utility | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-29 |
+| T1571 | Non-Standard Port | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-29 |
+| T1489 | Service Stop | https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025 | 2026-01-29 |
