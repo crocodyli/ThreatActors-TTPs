@@ -9,7 +9,11 @@
     {
       "id": "CVE-2024-1709",
       "source": "https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "affectedProducts": [],
+      "exploitedByMalware": false,
+      "exploitedByActiveCampaigns": false,
+      "dateEnriched": "2026-01-29"
     }
   ]
 }

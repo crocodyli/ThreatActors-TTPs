@@ -4,7 +4,11 @@
     {
       "id": "CVE-2023-34362",
       "source": "https://www.kroll.com/en/publications/cyber/black-basta-technical-analysis",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "affectedProducts": [],
+      "exploitedByMalware": false,
+      "exploitedByActiveCampaigns": false,
+      "dateEnriched": "2026-01-29"
     }
   ]
 }

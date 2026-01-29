@@ -4,12 +4,20 @@
     {
       "id": "CVE-2009-0556",
       "source": "https://redpiranha.net/news/threat-intelligence-report-january-6-january-12-2026",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "affectedProducts": [],
+      "exploitedByMalware": false,
+      "exploitedByActiveCampaigns": false,
+      "dateEnriched": "2026-01-29"
     },
     {
       "id": "CVE-2025-37164",
       "source": "https://redpiranha.net/news/threat-intelligence-report-january-6-january-12-2026",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "affectedProducts": [],
+      "exploitedByMalware": false,
+      "exploitedByActiveCampaigns": false,
+      "dateEnriched": "2026-01-29"
     }
   ]
 }

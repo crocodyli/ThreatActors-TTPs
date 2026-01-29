@@ -4,42 +4,74 @@
     {
       "id": "CVE-2025-55182",
       "source": "https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "affectedProducts": [],
+      "exploitedByMalware": false,
+      "exploitedByActiveCampaigns": false,
+      "dateEnriched": "2026-01-29"
     },
     {
       "id": "CVE-2018-4063",
       "source": "https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "affectedProducts": [],
+      "exploitedByMalware": false,
+      "exploitedByActiveCampaigns": false,
+      "dateEnriched": "2026-01-29"
     },
     {
       "id": "CVE-2025-14174",
       "source": "https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "affectedProducts": [],
+      "exploitedByMalware": false,
+      "exploitedByActiveCampaigns": false,
+      "dateEnriched": "2026-01-29"
     },
     {
       "id": "CVE-2025-58360",
       "source": "https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "affectedProducts": [],
+      "exploitedByMalware": false,
+      "exploitedByActiveCampaigns": false,
+      "dateEnriched": "2026-01-29"
     },
     {
       "id": "CVE-2025-6218",
       "source": "https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "affectedProducts": [],
+      "exploitedByMalware": false,
+      "exploitedByActiveCampaigns": false,
+      "dateEnriched": "2026-01-29"
     },
     {
       "id": "CVE-2025-62221",
       "source": "https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "affectedProducts": [],
+      "exploitedByMalware": false,
+      "exploitedByActiveCampaigns": false,
+      "dateEnriched": "2026-01-29"
     },
     {
       "id": "CVE-2022-37055",
       "source": "https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "affectedProducts": [],
+      "exploitedByMalware": false,
+      "exploitedByActiveCampaigns": false,
+      "dateEnriched": "2026-01-29"
     },
     {
       "id": "CVE-2025-66644",
       "source": "https://redpiranha.net/news/threat-intelligence-report-december-9-december-15-2025",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "affectedProducts": [],
+      "exploitedByMalware": false,
+      "exploitedByActiveCampaigns": false,
+      "dateEnriched": "2026-01-29"
     }
   ]
 }
