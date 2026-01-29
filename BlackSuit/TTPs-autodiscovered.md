@@ -68,3 +68,17 @@
 | Multiple | Various TTPs mapped | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-26 |
 | T1057, T1490 | Process Discovery, Inhibit System Recovery | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-26 |
 | MITRE ATT&CK TTPs | Multiple techniques mapped | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1608.006 | SEO Poisoning | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1566.004 | Spearphishing Voice | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1557 | Adversary-in-the-Middle | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1558.002 | Silver Ticket | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1570 | Lateral Tool Transfer | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1567 | Exfiltration Over Web Service | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1567.002 | Exfiltration to Cloud Storage | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1564.006 | Run Virtual Instance | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1558.004 | AS-REP Roasting | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1558.003 | Kerberoasting | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1608 | Stage Capabilities | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1558 | Steal or Forge Kerberos Tickets | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1562 | Impair Defenses | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
+| T1564 | Hide Artifacts | https://unit42.paloaltonetworks.com/threat-assessment-blacksuit-ransomware-ignoble-scorpius/ | 2026-01-29 |
