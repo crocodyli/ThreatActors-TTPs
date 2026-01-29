@@ -39,9 +39,27 @@
     "T1119",
     "T1129",
     "T1190",
-    "T1219"
+    "T1219",
+    "T1482",
+    "T1486",
+    "T1497",
+    "T1518.001",
+    "T1530",
+    "T1537",
+    "T1547.001",
+    "T1548.002",
+    "T1564",
+    "T1564.003",
+    "T1564.004",
+    "T1566",
+    "T1583",
+    "T1587",
+    "T1595",
+    "T1598",
+    "T1620",
+    "T1657"
   ],
-  "techniqueCount": 39,
+  "techniqueCount": 57,
   "cveCount": 0,
   "metadata": {
     "description": "Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023. The group utilizes a namesake ransomware through phishing attacks and Cobalt Strike to breach the targets' networks and depl",
@@ -69,7 +87,20 @@
           "T1082",
           "T1083",
           "T1119",
-          "T1129"
+          "T1129",
+          "T1486",
+          "T1497",
+          "T1518.001",
+          "T1547.001",
+          "T1548.002",
+          "T1564",
+          "T1564.004",
+          "T1566",
+          "T1583",
+          "T1587",
+          "T1595",
+          "T1598",
+          "T1620"
         ]
       },
       {
@@ -98,7 +129,12 @@
           "T1087.002",
           "T1112",
           "T1190",
-          "T1219"
+          "T1219",
+          "T1482",
+          "T1530",
+          "T1537",
+          "T1564.003",
+          "T1657"
         ]
       }
     ]

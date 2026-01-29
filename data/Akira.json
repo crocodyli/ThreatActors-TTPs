@@ -56,17 +56,32 @@
     "T1537",
     "T1548.002",
     "T1550",
+    "T1550.002",
+    "T1555",
+    "T1555.003",
+    "T1555.004",
     "T1558.003",
     "T1560",
     "T1560.001",
+    "T1562",
     "T1562.001",
     "T1562.002",
+    "T1562.004",
+    "T1566",
     "T1566.001",
     "T1566.002",
+    "T1567",
     "T1567.002",
-    "T1570"
+    "T1569",
+    "T1569.002",
+    "T1570",
+    "T1572",
+    "T1573",
+    "T1573.002",
+    "T1604",
+    "T1657"
   ],
-  "techniqueCount": 64,
+  "techniqueCount": 79,
   "cveCount": 9,
   "metadata": {
     "description": "The table below consolidates and groups all **Tactics, Techniques, and Procedures (TTPs)** observed in **Akira ransomware operations** from its emergence in 2023 through 2025.",
@@ -137,7 +152,9 @@
       },
       {
         "name": "README.md",
-        "techniques": []
+        "techniques": [
+          "T1572"
+        ]
       },
       {
         "name": "Readme.md",
@@ -166,7 +183,21 @@
           "T1110.003",
           "T1136",
           "T1222",
-          "T1222.001"
+          "T1222.001",
+          "T1550.002",
+          "T1555",
+          "T1555.003",
+          "T1555.004",
+          "T1562",
+          "T1562.004",
+          "T1566",
+          "T1567",
+          "T1569",
+          "T1569.002",
+          "T1573",
+          "T1573.002",
+          "T1604",
+          "T1657"
         ]
       },
       {
