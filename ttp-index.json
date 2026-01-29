@@ -1,7 +1,7 @@
 {
-  "generated": "2026-01-29T14:39:23.357Z",
+  "generated": "2026-01-29T14:41:10.478Z",
   "actorCount": 81,
-  "totalTechniques": 277,
+  "totalTechniques": 275,
   "actors": [
     {
       "name": "0mega",
@@ -980,7 +980,7 @@
     },
     {
       "name": "Hive",
-      "techniqueCount": 22,
+      "techniqueCount": 21,
       "cveCount": 0,
       "techniques": [
         "T1001",
@@ -1002,7 +1002,6 @@
         "T1204",
         "T1219",
         "T1222",
-        "T1486",
         "T1550",
         "T1558.003"
       ]
@@ -1214,10 +1213,9 @@
     },
     {
       "name": "Interlock",
-      "techniqueCount": 36,
+      "techniqueCount": 24,
       "cveCount": 0,
       "techniques": [
-        "T0011",
         "T1007",
         "T1016",
         "T1021",
@@ -1241,18 +1239,7 @@
         "T1204.004",
         "T1218",
         "T1218.011",
-        "T1219",
-        "T1486",
-        "T1530",
-        "T1547",
-        "T1547.001",
-        "T1555",
-        "T1555.003",
-        "T1558",
-        "T1558.003",
-        "T1567",
-        "T1567.002",
-        "T1657"
+        "T1219"
       ]
     },
     {

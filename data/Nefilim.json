@@ -1,11 +1,9 @@
 {
   "name": "Nefilim",
   "techniques": [
-    "T1190",
-    "T1486",
-    "T1567.002"
+    "T1190"
   ],
-  "techniqueCount": 3,
+  "techniqueCount": 1,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -15,9 +13,7 @@
       {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1190",
-          "T1486",
-          "T1567.002"
+          "T1190"
         ]
       }
     ]
