@@ -13,7 +13,4 @@
 | Exfiltration      | Exfiltration Over Alternative Protocol (T1048) | SafePay uses FTP (via FileZilla) to exfiltrate data from compromised systems.                                   |
 | Impact            | Data Encrypted for Impact (T1486)     | SafePay encrypts files on network shares to extort ransom from victims.                                        |
 | Resource Development | Acquire Access (T1650)               | SafePay may leverage brokers to gain initial access, similar to tactics observed in other ransomware groups.    |
-
-
-
 ## Mapped by: Sudesh Yalavarthi

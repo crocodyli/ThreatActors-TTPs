@@ -1,37 +1,31 @@
 # Rhysida - Auto-discovered TTPs
-
 | Technique | Name | Source | Date |
 |-----------|------|--------|------|
-| T1059.009 | Command and Scripting Interpreter: Cloud API | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-
-| T1078 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1021 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1021.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1059.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1016 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1033 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-
-| T1087 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1087.002 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1018 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1069 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1069.002 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1069.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1021.004 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1003 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1003.003 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1219 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1070 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1070.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1059.003 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1055.002 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1112 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-| T1070.004 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
-
-
-
----
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
+| T1059.009 | Command and Scripting Interpreter | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1078 | Valid Accounts | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1021 | Remote Service Session Initiation | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1021.001 | Remote Service Session Initiation | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1059.001 | Command and Scripting Interpreter | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1016 | System Network Configuration Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1033 | System Owner/User Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1087 | Account Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1087.002 | Account Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1018 | Remote System Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1069 | Permission Groups Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1069.002 | Permission Groups Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1069.001 | Permission Groups Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1021.004 | Remote Service Session Initiation | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1003 | OS Credential Dumping | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1003.003 | OS Credential Dumping | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1219 | Remote Access Software | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1070 | Indicator Removal | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1070.001 | Indicator Removal | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1059.003 | Command and Scripting Interpreter | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1055.002 | Process Injection | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1112 | Modify Registry | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
+| T1070.004 | Indicator Removal | https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a | 2026-01-26 |
 *Auto-generated by IncidentBuddy TTP Finder*
 | T1190 | Exploit Public-Facing Application | https://www.cisa.gov/sites/default/files/2025-04/aa23-319a-stopransomware-rhysida-ransomware_2.pdf | 2026-01-26 |
-
 | Multiple Tactics | Various TTPs | https://www.cisa.gov/sites/default/files/2025-04/aa23-319a-stopransomware-rhysida-ransomware_2.pdf | 2026-01-26 |

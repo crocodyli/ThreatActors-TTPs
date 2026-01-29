@@ -1,33 +1,27 @@
 # Medusa - Auto-discovered TTPs
-
 | Technique | Name | Source | Date |
 |-----------|------|--------|------|
-| T1070.003 | Indicator Removal: Clear Command History | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1027.013 | Obfuscated Files or Information: Encrypted/Encoded Payload | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1190 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1059.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1059.003 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1046 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1070 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1027 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1071 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1071.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1219 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1021.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-
-
-| T1003 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1003.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-
-| T1072 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-
-
-| T1016 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1082 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1069 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1069.002 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1136 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1136.002 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-
----
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
+| T1070.003 | Indicator Removal | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1027.013 | Obfuscated Files or Information | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1190 | Exploit Public-Facing Application | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1059.001 | Command and Scripting Interpreter | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1059.003 | Command and Scripting Interpreter | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1046 | Network Service Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1070 | Indicator Removal | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1027 | Obfuscated Files or Information | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1071 | Application Layer Protocol | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1071.001 | Application Layer Protocol | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1219 | Remote Access Software | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1021.001 | Remote Service Session Initiation | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1003 | OS Credential Dumping | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1003.001 | OS Credential Dumping | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1072 | Software Deployment Tools | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1016 | System Network Configuration Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1082 | System Information Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1069 | Permission Groups Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1069.002 | Permission Groups Discovery | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1136 | Create Account | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+| T1136.002 | Create Account | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
 *Auto-generated by IncidentBuddy TTP Finder*
