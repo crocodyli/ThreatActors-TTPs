@@ -1,0 +1,30 @@
+{
+  "group": "COOSEAGROUP",
+  "cves": [
+    {
+      "id": "CVE-2023-38831",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2024-43451",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2025-31324",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2023-39234",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2025-37164",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-26-december-2025/",
+      "dateFound": "2026-01-29"
+    }
+  ]
+}
