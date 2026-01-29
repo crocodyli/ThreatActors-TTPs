@@ -1,0 +1,30 @@
+{
+  "group": "BlackMatter",
+  "cves": [
+    {
+      "id": "CVE-2026-21858",
+      "source": "https://www.picussecurity.com/resource/blog/blackmatter-ransomware-analysis-ttps-and-iocs",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2025-55182",
+      "source": "https://www.picussecurity.com/resource/blog/blackmatter-ransomware-analysis-ttps-and-iocs",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2025-66478",
+      "source": "https://www.picussecurity.com/resource/blog/blackmatter-ransomware-analysis-ttps-and-iocs",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2025-64446",
+      "source": "https://www.picussecurity.com/resource/blog/blackmatter-ransomware-analysis-ttps-and-iocs",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2025-59287",
+      "source": "https://www.picussecurity.com/resource/blog/blackmatter-ransomware-analysis-ttps-and-iocs",
+      "dateFound": "2026-01-29"
+    }
+  ]
+}
