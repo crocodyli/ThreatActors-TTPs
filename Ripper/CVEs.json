@@ -1,0 +1,20 @@
+{
+  "group": "Ripper",
+  "cves": [
+    {
+      "id": "CVE-2021-40444",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-09-january-2026/",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2021-1675",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-09-january-2026/",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2025-54322",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-09-january-2026/",
+      "dateFound": "2026-01-29"
+    }
+  ]
+}
