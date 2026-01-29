@@ -67,10 +67,9 @@
     "T1490",
     "T1547.001",
     "T1562.001",
-    "T1562.002",
-    "T1566"
+    "T1562.002"
   ],
-  "techniqueCount": 68,
+  "techniqueCount": 67,
   "cveCount": 0,
   "metadata": {
     "description": "| Initial   Access                                                 |           |                                                                                                                        ",
@@ -163,8 +162,7 @@
           "T1222.001",
           "T1486",
           "T1489",
-          "T1490",
-          "T1566"
+          "T1490"
         ]
       }
     ]

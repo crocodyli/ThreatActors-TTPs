@@ -1,10 +1,9 @@
 {
   "name": "Repellent Scorpius Cicada3301",
   "techniques": [
-    "T1078",
     "T1133"
   ],
-  "techniqueCount": 2,
+  "techniqueCount": 1,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -14,7 +13,6 @@
       {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1078",
           "T1133"
         ]
       }
