@@ -4,7 +4,7 @@
 
 | Technique | Name | Source | Date |
 |-----------|------|--------|------|
-| T1537 | Transfer Data to Cloud Account | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-26 |
+
 | T1020 | Automated Exfiltration | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-26 |
 | T1059.003 | Command and Scripting Interpreter: Windows Command Shell | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-26 |
 

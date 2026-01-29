@@ -14,14 +14,14 @@
 | T1071.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
 | T1219 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
 | T1021.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1569 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1569.002 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+
+
 | T1003 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
 | T1003.001 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1567.002 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+
 | T1072 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1529 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
-| T1657 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
+
+
 | T1016 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
 | T1082 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |
 | T1069 |  | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a | 2026-01-26 |

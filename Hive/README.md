@@ -5,7 +5,7 @@
 | Technique | Name | Source | Date |
 |-----------|------|--------|------|
 | T1003.001 | Credential Dumping: LSASS Memory | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
-| T1558.003 | Kerberoasting | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
+
 | T1219 | Remote Access Software | https://www.kroll.com/en/publications/cyber/hive-ransomware-technical-analysis-initial-access-discovery | 2026-01-26 |
 
 ---
