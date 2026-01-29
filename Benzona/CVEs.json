@@ -1,0 +1,10 @@
+{
+  "group": "Benzona",
+  "cves": [
+    {
+      "id": "CVE-2021-26829",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-november-25-december-1-2025",
+      "dateFound": "2026-01-29"
+    }
+  ]
+}
