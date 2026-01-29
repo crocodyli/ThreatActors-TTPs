@@ -1,0 +1,15 @@
+{
+  "group": "RansomHub",
+  "cves": [
+    {
+      "id": "CVE-2023-27532",
+      "source": "https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2020-1472",
+      "source": "https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub",
+      "dateFound": "2026-01-29"
+    }
+  ]
+}
