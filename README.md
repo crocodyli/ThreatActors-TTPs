@@ -27,6 +27,4 @@ This project relies on contributions from various researchers in the community. 
 
 ---
 
-### Contact: https://twitter.com/crocodylii
-
 **The goal is to map all possible strategies adopted by Ransomware operators, and contributions are highly welcome!**
