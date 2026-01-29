@@ -68,3 +68,11 @@
 | T1219 | Remote Access Software | https://www.cyfirma.com/news/weekly-intelligence-report-12-december-2025/ | 2026-01-26 |
 | T1102.002 | Web Service | https://www.cyfirma.com/news/weekly-intelligence-report-12-december-2025/ | 2026-01-26 |
 | T1041 | Exfiltration Over C2 Channel | https://www.cyfirma.com/news/weekly-intelligence-report-12-december-2025/ | 2026-01-26 |
+| T1486 | Data Encrypted for Impact | https://socradar.io/blog/dark-web-profile-lynx-ransomware/ | 2026-01-29 |
+| T1490 | Inhibit System Recovery | https://socradar.io/blog/dark-web-profile-lynx-ransomware/ | 2026-01-29 |
+| T1489 | Service Stop | https://socradar.io/blog/dark-web-profile-lynx-ransomware/ | 2026-01-29 |
+| T1564 | Hide Artifacts | https://socradar.io/blog/dark-web-profile-lynx-ransomware/ | 2026-01-29 |
+| T1564.001 | Hidden Files and Directories | https://socradar.io/blog/dark-web-profile-lynx-ransomware/ | 2026-01-29 |
+| T1573 | Encrypted Channel | https://socradar.io/blog/dark-web-profile-lynx-ransomware/ | 2026-01-29 |
+| T1573.001 | Symmetric Cryptography | https://socradar.io/blog/dark-web-profile-lynx-ransomware/ | 2026-01-29 |
+| T1573.002 | Asymmetric Cryptography | https://socradar.io/blog/dark-web-profile-lynx-ransomware/ | 2026-01-29 |
