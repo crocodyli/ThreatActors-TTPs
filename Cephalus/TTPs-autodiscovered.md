@@ -40,3 +40,10 @@
 | T1078, T1567, T1486 | Valid Accounts, Exfiltration Over Web Service, Dat | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-26 |
 | T1078, T1567, T1486 | Valid Accounts, Exfiltration Over Web Service, Dat | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-26 |
 | T1020 | Data Staging | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-26 |
+| T1566 | Phishing | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-29 |
+| T1497.001 | System Checks | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-29 |
+| T1574.002 | DLL Side-Loading | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-29 |
+| T1562.001 | Disable or Modify Tools | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-29 |
+| T1567.002 | Exfiltration to Cloud Storage | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-29 |
+| T1490 | Inhibit System Recovery | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-29 |
+| T1194 | Spearphishing via Service | https://redpiranha.net/news/threat-intelligence-report-august-26-september-1-2025 | 2026-01-29 |
