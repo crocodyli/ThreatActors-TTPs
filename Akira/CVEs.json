@@ -1,0 +1,45 @@
+{
+  "group": "Akira",
+  "cves": [
+    {
+      "id": "CVE-2024-40766",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2020-3259",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2023-20269",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2020-3580",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2023-28252",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2024-37085",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2023-27532",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2024-40711",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-109a",
+      "dateFound": "2026-01-29"
+    }
+  ]
+}
