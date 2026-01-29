@@ -73,13 +73,16 @@ jobs:
                   
                   if (kevEntry) {
                     // Enrich with KEV data
-                    cve.cvss = kevEntry.cvssV3Score || kevEntry.cvssV2Score;
-                    cve.severity = kevEntry.cvssV3Severity || kevEntry.cvssV2Severity;
-                    cve.affectedProducts = kevEntry.affectedProducts || [];
-                    cve.exploitedByMalware = kevEntry.exploitedByMalware || false;
-                    cve.exploitedByActiveCampaigns = kevEntry.exploitedByActiveCampaigns || false;
-                    cve.publicDisclosureDate = kevEntry.publicDisclosureDate;
-                    cve.actionDueDate = kevEntry.actionDueDate;
+                    cve.vendor = kevEntry.vendorProject;
+                    cve.product = kevEntry.product;
+                    cve.vulnerabilityName = kevEntry.vulnerabilityName;
+                    cve.shortDescription = kevEntry.shortDescription;
+                    cve.dateAdded = kevEntry.dateAdded;
+                    cve.dueDate = kevEntry.dueDate;
+                    cve.requiredAction = kevEntry.requiredAction;
+                    cve.knownRansomwareCampaignUse = kevEntry.knownRansomwareCampaignUse;
+                    cve.notes = kevEntry.notes;
+                    cve.cwes = kevEntry.cwes || [];
                     cve.dateEnriched = new Date().toISOString().split('T')[0];
                     enrichedCount++;
                   }
