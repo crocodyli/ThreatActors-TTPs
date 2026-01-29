@@ -4,12 +4,38 @@
     {
       "id": "CVE-2023-27532",
       "source": "https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "vendor": "Veeam",
+      "product": "Backup & Replication",
+      "vulnerabilityName": "Veeam Backup & Replication Cloud Connect Missing Authentication for Critical Function Vulnerability",
+      "shortDescription": "Veeam Backup & Replication Cloud Connect component contains a missing authentication for critical function vulnerability that allows an unauthenticated user operating within the backup infrastructure network perimeter to obtain encrypted credentials stored in the configuration database. This may lead to an attacker gaining access to the backup infrastructure hosts.",
+      "dateAdded": "2023-08-22",
+      "dueDate": "2023-09-12",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.veeam.com/kb4424;  https://nvd.nist.gov/vuln/detail/CVE-2023-27532",
+      "cwes": [
+        "CWE-306"
+      ],
+      "dateEnriched": "2026-01-29"
     },
     {
       "id": "CVE-2020-1472",
       "source": "https://www.trendmicro.com/vinfo/gb/security/news/ransomware-spotlight/ransomware-spotlight-ransomhub",
-      "dateFound": "2026-01-29"
+      "dateFound": "2026-01-29",
+      "vendor": "Microsoft",
+      "product": "Netlogon",
+      "vulnerabilityName": "Microsoft Netlogon Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft's Netlogon Remote Protocol (MS-NRPC) contains a privilege escalation vulnerability when an attacker establishes a vulnerable Netlogon secure channel connection to a domain controller. An attacker who successfully exploits the vulnerability could run a specially crafted application on a device on the network. The vulnerability is also known under the moniker of Zerologon.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Reference CISA's ED 20-04 (https://www.cisa.gov/news-events/directives/ed-20-04-mitigate-netlogon-elevation-privilege-vulnerability-august-2020-patch-tuesday) for further guidance and requirements. Note: The due date for addressing this vulnerability aligns with the requirements outlined in ED 20-04. https://nvd.nist.gov/vuln/detail/CVE-2020-1472",
+      "cwes": [
+        "CWE-330"
+      ],
+      "dateEnriched": "2026-01-29"
     }
   ]
 }
