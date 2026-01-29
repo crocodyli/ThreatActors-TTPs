@@ -1,12 +1,9 @@
 {
   "name": "WannaCry",
   "techniques": [
-    "T1190",
-    "T1486",
-    "T1573",
-    "T1595"
+    "T1190"
   ],
-  "techniqueCount": 4,
+  "techniqueCount": 1,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -16,10 +13,7 @@
       {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1190",
-          "T1486",
-          "T1573",
-          "T1595"
+          "T1190"
         ]
       }
     ]
