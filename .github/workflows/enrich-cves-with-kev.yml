@@ -1,0 +1,116 @@
+name: Enrich CVEs with CISA KEV Data
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  enrich-cves:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout ThreatActors-TTPs repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/ThreatActors-TTPs
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout KEV Data repo
+        uses: actions/checkout@v4
+        with:
+          repository: cisagov/kev-data
+          path: kev-data
+          sparse-checkout: |
+            known_exploited_vulnerabilities.json
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Enrich CVEs with KEV data
+        run: |
+          cat > enrich-script.js << 'EOF'
+          const fs = require('fs');
+          const path = require('path');
+
+          // Load CISA KEV data
+          const kevPath = './kev-data/known_exploited_vulnerabilities.json';
+          const kevRaw = fs.readFileSync(kevPath, 'utf-8');
+          const kevData = JSON.parse(kevRaw);
+
+          // Create a map of CVE IDs to KEV entries for fast lookup
+          const kevMap = {};
+          kevData.vulnerabilities.forEach(vuln => {
+            kevMap[vuln.cveID] = vuln;
+          });
+
+          console.log(`Loaded ${Object.keys(kevMap).length} CVEs from CISA KEV`);
+
+          // Walk through all actor folders
+          const actorsDir = './';
+          const actors = fs.readdirSync(actorsDir).filter(name => {
+            const fullPath = path.join(actorsDir, name);
+            return fs.statSync(fullPath).isDirectory() && name !== 'kev-data' && !name.startsWith('.');
+          });
+
+          let enrichedCount = 0;
+          let totalCVEs = 0;
+
+          actors.forEach(actor => {
+            const cveJsonPath = path.join(actorsDir, actor, 'CVEs.json');
+            
+            if (fs.existsSync(cveJsonPath)) {
+              try {
+                const cveJsonContent = fs.readFileSync(cveJsonPath, 'utf-8');
+                const cveJson = JSON.parse(cveJsonContent);
+
+                cveJson.cves.forEach(cve => {
+                  totalCVEs++;
+                  const kevEntry = kevMap[cve.id];
+                  
+                  if (kevEntry) {
+                    // Enrich with KEV data
+                    cve.cvss = kevEntry.cvssV3Score || kevEntry.cvssV2Score;
+                    cve.severity = kevEntry.cvssV3Severity || kevEntry.cvssV2Severity;
+                    cve.affectedProducts = kevEntry.affectedProducts || [];
+                    cve.exploitedByMalware = kevEntry.exploitedByMalware || false;
+                    cve.exploitedByActiveCampaigns = kevEntry.exploitedByActiveCampaigns || false;
+                    cve.publicDisclosureDate = kevEntry.publicDisclosureDate;
+                    cve.actionDueDate = kevEntry.actionDueDate;
+                    cve.dateEnriched = new Date().toISOString().split('T')[0];
+                    enrichedCount++;
+                  }
+                });
+
+                // Write back the enriched CVE.json
+                fs.writeFileSync(cveJsonPath, JSON.stringify(cveJson, null, 2) + '\n');
+              } catch (err) {
+                console.error(`Failed to process ${actor}/CVEs.json:`, err.message);
+              }
+            }
+          });
+
+          console.log(`\nEnriched ${enrichedCount} out of ${totalCVEs} CVEs with CISA KEV data`);
+          EOF
+          
+          node enrich-script.js
+
+      - name: Commit enriched CVEs
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Check if there are changes
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          git add "*/CVEs.json"
+          git commit -m "Enrich CVEs with CISA KEV data ($(date +%Y-%m-%d))"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
