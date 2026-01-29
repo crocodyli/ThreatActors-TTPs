@@ -10,9 +10,14 @@
     "T1135",
     "T1190",
     "T1211",
-    "T1219"
+    "T1219",
+    "T1486",
+    "T1490",
+    "T1568",
+    "T1573",
+    "T1574"
   ],
-  "techniqueCount": 10,
+  "techniqueCount": 15,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -31,7 +36,12 @@
           "T1135",
           "T1190",
           "T1211",
-          "T1219"
+          "T1219",
+          "T1486",
+          "T1490",
+          "T1568",
+          "T1573",
+          "T1574"
         ]
       }
     ]

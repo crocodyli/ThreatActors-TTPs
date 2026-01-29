@@ -1,7 +1,9 @@
 {
   "name": "SNAKEBITE",
-  "techniques": [],
-  "techniqueCount": 0,
+  "techniques": [
+    "T1486"
+  ],
+  "techniqueCount": 1,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -10,7 +12,9 @@
     "files": [
       {
         "name": "TTPs-autodiscovered.md",
-        "techniques": []
+        "techniques": [
+          "T1486"
+        ]
       }
     ]
   }
