@@ -27,3 +27,8 @@
 
 | T1003.001 | LSASS Memory Credential Dumping | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-26 |
 | T1537, T1020, T1486, T1490 | Data Transfer to Cloud, Automated Exfiltration, Da | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-26 |
+| T1588 | Obtain Capabilities | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-29 |
+| T1573.001 | Symmetric Cryptography | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-29 |
+| T1562.001 | Disable or Modify Tools | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-29 |
+| T1562 | Impair Defenses | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-29 |
+| T1567.002 | Exfiltration to Cloud Storage | https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive | 2026-01-29 |
