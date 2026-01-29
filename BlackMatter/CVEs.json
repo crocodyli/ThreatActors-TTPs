@@ -13,7 +13,17 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Meta",
+      "product": "React Server Components",
+      "vulnerabilityName": "Meta React Server Components Remote Code Execution Vulnerability",
+      "shortDescription": "Meta React Server Components contains a remote code execution vulnerability that could allow unauthenticated remote code execution by exploiting a flaw in how React decodes payloads sent to React Server Function endpoints. Please note CVE-2025-66478 has been rejected, but it is associated with CVE-2025- 55182.",
+      "dateAdded": "2025-12-05",
+      "dueDate": "2025-12-12",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182",
+      "cwes": []
     },
     {
       "id": "CVE-2025-66478",
@@ -27,7 +37,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Fortinet",
+      "product": "FortiWeb",
+      "vulnerabilityName": "Fortinet FortiWeb Path Traversal Vulnerability",
+      "shortDescription": "Fortinet FortiWeb contains a relative path traversal vulnerability that may allow an unauthenticated attacker to execute administrative commands on the system via crafted HTTP or HTTPS requests.",
+      "dateAdded": "2025-11-14",
+      "dueDate": "2025-11-21",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.fortiguard.com/psirt/FG-IR-25-910 ; https://nvd.nist.gov/vuln/detail/CVE-2025-64446",
+      "cwes": [
+        "CWE-23"
+      ]
     },
     {
       "id": "CVE-2025-59287",
@@ -36,7 +58,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Server Update Service (WSUS) Deserialization of Untrusted Data Vulnerability",
+      "shortDescription": "Microsoft Windows Server Update Service (WSUS) contains a deserialization of untrusted data vulnerability that allows for remote code execution.",
+      "dateAdded": "2025-10-24",
+      "dueDate": "2025-11-14",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-59287 ; https://nvd.nist.gov/vuln/detail/CVE-2025-59287",
+      "cwes": [
+        "CWE-502"
+      ]
     }
   ]
 }

@@ -8,7 +8,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Samsung",
+      "product": "MagicINFO 9 Server",
+      "vulnerabilityName": "Samsung MagicINFO 9 Server Path Traversal Vulnerability",
+      "shortDescription": "Samsung MagicINFO 9 Server contains a path traversal vulnerability that allows an attacker to write arbitrary file as system authority.",
+      "dateAdded": "2025-05-22",
+      "dueDate": "2025-06-12",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://security.samsungtv.com/securityUpdates#SVP-MAY-2025 ; https://nvd.nist.gov/vuln/detail/CVE-2025-4632",
+      "cwes": [
+        "CWE-22"
+      ]
     },
     {
       "id": "CVE-2023-38950",
@@ -17,7 +29,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "ZKTeco",
+      "product": "BioTime",
+      "vulnerabilityName": "ZKTeco BioTime Path Traversal Vulnerability",
+      "shortDescription": "ZKTeco BioTime contains a path traversal vulnerability in the iclock API that allows an unauthenticated attacker to read arbitrary files via supplying a crafted payload.",
+      "dateAdded": "2025-05-19",
+      "dueDate": "2025-06-09",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.zkteco.com/en/Security_Bulletinsibs ; https://nvd.nist.gov/vuln/detail/CVE-2023-38950",
+      "cwes": [
+        "CWE-22"
+      ]
     },
     {
       "id": "CVE-2023-38951",
@@ -36,7 +60,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Synacor",
+      "product": "Zimbra Collaboration Suite (ZCS)",
+      "vulnerabilityName": "Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting (XSS) Vulnerability",
+      "shortDescription": "Zimbra Collaboration contains a cross-site scripting (XSS) vulnerability in the CalendarInvite feature of the Zimbra webmail classic user interface. An attacker can exploit this vulnerability via an email message containing a crafted calendar header, leading to the execution of arbitrary JavaScript code.",
+      "dateAdded": "2025-05-19",
+      "dueDate": "2025-06-09",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://wiki.zimbra.com/wiki/Zimbra_Releases/8.8.15/P46#Security_Fixes ; https://wiki.zimbra.com/wiki/Zimbra_Releases/9.0.0/P39#Security_Fixes ; https://wiki.zimbra.com/wiki/Zimbra_Releases/10.0.7#Security_Fixes ; https://nvd.nist.gov/vuln/detail/CVE-2024-27443",
+      "cwes": [
+        "CWE-79"
+      ]
     },
     {
       "id": "CVE-2025-27920",
@@ -45,7 +81,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Srimax",
+      "product": "Output Messenger",
+      "vulnerabilityName": "Srimax Output Messenger Directory Traversal Vulnerability",
+      "shortDescription": "Srimax Output Messenger contains a directory traversal vulnerability that allows an attacker to access sensitive files outside the intended directory, potentially leading to configuration leakage or arbitrary file access.",
+      "dateAdded": "2025-05-19",
+      "dueDate": "2025-06-09",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.outputmessenger.com/cve-2025-27920/ ; https://nvd.nist.gov/vuln/detail/CVE-2025-27920",
+      "cwes": [
+        "CWE-22"
+      ]
     },
     {
       "id": "CVE-2024-11182",
@@ -54,7 +102,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "MDaemon",
+      "product": "Email Server",
+      "vulnerabilityName": "MDaemon Email Server Cross-Site Scripting (XSS) Vulnerability",
+      "shortDescription": "MDaemon Email Server contains a cross-site scripting (XSS) vulnerability that allows a remote attacker to load arbitrary JavaScript code via an HTML e-mail message.",
+      "dateAdded": "2025-05-19",
+      "dueDate": "2025-06-09",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://files.mdaemon.com/mdaemon/beta/RelNotes_en.html ; https://mdaemon.com/pages/downloads-critical-updates ; https://nvd.nist.gov/vuln/detail/CVE-2024-11182",
+      "cwes": [
+        "CWE-79"
+      ]
     },
     {
       "id": "CVE-2025-4428",
@@ -63,7 +123,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Ivanti",
+      "product": "Endpoint Manager Mobile (EPMM)",
+      "vulnerabilityName": "Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability",
+      "shortDescription": "Ivanti Endpoint Manager Mobile (EPMM) contains a code injection vulnerability in the API component that allows an authenticated attacker to remotely execute arbitrary code via crafted API requests. This vulnerability results from an insecure implementation of the Hibernate Validator open-source library, as represented by CVE-2025-35036.",
+      "dateAdded": "2025-05-19",
+      "dueDate": "2025-06-09",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM ; https://nvd.nist.gov/vuln/detail/CVE-2025-4428",
+      "cwes": [
+        "CWE-94"
+      ]
     },
     {
       "id": "CVE-2025-4427",
@@ -72,7 +144,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Ivanti",
+      "product": "Endpoint Manager Mobile (EPMM)",
+      "vulnerabilityName": "Ivanti Endpoint Manager Mobile (EPMM) Authentication Bypass Vulnerability",
+      "shortDescription": "Ivanti Endpoint Manager Mobile (EPMM) contains an authentication bypass vulnerability in the API component that allows an attacker to access protected resources without proper credentials via crafted API requests. This vulnerability results from an insecure implementation of the Spring Framework open-source library.",
+      "dateAdded": "2025-05-19",
+      "dueDate": "2025-06-09",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM ; https://nvd.nist.gov/vuln/detail/CVE-2025-4427",
+      "cwes": [
+        "CWE-288"
+      ]
     }
   ]
 }

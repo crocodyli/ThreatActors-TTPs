@@ -8,7 +8,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "vulnerabilityName": "Fortinet FortiOS SSL VPN Path Traversal Vulnerability",
+      "shortDescription": "Fortinet FortiOS SSL VPN web portal contains a path traversal vulnerability that may allow an unauthenticated attacker to download FortiOS system files through specially crafted HTTP resource requests.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-13379",
+      "cwes": [
+        "CWE-22"
+      ]
     },
     {
       "id": "CVE-2020-12812",
@@ -17,7 +29,20 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "vulnerabilityName": "Fortinet FortiOS SSL VPN Improper Authentication Vulnerability",
+      "shortDescription": "Fortinet FortiOS SSL VPN contains an improper authentication vulnerability that may allow a user to login successfully without being prompted for the second factor of authentication (FortiToken) if they change the case in their username.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-12812",
+      "cwes": [
+        "CWE-178",
+        "CWE-287"
+      ]
     },
     {
       "id": "CVE-2022-41040",
@@ -26,7 +51,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "vulnerabilityName": "Microsoft Exchange Server Server-Side Request Forgery Vulnerability",
+      "shortDescription": "Microsoft Exchange Server allows for server-side request forgery. Dubbed \"ProxyNotShell,\" this vulnerability is chainable with CVE-2022-41082 which allows for remote code execution.",
+      "dateAdded": "2022-09-30",
+      "dueDate": "2022-10-21",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://msrc-blog.microsoft.com/2022/09/29/customer-guidance-for-reported-zero-day-vulnerabilities-in-microsoft-exchange-server/;  https://nvd.nist.gov/vuln/detail/CVE-2022-41040",
+      "cwes": [
+        "CWE-918"
+      ]
     },
     {
       "id": "CVE-2022-41082",
@@ -35,7 +72,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "vulnerabilityName": "Microsoft Exchange Server Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Exchange Server contains an unspecified vulnerability that allows for authenticated remote code execution. Dubbed \"ProxyNotShell,\" this vulnerability is chainable with CVE-2022-41040 which allows for the remote code execution.",
+      "dateAdded": "2022-09-30",
+      "dueDate": "2022-10-21",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://msrc-blog.microsoft.com/2022/09/29/customer-guidance-for-reported-zero-day-vulnerabilities-in-microsoft-exchange-server/;  https://nvd.nist.gov/vuln/detail/CVE-2022-41082",
+      "cwes": [
+        "CWE-502"
+      ]
     },
     {
       "id": "CVE-2024-57727",
@@ -44,7 +93,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "SimpleHelp ",
+      "product": "SimpleHelp",
+      "vulnerabilityName": "SimpleHelp Path Traversal Vulnerability",
+      "shortDescription": "SimpleHelp remote support software contains multiple path traversal vulnerabilities that allow unauthenticated remote attackers to download arbitrary files from the SimpleHelp host via crafted HTTP requests. These files may include server configuration files and hashed user passwords.",
+      "dateAdded": "2025-02-13",
+      "dueDate": "2025-03-06",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://simple-help.com/kb---security-vulnerabilities-01-2025 ; Additional CISA Mitigation Instructions: https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-163a ; https://nvd.nist.gov/vuln/detail/CVE-2024-57727",
+      "cwes": [
+        "CWE-22"
+      ]
     }
   ]
 }

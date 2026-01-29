@@ -8,7 +8,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Microsoft",
+      "product": "MSHTML",
+      "vulnerabilityName": "Microsoft MSHTML Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft MSHTML contains a unspecified vulnerability that allows for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2021-11-17",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-40444",
+      "cwes": [
+        "CWE-22"
+      ]
     },
     {
       "id": "CVE-2021-1675",
@@ -17,7 +29,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Print Spooler Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Windows Print Spooler contains an unspecified vulnerability that allows for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2021-11-17",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-1675",
+      "cwes": [
+        "CWE-285"
+      ]
     },
     {
       "id": "CVE-2025-54322",

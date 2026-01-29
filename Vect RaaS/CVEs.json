@@ -8,7 +8,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "vulnerabilityName": "Microsoft Office PowerPoint Code Injection Vulnerability",
+      "shortDescription": "Microsoft Office PowerPoint contains a code injection vulnerability that allows remote attackers to execute arbitrary code via a PowerPoint file with an OutlineTextRefAtom containing an invalid index value that triggers memory corruption.",
+      "dateAdded": "2026-01-07",
+      "dueDate": "2026-01-28",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2009/ms09-017 ; https://nvd.nist.gov/vuln/detail/CVE-2009-0556",
+      "cwes": [
+        "CWE-94"
+      ]
     },
     {
       "id": "CVE-2025-37164",
@@ -17,7 +29,19 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29"
+      "dateEnriched": "2026-01-29",
+      "vendor": "Hewlett Packard Enterprise (HPE)",
+      "product": "OneView",
+      "vulnerabilityName": "Hewlett Packard Enterprise (HPE) OneView Code Injection Vulnerability",
+      "shortDescription": "Hewlett Packard Enterprise (HPE) OneView contains a code injection vulnerability that allows a remote unauthenticated user to perform remote code execution.",
+      "dateAdded": "2026-01-07",
+      "dueDate": "2026-01-28",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04985en_us&docLocale=en_US ; https://nvd.nist.gov/vuln/detail/CVE-2025-37164",
+      "cwes": [
+        "CWE-94"
+      ]
     }
   ]
 }
