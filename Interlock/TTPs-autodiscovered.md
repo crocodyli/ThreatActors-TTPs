@@ -30,3 +30,15 @@
 | T1070 | Indicator Removal | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-26 |
 | T1070.004 | Indicator Removal | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-26 |
 | TA0011 | Command and Control (C2) | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-26 |
+| T0011 | Command and Control | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
+| T1547 | Boot or Logon Autostart Execution | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
+| T1547.001 | Registry Run Keys / Startup Folder | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
+| T1555 | Credentials from Password Stores | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
+| T1555.003 | Credentials from Web Browsers | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
+| T1558 | Steal or Forge Kerberos Tickets | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
+| T1558.003 | Kerberoasting | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
+| T1530 | Data from Cloud Storage | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
+| T1567 | Exfiltration Over Web Service | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
+| T1567.002 | Exfiltration to Cloud Storage | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
+| T1486 | Data Encrypted for Impact | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
+| T1657 | Financial Theft | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
