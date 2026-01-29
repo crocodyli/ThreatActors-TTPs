@@ -1,0 +1,15 @@
+{
+  "group": "Cicada3301/Repellent Scorpius",
+  "cves": [
+    {
+      "id": "CVE-2024-1708",
+      "source": "https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2024-1709",
+      "source": "https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/",
+      "dateFound": "2026-01-29"
+    }
+  ]
+}
