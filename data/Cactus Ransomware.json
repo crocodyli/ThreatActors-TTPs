@@ -29,7 +29,7 @@
   "techniqueCount": 24,
   "cveCount": 3,
   "metadata": {
-    "description": "|     Tactic                             |     Technique                                                         |     Details                                                                          ",
+    "description": "The CACTUS ransomware is said to have emerged around March 2023. The group became known for exploiting vulnerabilities to gain initial access and maintain a presence within the organization's infrastr",
     "aliases": [],
     "cves": [
       "CVE-2023-41265",

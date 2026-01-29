@@ -54,7 +54,7 @@
   "techniqueCount": 49,
   "cveCount": 0,
   "metadata": {
-    "description": "| Tactic \t| Technique \t| Details \t|",
+    "description": "---",
     "aliases": [],
     "cves": [],
     "files": [

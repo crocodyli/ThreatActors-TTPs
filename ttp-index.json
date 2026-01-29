@@ -1,6 +1,6 @@
 {
-  "generated": "2026-01-29T14:59:01.082Z",
-  "actorCount": 81,
+  "generated": "2026-01-29T15:06:05.621Z",
+  "actorCount": 75,
   "totalTechniques": 284,
   "actors": [
     {
@@ -132,12 +132,6 @@
         "T1218.003",
         "T1219"
       ]
-    },
-    {
-      "name": "APT73",
-      "techniqueCount": 0,
-      "cveCount": 0,
-      "techniques": []
     },
     {
       "name": "Akira",
@@ -817,12 +811,6 @@
       ]
     },
     {
-      "name": "Comandos",
-      "techniqueCount": 0,
-      "cveCount": 0,
-      "techniques": []
-    },
-    {
       "name": "Conti",
       "techniqueCount": 2,
       "cveCount": 0,
@@ -830,12 +818,6 @@
         "T1486",
         "T1567"
       ]
-    },
-    {
-      "name": "CrossLock",
-      "techniqueCount": 0,
-      "cveCount": 0,
-      "techniques": []
     },
     {
       "name": "Cuba",
@@ -978,12 +960,6 @@
       ]
     },
     {
-      "name": "FIN8",
-      "techniqueCount": 0,
-      "cveCount": 0,
-      "techniques": []
-    },
-    {
       "name": "FSociety-Flocker",
       "techniqueCount": 1,
       "cveCount": 0,
@@ -1064,12 +1040,6 @@
         "T1550",
         "T1558.003"
       ]
-    },
-    {
-      "name": "HsHarada",
-      "techniqueCount": 0,
-      "cveCount": 0,
-      "techniques": []
     },
     {
       "name": "Hunt-Dharma-Crysis",
@@ -2046,12 +2016,6 @@
       "techniques": [
         "T1486"
       ]
-    },
-    {
-      "name": "SNAKEBITE",
-      "techniqueCount": 0,
-      "cveCount": 0,
-      "techniques": []
     },
     {
       "name": "SafeLocker",

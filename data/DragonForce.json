@@ -10,7 +10,7 @@
   "techniqueCount": 5,
   "cveCount": 0,
   "metadata": {
-    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
+    "description": "Research on the operators of the DragonForce ransomware was conducted, and it was identified that the group emerged around mid-November 2023. They employ the same method as many other ransomware group",
     "aliases": [],
     "cves": [],
     "files": [

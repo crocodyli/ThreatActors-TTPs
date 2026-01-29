@@ -39,7 +39,7 @@
   "techniqueCount": 34,
   "cveCount": 0,
   "metadata": {
-    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
+    "description": "SHINRA ransomware is a variant of the Proton ransomware family, known for its malicious activities involving data encryption and demanding a ransom for data decryption.",
     "aliases": [],
     "cves": [],
     "files": [

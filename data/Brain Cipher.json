@@ -91,7 +91,7 @@
   "techniqueCount": 86,
   "cveCount": 0,
   "metadata": {
-    "description": "| TACTIC                          \t| TECHNIQUE                                                                                                     \t| DETAILS   \t|",
+    "description": "---",
     "aliases": [],
     "cves": [],
     "files": [

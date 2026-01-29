@@ -15,7 +15,7 @@
   "techniqueCount": 10,
   "cveCount": 0,
   "metadata": {
-    "description": "| Technique | Name | Source | Date |",
+    "description": "---",
     "aliases": [],
     "cves": [],
     "files": [

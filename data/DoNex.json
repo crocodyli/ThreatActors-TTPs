@@ -38,7 +38,7 @@
   "techniqueCount": 33,
   "cveCount": 0,
   "metadata": {
-    "description": "|    <br>Tactics    \t|    <br>Technique    \t|    <br>Details    \t|",
+    "description": "The ransomware group known as DoNex was first identified in mid-March 2024. According to the data collected, the samples used by the group were compiled in mid-February, suggesting that it is a relati",
     "aliases": [],
     "cves": [],
     "files": [
