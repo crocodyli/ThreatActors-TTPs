@@ -43,3 +43,21 @@
 | T1071.001 | Application Layer Protocol | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-26 |
 | T1132.001 | Data Encoding | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-26 |
 | T1102.001 | Web Service | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-26 |
+| T1486 | Data Encrypted for Impact | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1543.003 | Windows Service | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1548 | Abuse Elevation Control Mechanism | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1562.001 | Disable or Modify Tools | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1620 | Reflective Code Loading | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1518.001 | Security Software Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1485 | Data Destruction | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1489 | Service Stop | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1490 | Inhibit System Recovery | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1588.002 | Tool | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1566.001 | Spearphishing Attachment | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1547.001 | Registry Run Keys / Startup Folder | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1574.001 | DLL | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1548.002 | Bypass User Account Control | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1550.003 | Pass the Ticket | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1518 | Software Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1560.001 | Archive via Utility | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1573.001 | Symmetric Cryptography | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
