@@ -33,17 +33,11 @@
     "T1574"
   ],
   "techniqueCount": 30,
-  "cveCount": 5,
+  "cveCount": 0,
   "metadata": {
     "description": "| Tatica ID | Tecnica ID | Nome | Descricao |",
     "aliases": [],
-    "cves": [
-      "CVE-2021-27101",
-      "CVE-2021-27102",
-      "CVE-2021-27103",
-      "CVE-2021-27104",
-      "CVE-2021-35211"
-    ],
+    "cves": [],
     "files": [
       {
         "name": "CLOP-TTPs2.md",

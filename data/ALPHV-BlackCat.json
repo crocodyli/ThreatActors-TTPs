@@ -54,15 +54,11 @@
     "T1219"
   ],
   "techniqueCount": 51,
-  "cveCount": 3,
+  "cveCount": 0,
   "metadata": {
     "description": "| Initial Access                          | ID    | Use                                                                                                                                                 ",
     "aliases": [],
-    "cves": [
-      "CVE-2021-31207",
-      "CVE-2021-34473",
-      "CVE-2021-34523"
-    ],
+    "cves": [],
     "files": [
       {
         "name": "ALPHV-TTP.md",
