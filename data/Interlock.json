@@ -3,6 +3,7 @@
   "techniques": [
     "T0011",
     "T1007",
+    "T1011",
     "T1016",
     "T1021",
     "T1021.001",
@@ -38,7 +39,7 @@
     "T1567.002",
     "T1657"
   ],
-  "techniqueCount": 36,
+  "techniqueCount": 37,
   "cveCount": 0,
   "metadata": {
     "description": "---",
@@ -54,6 +55,7 @@
         "techniques": [
           "T0011",
           "T1007",
+          "T1011",
           "T1016",
           "T1021",
           "T1021.001",

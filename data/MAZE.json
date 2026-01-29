@@ -1,12 +1,9 @@
 {
-  "name": "Arkana",
+  "name": "MAZE",
   "techniques": [
-    "T1041",
-    "T1078",
-    "T1098",
     "T1486"
   ],
-  "techniqueCount": 4,
+  "techniqueCount": 1,
   "cveCount": 0,
   "metadata": {
     "description": "---",
@@ -16,9 +13,6 @@
       {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1041",
-          "T1078",
-          "T1098",
           "T1486"
         ]
       }
