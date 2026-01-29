@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-28T07:03:26.335Z",
+  "generated": "2026-01-29T12:07:56.779Z",
   "actorCount": 79,
   "totalTechniques": 392,
   "actors": [
@@ -1762,13 +1762,14 @@
     },
     {
       "name": "MUSTANG PANDA",
-      "techniqueCount": 4,
+      "techniqueCount": 5,
       "cveCount": 0,
       "techniques": [
         "T1016",
         "T1018",
         "T1078",
-        "T1087"
+        "T1087",
+        "T1571"
       ]
     },
     {
