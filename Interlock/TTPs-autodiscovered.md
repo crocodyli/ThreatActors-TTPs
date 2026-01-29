@@ -42,3 +42,4 @@
 | T1567.002 | Exfiltration to Cloud Storage | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
 | T1486 | Data Encrypted for Impact | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
 | T1657 | Financial Theft | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
+| T1011 | Exfiltration Over Other Network Medium | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
