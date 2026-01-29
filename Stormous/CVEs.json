@@ -1,0 +1,50 @@
+{
+  "group": "Stormous",
+  "cves": [
+    {
+      "id": "CVE-2025-4632",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-may-20-may-26-2025",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2023-38950",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-may-20-may-26-2025",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2023-38951",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-may-20-may-26-2025",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2023-38952",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-may-20-may-26-2025",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2024-27443",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-may-20-may-26-2025",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2025-27920",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-may-20-may-26-2025",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2024-11182",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-may-20-may-26-2025",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2025-4428",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-may-20-may-26-2025",
+      "dateFound": "2026-01-29"
+    },
+    {
+      "id": "CVE-2025-4427",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-may-20-may-26-2025",
+      "dateFound": "2026-01-29"
+    }
+  ]
+}
