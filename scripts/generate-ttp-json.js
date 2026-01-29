@@ -6,6 +6,8 @@
  * Reads all markdown files from threat actor folders and generates:
  * - ttp-index.json: Complete indexed JSON of all TTPs
  * - data/[actor-name].json: Individual actor files
+ * 
+ * FIXED VERSION with better error handling and logging
  */
 
 const fs = require('fs');
@@ -14,10 +16,19 @@ const path = require('path');
 const OUTPUT_DIR = path.join(__dirname, '..', 'data');
 const INDEX_FILE = path.join(__dirname, '..', 'ttp-index.json');
 
+console.log(`[TTP] Working directory: ${process.cwd()}`);
+console.log(`[TTP] Script directory: ${__dirname}`);
+console.log(`[TTP] Output directory: ${OUTPUT_DIR}`);
+
 // Ensure output directory exists
 if (!fs.existsSync(OUTPUT_DIR)) {
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-  console.log(`[TTP] Created directory: ${OUTPUT_DIR}`);
+  try {
+    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+    console.log(`[TTP] ✓ Created directory: ${OUTPUT_DIR}`);
+  } catch (err) {
+    console.error(`[TTP] ✗ Failed to create directory: ${err.message}`);
+    process.exit(1);
+  }
 }
 
 function extractTechniques(content) {
@@ -25,8 +36,9 @@ function extractTechniques(content) {
   const lines = content.split('\n');
   
   for (const line of lines) {
-    // Match MITRE technique codes: T1234, T1234.001, etc.
-    const matches = line.match(/T\d{4}(?:\.\d{3})?/g);
+    // Match MITRE technique codes: T1234, T1234.001, T1234.01, etc.
+    // Updated to match any number of digits after the dot
+    const matches = line.match(/T\d{4}(?:\.\d+)?/g);
     if (matches) {
       techniques.push(...matches);
     }
@@ -51,7 +63,7 @@ function extractMetadata(content) {
     const line = lines[i];
     
     // Extract description (first non-empty paragraph)
-    if (!metadata.description && line.trim() && !line.startsWith('#')) {
+    if (!metadata.description && line.trim() && !line.startsWith('#') && !line.startsWith('|')) {
       metadata.description = line.trim().substring(0, 200); // First 200 chars
     }
     
@@ -60,7 +72,7 @@ function extractMetadata(content) {
       const nextLine = lines[i + 1];
       if (nextLine) {
         const alias = nextLine.trim().replace(/^[-*]\s+/, '');
-        if (alias && !alias.startsWith('#')) {
+        if (alias && !alias.startsWith('#') && !alias.startsWith('|')) {
           metadata.aliases.push(alias);
         }
       }
@@ -78,7 +90,15 @@ function extractMetadata(content) {
 
 function scanActorFolders() {
   const rootDir = path.join(__dirname, '..');
-  const entries = fs.readdirSync(rootDir, { withFileTypes: true });
+  console.log(`[TTP] Scanning root directory: ${rootDir}`);
+  
+  let entries;
+  try {
+    entries = fs.readdirSync(rootDir, { withFileTypes: true });
+  } catch (err) {
+    console.error(`[TTP] ✗ Failed to read root directory: ${err.message}`);
+    process.exit(1);
+  }
   
   const actors = [];
   
@@ -97,14 +117,22 @@ function scanActorFolders() {
     const actorPath = path.join(rootDir, actorName);
     
     // Find markdown files in actor folder
-    const files = fs.readdirSync(actorPath);
-    const mdFiles = files.filter(f => f.endsWith('.md'));
-    
-    if (mdFiles.length === 0) {
+    let files;
+    try {
+      files = fs.readdirSync(actorPath);
+    } catch (err) {
+      console.warn(`[TTP] ⚠ Failed to read folder ${actorName}: ${err.message}`);
       continue;
     }
     
-    console.log(`[TTP] Processing actor: ${actorName}`);
+    const mdFiles = files.filter(f => f.endsWith('.md'));
+    
+    if (mdFiles.length === 0) {
+      console.log(`[TTP] ⊘ Skipping ${actorName} (no markdown files)`);
+      continue;
+    }
+    
+    console.log(`[TTP] Processing actor: ${actorName} (${mdFiles.length} files)`);
     
     let allTechniques = [];
     let metadata = {
@@ -117,7 +145,14 @@ function scanActorFolders() {
     // Process all markdown files for this actor
     for (const mdFile of mdFiles) {
       const filePath = path.join(actorPath, mdFile);
-      const content = fs.readFileSync(filePath, 'utf-8');
+      
+      let content;
+      try {
+        content = fs.readFileSync(filePath, 'utf-8');
+      } catch (err) {
+        console.warn(`[TTP] ⚠ Failed to read ${mdFile}: ${err.message}`);
+        continue;
+      }
       
       // Extract techniques
       const techniques = extractTechniques(content);
@@ -134,8 +169,16 @@ function scanActorFolders() {
       
       metadata.files.push({
         name: mdFile,
-        techniques: techniques
+        techniques: techniques.length > 0 ? techniques : []
       });
+      
+      console.log(`    └─ ${mdFile}: ${techniques.length} techniques`);
+    }
+    
+    // Only add if we found techniques
+    if (allTechniques.length === 0) {
+      console.log(`[TTP] ⚠ ${actorName} has no techniques - skipping`);
+      continue;
     }
     
     // Deduplicate
@@ -158,7 +201,12 @@ function scanActorFolders() {
 console.log('[TTP] Scanning threat actor folders...');
 const actors = scanActorFolders();
 
-console.log(`[TTP] Found ${actors.length} threat actors`);
+console.log(`\n[TTP] Found ${actors.length} threat actors`);
+
+if (actors.length === 0) {
+  console.error('[TTP] ✗ No actors found! Check your folder structure.');
+  process.exit(1);
+}
 
 // Generate index
 const index = {
@@ -174,14 +222,26 @@ const index = {
 };
 
 // Save index
-fs.writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2));
-console.log(`[TTP] Index saved to ${INDEX_FILE}`);
-
-// Save individual actor files
-for (const actor of actors) {
-  const filePath = path.join(OUTPUT_DIR, `${actor.name}.json`);
-  fs.writeFileSync(filePath, JSON.stringify(actor, null, 2));
+try {
+  fs.writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2));
+  console.log(`[TTP] ✓ Index saved (${actors.length} actors, ${index.totalTechniques} unique techniques)`);
+} catch (err) {
+  console.error(`[TTP] ✗ Failed to save index: ${err.message}`);
+  process.exit(1);
 }
 
-console.log(`[TTP] Saved ${actors.length} individual actor files to ${OUTPUT_DIR}`);
-console.log('[TTP] Done!');
+// Save individual actor files
+let savedCount = 0;
+for (const actor of actors) {
+  const filePath = path.join(OUTPUT_DIR, `${actor.name}.json`);
+  try {
+    fs.writeFileSync(filePath, JSON.stringify(actor, null, 2));
+    savedCount++;
+    console.log(`[TTP] ✓ Saved ${actor.name}.json (${actor.techniqueCount} techniques)`);
+  } catch (err) {
+    console.error(`[TTP] ✗ Failed to save ${actor.name}.json: ${err.message}`);
+  }
+}
+
+console.log(`\n[TTP] ✓ Successfully saved ${savedCount} individual actor files to ${OUTPUT_DIR}`);
+console.log('[TTP] ✓ Done!');
