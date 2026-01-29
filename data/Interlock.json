@@ -3,7 +3,6 @@
   "techniques": [
     "T0011",
     "T1007",
-    "T1013",
     "T1016",
     "T1021",
     "T1021.001",
@@ -35,15 +34,11 @@
     "T1555.003",
     "T1558",
     "T1558.003",
-    "T1565",
-    "T1566",
-    "T1566.002",
     "T1567",
     "T1567.002",
-    "T1572",
     "T1657"
   ],
-  "techniqueCount": 41,
+  "techniqueCount": 36,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -52,16 +47,13 @@
     "files": [
       {
         "name": "README.md",
-        "techniques": [
-          "T1566"
-        ]
+        "techniques": []
       },
       {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
           "T0011",
           "T1007",
-          "T1013",
           "T1016",
           "T1021",
           "T1021.001",
@@ -93,11 +85,8 @@
           "T1555.003",
           "T1558",
           "T1558.003",
-          "T1565",
-          "T1566.002",
           "T1567",
           "T1567.002",
-          "T1572",
           "T1657"
         ]
       }
