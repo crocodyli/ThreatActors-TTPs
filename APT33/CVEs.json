@@ -4,7 +4,20 @@
     {
       "id": "CVE-2014-6352",
       "source": "MITRE ATT&CK",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Code Injection Vulnerability",
+      "shortDescription": "Microsoft Windows allow remote attackers to execute arbitrary code via a crafted OLE object.",
+      "dateAdded": "2022-02-25",
+      "dueDate": "2022-08-25",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2014-6352",
+      "cwes": [
+        "CWE-94"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

@@ -4,7 +4,20 @@
     {
       "id": "CVE-2024-55591",
       "source": "MITRE ATT&CK",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Fortinet",
+      "product": "FortiOS and FortiProxy",
+      "vulnerabilityName": "Fortinet FortiOS and FortiProxy Authentication Bypass Vulnerability",
+      "shortDescription": "Fortinet FortiOS and FortiProxy contain an authentication bypass vulnerability that may allow an unauthenticated, remote attacker to gain super-admin privileges via crafted requests to Node.js websocket module.",
+      "dateAdded": "2025-01-14",
+      "dueDate": "2025-01-21",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-24-535 ; https://nvd.nist.gov/vuln/detail/CVE-2024-55591",
+      "cwes": [
+        "CWE-288"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2017-8625",

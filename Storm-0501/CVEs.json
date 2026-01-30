@@ -4,7 +4,20 @@
     {
       "id": "CVE-2014-7169",
       "source": "MITRE ATT&CK",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "GNU",
+      "product": "Bourne-Again Shell (Bash)",
+      "vulnerabilityName": "GNU Bourne-Again Shell (Bash) Arbitrary Code Execution Vulnerability",
+      "shortDescription": "GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute code. This CVE correctly remediates the vulnerability in CVE-2014-6271.",
+      "dateAdded": "2022-01-28",
+      "dueDate": "2022-07-28",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2014-7169",
+      "cwes": [
+        "CWE-78"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2019-3610",
