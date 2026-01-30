@@ -13,7 +13,7 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29",
+      "dateEnriched": "2026-01-30",
       "vendor": "ConnectWise",
       "product": "ScreenConnect",
       "vulnerabilityName": "ConnectWise ScreenConnect Authentication Bypass Vulnerability",

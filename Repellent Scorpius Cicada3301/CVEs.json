@@ -9,7 +9,20 @@
     {
       "id": "CVE-2024-1709",
       "source": "https://unit42.paloaltonetworks.com/repellent-scorpius-cicada3301-ransomware/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "ConnectWise",
+      "product": "ScreenConnect",
+      "vulnerabilityName": "ConnectWise ScreenConnect Authentication Bypass Vulnerability",
+      "shortDescription": "ConnectWise ScreenConnect contains an authentication bypass vulnerability that allows an attacker with network access to the management interface to create a new, administrator-level account on affected devices.",
+      "dateAdded": "2024-02-22",
+      "dueDate": "2024-02-29",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8; https://nvd.nist.gov/vuln/detail/CVE-2024-1709",
+      "cwes": [
+        "CWE-288"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

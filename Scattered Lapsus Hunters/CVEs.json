@@ -4,17 +4,56 @@
     {
       "id": "CVE-2014-6278",
       "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "GNU",
+      "product": "GNU Bash",
+      "vulnerabilityName": "GNU Bash OS Command Injection Vulnerability",
+      "shortDescription": "GNU Bash contains an OS command injection vulnerability which allows remote attackers to execute arbitrary commands via a crafted environment.",
+      "dateAdded": "2025-10-02",
+      "dueDate": "2025-10-23",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable. ",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: http://ftp.gnu.org/gnu/bash/bash-4.3-patches/bash43-027 ; https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/23467 ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20140926-bash ; https://www.ibm.com/support/pages/security-bulletin-update-vulnerabilities-bash-affect-aix-toolbox-linux-applications-cve-2014-6271-cve-2014-6277-cve-2014-6278-cve-2014-7169-cve-2014-7186-and-cve-2014-7187 ; https://nvd.nist.gov/vuln/detail/CVE-2014-6278",
+      "cwes": [
+        "CWE-78"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2014-6271",
       "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "GNU",
+      "product": "Bourne-Again Shell (Bash)",
+      "vulnerabilityName": "GNU Bourne-Again Shell (Bash) Arbitrary Code Execution Vulnerability",
+      "shortDescription": "GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute code.",
+      "dateAdded": "2022-01-28",
+      "dueDate": "2022-07-28",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2014-6271",
+      "cwes": [
+        "CWE-78"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2014-7169",
       "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "GNU",
+      "product": "Bourne-Again Shell (Bash)",
+      "vulnerabilityName": "GNU Bourne-Again Shell (Bash) Arbitrary Code Execution Vulnerability",
+      "shortDescription": "GNU Bash through 4.3 processes trailing strings after function definitions in the values of environment variables, which allows remote attackers to execute code. This CVE correctly remediates the vulnerability in CVE-2014-6271.",
+      "dateAdded": "2022-01-28",
+      "dueDate": "2022-07-28",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2014-7169",
+      "cwes": [
+        "CWE-78"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2014-6277",
@@ -24,42 +63,146 @@
     {
       "id": "CVE-2017-1000353",
       "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Jenkins",
+      "product": "Jenkins",
+      "vulnerabilityName": "Jenkins Remote Code Execution Vulnerability",
+      "shortDescription": "Jenkins contains a remote code execution vulnerability. This vulnerability that could allowed attackers to transfer a serialized Java SignedObject object to the remoting-based Jenkins CLI, that would be deserialized using a new ObjectInputStream, bypassing the existing blocklist-based protection mechanism.",
+      "dateAdded": "2025-10-02",
+      "dueDate": "2025-10-23",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.jenkins.io/security/advisory/2017-04-26/ ; https://nvd.nist.gov/vuln/detail/CVE-2017-1000353",
+      "cwes": [],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2025-21043",
       "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Samsung",
+      "product": "Mobile Devices",
+      "vulnerabilityName": "Samsung Mobile Devices Out-of-Bounds Write Vulnerability",
+      "shortDescription": "Samsung mobile devices contain an out-of-bounds write vulnerability in libimagecodec.quram.so which allows remote attackers to execute arbitrary code.",
+      "dateAdded": "2025-10-02",
+      "dueDate": "2025-10-23",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://security.samsungmobile.com/securityUpdate.smsb?year=2025&month=09 ; https://nvd.nist.gov/vuln/detail/CVE-2025-21043",
+      "cwes": [
+        "CWE-787"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2025-4008",
       "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Smartbedded",
+      "product": "Meteobridge",
+      "vulnerabilityName": "Smartbedded Meteobridge Command Injection Vulnerability",
+      "shortDescription": "Smartbedded Meteobridge contains a command injection vulnerability that could allow remote unauthenticated attackers to gain arbitrary command execution with elevated privileges (root) on affected devices.",
+      "dateAdded": "2025-10-02",
+      "dueDate": "2025-10-23",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://forum.meteohub.de/viewtopic.php?t=18687 ; https://nvd.nist.gov/vuln/detail/CVE-2025-4008",
+      "cwes": [
+        "CWE-306",
+        "CWE-77"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2025-32463",
       "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Sudo",
+      "product": "Sudo",
+      "vulnerabilityName": "Sudo Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
+      "shortDescription": "Sudo contains an inclusion of functionality from untrusted control sphere vulnerability. This vulnerability could allow local attacker to leverage sudo’s -R (--chroot) option to run arbitrary commands as root, even if they are not listed in the sudoers file.",
+      "dateAdded": "2025-09-29",
+      "dueDate": "2025-10-20",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://www.sudo.ws/security/advisories/chroot_bug/ ; https://nvd.nist.gov/vuln/detail/CVE-2025-32463",
+      "cwes": [
+        "CWE-829"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2025-59689",
       "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Libraesva",
+      "product": "Email Security Gateway",
+      "vulnerabilityName": "Libraesva Email Security Gateway Command Injection Vulnerability",
+      "shortDescription": "Libraesva Email Security Gateway (ESG) contains a command injection vulnerability which allows command injection via a compressed e-mail attachment.",
+      "dateAdded": "2025-09-29",
+      "dueDate": "2025-10-20",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://docs.libraesva.com/knowledgebase/security-advisory-command-injection-vulnerability-cve-2025-59689/ ; https://nvd.nist.gov/vuln/detail/CVE-2025-59689",
+      "cwes": [
+        "CWE-77"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2025-10035",
       "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Fortra",
+      "product": "GoAnywhere MFT",
+      "vulnerabilityName": "Fortra GoAnywhere MFT Deserialization of Untrusted Data Vulnerability",
+      "shortDescription": "Fortra GoAnywhere MFT contains a deserialization of untrusted data vulnerability allows an actor with a validly forged license response signature to deserialize an arbitrary actor-controlled object, possibly leading to command injection.",
+      "dateAdded": "2025-09-29",
+      "dueDate": "2025-10-20",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.fortra.com/security/advisories/product-security/fi-2025-012 ; https://nvd.nist.gov/vuln/detail/CVE-2025-10035",
+      "cwes": [
+        "CWE-502",
+        "CWE-77"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2025-20352",
       "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Cisco",
+      "product": "IOS and IOS XE",
+      "vulnerabilityName": "Cisco IOS and IOS XE Software SNMP Denial of Service and Remote Code Execution Vulnerability",
+      "shortDescription": "Cisco IOS and IOS XE contains a stack-based buffer overflow vulnerability in the Simple Network Management Protocol (SNMP) subsystem that could allow for denial of service or remote code execution. A successful exploit could allow a low-privileged attacker to cause the affected system to reload, resulting in a DoS condition, or allow a high-privileged attacker to execute arbitrary code as the root user and obtain full control of the affected system.",
+      "dateAdded": "2025-09-29",
+      "dueDate": "2025-10-20",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snmp-x4LPhte ; https://nvd.nist.gov/vuln/detail/CVE-2025-20352",
+      "cwes": [
+        "CWE-121"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2021-21311",
       "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Adminer",
+      "product": "Adminer",
+      "vulnerabilityName": "Adminer Server-Side Request Forgery Vulnerability",
+      "shortDescription": "Adminer contains a server-side request forgery vulnerability that, when exploited, allows a remote attacker to obtain potentially sensitive information.",
+      "dateAdded": "2025-09-29",
+      "dueDate": "2025-10-20",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://github.com/vrana/adminer/security/advisories/GHSA-x5r2-hj5c-8jx6 ; https://nvd.nist.gov/vuln/detail/CVE-2021-21311",
+      "cwes": [
+        "CWE-918"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

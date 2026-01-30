@@ -4,12 +4,36 @@
     {
       "id": "CVE-2019-2725",
       "source": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-water-ouroboros",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Oracle",
+      "product": "WebLogic Server",
+      "vulnerabilityName": "Oracle WebLogic Server, Injection",
+      "shortDescription": "Injection vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middleware (subcomponent: Web Services).",
+      "dateAdded": "2022-01-10",
+      "dueDate": "2022-07-10",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-2725",
+      "cwes": [
+        "CWE-74"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2017-10271",
       "source": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-water-ouroboros",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Oracle",
+      "product": "WebLogic Server",
+      "vulnerabilityName": "Oracle Corporation WebLogic Server Remote Code Execution Vulnerability",
+      "shortDescription": "Oracle Corporation WebLogic Server contains a vulnerability that allows for remote code execution.",
+      "dateAdded": "2022-02-10",
+      "dueDate": "2022-08-10",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-10271",
+      "cwes": [],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2019-2729",

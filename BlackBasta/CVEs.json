@@ -8,7 +8,7 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-29",
+      "dateEnriched": "2026-01-30",
       "vendor": "Progress",
       "product": "MOVEit Transfer",
       "vulnerabilityName": "Progress MOVEit Transfer SQL Injection Vulnerability",
