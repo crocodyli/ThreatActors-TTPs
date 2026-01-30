@@ -1,0 +1,10 @@
+{
+  "group": "APT41",
+  "cves": [
+    {
+      "id": "CVE-2020-10189",
+      "source": "https://www.infosecurity-magazine.com/news/apt41-exploited-cisco-citrix-and/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
