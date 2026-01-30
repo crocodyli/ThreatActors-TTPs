@@ -1,0 +1,10 @@
+{
+  "group": "Iranian government-sponsored APT",
+  "cves": [
+    {
+      "id": "CVE-2021-34473",
+      "source": "https://www.picussecurity.com/resource/blog/ttps-used-by-the-iranian-apt-exploiting-exchange-and-fortinet-vulnerabilities",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
