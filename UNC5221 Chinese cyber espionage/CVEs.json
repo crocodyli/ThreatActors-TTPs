@@ -1,0 +1,10 @@
+{
+  "group": "UNC5221 (Chinese cyber espionage)",
+  "cves": [
+    {
+      "id": "CVE-2023-46805",
+      "source": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2025",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
