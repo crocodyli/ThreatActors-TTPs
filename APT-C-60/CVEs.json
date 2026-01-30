@@ -1,0 +1,10 @@
+{
+  "group": "APT-C-60",
+  "cves": [
+    {
+      "id": "CVE-2024-7262",
+      "source": "https://www.eset.com/us/about/newsroom/research/eset-research-spy-group-exploits-wps-office-zero-day-analysis-uncovers-a-second-vulnerability/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
