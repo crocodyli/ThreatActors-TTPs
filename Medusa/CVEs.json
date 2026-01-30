@@ -1,0 +1,30 @@
+{
+  "group": "Medusa",
+  "cves": [
+    {
+      "id": "CVE-2023-4966",
+      "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2023-34362",
+      "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2021-34527",
+      "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2021-35211",
+      "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2019-11510",
+      "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
