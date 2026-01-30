@@ -1,0 +1,10 @@
+{
+  "group": "LAPSUS$",
+  "cves": [
+    {
+      "id": "CVE-2019-3610",
+      "source": "MITRE ATT&CK",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}

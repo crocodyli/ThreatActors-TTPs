@@ -1,0 +1,15 @@
+{
+  "group": "APT38",
+  "cves": [
+    {
+      "id": "CVE-2024-55591",
+      "source": "MITRE ATT&CK",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2017-8625",
+      "source": "MITRE ATT&CK",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}

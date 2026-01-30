@@ -1,0 +1,5 @@
+| T1003.001 | LSASS Memory | MITRE ATT&CK | 2026-01-30 |
+| T1557.002 | ARP Cache Poisoning | MITRE ATT&CK | 2026-01-30 |
+| T1588.002 | Tool | MITRE ATT&CK | 2026-01-30 |
+| T1587.001 | Malware | MITRE ATT&CK | 2026-01-30 |
+| T1585.001 | Social Media Accounts | MITRE ATT&CK | 2026-01-30 |

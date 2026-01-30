@@ -1,0 +1,25 @@
+{
+  "group": "Fox Kitten",
+  "cves": [
+    {
+      "id": "CVE-2014-7169",
+      "source": "MITRE ATT&CK",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2019-3610",
+      "source": "MITRE ATT&CK",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2016-6662",
+      "source": "MITRE ATT&CK",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2017-0176",
+      "source": "MITRE ATT&CK",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}

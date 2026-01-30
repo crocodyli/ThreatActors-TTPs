@@ -1,0 +1,1 @@
+| T1584.004 | Server | MITRE ATT&CK | 2026-01-30 |

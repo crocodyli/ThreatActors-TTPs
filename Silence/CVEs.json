@@ -1,0 +1,10 @@
+{
+  "group": "Silence",
+  "cves": [
+    {
+      "id": "CVE-2017-8625",
+      "source": "MITRE ATT&CK",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
