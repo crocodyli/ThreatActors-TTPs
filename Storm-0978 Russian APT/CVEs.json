@@ -1,0 +1,10 @@
+{
+  "group": "Storm-0978 (Russian APT)",
+  "cves": [
+    {
+      "id": "CVE-2023-36884",
+      "source": "https://unit42.paloaltonetworks.com/new-cve-2023-36584-discovered-in-attack-chain-used-by-russian-apt/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
