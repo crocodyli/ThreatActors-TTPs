@@ -1,0 +1,10 @@
+{
+  "group": "Grayling APT",
+  "cves": [
+    {
+      "id": "CVE-2019-0803",
+      "source": "https://social.cyware.com/news/a-new-threat-on-the-horizon-the-grayling-apt-group-202a589d",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
