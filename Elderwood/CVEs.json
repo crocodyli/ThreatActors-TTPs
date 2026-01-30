@@ -1,0 +1,10 @@
+{
+  "group": "Elderwood APT",
+  "cves": [
+    {
+      "id": "CVE-2012-0779",
+      "source": "https://arxiv.org/html/2502.08830v1",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
