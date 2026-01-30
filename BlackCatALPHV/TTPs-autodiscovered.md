@@ -16,3 +16,9 @@
 | T1105 | Ingress Tool Transfer | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q3-2022/ | 2026-01-26 |
 | T1074 | Data Staged | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q3-2022/ | 2026-01-26 |
 | T1486 | Data Encrypted for Impact | https://attackevals.mitre-engenuity.org/ | 2026-01-30 |
+| T1190 | Exploit Public-Facing Application | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q1-2023/ | 2026-01-30 |
+| T1592 | Gather Victim Host Information | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q1-2023/ | 2026-01-30 |
+| T1505.003 | Web Shell | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q1-2023/ | 2026-01-30 |
+| T1046 | Network Service Discovery | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q1-2023/ | 2026-01-30 |
+| T1567 | Exfiltration Over Web Service | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q1-2023/ | 2026-01-30 |
+| T1560.001 | Archive via Utility | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q1-2023/ | 2026-01-30 |
