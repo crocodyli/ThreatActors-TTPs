@@ -1,0 +1,10 @@
+{
+  "group": "APT29",
+  "cves": [
+    {
+      "id": "CVE-2023-38831",
+      "source": "https://socradar.io/apt-profile-cozy-bear-apt29/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
