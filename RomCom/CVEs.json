@@ -1,0 +1,10 @@
+{
+  "group": "RomCom",
+  "cves": [
+    {
+      "id": "CVE-2024-9680",
+      "source": "https://www.eset.com/us/about/newsroom/press-releases/eset-research-discovers-mozilla-and-windows-zero-day-zero-click-vulnerabilities-exploited-by-russia-aligned-romcom-apt-group-2/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
