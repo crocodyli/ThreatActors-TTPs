@@ -1,0 +1,10 @@
+{
+  "group": "APT3, APT18",
+  "cves": [
+    {
+      "id": "CVE-2015-5119",
+      "source": "https://fireeye.com/blog/threat-research/2015/07/demonstrating_hustle.html",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
