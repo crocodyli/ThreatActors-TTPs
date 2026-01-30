@@ -44,3 +44,4 @@
 | T1657 | Financial Theft | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
 | T1011 | Exfiltration Over Other Network Medium | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-29 |
 | T1133 | External Remote Services | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-30 |
+| T1571 | Non-Standard Port | https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a | 2026-01-30 |
