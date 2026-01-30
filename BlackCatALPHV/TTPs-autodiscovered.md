@@ -22,3 +22,5 @@
 | T1046 | Network Service Discovery | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q1-2023/ | 2026-01-30 |
 | T1567 | Exfiltration Over Web Service | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q1-2023/ | 2026-01-30 |
 | T1560.001 | Archive via Utility | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q1-2023/ | 2026-01-30 |
+| T1566 | Phishing | https://arcticwolf.com/ransomware-explained-understanding-the-ransomware-ecosystem/ | 2026-01-30 |
+| T1204.002 | Malicious File | https://arcticwolf.com/ransomware-explained-understanding-the-ransomware-ecosystem/ | 2026-01-30 |
