@@ -1,0 +1,15 @@
+{
+  "group": "BlackFL",
+  "cves": [
+    {
+      "id": "CVE-2017-11882",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-18-july-2025/",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2025-40593",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-18-july-2025/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
