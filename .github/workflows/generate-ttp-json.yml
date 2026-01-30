@@ -1,9 +1,9 @@
 name: Generate TTP JSON from Markdown
 
 on:
-  push:
-    paths:
-      - '**.md'
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
   workflow_dispatch:
 
 jobs:
