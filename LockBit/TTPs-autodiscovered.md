@@ -40,3 +40,5 @@
 | Multiple MITRE ATT&CK | RaaS Techniques | https://www.sophos.com/en-us/press/press-releases/2024/12/sophos-xdr-excels-mitre-attckr-evaluations-enterprise | 2026-01-26 |
 | Multiple | Double Extortion, Data Exfiltration | https://www.sentinelone.com/resources/webinars/detecting-drpk-ransomware-2024-mitre-attck-evaluations-enterprise/ | 2026-01-26 |
 | T1566 | Phishing | https://arcticwolf.com/ransomware-explained-understanding-the-ransomware-ecosystem/ | 2026-01-29 |
+| T1570 | Lateral Tool Transfer | https://arcticwolf.com/resources/blog/the-top-10-ransomware-ttps/ | 2026-01-30 |
+| T1560 | Archive Collected Data | https://arcticwolf.com/resources/blog/the-top-10-ransomware-ttps/ | 2026-01-30 |
