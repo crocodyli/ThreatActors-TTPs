@@ -51,9 +51,10 @@
     "T1202",
     "T1204",
     "T1218.003",
-    "T1219"
+    "T1219",
+    "T1486"
   ],
-  "techniqueCount": 51,
+  "techniqueCount": 52,
   "cveCount": 0,
   "metadata": {
     "description": "| Initial Access                          | ID    | Use                                                                                                                                                 ",
@@ -139,7 +140,8 @@
         "name": "TTPs-autodiscovered.md",
         "techniques": [
           "T1068",
-          "T1204"
+          "T1204",
+          "T1486"
         ]
       }
     ]
