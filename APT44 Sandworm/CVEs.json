@@ -1,0 +1,10 @@
+{
+  "group": "APT44 (Sandworm)",
+  "cves": [
+    {
+      "id": "CVE-2025-8088",
+      "source": "https://www.helpnetsecurity.com/2026/01/28/winrar-vulnerability-exploited-cve-2025-8088/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
