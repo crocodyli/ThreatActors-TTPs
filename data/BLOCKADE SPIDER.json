@@ -1,0 +1,21 @@
+{
+  "name": "BLOCKADE SPIDER",
+  "techniques": [
+    "T1078"
+  ],
+  "techniqueCount": 1,
+  "cveCount": 0,
+  "metadata": {
+    "description": "---",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": [
+          "T1078"
+        ]
+      }
+    ]
+  }
+}

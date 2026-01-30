@@ -33,9 +33,10 @@
     "T1547.001",
     "T1555.003",
     "T1562.001",
+    "T1566",
     "T1567"
   ],
-  "techniqueCount": 33,
+  "techniqueCount": 34,
   "cveCount": 1,
   "metadata": {
     "description": "---",
@@ -46,7 +47,9 @@
     "files": [
       {
         "name": "TTPs-autodiscovered.md",
-        "techniques": []
+        "techniques": [
+          "T1566"
+        ]
       },
       {
         "name": "readme.md",

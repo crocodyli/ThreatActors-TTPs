@@ -1,0 +1,21 @@
+{
+  "name": "Red Piranha Tracked Groups",
+  "techniques": [
+    "T1486"
+  ],
+  "techniqueCount": 1,
+  "cveCount": 0,
+  "metadata": {
+    "description": "---",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-autodiscovered.md",
+        "techniques": [
+          "T1486"
+        ]
+      }
+    ]
+  }
+}

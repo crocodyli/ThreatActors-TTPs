@@ -1,7 +1,7 @@
 {
-  "generated": "2026-01-30T03:54:11.980Z",
-  "actorCount": 81,
-  "totalTechniques": 325,
+  "generated": "2026-01-30T04:36:06.010Z",
+  "actorCount": 83,
+  "totalTechniques": 328,
   "actors": [
     {
       "name": "0mega",
@@ -256,6 +256,14 @@
         "T1190",
         "T1211",
         "T1219"
+      ]
+    },
+    {
+      "name": "BLOCKADE SPIDER",
+      "techniqueCount": 1,
+      "cveCount": 0,
+      "techniques": [
+        "T1078"
       ]
     },
     {
@@ -598,20 +606,26 @@
     },
     {
       "name": "BlackCatALPHV",
-      "techniqueCount": 11,
+      "techniqueCount": 17,
       "cveCount": 0,
       "techniques": [
         "T1003",
         "T1021.001",
         "T1027",
+        "T1046",
         "T1059.001",
         "T1068",
         "T1074",
         "T1078",
         "T1105",
         "T1136",
+        "T1190",
         "T1219",
-        "T1486"
+        "T1486",
+        "T1505.003",
+        "T1560.001",
+        "T1567",
+        "T1592"
       ]
     },
     {
@@ -1244,7 +1258,7 @@
     },
     {
       "name": "Hive",
-      "techniqueCount": 22,
+      "techniqueCount": 35,
       "cveCount": 0,
       "techniques": [
         "T1001",
@@ -1266,9 +1280,22 @@
         "T1204",
         "T1219",
         "T1222",
+        "T1482",
         "T1486",
+        "T1490",
+        "T1543.003",
+        "T1548.002",
         "T1550",
-        "T1558.003"
+        "T1558.003",
+        "T1566.002",
+        "T1567.002",
+        "T1570",
+        "T1573.001",
+        "T1583.001",
+        "T1588",
+        "T1588.001",
+        "T1588.002",
+        "T1608.004"
       ]
     },
     {
@@ -1473,7 +1500,7 @@
     },
     {
       "name": "Interlock",
-      "techniqueCount": 38,
+      "techniqueCount": 39,
       "cveCount": 0,
       "techniques": [
         "T0011",
@@ -1513,6 +1540,7 @@
         "T1558.003",
         "T1567",
         "T1567.002",
+        "T1571",
         "T1657"
       ]
     },
@@ -2150,6 +2178,14 @@
       ]
     },
     {
+      "name": "Red Piranha Tracked Groups",
+      "techniqueCount": 1,
+      "cveCount": 0,
+      "techniques": [
+        "T1486"
+      ]
+    },
+    {
       "name": "Repellent Scorpius Cicada3301",
       "techniqueCount": 2,
       "cveCount": 0,
@@ -2646,7 +2682,7 @@
     },
     {
       "name": "Trigona",
-      "techniqueCount": 8,
+      "techniqueCount": 13,
       "cveCount": 0,
       "techniques": [
         "T1033",
@@ -2656,7 +2692,12 @@
         "T1135",
         "T1140",
         "T1190",
-        "T1218.005"
+        "T1218.005",
+        "T1485",
+        "T1486",
+        "T1497.003",
+        "T1529",
+        "T1547.001"
       ]
     },
     {
@@ -2711,7 +2752,7 @@
     },
     {
       "name": "Vice Society",
-      "techniqueCount": 33,
+      "techniqueCount": 34,
       "cveCount": 1,
       "techniques": [
         "T1003.003",
@@ -2746,6 +2787,7 @@
         "T1547.001",
         "T1555.003",
         "T1562.001",
+        "T1566",
         "T1567"
       ]
     },
