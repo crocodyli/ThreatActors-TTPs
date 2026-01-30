@@ -1,0 +1,10 @@
+{
+  "group": "APT28",
+  "cves": [
+    {
+      "id": "CVE-2017-6742",
+      "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-108",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
