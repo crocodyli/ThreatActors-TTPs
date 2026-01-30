@@ -1,0 +1,33 @@
+{
+  "name": "POLONIUM",
+  "techniques": [
+    "T1078",
+    "T1090",
+    "T1102.002",
+    "T1199",
+    "T1567.002",
+    "T1583.006",
+    "T1588.002"
+  ],
+  "techniqueCount": 7,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1078",
+          "T1090",
+          "T1102.002",
+          "T1199",
+          "T1567.002",
+          "T1583.006",
+          "T1588.002"
+        ]
+      }
+    ]
+  }
+}

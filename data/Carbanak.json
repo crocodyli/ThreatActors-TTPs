@@ -1,0 +1,37 @@
+{
+  "name": "Carbanak",
+  "techniques": [
+    "T1036.004",
+    "T1036.005",
+    "T1078",
+    "T1102.002",
+    "T1218.011",
+    "T1219",
+    "T1543.003",
+    "T1562.004",
+    "T1588.002"
+  ],
+  "techniqueCount": 9,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1036.004",
+          "T1036.005",
+          "T1078",
+          "T1102.002",
+          "T1218.011",
+          "T1219",
+          "T1543.003",
+          "T1562.004",
+          "T1588.002"
+        ]
+      }
+    ]
+  }
+}

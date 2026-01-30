@@ -22,7 +22,7 @@
   "techniqueCount": 17,
   "cveCount": 0,
   "metadata": {
-    "description": "A new ransomware variant has been identified, named DORRA. It is worth mentioning in advance that this variant is derived from the Makop ransomware family.",
+    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
     "aliases": [],
     "cves": [],
     "files": [

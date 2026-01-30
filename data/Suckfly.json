@@ -1,0 +1,29 @@
+{
+  "name": "Suckfly",
+  "techniques": [
+    "T1003",
+    "T1046",
+    "T1059.003",
+    "T1078",
+    "T1553.002"
+  ],
+  "techniqueCount": 5,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1003",
+          "T1046",
+          "T1059.003",
+          "T1078",
+          "T1553.002"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Putter Panda",
+  "techniques": [
+    "T1027.013",
+    "T1055.001",
+    "T1547.001",
+    "T1562.001"
+  ],
+  "techniqueCount": 4,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1027.013",
+          "T1055.001",
+          "T1547.001",
+          "T1562.001"
+        ]
+      }
+    ]
+  }
+}

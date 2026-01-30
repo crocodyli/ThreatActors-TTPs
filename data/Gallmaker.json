@@ -1,0 +1,31 @@
+{
+  "name": "Gallmaker",
+  "techniques": [
+    "T1027",
+    "T1059.001",
+    "T1204.002",
+    "T1559.002",
+    "T1560.001",
+    "T1566.001"
+  ],
+  "techniqueCount": 6,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1027",
+          "T1059.001",
+          "T1204.002",
+          "T1559.002",
+          "T1560.001",
+          "T1566.001"
+        ]
+      }
+    ]
+  }
+}

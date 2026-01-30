@@ -1,0 +1,33 @@
+{
+  "name": "IndigoZebra",
+  "techniques": [
+    "T1105",
+    "T1204.002",
+    "T1566.001",
+    "T1583.001",
+    "T1583.006",
+    "T1586.002",
+    "T1588.002"
+  ],
+  "techniqueCount": 7,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1105",
+          "T1204.002",
+          "T1566.001",
+          "T1583.001",
+          "T1583.006",
+          "T1586.002",
+          "T1588.002"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Thrip",
+  "techniques": [
+    "T1048.003",
+    "T1059.001",
+    "T1219.002",
+    "T1588.002"
+  ],
+  "techniqueCount": 4,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1048.003",
+          "T1059.001",
+          "T1219.002",
+          "T1588.002"
+        ]
+      }
+    ]
+  }
+}

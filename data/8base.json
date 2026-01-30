@@ -38,7 +38,7 @@
   "techniqueCount": 33,
   "cveCount": 0,
   "metadata": {
-    "description": "The **8Base ransomware group** emerged in **March 2022**, operating quietly before rapidly expanding its activity in **2023**. Like many ransomware actors, 8Base adopted a **double extortion model**, ",
+    "description": "| **TACTIC** | **TECHNIQUE** | **DETAILS** |",
     "aliases": [],
     "cves": [],
     "files": [

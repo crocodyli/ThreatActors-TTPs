@@ -1,0 +1,27 @@
+{
+  "name": "SilverTerrier",
+  "techniques": [
+    "T1071.001",
+    "T1071.002",
+    "T1071.003",
+    "T1657"
+  ],
+  "techniqueCount": 4,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1071.001",
+          "T1071.002",
+          "T1071.003",
+          "T1657"
+        ]
+      }
+    ]
+  }
+}

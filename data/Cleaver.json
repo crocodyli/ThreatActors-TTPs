@@ -1,0 +1,29 @@
+{
+  "name": "Cleaver",
+  "techniques": [
+    "T1003.001",
+    "T1557.002",
+    "T1585.001",
+    "T1587.001",
+    "T1588.002"
+  ],
+  "techniqueCount": 5,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1003.001",
+          "T1557.002",
+          "T1585.001",
+          "T1587.001",
+          "T1588.002"
+        ]
+      }
+    ]
+  }
+}

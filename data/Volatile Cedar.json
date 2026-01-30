@@ -1,0 +1,29 @@
+{
+  "name": "Volatile Cedar",
+  "techniques": [
+    "T1105",
+    "T1190",
+    "T1505.003",
+    "T1595.002",
+    "T1595.003"
+  ],
+  "techniqueCount": 5,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1105",
+          "T1190",
+          "T1505.003",
+          "T1595.002",
+          "T1595.003"
+        ]
+      }
+    ]
+  }
+}

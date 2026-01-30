@@ -1,0 +1,23 @@
+{
+  "name": "Orangeworm",
+  "techniques": [
+    "T1021.002",
+    "T1071.001"
+  ],
+  "techniqueCount": 2,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1021.002",
+          "T1071.001"
+        ]
+      }
+    ]
+  }
+}

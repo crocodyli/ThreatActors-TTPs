@@ -1,0 +1,35 @@
+{
+  "name": "MoustachedBouncer",
+  "techniques": [
+    "T1027.002",
+    "T1059.001",
+    "T1059.007",
+    "T1068",
+    "T1074.002",
+    "T1090",
+    "T1113",
+    "T1659"
+  ],
+  "techniqueCount": 8,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1027.002",
+          "T1059.001",
+          "T1059.007",
+          "T1068",
+          "T1074.002",
+          "T1090",
+          "T1113",
+          "T1659"
+        ]
+      }
+    ]
+  }
+}

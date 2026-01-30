@@ -1,0 +1,39 @@
+{
+  "name": "Deep Panda",
+  "techniques": [
+    "T1018",
+    "T1021.002",
+    "T1027.005",
+    "T1047",
+    "T1057",
+    "T1059.001",
+    "T1218.010",
+    "T1505.003",
+    "T1546.008",
+    "T1564.003"
+  ],
+  "techniqueCount": 10,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1018",
+          "T1021.002",
+          "T1027.005",
+          "T1047",
+          "T1057",
+          "T1059.001",
+          "T1218.010",
+          "T1505.003",
+          "T1546.008",
+          "T1564.003"
+        ]
+      }
+    ]
+  }
+}

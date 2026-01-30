@@ -24,7 +24,7 @@
   "techniqueCount": 19,
   "cveCount": 0,
   "metadata": {
-    "description": "Hunt ransomware is a variant of the Dharma/CrySIS ransomware family. This variant creates a unique ID for each victim, appends the extension '.hunt' to encrypted files, and leaves a ransom note known ",
+    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
     "aliases": [],
     "cves": [],
     "files": [

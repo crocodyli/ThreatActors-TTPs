@@ -1,0 +1,37 @@
+{
+  "name": "Elderwood",
+  "techniques": [
+    "T1027.002",
+    "T1027.013",
+    "T1105",
+    "T1189",
+    "T1203",
+    "T1204.001",
+    "T1204.002",
+    "T1566.001",
+    "T1566.002"
+  ],
+  "techniqueCount": 9,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1027.002",
+          "T1027.013",
+          "T1105",
+          "T1189",
+          "T1203",
+          "T1204.001",
+          "T1204.002",
+          "T1566.001",
+          "T1566.002"
+        ]
+      }
+    ]
+  }
+}

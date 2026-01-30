@@ -1,0 +1,29 @@
+{
+  "name": "RedEcho",
+  "techniques": [
+    "T1071.001",
+    "T1568",
+    "T1571",
+    "T1573.002",
+    "T1583.001"
+  ],
+  "techniqueCount": 5,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1071.001",
+          "T1568",
+          "T1571",
+          "T1573.002",
+          "T1583.001"
+        ]
+      }
+    ]
+  }
+}

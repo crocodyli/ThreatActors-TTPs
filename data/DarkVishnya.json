@@ -1,0 +1,39 @@
+{
+  "name": "DarkVishnya",
+  "techniques": [
+    "T1040",
+    "T1046",
+    "T1059.001",
+    "T1110",
+    "T1135",
+    "T1200",
+    "T1219",
+    "T1543.003",
+    "T1571",
+    "T1588.002"
+  ],
+  "techniqueCount": 10,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1040",
+          "T1046",
+          "T1059.001",
+          "T1110",
+          "T1135",
+          "T1200",
+          "T1219",
+          "T1543.003",
+          "T1571",
+          "T1588.002"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "APT30",
+  "techniques": [
+    "T1204.002",
+    "T1566.001"
+  ],
+  "techniqueCount": 2,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1204.002",
+          "T1566.001"
+        ]
+      }
+    ]
+  }
+}

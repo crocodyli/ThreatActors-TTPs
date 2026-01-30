@@ -39,7 +39,7 @@
   "techniqueCount": 34,
   "cveCount": 1,
   "metadata": {
-    "description": "---",
+    "description": "| Technique | Name | Source | Date |",
     "aliases": [],
     "cves": [
       "CVE-2021-34527"

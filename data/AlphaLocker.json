@@ -10,7 +10,7 @@
   "techniqueCount": 5,
   "cveCount": 0,
   "metadata": {
-    "description": "The **AlphaLocker** ransomware group emerged around **mid-2023**, quickly evolving in its tactics and adopting the **Ransomware as a Service (RaaS)** model. Below is a concise overview of its developm",
+    "description": "| **TACTIC** | **TECHNIQUE (ID)** | **DETAILS** |",
     "aliases": [],
     "cves": [],
     "files": [

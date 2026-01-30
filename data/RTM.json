@@ -1,0 +1,33 @@
+{
+  "name": "RTM",
+  "techniques": [
+    "T1102.001",
+    "T1189",
+    "T1204.002",
+    "T1219.002",
+    "T1547.001",
+    "T1566.001",
+    "T1574.001"
+  ],
+  "techniqueCount": 7,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1102.001",
+          "T1189",
+          "T1204.002",
+          "T1219.002",
+          "T1547.001",
+          "T1566.001",
+          "T1574.001"
+        ]
+      }
+    ]
+  }
+}

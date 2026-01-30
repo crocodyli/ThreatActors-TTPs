@@ -1,0 +1,27 @@
+{
+  "name": "Threat Group-1314",
+  "techniques": [
+    "T1021.002",
+    "T1059.003",
+    "T1072",
+    "T1078.002"
+  ],
+  "techniqueCount": 4,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1021.002",
+          "T1059.003",
+          "T1072",
+          "T1078.002"
+        ]
+      }
+    ]
+  }
+}

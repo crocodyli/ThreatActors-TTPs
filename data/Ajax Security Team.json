@@ -1,0 +1,31 @@
+{
+  "name": "Ajax Security Team",
+  "techniques": [
+    "T1056.001",
+    "T1105",
+    "T1204.002",
+    "T1555.003",
+    "T1566.001",
+    "T1566.003"
+  ],
+  "techniqueCount": 6,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1056.001",
+          "T1105",
+          "T1204.002",
+          "T1555.003",
+          "T1566.001",
+          "T1566.003"
+        ]
+      }
+    ]
+  }
+}

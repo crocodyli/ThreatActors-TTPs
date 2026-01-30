@@ -1,0 +1,23 @@
+{
+  "name": "GCMAN",
+  "techniques": [
+    "T1021.004",
+    "T1021.005"
+  ],
+  "techniqueCount": 2,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1021.004",
+          "T1021.005"
+        ]
+      }
+    ]
+  }
+}

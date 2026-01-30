@@ -1,0 +1,23 @@
+{
+  "name": "APT17",
+  "techniques": [
+    "T1583.006",
+    "T1585"
+  ],
+  "techniqueCount": 2,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1583.006",
+          "T1585"
+        ]
+      }
+    ]
+  }
+}

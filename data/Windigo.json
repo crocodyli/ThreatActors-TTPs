@@ -1,0 +1,33 @@
+{
+  "name": "Windigo",
+  "techniques": [
+    "T1005",
+    "T1059",
+    "T1082",
+    "T1083",
+    "T1090",
+    "T1189",
+    "T1518"
+  ],
+  "techniqueCount": 7,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1005",
+          "T1059",
+          "T1082",
+          "T1083",
+          "T1090",
+          "T1189",
+          "T1518"
+        ]
+      }
+    ]
+  }
+}

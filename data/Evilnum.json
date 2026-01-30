@@ -1,0 +1,41 @@
+{
+  "name": "Evilnum",
+  "techniques": [
+    "T1059.007",
+    "T1070.004",
+    "T1105",
+    "T1204.001",
+    "T1219.002",
+    "T1497.001",
+    "T1539",
+    "T1548.002",
+    "T1555",
+    "T1566.002",
+    "T1574.001"
+  ],
+  "techniqueCount": 11,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1059.007",
+          "T1070.004",
+          "T1105",
+          "T1204.001",
+          "T1219.002",
+          "T1497.001",
+          "T1539",
+          "T1548.002",
+          "T1555",
+          "T1566.002",
+          "T1574.001"
+        ]
+      }
+    ]
+  }
+}

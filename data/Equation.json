@@ -1,0 +1,27 @@
+{
+  "name": "Equation",
+  "techniques": [
+    "T1120",
+    "T1480.001",
+    "T1542.002",
+    "T1564.005"
+  ],
+  "techniqueCount": 4,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1120",
+          "T1480.001",
+          "T1542.002",
+          "T1564.005"
+        ]
+      }
+    ]
+  }
+}

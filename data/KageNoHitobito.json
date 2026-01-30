@@ -24,7 +24,7 @@
   "techniqueCount": 19,
   "cveCount": 0,
   "metadata": {
-    "description": "Some samples of a ransomware variant known as KageNoHitobito were identified in mid-March 2024. Like other types of ransomware, this variant encrypts data on victims' machines and demands a ransom to ",
+    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
     "aliases": [],
     "cves": [],
     "files": [

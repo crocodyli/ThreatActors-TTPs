@@ -6,7 +6,7 @@
   "techniqueCount": 1,
   "cveCount": 0,
   "metadata": {
-    "description": "A new variant emerged in mid-May 2024 and continues to operate, harming various organizations over the months. This variant is named \"Fsociety-Flocker\" and hosts its \"data leak site\" (DLS) on the onio",
+    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
     "aliases": [],
     "cves": [],
     "files": [

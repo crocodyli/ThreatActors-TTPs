@@ -1,0 +1,37 @@
+{
+  "name": "GOLD SOUTHFIELD",
+  "techniques": [
+    "T1027.010",
+    "T1059.001",
+    "T1113",
+    "T1133",
+    "T1190",
+    "T1195.002",
+    "T1199",
+    "T1219",
+    "T1566"
+  ],
+  "techniqueCount": 9,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1027.010",
+          "T1059.001",
+          "T1113",
+          "T1133",
+          "T1190",
+          "T1195.002",
+          "T1199",
+          "T1219",
+          "T1566"
+        ]
+      }
+    ]
+  }
+}

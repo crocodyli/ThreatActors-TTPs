@@ -1,0 +1,27 @@
+{
+  "name": "TA578",
+  "techniques": [
+    "T1059.007",
+    "T1204.001",
+    "T1583.006",
+    "T1594"
+  ],
+  "techniqueCount": 4,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1059.007",
+          "T1204.001",
+          "T1583.006",
+          "T1594"
+        ]
+      }
+    ]
+  }
+}

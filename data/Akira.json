@@ -11,8 +11,10 @@
     "T1021.001",
     "T1021.004",
     "T1027",
+    "T1027.001",
     "T1027.015",
     "T1036",
+    "T1036.005",
     "T1046",
     "T1047",
     "T1048",
@@ -45,6 +47,7 @@
     "T1136.001",
     "T1136.002",
     "T1190",
+    "T1213.002",
     "T1218",
     "T1219",
     "T1222",
@@ -53,6 +56,7 @@
     "T1486",
     "T1489",
     "T1490",
+    "T1531",
     "T1537",
     "T1548.002",
     "T1550",
@@ -60,6 +64,7 @@
     "T1555",
     "T1555.003",
     "T1555.004",
+    "T1558",
     "T1558.003",
     "T1560",
     "T1560.001",
@@ -80,15 +85,13 @@
     "T1573.002",
     "T1657"
   ],
-  "techniqueCount": 78,
-  "cveCount": 9,
+  "techniqueCount": 83,
+  "cveCount": 7,
   "metadata": {
-    "description": "The table below consolidates and groups all **Tactics, Techniques, and Procedures (TTPs)** observed in **Akira ransomware operations** from its emergence in 2023 through 2025.",
+    "description": "| Technique | Name | Source | Date |",
     "aliases": [],
     "cves": [
-      "CVE-2019-6693",
       "CVE-2020-3259",
-      "CVE-2022-40684",
       "CVE-2023-20269",
       "CVE-2024-40766",
       "CVE-2025-20333",
@@ -195,6 +198,16 @@
           "T1573",
           "T1573.002",
           "T1657"
+        ]
+      },
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1027.001",
+          "T1036.005",
+          "T1213.002",
+          "T1531",
+          "T1558"
         ]
       },
       {

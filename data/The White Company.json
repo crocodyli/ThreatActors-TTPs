@@ -1,0 +1,33 @@
+{
+  "name": "The White Company",
+  "techniques": [
+    "T1027.002",
+    "T1070.004",
+    "T1124",
+    "T1203",
+    "T1204.002",
+    "T1518.001",
+    "T1566.001"
+  ],
+  "techniqueCount": 7,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1027.002",
+          "T1070.004",
+          "T1124",
+          "T1203",
+          "T1204.002",
+          "T1518.001",
+          "T1566.001"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "AppleJeus",
+  "techniques": [
+    "T1566",
+    "T1657"
+  ],
+  "techniqueCount": 2,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1566",
+          "T1657"
+        ]
+      }
+    ]
+  }
+}

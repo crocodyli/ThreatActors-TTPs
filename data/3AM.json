@@ -16,7 +16,7 @@
   "techniqueCount": 11,
   "cveCount": 0,
   "metadata": {
-    "description": "A new Ransomware family identified by the name \"3AM\" or \"ThreeAM\" in September 2023. The ransomware operation was observed by the Symantec team, in which a ransomware affiliate attempted to deploy ano",
+    "description": "|              Tactic             |                               Technique                              |                                                                   Details                    ",
     "aliases": [],
     "cves": [],
     "files": [

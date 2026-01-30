@@ -1,0 +1,25 @@
+{
+  "name": "Water Galura",
+  "techniques": [
+    "T1486",
+    "T1585.001",
+    "T1657"
+  ],
+  "techniqueCount": 3,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1486",
+          "T1585.001",
+          "T1657"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "DarkHydrus",
+  "techniques": [
+    "T1059.001",
+    "T1187",
+    "T1204.002",
+    "T1221",
+    "T1564.003",
+    "T1566.001",
+    "T1588.002"
+  ],
+  "techniqueCount": 7,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1059.001",
+          "T1187",
+          "T1204.002",
+          "T1221",
+          "T1564.003",
+          "T1566.001",
+          "T1588.002"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Winnti Group",
+  "techniques": [
+    "T1014",
+    "T1057",
+    "T1083",
+    "T1105",
+    "T1553.002",
+    "T1583.001"
+  ],
+  "techniqueCount": 6,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1014",
+          "T1057",
+          "T1083",
+          "T1105",
+          "T1553.002",
+          "T1583.001"
+        ]
+      }
+    ]
+  }
+}

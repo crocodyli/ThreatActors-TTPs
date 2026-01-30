@@ -1,0 +1,25 @@
+{
+  "name": "Strider",
+  "techniques": [
+    "T1090.001",
+    "T1556.002",
+    "T1564.005"
+  ],
+  "techniqueCount": 3,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1090.001",
+          "T1556.002",
+          "T1564.005"
+        ]
+      }
+    ]
+  }
+}

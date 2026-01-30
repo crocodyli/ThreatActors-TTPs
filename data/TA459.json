@@ -1,0 +1,29 @@
+{
+  "name": "TA459",
+  "techniques": [
+    "T1059.001",
+    "T1059.005",
+    "T1203",
+    "T1204.002",
+    "T1566.001"
+  ],
+  "techniqueCount": 5,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1059.001",
+          "T1059.005",
+          "T1203",
+          "T1204.002",
+          "T1566.001"
+        ]
+      }
+    ]
+  }
+}

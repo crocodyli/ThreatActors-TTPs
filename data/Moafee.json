@@ -1,0 +1,21 @@
+{
+  "name": "Moafee",
+  "techniques": [
+    "T1027.001"
+  ],
+  "techniqueCount": 1,
+  "cveCount": 0,
+  "metadata": {
+    "description": "| Technique | Name | Source | Date |",
+    "aliases": [],
+    "cves": [],
+    "files": [
+      {
+        "name": "TTPs-mitre.md",
+        "techniques": [
+          "T1027.001"
+        ]
+      }
+    ]
+  }
+}

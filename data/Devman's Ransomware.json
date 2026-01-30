@@ -23,7 +23,7 @@
   "techniqueCount": 18,
   "cveCount": 0,
   "metadata": {
-    "description": "DEVMAN is a RaaS (Ransomware-as-a-Service) group that is believed to have emerged in April 2025. The group claimed to be working with other RaaS actors such as Qilin and Apos, and also mentioned Drago",
+    "description": "| Tactic \t| Tactic \t| Technique (ID - Name) \t| Details \t|",
     "aliases": [],
     "cves": [],
     "files": [
