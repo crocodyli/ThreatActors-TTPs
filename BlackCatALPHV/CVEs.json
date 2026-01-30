@@ -1,0 +1,10 @@
+{
+  "group": "BlackCat/ALPHV",
+  "cves": [
+    {
+      "id": "CVE-2021-24867",
+      "source": "https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q1-2023/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
