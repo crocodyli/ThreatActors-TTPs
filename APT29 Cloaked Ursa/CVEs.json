@@ -1,0 +1,10 @@
+{
+  "group": "APT29 (Cloaked Ursa)",
+  "cves": [
+    {
+      "id": "CVE-2023-42793",
+      "source": "https://www.fortinet.com/blog/threat-research/teamcity-intrusion-saga-apt29-suspected-exploiting-cve-2023-42793",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
