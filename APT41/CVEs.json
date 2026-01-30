@@ -4,7 +4,20 @@
     {
       "id": "CVE-2020-10189",
       "source": "https://www.infosecurity-magazine.com/news/apt41-exploited-cisco-citrix-and/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Zoho",
+      "product": "ManageEngine",
+      "vulnerabilityName": "Zoho ManageEngine Desktop Central File Upload Vulnerability",
+      "shortDescription": "Zoho ManageEngine Desktop Central contains a file upload vulnerability that allows for unauthenticated remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2020-10189",
+      "cwes": [
+        "CWE-502"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

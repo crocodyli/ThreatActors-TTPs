@@ -4,27 +4,92 @@
     {
       "id": "CVE-2023-4966",
       "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Citrix",
+      "product": "NetScaler ADC and NetScaler Gateway",
+      "vulnerabilityName": "Citrix NetScaler ADC and NetScaler Gateway Buffer Overflow Vulnerability",
+      "shortDescription": "Citrix NetScaler ADC and NetScaler Gateway contain a buffer overflow vulnerability that allows for sensitive information disclosure when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server.",
+      "dateAdded": "2023-10-18",
+      "dueDate": "2023-11-08",
+      "requiredAction": "Apply mitigations and kill all active and persistent sessions per vendor instructions [https://www.netscaler.com/blog/news/cve-2023-4966-critical-security-update-now-available-for-netscaler-adc-and-netscaler-gateway/] OR discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.netscaler.com/blog/news/cve-2023-4966-critical-security-update-now-available-for-netscaler-adc-and-netscaler-gateway/, https://support.citrix.com/article/CTX579459/netscaler-adc-and-netscaler-gateway-security-bulletin-for-cve20234966-and-cve20234967 ;  https://nvd.nist.gov/vuln/detail/CVE-2023-4966",
+      "cwes": [
+        "CWE-119"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2023-34362",
       "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Progress",
+      "product": "MOVEit Transfer",
+      "vulnerabilityName": "Progress MOVEit Transfer SQL Injection Vulnerability",
+      "shortDescription": "Progress MOVEit Transfer contains a SQL injection vulnerability that could allow an unauthenticated attacker to gain unauthorized access to MOVEit Transfer's database. Depending on the database engine being used (MySQL, Microsoft SQL Server, or Azure SQL), an attacker may be able to infer information about the structure and contents of the database in addition to executing SQL statements that alter or delete database elements.",
+      "dateAdded": "2023-06-02",
+      "dueDate": "2023-06-23",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "This CVE has a CISA AA located here: https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-158a. Please see the AA for associated IOCs. Additional information is available at: https://community.progress.com/s/article/MOVEit-Transfer-Critical-Vulnerability-31May2023.;  https://nvd.nist.gov/vuln/detail/CVE-2023-34362",
+      "cwes": [
+        "CWE-89"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2021-34527",
       "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Print Spooler Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Windows Print Spooler contains an unspecified vulnerability due to the Windows Print Spooler service improperly performing privileged file operations. Successful exploitation allows an attacker to perform remote code execution with SYSTEM privileges. The vulnerability is also known under the moniker of PrintNightmare.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Reference CISA's ED 21-04 (https://www.cisa.gov/news-events/directives/ed-21-04-mitigate-windows-print-spooler-service-vulnerability) for further guidance and requirements. Note: The due date for addressing this vulnerability aligns with the requirements outlined in ED 21-04. https://nvd.nist.gov/vuln/detail/CVE-2021-34527",
+      "cwes": [
+        "CWE-269"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2021-35211",
       "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "SolarWinds",
+      "product": "Serv-U",
+      "vulnerabilityName": "SolarWinds Serv-U Remote Code Execution Vulnerability",
+      "shortDescription": "SolarWinds Serv-U contains an unspecified memory escape vulnerability which can allow for remote code execution.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2021-11-17",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2021-35211",
+      "cwes": [
+        "CWE-787"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2019-11510",
       "source": "https://www.cisa.gov/stopransomware/official-alerts-statements-cisa",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Ivanti",
+      "product": "Pulse Connect Secure",
+      "vulnerabilityName": "Ivanti Pulse Connect Secure Arbitrary File Read Vulnerability",
+      "shortDescription": "Ivanti Pulse Connect Secure contains an arbitrary file read vulnerability that allows an unauthenticated remote attacker with network access via HTTPS to send a specially crafted URI.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Reference CISA's ED 21-03 (https://www.cisa.gov/news-events/directives/ed-21-03-mitigate-pulse-connect-secure-product-vulnerabilities) for further guidance and requirements. Note: The due date for addressing this vulnerability aligns with the requirements outlined in ED 21-03. https://nvd.nist.gov/vuln/detail/CVE-2019-11510",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

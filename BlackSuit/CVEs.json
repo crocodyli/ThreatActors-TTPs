@@ -4,7 +4,20 @@
     {
       "id": "CVE-2023-22527",
       "source": "https://thedfirreport.com/category/ransomware/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Atlassian",
+      "product": "Confluence Data Center and Server",
+      "vulnerabilityName": "Atlassian Confluence Data Center and Server Template Injection Vulnerability",
+      "shortDescription": "Atlassian Confluence Data Center and Server contain an unauthenticated OGNL template injection vulnerability that can lead to remote code execution.",
+      "dateAdded": "2024-01-24",
+      "dueDate": "2024-02-14",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://confluence.atlassian.com/security/cve-2023-22527-rce-remote-code-execution-vulnerability-in-confluence-data-center-and-confluence-server-1333990257.html;  https://nvd.nist.gov/vuln/detail/CVE-2023-22527",
+      "cwes": [
+        "CWE-74"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

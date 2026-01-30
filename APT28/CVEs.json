@@ -4,7 +4,20 @@
     {
       "id": "CVE-2017-6742",
       "source": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-108",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Cisco",
+      "product": "IOS and IOS XE Software",
+      "vulnerabilityName": "Cisco IOS and IOS XE Software SNMP Remote Code Execution Vulnerability",
+      "shortDescription": "The Simple Network Management Protocol (SNMP) subsystem of Cisco IOS and IOS XE contains a vulnerability that could allow an authenticated, remote attacker to remotely execute code on an affected system or cause an affected system to reload.",
+      "dateAdded": "2023-04-19",
+      "dueDate": "2023-05-10",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170629-snmp; https://nvd.nist.gov/vuln/detail/CVE-2017-6742",
+      "cwes": [
+        "CWE-119"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

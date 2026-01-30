@@ -4,7 +4,20 @@
     {
       "id": "CVE-2022-1040",
       "source": "https://www.volexity.com/blog/2022/06/15/driftingcloud-zero-day-sophos-firewall-exploitation-and-an-insidious-breach/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Sophos",
+      "product": "Firewall",
+      "vulnerabilityName": "Sophos Firewall Authentication Bypass Vulnerability",
+      "shortDescription": "An authentication bypass vulnerability in User Portal and Webadmin of Sophos Firewall allows for remote code execution.",
+      "dateAdded": "2022-03-31",
+      "dueDate": "2022-04-21",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2022-1040",
+      "cwes": [
+        "CWE-158"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

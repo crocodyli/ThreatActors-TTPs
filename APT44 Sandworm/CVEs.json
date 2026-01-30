@@ -4,7 +4,20 @@
     {
       "id": "CVE-2025-8088",
       "source": "https://www.helpnetsecurity.com/2026/01/28/winrar-vulnerability-exploited-cve-2025-8088/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "RARLAB",
+      "product": "WinRAR",
+      "vulnerabilityName": "RARLAB WinRAR Path Traversal Vulnerability",
+      "shortDescription": "RARLAB WinRAR contains a path traversal vulnerability affecting the Windows version of WinRAR. This vulnerability could allow an attacker to execute arbitrary code by crafting malicious archive files.",
+      "dateAdded": "2025-08-12",
+      "dueDate": "2025-09-02",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.win-rar.com/singlenewsview.html?&L=0&tx_ttnews%5Btt_news%5D=283&cHash=a64b4a8f662d3639dec8d65f47bc93c5 ; https://nvd.nist.gov/vuln/detail/CVE-2025-8088",
+      "cwes": [
+        "CWE-35"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

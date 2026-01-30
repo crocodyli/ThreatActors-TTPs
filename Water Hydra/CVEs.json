@@ -4,7 +4,20 @@
     {
       "id": "CVE-2024-21412",
       "source": "https://newsroom.trendmicro.com/2024-02-13-Trend-Micro-Discovers-Actively-Exploited-Vulnerability-Affecting-Millions-of-Users-Customers-Already-Protected",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Internet Shortcut Files Security Feature Bypass Vulnerability",
+      "shortDescription": "Microsoft Windows Internet Shortcut Files contains an unspecified vulnerability that allows for a security feature bypass.",
+      "dateAdded": "2024-02-13",
+      "dueDate": "2024-03-05",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2024-21412; https://nvd.nist.gov/vuln/detail/CVE-2024-21412",
+      "cwes": [
+        "CWE-693"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

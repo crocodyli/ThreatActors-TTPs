@@ -4,7 +4,20 @@
     {
       "id": "CVE-2023-42793",
       "source": "https://www.fortinet.com/blog/threat-research/teamcity-intrusion-saga-apt29-suspected-exploiting-cve-2023-42793",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "JetBrains",
+      "product": "TeamCity",
+      "vulnerabilityName": "JetBrains TeamCity Authentication Bypass Vulnerability",
+      "shortDescription": "JetBrains TeamCity contains an authentication bypass vulnerability that allows for remote code execution on TeamCity Server.",
+      "dateAdded": "2023-10-04",
+      "dueDate": "2023-10-25",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://blog.jetbrains.com/teamcity/2023/09/critical-security-issue-affecting-teamcity-on-premises-update-to-2023-05-4-now/ ;  https://nvd.nist.gov/vuln/detail/CVE-2023-42793",
+      "cwes": [
+        "CWE-288"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

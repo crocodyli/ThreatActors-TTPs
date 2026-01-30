@@ -4,7 +4,20 @@
     {
       "id": "CVE-2023-38831",
       "source": "https://socradar.io/apt-profile-cozy-bear-apt29/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "RARLAB",
+      "product": "WinRAR",
+      "vulnerabilityName": "RARLAB WinRAR Code Execution Vulnerability",
+      "shortDescription": "RARLAB WinRAR contains an unspecified vulnerability that allows an attacker to execute code when a user attempts to view a benign file within a ZIP archive.",
+      "dateAdded": "2023-08-24",
+      "dueDate": "2023-09-14",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "http://www.win-rar.com/singlenewsview.html?&L=0&tx_ttnews%5Btt_news%5D=232&cHash=c5bf79590657e32554c6683296a8e8aa;  https://nvd.nist.gov/vuln/detail/CVE-2023-38831",
+      "cwes": [
+        "CWE-351"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

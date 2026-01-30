@@ -4,7 +4,20 @@
     {
       "id": "CVE-2023-23397",
       "source": "https://unit42.paloaltonetworks.com/russian-apt-fighting-ursa-exploits-cve-2023-233397/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "vulnerabilityName": "Microsoft Office Outlook Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft Office Outlook contains a privilege escalation vulnerability that allows for a NTLM Relay attack against another service to authenticate as the user.",
+      "dateAdded": "2023-03-14",
+      "dueDate": "2023-04-04",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-23397, https://msrc.microsoft.com/blog/2023/03/microsoft-mitigates-outlook-elevation-of-privilege-vulnerability/, ;  https://nvd.nist.gov/vuln/detail/CVE-2023-23397",
+      "cwes": [
+        "CWE-294"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

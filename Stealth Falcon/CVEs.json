@@ -4,7 +4,20 @@
     {
       "id": "CVE-2025-33053",
       "source": "https://research.checkpoint.com/2025/stealth-falcon-zero-day/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": " Microsoft Windows External Control of File Name or Path Vulnerability",
+      "shortDescription": "Microsoft Windows contains an external control of file name or path vulnerability that could allow an attacker to execute code from a remote WebDAV location specified by the WorkingDirectory attribute of Internet Shortcut files.",
+      "dateAdded": "2025-06-10",
+      "dueDate": "2025-07-01",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-33053 ; https://nvd.nist.gov/vuln/detail/CVE-2025-33053",
+      "cwes": [
+        "CWE-73"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

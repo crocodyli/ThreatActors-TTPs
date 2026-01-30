@@ -4,7 +4,20 @@
     {
       "id": "CVE-2024-38112",
       "source": "https://www.trendmicro.com/en_us/research/24/g/CVE-2024-38112-void-banshee.html",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows MSHTML Platform Spoofing Vulnerability",
+      "shortDescription": "Microsoft Windows MSHTML Platform contains a spoofing vulnerability that has a high impact to confidentiality, integrity, and availability.",
+      "dateAdded": "2024-07-09",
+      "dueDate": "2024-07-30",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38112; https://nvd.nist.gov/vuln/detail/CVE-2024-38112",
+      "cwes": [
+        "CWE-451"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }
