@@ -1,0 +1,10 @@
+{
+  "group": "UAT-9686",
+  "cves": [
+    {
+      "id": "CVE-2025-20393",
+      "source": "https://blog.talosintelligence.com/uat-9686/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
