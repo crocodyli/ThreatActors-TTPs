@@ -1,0 +1,65 @@
+{
+  "group": "Scattered LAPSUS$ Hunters",
+  "cves": [
+    {
+      "id": "CVE-2014-6278",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2014-6271",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2014-7169",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2014-6277",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2017-1000353",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2025-21043",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2025-4008",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2025-32463",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2025-59689",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2025-10035",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2025-20352",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2021-21311",
+      "source": "https://redpiranha.net/news/threat-intelligence-report-september-30-october-6-2025",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
