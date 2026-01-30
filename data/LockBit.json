@@ -66,11 +66,13 @@
     "T1489",
     "T1490",
     "T1547.001",
+    "T1560",
     "T1562.001",
     "T1562.002",
-    "T1566"
+    "T1566",
+    "T1570"
   ],
-  "techniqueCount": 68,
+  "techniqueCount": 70,
   "cveCount": 0,
   "metadata": {
     "description": "The LockBit Ransomware group began its operations in mid-2019 under the name Ransomware ABCD and has since been evolving and improving its malicious code and infrastructure. The group operates a Ranso",
@@ -164,7 +166,9 @@
           "T1486",
           "T1489",
           "T1490",
-          "T1566"
+          "T1560",
+          "T1566",
+          "T1570"
         ]
       }
     ]

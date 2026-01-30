@@ -10,9 +10,10 @@
     "T1078",
     "T1105",
     "T1136",
-    "T1219"
+    "T1219",
+    "T1486"
   ],
-  "techniqueCount": 10,
+  "techniqueCount": 11,
   "cveCount": 0,
   "metadata": {
     "description": "---",
@@ -31,7 +32,8 @@
           "T1078",
           "T1105",
           "T1136",
-          "T1219"
+          "T1219",
+          "T1486"
         ]
       }
     ]
