@@ -1,0 +1,10 @@
+{
+  "group": "BlackSuit",
+  "cves": [
+    {
+      "id": "CVE-2023-22527",
+      "source": "https://thedfirreport.com/category/ransomware/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
