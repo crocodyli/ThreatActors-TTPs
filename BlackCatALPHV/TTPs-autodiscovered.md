@@ -15,3 +15,4 @@
 | T1027 | Obfuscated Files or Information | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q3-2022/ | 2026-01-26 |
 | T1105 | Ingress Tool Transfer | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q3-2022/ | 2026-01-26 |
 | T1074 | Data Staged | https://blog.talosintelligence.com/quarterly-report-incident-response-trends-in-q3-2022/ | 2026-01-26 |
+| T1486 | Data Encrypted for Impact | https://attackevals.mitre-engenuity.org/ | 2026-01-30 |
