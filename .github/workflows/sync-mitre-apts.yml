@@ -1,4 +1,4 @@
-name: Sync MITRE APT Groups
+name: Sync MITRE APT Data
 
 on:
   schedule:
@@ -9,6 +9,9 @@ on:
 jobs:
   sync-mitre-apts:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout ThreatActors-TTPs repo
@@ -34,17 +37,20 @@ jobs:
           from pathlib import Path
           from datetime import datetime
 
+          print("=" * 80)
+          print("MITRE APT Data Sync")
+          print("=" * 80)
+
           # Load MITRE data
-          print("[Sync] Loading MITRE ATT&CK data...")
           with open('enterprise-attack.json', 'r') as f:
               mitre_data = json.load(f)
 
-          # Build mappings
+          # Extract APT groups and their techniques/CVEs
           apt_groups = {}
           technique_map = {}
-          group_cves = {}
+          software_map = {}
 
-          # Map technique IDs to details
+          # Build technique ID -> details mapping
           for obj in mitre_data['objects']:
               if obj['type'] == 'attack-pattern':
                   for ref in obj.get('external_references', []):
@@ -54,13 +60,34 @@ jobs:
                               technique_map[obj['id']] = {
                                   'id': technique_id,
                                   'name': obj.get('name', ''),
-                                  'description': obj.get('description', '')[:100] + '...' if len(obj.get('description', '')) > 100 else obj.get('description', '')
+                                  'description': obj.get('description', '')
                               }
-                              
-                              # Extract CVEs from description if present
-                              cves_in_desc = re.findall(r'CVE-\d{4}-\d+', obj.get('description', ''))
-                              if cves_in_desc:
-                                  technique_map[obj['id']]['cves'] = list(set(cves_in_desc))
+
+          # Build software/malware -> CVEs mapping
+          for obj in mitre_data['objects']:
+              if obj['type'] in ['malware', 'tool']:
+                  software_name = obj.get('name')
+                  if software_name:
+                      # Extract CVEs from description and external references
+                      cves = set()
+                      
+                      # From description
+                      desc = obj.get('description', '')
+                      cve_matches = re.findall(r'CVE-\d{4}-\d+', desc)
+                      cves.update(cve_matches)
+                      
+                      # From external references
+                      for ref in obj.get('external_references', []):
+                          if 'cve' in ref.get('source_name', '').lower():
+                              ext_id = ref.get('external_id', '')
+                              if ext_id.startswith('CVE-'):
+                                  cves.add(ext_id)
+                      
+                      if cves:
+                          software_map[obj['id']] = {
+                              'name': software_name,
+                              'cves': list(cves)
+                          }
 
           # Find APT groups (intrusion-sets)
           for obj in mitre_data['objects']:
@@ -70,36 +97,86 @@ jobs:
                       apt_groups[obj['id']] = {
                           'name': group_name,
                           'aliases': obj.get('aliases', []),
+                          'description': obj.get('description', ''),
                           'techniques': [],
                           'cves': set()
                       }
 
-          # Find relationships: group -> uses -> technique
+          # Find relationships
           for obj in mitre_data['objects']:
               if obj['type'] == 'relationship' and obj.get('relationship_type') == 'uses':
                   source_id = obj.get('source_ref')
                   target_id = obj.get('target_ref')
                   
+                  # APT group -> technique
                   if source_id in apt_groups and target_id in technique_map:
                       technique = technique_map[target_id]
                       apt_groups[source_id]['techniques'].append(technique)
-                      
-                      # Collect CVEs from this technique
-                      if 'cves' in technique:
-                          apt_groups[source_id]['cves'].update(technique['cves'])
+                  
+                  # APT group -> software/malware -> CVEs
+                  if source_id in apt_groups and target_id in software_map:
+                      software = software_map[target_id]
+                      apt_groups[source_id]['cves'].update(software['cves'])
 
-          print(f"[Sync] Found {len(apt_groups)} APT groups in MITRE")
+          print(f"\nFound {len(apt_groups)} APT groups in MITRE ATT&CK\n")
+
+          # Helper function to clean and standardize markdown tables
+          def clean_markdown_table(raw_content: str, group_name: str, section_name: str) -> str:
+              """
+              Cleans malformed markdown tables:
+              - Removes duplicate headers
+              - Removes auto-generated footers
+              - Ensures single proper header
+              - Preserves only table rows
+              """
+              lines = raw_content.split('\n')
+              
+              # Extract all table rows (lines starting with |)
+              table_rows = []
+              for line in lines:
+                  line = line.strip()
+                  # Skip empty lines
+                  if not line:
+                      continue
+                  # Skip auto-generated footers
+                  if 'auto-generated' in line.lower() or line.startswith('*'):
+                      continue
+                  # Skip markdown headers (#)
+                  if line.startswith('#'):
+                      continue
+                  # Collect table rows
+                  if line.startswith('|'):
+                      # Skip header separator lines (|---|---|)
+                      if all(c in '|-: ' for c in line):
+                          continue
+                      # Skip header row itself (contains "Technique | Name | Source")
+                      if 'Technique' in line and 'Name' in line and 'Source' in line:
+                          continue
+                      table_rows.append(line)
+              
+              # Build clean markdown
+              clean_content = f"""# {group_name} - {section_name}
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
+"""
+              if table_rows:
+                  clean_content += '\n'.join(table_rows) + '\n'
+              
+              return clean_content
 
           # Process each APT group
           total_new_ttps = 0
           total_new_cves = 0
-          groups_updated = []
+          folders_created = 0
+          folders_updated = 0
 
           for group_id, group_data in apt_groups.items():
               group_name = group_data['name']
               techniques = group_data['techniques']
-              cves = group_data['cves']
+              cves = list(group_data['cves'])
               
+              # Skip if no data
               if not techniques and not cves:
                   continue
 
@@ -107,74 +184,118 @@ jobs:
               folder_name = group_name.replace('/', '-').replace('\\', '-').strip()
               folder_path = Path(folder_name)
               
-              # Create folder if it doesn't exist
-              folder_path.mkdir(exist_ok=True)
+              # Create folder if doesn't exist
+              if not folder_path.exists():
+                  folder_path.mkdir(parents=True, exist_ok=True)
+                  folders_created += 1
+                  print(f"📁 Created folder: {folder_name}")
               
-              # STEP 1: Check existing T-numbers in ALL markdown files
-              existing_tnumbers = set()
-              for md_file in folder_path.glob('*.md'):
-                  with open(md_file, 'r', encoding='utf-8', errors='ignore') as f:
-                      content = f.read()
-                      # Extract all T-numbers (T1234, T1234.001, etc.)
-                      found_tnumbers = re.findall(r'T\d{4}(?:\.\d{3})?', content)
-                      existing_tnumbers.update(found_tnumbers)
-              
-              # STEP 2: Find new techniques not in any markdown
-              new_techniques = [t for t in techniques if t['id'] not in existing_tnumbers]
-              
-              if new_techniques:
-                  # Append to TTPs-mitre.md (or create it)
-                  mitre_md_path = folder_path / 'TTPs-mitre.md'
-                  
-                  if mitre_md_path.exists():
-                      with open(mitre_md_path, 'r', encoding='utf-8') as f:
-                          existing_content = f.read()
-                  else:
-                      existing_content = f"# {group_name} - MITRE ATT&CK TTPs\n\n"
-                      existing_content += "| Technique | Name | Source | Date |\n"
-                      existing_content += "|-----------|------|--------|------|\n"
-                  
-                  # Append new techniques
-                  with open(mitre_md_path, 'a', encoding='utf-8') as f:
-                      if not existing_content.strip().endswith('|'):
-                          f.write('\n')
+              # === CLEANUP EXISTING MARKDOWN FILES ===
+              # Fix any malformed markdown files from previous runs
+              md_files = list(folder_path.glob('*.md'))
+              for md_file in md_files:
+                  try:
+                      raw_content = md_file.read_text(encoding='utf-8')
                       
-                      for tech in new_techniques:
-                          name = tech['name'][:50]  # Truncate long names
-                          f.write(f"| {tech['id']} | {name} | MITRE ATT&CK | {datetime.now().strftime('%Y-%m-%d')} |\n")
-                  
-                  total_new_ttps += len(new_techniques)
-                  print(f"[Sync] {group_name}: Added {len(new_techniques)} new TTPs")
+                      # Detect the section name from filename
+                      if 'mitre' in md_file.name.lower():
+                          section_name = 'MITRE ATT&CK TTPs'
+                      elif 'autodiscovered' in md_file.name.lower():
+                          section_name = 'Auto-discovered TTPs'
+                      else:
+                          section_name = 'TTPs'
+                      
+                      # Clean the markdown
+                      cleaned_content = clean_markdown_table(raw_content, folder_name, section_name)
+                      
+                      # Only write if content changed
+                      if cleaned_content != raw_content:
+                          md_file.write_text(cleaned_content, encoding='utf-8')
+                          print(f"🧹 Cleaned: {md_file.name}")
+                  except Exception as e:
+                      print(f"⚠️  Error cleaning {md_file}: {e}")
               
-              # STEP 3: Update CVEs.json if we have CVEs
+              # === PROCESS TTPs ===
+              if techniques:
+                  # Read all existing markdown files to find existing TTPs
+                  existing_ttps = set()
+                  md_files = list(folder_path.glob('*.md'))
+                  
+                  for md_file in md_files:
+                      try:
+                          content = md_file.read_text(encoding='utf-8')
+                          # Extract T-numbers from markdown (T1234, T1234.001, etc)
+                          ttp_matches = re.findall(r'T\d{4}(?:\.\d{3})?', content)
+                          existing_ttps.update(ttp_matches)
+                      except Exception as e:
+                          print(f"⚠️  Error reading {md_file}: {e}")
+                  
+                  # Find NEW techniques not in any markdown
+                  new_techniques = [t for t in techniques if t['id'] not in existing_ttps]
+                  
+                  if new_techniques:
+                      # Append to TTPs-mitre-sync.md (separate from auto-discovered)
+                      mitre_md_path = folder_path / 'TTPs-mitre-sync.md'
+                      
+                      # Read existing content if file exists and clean it up
+                      if mitre_md_path.exists():
+                          raw_content = mitre_md_path.read_text(encoding='utf-8')
+                          existing_content = clean_markdown_table(raw_content, folder_name, 'MITRE ATT&CK TTPs')
+                      else:
+                          existing_content = f"""# {folder_name} - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
+"""
+                      
+                      # Append new techniques
+                      new_rows = []
+                      for tech in new_techniques:
+                          row = f"| {tech['id']} | {tech['name']} | MITRE ATT&CK | {datetime.now().strftime('%Y-%m-%d')} |"
+                          new_rows.append(row)
+                      
+                      updated_content = existing_content.rstrip() + '\n' + '\n'.join(new_rows) + '\n'
+                      mitre_md_path.write_text(updated_content, encoding='utf-8')
+                      
+                      total_new_ttps += len(new_techniques)
+                      folders_updated += 1
+                      print(f"✅ {folder_name}: Added {len(new_techniques)} new TTPs")
+              
+              # === PROCESS CVEs ===
               if cves:
                   cve_json_path = folder_path / 'CVEs.json'
                   
-                  # Load existing CVEs
+                  # Read existing CVEs.json if exists
                   existing_cves = set()
                   if cve_json_path.exists():
-                      with open(cve_json_path, 'r', encoding='utf-8') as f:
-                          cve_data = json.load(f)
-                          existing_cve_list = cve_data.get('cves', cve_data if isinstance(cve_data, list) else [])
-                          for cve_entry in existing_cve_list:
+                      try:
+                          cve_data = json.loads(cve_json_path.read_text(encoding='utf-8'))
+                          cve_list = cve_data.get('cves', cve_data if isinstance(cve_data, list) else [])
+                          for cve_entry in cve_list:
                               cve_id = cve_entry.get('id') or cve_entry.get('cveId') or cve_entry.get('CVE')
                               if cve_id:
                                   existing_cves.add(cve_id)
+                      except Exception as e:
+                          print(f"⚠️  Error reading CVEs.json for {folder_name}: {e}")
                   
-                  # Find new CVEs
+                  # Find NEW CVEs
                   new_cves = [cve for cve in cves if cve not in existing_cves]
                   
                   if new_cves:
-                      # Load existing structure or create new
+                      # Load existing data structure
                       if cve_json_path.exists():
-                          with open(cve_json_path, 'r', encoding='utf-8') as f:
-                              cve_data = json.load(f)
-                              if 'cves' not in cve_data:
-                                  cve_data = {'group': group_name, 'cves': cve_data if isinstance(cve_data, list) else []}
+                          try:
+                              cve_data = json.loads(cve_json_path.read_text(encoding='utf-8'))
+                          except:
+                              cve_data = {'group': folder_name, 'cves': []}
                       else:
-                          cve_data = {'group': group_name, 'cves': []}
+                          cve_data = {'group': folder_name, 'cves': []}
                       
-                      # Append new CVEs
+                      # Ensure cves is a list
+                      if 'cves' not in cve_data:
+                          cve_data['cves'] = []
+                      
+                      # Add new CVEs
                       for cve_id in new_cves:
                           cve_data['cves'].append({
                               'id': cve_id,
@@ -183,26 +304,29 @@ jobs:
                           })
                       
                       # Write back
-                      with open(cve_json_path, 'w', encoding='utf-8') as f:
-                          json.dump(cve_data, f, indent=2)
+                      cve_json_path.write_text(json.dumps(cve_data, indent=2), encoding='utf-8')
                       
                       total_new_cves += len(new_cves)
-                      print(f"[Sync] {group_name}: Added {len(new_cves)} new CVEs")
-              
-              if new_techniques or (cves and new_cves):
-                  groups_updated.append(group_name)
+                      print(f"✅ {folder_name}: Added {len(new_cves)} new CVEs")
 
-          print(f"\n[Sync] Summary:")
-          print(f"  - Groups updated: {len(groups_updated)}")
-          print(f"  - New TTPs added: {total_new_ttps}")
-          print(f"  - New CVEs added: {total_new_cves}")
-          
-          if groups_updated:
-              print(f"\n[Sync] Updated groups: {', '.join(groups_updated[:10])}" + ("..." if len(groups_updated) > 10 else ""))
-          
+          print("\n" + "=" * 80)
+          print("SUMMARY")
+          print("=" * 80)
+          print(f"📁 Folders created: {folders_created}")
+          print(f"📝 Folders updated: {folders_updated}")
+          print(f"🎯 New TTPs added: {total_new_ttps}")
+          print(f"🔒 New CVEs added: {total_new_cves}")
+          print("=" * 80)
+
+          # Exit with code 1 if nothing changed (skip commit)
+          if folders_created == 0 and total_new_ttps == 0 and total_new_cves == 0:
+              print("\n✨ No new data to sync - everything is up to date!")
+              exit(1)
+
           PYTHON_SCRIPT
 
-      - name: Commit changes
+      - name: Commit and push changes
+        if: success()
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -211,8 +335,8 @@ jobs:
           
           if git diff --staged --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "chore: sync MITRE APT groups - auto-update TTPs and CVEs"
-            git push
-            echo "✅ Changes committed and pushed"
+            exit 0
           fi
+          
+          git commit -m "Sync MITRE APT data - $(date +'%Y-%m-%d')"
+          git push
