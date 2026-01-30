@@ -1,0 +1,40 @@
+{
+  "group": "Monkey Ransomware",
+  "cves": [
+    {
+      "id": "CVE-2025-61932",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2021-27065",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2021-26855",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2021-26858",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2021-26857",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2018-0802",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2025-10280",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
