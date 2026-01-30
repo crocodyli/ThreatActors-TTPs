@@ -1,3 +1,7 @@
+# Wizard Spider - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1136.001 | Local Account | MITRE ATT&CK | 2026-01-30 |
 | T1588.003 | Code Signing Certificates | MITRE ATT&CK | 2026-01-30 |
 | T1210 | Exploitation of Remote Services | MITRE ATT&CK | 2026-01-30 |

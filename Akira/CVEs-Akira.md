@@ -1,6 +1,8 @@
-# Vulnerabilities and Exploitation by Akira Ransomware (2025)
+# Akira - TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | **Vulnerability / Issue** | **Description of Exploitation by Akira** |
-|:---:|:---|
 | **Abuse of Stolen Credentials** | The most common vector involves the use of valid credentials — including accounts protected by MFA/OTP — stolen during previous breaches. Attackers leverage these credentials to log into VPNs even when devices are patched. |
 | **CVE-2024-40766** | Improper access control vulnerability in SonicWall SonicOS (SSL VPN). Linked to credential theft campaigns silently executed in 2024 and actively exploited by Akira in 2025. |
 | **Unconfirmed Critical Vulnerabilities (CVE-2025-4059x Series)** | Researchers reported new vulnerabilities in SonicWall SMA100 appliances (CVE-2025-40596 through CVE-2025-40599) that may allow authentication bypass or remote code execution. Although not formally attributed to Akira, these flaws represent a high risk for adoption by the group. |

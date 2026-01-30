@@ -1,3 +1,7 @@
+# Silent Librarian - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1588.004 | Digital Certificates | MITRE ATT&CK | 2026-01-30 |
 | T1594 | Search Victim-Owned Websites | MITRE ATT&CK | 2026-01-30 |
 | T1114 | Email Collection | MITRE ATT&CK | 2026-01-30 |

@@ -1,6 +1,8 @@
-# Tools and Techniques Used by Akira Ransomware
+# Akira - TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | **Tactic** | **Tool(s)** |
-|:---:|:---:|
 | **External Reconnaissance** | **Masscan** and **ReconFTW** |
 | **Internal Enumeration** | **PCHunter64**, **Advanced IP Scanner**, **LANsweeper**, **SharpHound**, **AdFind**, **SoftPerfect NetScan**, and **Windows Nltest** |
 | **Credential Theft** | **Minidump**, **Mimikatz**, **LaZagne**, and **DonPAPI** |

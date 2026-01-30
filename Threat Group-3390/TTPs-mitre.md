@@ -1,3 +1,7 @@
+# Threat Group-3390 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1068 | Exploitation for Privilege Escalation | MITRE ATT&CK | 2026-01-30 |
 | T1030 | Data Transfer Size Limits | MITRE ATT&CK | 2026-01-30 |
 | T1190 | Exploit Public-Facing Application | MITRE ATT&CK | 2026-01-30 |

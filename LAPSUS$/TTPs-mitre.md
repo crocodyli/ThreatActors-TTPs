@@ -1,3 +1,7 @@
+# LAPSUS$ - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1589 | Gather Victim Identity Information | MITRE ATT&CK | 2026-01-30 |
 | T1005 | Data from Local System | MITRE ATT&CK | 2026-01-30 |
 | T1069.002 | Domain Groups | MITRE ATT&CK | 2026-01-30 |

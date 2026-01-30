@@ -1,3 +1,7 @@
+# Magic Hound - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1056.001 | Keylogging | MITRE ATT&CK | 2026-01-30 |
 | T1567 | Exfiltration Over Web Service | MITRE ATT&CK | 2026-01-30 |
 | T1589.001 | Credentials | MITRE ATT&CK | 2026-01-30 |

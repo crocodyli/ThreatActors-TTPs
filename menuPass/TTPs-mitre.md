@@ -1,3 +1,7 @@
+# menuPass - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1018 | Remote System Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1047 | Windows Management Instrumentation | MITRE ATT&CK | 2026-01-30 |
 | T1036 | Masquerading | MITRE ATT&CK | 2026-01-30 |

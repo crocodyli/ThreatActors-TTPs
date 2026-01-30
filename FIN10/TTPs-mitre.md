@@ -1,3 +1,7 @@
+# FIN10 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1070.004 | File Deletion | MITRE ATT&CK | 2026-01-30 |
 | T1570 | Lateral Tool Transfer | MITRE ATT&CK | 2026-01-30 |
 | T1033 | System Owner/User Discovery | MITRE ATT&CK | 2026-01-30 |

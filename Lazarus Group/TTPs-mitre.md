@@ -1,3 +1,7 @@
+# Lazarus Group - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1059.003 | Windows Command Shell | MITRE ATT&CK | 2026-01-30 |
 | T1566.001 | Spearphishing Attachment | MITRE ATT&CK | 2026-01-30 |
 | T1202 | Indirect Command Execution | MITRE ATT&CK | 2026-01-30 |

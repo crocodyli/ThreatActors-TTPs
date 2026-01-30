@@ -1,3 +1,7 @@
+# FIN6 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1560.003 | Archive via Custom Method | MITRE ATT&CK | 2026-01-30 |
 | T1566.001 | Spearphishing Attachment | MITRE ATT&CK | 2026-01-30 |
 | T1087.002 | Domain Account | MITRE ATT&CK | 2026-01-30 |

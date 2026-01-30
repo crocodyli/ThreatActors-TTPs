@@ -1,3 +1,7 @@
+# Fox Kitten - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1105 | Ingress Tool Transfer | MITRE ATT&CK | 2026-01-30 |
 | T1059 | Command and Scripting Interpreter | MITRE ATT&CK | 2026-01-30 |
 | T1530 | Data from Cloud Storage | MITRE ATT&CK | 2026-01-30 |

@@ -1,3 +1,7 @@
+# APT32 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1550.002 | Pass the Hash | MITRE ATT&CK | 2026-01-30 |
 | T1036 | Masquerading | MITRE ATT&CK | 2026-01-30 |
 | T1059.007 | JavaScript | MITRE ATT&CK | 2026-01-30 |

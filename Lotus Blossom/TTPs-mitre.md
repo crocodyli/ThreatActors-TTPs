@@ -1,3 +1,7 @@
+# Lotus Blossom - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1016 | System Network Configuration Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1543.003 | Windows Service | MITRE ATT&CK | 2026-01-30 |
 | T1087.002 | Domain Account | MITRE ATT&CK | 2026-01-30 |

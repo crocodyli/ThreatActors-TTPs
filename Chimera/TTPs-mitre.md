@@ -1,3 +1,7 @@
+# Chimera - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1574.001 | DLL | MITRE ATT&CK | 2026-01-30 |
 | T1074.002 | Remote Data Staging | MITRE ATT&CK | 2026-01-30 |
 | T1053.005 | Scheduled Task | MITRE ATT&CK | 2026-01-30 |

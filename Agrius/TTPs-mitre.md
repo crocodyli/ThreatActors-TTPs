@@ -1,3 +1,7 @@
+# Agrius - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1018 | Remote System Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1046 | Network Service Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1078.002 | Domain Accounts | MITRE ATT&CK | 2026-01-30 |

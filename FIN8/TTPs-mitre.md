@@ -1,3 +1,7 @@
+# FIN8 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1078 | Valid Accounts | MITRE ATT&CK | 2026-01-30 |
 | T1070.001 | Clear Windows Event Logs | MITRE ATT&CK | 2026-01-30 |
 | T1048.003 | Exfiltration Over Unencrypted Non-C2 Protocol | MITRE ATT&CK | 2026-01-30 |

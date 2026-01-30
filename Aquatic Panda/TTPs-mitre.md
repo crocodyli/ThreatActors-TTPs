@@ -1,3 +1,7 @@
+# Aquatic Panda - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1027.010 | Command Obfuscation | MITRE ATT&CK | 2026-01-30 |
 | T1087 | Account Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1070.004 | File Deletion | MITRE ATT&CK | 2026-01-30 |

@@ -1,3 +1,7 @@
+# SideCopy - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1614 | System Location Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1518.001 | Security Software Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1584.001 | Domains | MITRE ATT&CK | 2026-01-30 |

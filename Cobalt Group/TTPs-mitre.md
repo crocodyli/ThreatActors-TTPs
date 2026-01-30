@@ -1,3 +1,7 @@
+# Cobalt Group - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1566.001 | Spearphishing Attachment | MITRE ATT&CK | 2026-01-30 |
 | T1105 | Ingress Tool Transfer | MITRE ATT&CK | 2026-01-30 |
 | T1027.010 | Command Obfuscation | MITRE ATT&CK | 2026-01-30 |

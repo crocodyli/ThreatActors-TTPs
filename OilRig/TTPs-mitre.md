@@ -1,3 +1,7 @@
+# OilRig - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1588.003 | Code Signing Certificates | MITRE ATT&CK | 2026-01-30 |
 | T1555.004 | Windows Credential Manager | MITRE ATT&CK | 2026-01-30 |
 | T1082 | System Information Discovery | MITRE ATT&CK | 2026-01-30 |

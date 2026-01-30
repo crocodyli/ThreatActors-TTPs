@@ -1,3 +1,7 @@
+# Leviathan - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1567.002 | Exfiltration to Cloud Storage | MITRE ATT&CK | 2026-01-30 |
 | T1595.002 | Vulnerability Scanning | MITRE ATT&CK | 2026-01-30 |
 | T1102.003 | One-Way Communication | MITRE ATT&CK | 2026-01-30 |

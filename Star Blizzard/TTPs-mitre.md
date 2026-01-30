@@ -1,3 +1,7 @@
+# Star Blizzard - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1583.001 | Domains | MITRE ATT&CK | 2026-01-30 |
 | T1114.002 | Remote Email Collection | MITRE ATT&CK | 2026-01-30 |
 | T1550.004 | Web Session Cookie | MITRE ATT&CK | 2026-01-30 |

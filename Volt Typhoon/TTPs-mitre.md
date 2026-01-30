@@ -1,3 +1,7 @@
+# Volt Typhoon - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1046 | Network Service Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1083 | File and Directory Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1591.004 | Identify Roles | MITRE ATT&CK | 2026-01-30 |

@@ -1,3 +1,7 @@
+# APT-C-36 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1204.002 | Malicious File | MITRE ATT&CK | 2026-01-30 |
 | T1036.004 | Masquerade Task or Service | MITRE ATT&CK | 2026-01-30 |
 | T1588.002 | Tool | MITRE ATT&CK | 2026-01-30 |

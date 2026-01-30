@@ -1,3 +1,7 @@
+# BlackByte - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1082 | System Information Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1016 | System Network Configuration Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1046 | Network Service Discovery | MITRE ATT&CK | 2026-01-30 |

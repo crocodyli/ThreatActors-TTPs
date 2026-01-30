@@ -1,3 +1,7 @@
+# EXOTIC LILY - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1566.003 | Spearphishing via Service | MITRE ATT&CK | 2026-01-30 |
 | T1585.001 | Social Media Accounts | MITRE ATT&CK | 2026-01-30 |
 | T1566.001 | Spearphishing Attachment | MITRE ATT&CK | 2026-01-30 |

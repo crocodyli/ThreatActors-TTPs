@@ -1,3 +1,7 @@
+# Ember Bear - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1018 | Remote System Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1003 | OS Credential Dumping | MITRE ATT&CK | 2026-01-30 |
 | T1090.003 | Multi-hop Proxy | MITRE ATT&CK | 2026-01-30 |

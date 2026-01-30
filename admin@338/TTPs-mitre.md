@@ -1,3 +1,7 @@
+# admin@338 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1566.001 | Spearphishing Attachment | MITRE ATT&CK | 2026-01-30 |
 | T1016 | System Network Configuration Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1036.005 | Match Legitimate Resource Name or Location | MITRE ATT&CK | 2026-01-30 |

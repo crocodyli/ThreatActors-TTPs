@@ -1,3 +1,7 @@
+# APT18 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1078 | Valid Accounts | MITRE ATT&CK | 2026-01-30 |
 | T1027.013 | Encrypted/Encoded File | MITRE ATT&CK | 2026-01-30 |
 | T1133 | External Remote Services | MITRE ATT&CK | 2026-01-30 |

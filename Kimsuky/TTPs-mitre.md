@@ -1,3 +1,7 @@
+# Kimsuky - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1005 | Data from Local System | MITRE ATT&CK | 2026-01-30 |
 | T1587.001 | Malware | MITRE ATT&CK | 2026-01-30 |
 | T1583 | Acquire Infrastructure | MITRE ATT&CK | 2026-01-30 |

@@ -1,3 +1,7 @@
+# The White Company - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1027.002 | Software Packing | MITRE ATT&CK | 2026-01-30 |
 | T1518.001 | Security Software Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1203 | Exploitation for Client Execution | MITRE ATT&CK | 2026-01-30 |

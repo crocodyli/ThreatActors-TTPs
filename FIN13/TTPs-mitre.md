@@ -1,3 +1,7 @@
+# FIN13 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1587.001 | Malware | MITRE ATT&CK | 2026-01-30 |
 | T1078.001 | Default Accounts | MITRE ATT&CK | 2026-01-30 |
 | T1572 | Protocol Tunneling | MITRE ATT&CK | 2026-01-30 |

@@ -1,3 +1,7 @@
+# Windigo - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1082 | System Information Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1005 | Data from Local System | MITRE ATT&CK | 2026-01-30 |
 | T1518 | Software Discovery | MITRE ATT&CK | 2026-01-30 |

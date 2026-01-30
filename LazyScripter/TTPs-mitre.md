@@ -1,3 +1,7 @@
+# LazyScripter - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1204.001 | Malicious Link | MITRE ATT&CK | 2026-01-30 |
 | T1218.005 | Mshta | MITRE ATT&CK | 2026-01-30 |
 | T1608.001 | Upload Malware | MITRE ATT&CK | 2026-01-30 |

@@ -1,3 +1,7 @@
+# TA577 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1059.007 | JavaScript | MITRE ATT&CK | 2026-01-30 |
 | T1059.003 | Windows Command Shell | MITRE ATT&CK | 2026-01-30 |
 | T1027.009 | Embedded Payloads | MITRE ATT&CK | 2026-01-30 |

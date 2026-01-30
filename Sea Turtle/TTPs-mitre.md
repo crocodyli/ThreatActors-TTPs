@@ -1,3 +1,7 @@
+# Sea Turtle - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1583 | Acquire Infrastructure | MITRE ATT&CK | 2026-01-30 |
 | T1074.002 | Remote Data Staging | MITRE ATT&CK | 2026-01-30 |
 | T1070.002 | Clear Linux or Mac System Logs | MITRE ATT&CK | 2026-01-30 |

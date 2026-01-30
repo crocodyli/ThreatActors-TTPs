@@ -1,3 +1,7 @@
+# Darkhotel - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1518.001 | Security Software Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1497.002 | User Activity Based Checks | MITRE ATT&CK | 2026-01-30 |
 | T1027.013 | Encrypted/Encoded File | MITRE ATT&CK | 2026-01-30 |

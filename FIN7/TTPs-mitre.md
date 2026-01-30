@@ -1,3 +1,7 @@
+# FIN7 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1204.001 | Malicious Link | MITRE ATT&CK | 2026-01-30 |
 | T1553.002 | Code Signing | MITRE ATT&CK | 2026-01-30 |
 | T1078 | Valid Accounts | MITRE ATT&CK | 2026-01-30 |

@@ -1,3 +1,7 @@
+# Stealth Falcon - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1555.004 | Windows Credential Manager | MITRE ATT&CK | 2026-01-30 |
 | T1059 | Command and Scripting Interpreter | MITRE ATT&CK | 2026-01-30 |
 | T1555.003 | Credentials from Web Browsers | MITRE ATT&CK | 2026-01-30 |

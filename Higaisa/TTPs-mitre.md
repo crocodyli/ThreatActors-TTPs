@@ -1,3 +1,7 @@
+# Higaisa - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1059.005 | Visual Basic | MITRE ATT&CK | 2026-01-30 |
 | T1106 | Native API | MITRE ATT&CK | 2026-01-30 |
 | T1041 | Exfiltration Over C2 Channel | MITRE ATT&CK | 2026-01-30 |

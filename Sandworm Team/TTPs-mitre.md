@@ -1,3 +1,7 @@
+# Sandworm Team - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1608.001 | Upload Malware | MITRE ATT&CK | 2026-01-30 |
 | T1588.006 | Vulnerabilities | MITRE ATT&CK | 2026-01-30 |
 | T1040 | Network Sniffing | MITRE ATT&CK | 2026-01-30 |

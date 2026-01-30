@@ -1,3 +1,7 @@
+# DarkHydrus - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1204.002 | Malicious File | MITRE ATT&CK | 2026-01-30 |
 | T1187 | Forced Authentication | MITRE ATT&CK | 2026-01-30 |
 | T1564.003 | Hidden Window | MITRE ATT&CK | 2026-01-30 |

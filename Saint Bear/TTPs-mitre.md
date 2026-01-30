@@ -1,3 +1,7 @@
+# Saint Bear - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1566.001 | Spearphishing Attachment | MITRE ATT&CK | 2026-01-30 |
 | T1203 | Exploitation for Client Execution | MITRE ATT&CK | 2026-01-30 |
 | T1059.007 | JavaScript | MITRE ATT&CK | 2026-01-30 |

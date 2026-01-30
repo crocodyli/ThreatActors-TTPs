@@ -1,3 +1,7 @@
+# Daggerfly - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1003.002 | Security Account Manager | MITRE ATT&CK | 2026-01-30 |
 | T1587.002 | Code Signing Certificates | MITRE ATT&CK | 2026-01-30 |
 | T1053.005 | Scheduled Task | MITRE ATT&CK | 2026-01-30 |

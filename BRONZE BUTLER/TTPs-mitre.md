@@ -1,3 +1,7 @@
+# BRONZE BUTLER - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1140 | Deobfuscate/Decode Files or Information | MITRE ATT&CK | 2026-01-30 |
 | T1005 | Data from Local System | MITRE ATT&CK | 2026-01-30 |
 | T1007 | System Service Discovery | MITRE ATT&CK | 2026-01-30 |

@@ -1,3 +1,7 @@
+# Scattered Spider - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1598 | Phishing for Information | MITRE ATT&CK | 2026-01-30 |
 | T1553.002 | Code Signing | MITRE ATT&CK | 2026-01-30 |
 | T1556.009 | Conditional Access Policies | MITRE ATT&CK | 2026-01-30 |

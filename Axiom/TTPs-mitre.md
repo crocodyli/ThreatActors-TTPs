@@ -1,3 +1,7 @@
+# Axiom - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1001.002 | Steganography | MITRE ATT&CK | 2026-01-30 |
 | T1005 | Data from Local System | MITRE ATT&CK | 2026-01-30 |
 | T1560 | Archive Collected Data | MITRE ATT&CK | 2026-01-30 |

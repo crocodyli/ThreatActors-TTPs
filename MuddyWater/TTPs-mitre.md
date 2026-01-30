@@ -1,3 +1,7 @@
+# MuddyWater - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1566.002 | Spearphishing Link | MITRE ATT&CK | 2026-01-30 |
 | T1137.001 | Office Template Macros | MITRE ATT&CK | 2026-01-30 |
 | T1574.001 | DLL | MITRE ATT&CK | 2026-01-30 |

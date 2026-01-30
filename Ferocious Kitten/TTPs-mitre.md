@@ -1,3 +1,7 @@
+# Ferocious Kitten - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1204.002 | Malicious File | MITRE ATT&CK | 2026-01-30 |
 | T1036.002 | Right-to-Left Override | MITRE ATT&CK | 2026-01-30 |
 | T1036.005 | Match Legitimate Resource Name or Location | MITRE ATT&CK | 2026-01-30 |

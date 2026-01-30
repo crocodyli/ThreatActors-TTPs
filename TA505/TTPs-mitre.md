@@ -1,3 +1,7 @@
+# TA505 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1087.003 | Email Account | MITRE ATT&CK | 2026-01-30 |
 | T1583.001 | Domains | MITRE ATT&CK | 2026-01-30 |
 | T1553.005 | Mark-of-the-Web Bypass | MITRE ATT&CK | 2026-01-30 |

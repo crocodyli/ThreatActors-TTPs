@@ -1,3 +1,7 @@
+# FIN5 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1090.002 | External Proxy | MITRE ATT&CK | 2026-01-30 |
 | T1070.004 | File Deletion | MITRE ATT&CK | 2026-01-30 |
 | T1074.001 | Local Data Staging | MITRE ATT&CK | 2026-01-30 |

@@ -1,3 +1,7 @@
+# FIN4 - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1078 | Valid Accounts | MITRE ATT&CK | 2026-01-30 |
 | T1059.005 | Visual Basic | MITRE ATT&CK | 2026-01-30 |
 | T1090.003 | Multi-hop Proxy | MITRE ATT&CK | 2026-01-30 |

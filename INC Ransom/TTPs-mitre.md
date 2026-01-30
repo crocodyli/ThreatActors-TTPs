@@ -1,3 +1,7 @@
+# INC Ransom - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1021.001 | Remote Desktop Protocol | MITRE ATT&CK | 2026-01-30 |
 | T1657 | Financial Theft | MITRE ATT&CK | 2026-01-30 |
 | T1566 | Phishing | MITRE ATT&CK | 2026-01-30 |

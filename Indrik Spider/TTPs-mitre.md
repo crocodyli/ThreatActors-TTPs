@@ -1,3 +1,7 @@
+# Indrik Spider - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1003.001 | LSASS Memory | MITRE ATT&CK | 2026-01-30 |
 | T1587.001 | Malware | MITRE ATT&CK | 2026-01-30 |
 | T1136 | Create Account | MITRE ATT&CK | 2026-01-30 |

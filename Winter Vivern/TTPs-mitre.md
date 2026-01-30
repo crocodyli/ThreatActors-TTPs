@@ -1,3 +1,7 @@
+# Winter Vivern - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1059 | Command and Scripting Interpreter | MITRE ATT&CK | 2026-01-30 |
 | T1071.001 | Web Protocols | MITRE ATT&CK | 2026-01-30 |
 | T1056.003 | Web Portal Capture | MITRE ATT&CK | 2026-01-30 |

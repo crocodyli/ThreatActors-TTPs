@@ -1,3 +1,7 @@
+# TeamTNT - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1680 | Local Storage Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1133 | External Remote Services | MITRE ATT&CK | 2026-01-30 |
 | T1219 | Remote Access Tools | MITRE ATT&CK | 2026-01-30 |

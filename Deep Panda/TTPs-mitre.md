@@ -1,3 +1,7 @@
+# Deep Panda - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1057 | Process Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1018 | Remote System Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1505.003 | Web Shell | MITRE ATT&CK | 2026-01-30 |

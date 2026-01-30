@@ -1,3 +1,7 @@
+# HEXANE - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1016 | System Network Configuration Discovery | MITRE ATT&CK | 2026-01-30 |
 | T1555 | Credentials from Password Stores | MITRE ATT&CK | 2026-01-30 |
 | T1027.010 | Command Obfuscation | MITRE ATT&CK | 2026-01-30 |

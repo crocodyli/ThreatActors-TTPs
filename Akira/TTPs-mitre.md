@@ -1,3 +1,7 @@
+# Akira - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1213.002 | Sharepoint | MITRE ATT&CK | 2026-01-30 |
 | T1531 | Account Access Removal | MITRE ATT&CK | 2026-01-30 |
 | T1036.005 | Match Legitimate Resource Name or Location | MITRE ATT&CK | 2026-01-30 |

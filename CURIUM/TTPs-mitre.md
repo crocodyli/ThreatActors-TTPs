@@ -1,3 +1,7 @@
+# CURIUM - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1566.003 | Spearphishing via Service | MITRE ATT&CK | 2026-01-30 |
 | T1505.003 | Web Shell | MITRE ATT&CK | 2026-01-30 |
 | T1204.002 | Malicious File | MITRE ATT&CK | 2026-01-30 |

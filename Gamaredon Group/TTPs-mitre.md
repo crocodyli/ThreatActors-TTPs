@@ -1,3 +1,7 @@
+# Gamaredon Group - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1491.001 | Internal Defacement | MITRE ATT&CK | 2026-01-30 |
 | T1583.003 | Virtual Private Server | MITRE ATT&CK | 2026-01-30 |
 | T1001 | Data Obfuscation | MITRE ATT&CK | 2026-01-30 |

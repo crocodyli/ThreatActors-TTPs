@@ -1,3 +1,7 @@
+# WIRTE - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1059.001 | PowerShell | MITRE ATT&CK | 2026-01-30 |
 | T1571 | Non-Standard Port | MITRE ATT&CK | 2026-01-30 |
 | T1059.005 | Visual Basic | MITRE ATT&CK | 2026-01-30 |

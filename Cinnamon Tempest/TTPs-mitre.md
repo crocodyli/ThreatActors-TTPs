@@ -1,3 +1,7 @@
+# Cinnamon Tempest - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1047 | Windows Management Instrumentation | MITRE ATT&CK | 2026-01-30 |
 | T1574.001 | DLL | MITRE ATT&CK | 2026-01-30 |
 | T1105 | Ingress Tool Transfer | MITRE ATT&CK | 2026-01-30 |

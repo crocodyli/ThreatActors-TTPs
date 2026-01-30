@@ -1,3 +1,7 @@
+# Aoqin Dragon - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1204.002 | Malicious File | MITRE ATT&CK | 2026-01-30 |
 | T1570 | Lateral Tool Transfer | MITRE ATT&CK | 2026-01-30 |
 | T1091 | Replication Through Removable Media | MITRE ATT&CK | 2026-01-30 |

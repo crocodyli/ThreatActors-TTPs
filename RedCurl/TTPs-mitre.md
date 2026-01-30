@@ -1,3 +1,7 @@
+# RedCurl - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1027 | Obfuscated Files or Information | MITRE ATT&CK | 2026-01-30 |
 | T1564.001 | Hidden Files and Directories | MITRE ATT&CK | 2026-01-30 |
 | T1102 | Web Service | MITRE ATT&CK | 2026-01-30 |

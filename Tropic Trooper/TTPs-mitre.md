@@ -1,3 +1,7 @@
+# Tropic Trooper - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1543.003 | Windows Service | MITRE ATT&CK | 2026-01-30 |
 | T1070.004 | File Deletion | MITRE ATT&CK | 2026-01-30 |
 | T1566.001 | Spearphishing Attachment | MITRE ATT&CK | 2026-01-30 |

@@ -1,3 +1,7 @@
+# Leafminer - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1027.010 | Command Obfuscation | MITRE ATT&CK | 2026-01-30 |
 | T1588.002 | Tool | MITRE ATT&CK | 2026-01-30 |
 | T1003.001 | LSASS Memory | MITRE ATT&CK | 2026-01-30 |

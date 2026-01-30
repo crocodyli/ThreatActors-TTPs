@@ -1,3 +1,7 @@
+# LuminousMoth - MITRE ATT&CK TTPs
+
+| Technique | Name | Source | Date |
+|-----------|------|--------|------|
 | T1539 | Steal Web Session Cookie | MITRE ATT&CK | 2026-01-30 |
 | T1567.002 | Exfiltration to Cloud Storage | MITRE ATT&CK | 2026-01-30 |
 | T1566.002 | Spearphishing Link | MITRE ATT&CK | 2026-01-30 |
