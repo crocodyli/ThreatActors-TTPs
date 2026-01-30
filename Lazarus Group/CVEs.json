@@ -1,0 +1,10 @@
+{
+  "group": "Lazarus Group",
+  "cves": [
+    {
+      "id": "CVE-2025-0994",
+      "source": "https://blog.talosintelligence.com/category/apt/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
