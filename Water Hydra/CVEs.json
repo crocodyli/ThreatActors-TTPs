@@ -1,0 +1,10 @@
+{
+  "group": "Water Hydra",
+  "cves": [
+    {
+      "id": "CVE-2024-21412",
+      "source": "https://newsroom.trendmicro.com/2024-02-13-Trend-Micro-Discovers-Actively-Exploited-Vulnerability-Affecting-Millions-of-Users-Customers-Already-Protected",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
