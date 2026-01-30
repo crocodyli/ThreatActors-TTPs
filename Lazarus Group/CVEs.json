@@ -4,7 +4,20 @@
     {
       "id": "CVE-2025-0994",
       "source": "https://blog.talosintelligence.com/category/apt/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Trimble",
+      "product": "Cityworks",
+      "vulnerabilityName": "Trimble Cityworks Deserialization Vulnerability",
+      "shortDescription": "Trimble Cityworks contains a deserialization vulnerability. This could allow an authenticated user to perform a remote code execution attack against a customer's Microsoft Internet Information Services (IIS) web server.",
+      "dateAdded": "2025-02-07",
+      "dueDate": "2025-02-28",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://learn.assetlifecycle.trimble.com/i/1532182-cityworks-customer-communication-2025-02-05-docx/0?; https://www.cisa.gov/news-events/ics-advisories/icsa-25-037-04 ; https://nvd.nist.gov/vuln/detail/CVE-2025-0994",
+      "cwes": [
+        "CWE-502"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

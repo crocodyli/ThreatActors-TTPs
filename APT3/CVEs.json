@@ -4,7 +4,20 @@
     {
       "id": "CVE-2015-5119",
       "source": "https://fireeye.com/blog/threat-research/2015/07/demonstrating_hustle.html",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Adobe",
+      "product": "Flash Player",
+      "vulnerabilityName": "Adobe Flash Player Use-After-Free Vulnerability",
+      "shortDescription": "A use-after-free vulnerability exists within the ActionScript 3 ByteArray class in Adobe Flash Player that allows an attacker to perform remote code execution.",
+      "dateAdded": "2022-03-03",
+      "dueDate": "2022-03-24",
+      "requiredAction": "The impacted product is end-of-life and should be disconnected if still in use.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2015-5119",
+      "cwes": [
+        "CWE-119"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

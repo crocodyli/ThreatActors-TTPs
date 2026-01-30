@@ -4,7 +4,20 @@
     {
       "id": "CVE-2024-47575",
       "source": "https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Fortinet",
+      "product": "FortiManager",
+      "vulnerabilityName": "Fortinet FortiManager Missing Authentication Vulnerability",
+      "shortDescription": "Fortinet FortiManager contains a missing authentication vulnerability in the fgfmd daemon that allows a remote, unauthenticated attacker to execute arbitrary code or commands via specially crafted requests.",
+      "dateAdded": "2024-10-23",
+      "dueDate": "2024-11-13",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-24-423 ; https://nvd.nist.gov/vuln/detail/CVE-2024-47575",
+      "cwes": [
+        "CWE-306"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

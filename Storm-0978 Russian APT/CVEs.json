@@ -4,7 +4,20 @@
     {
       "id": "CVE-2023-36884",
       "source": "https://unit42.paloaltonetworks.com/new-cve-2023-36584-discovered-in-attack-chain-used-by-russian-apt/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Search Remote Code Execution Vulnerability",
+      "shortDescription": "Microsoft Windows Search contains an unspecified vulnerability that could allow an attacker to evade Mark of the Web (MOTW) defenses via a specially crafted malicious file, leading to remote code execution.",
+      "dateAdded": "2023-07-17",
+      "dueDate": "2023-08-29",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884;  https://nvd.nist.gov/vuln/detail/CVE-2023-36884",
+      "cwes": [
+        "CWE-362"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

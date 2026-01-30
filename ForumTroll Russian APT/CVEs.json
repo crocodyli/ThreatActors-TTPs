@@ -4,7 +4,18 @@
     {
       "id": "CVE-2025-2783",
       "source": "https://securelist.com/operation-forumtroll-new-targeted-campaign/118492/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Google",
+      "product": "Chromium Mojo",
+      "vulnerabilityName": "Google Chromium Mojo Sandbox Escape Vulnerability",
+      "shortDescription": "Google Chromium Mojo on Windows contains a sandbox escape vulnerability caused by a logic error, which results from an incorrect handle being provided in unspecified circumstances. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+      "dateAdded": "2025-03-27",
+      "dueDate": "2025-04-17",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://chromereleases.googleblog.com/2025/03/stable-channel-update-for-desktop_25.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-2783",
+      "cwes": [],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

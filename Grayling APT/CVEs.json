@@ -4,7 +4,18 @@
     {
       "id": "CVE-2019-0803",
       "source": "https://social.cyware.com/news/a-new-threat-on-the-horizon-the-grayling-apt-group-202a589d",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Microsoft",
+      "product": "Win32k",
+      "vulnerabilityName": "Microsoft Win32k Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft Win32k contains an unspecified vulnerability due to it failing to properly handle objects in memory causing privilege escalation. Successful exploitation allows an attacker to run code in kernel mode.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2019-0803",
+      "cwes": [],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

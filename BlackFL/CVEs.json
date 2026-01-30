@@ -4,7 +4,20 @@
     {
       "id": "CVE-2017-11882",
       "source": "https://www.cyfirma.com/news/weekly-intelligence-report-18-july-2025/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Microsoft",
+      "product": "Office",
+      "vulnerabilityName": "Microsoft Office Memory Corruption Vulnerability",
+      "shortDescription": "Microsoft Office contains a memory corruption vulnerability that allows remote code execution in the context of the current user.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-11882",
+      "cwes": [
+        "CWE-119"
+      ],
+      "dateEnriched": "2026-01-30"
     },
     {
       "id": "CVE-2025-40593",
