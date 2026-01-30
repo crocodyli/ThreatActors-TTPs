@@ -1,0 +1,10 @@
+{
+  "group": "ESET ToddyCat APT",
+  "cves": [
+    {
+      "id": "CVE-2024-11859",
+      "source": "https://securelist.com/toddycat-apt-exploits-vulnerability-in-eset-software-for-dll-proxying/116086/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
