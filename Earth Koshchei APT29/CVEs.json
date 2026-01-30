@@ -1,0 +1,10 @@
+{
+  "group": "Earth Koshchei (APT29)",
+  "cves": [
+    {
+      "id": "CVE-2024-21412",
+      "source": "https://www.prnewswire.com/news-releases/trend-micro-discovers-actively-exploited-vulnerability-affecting-millions-of-users-customers-already-protected-302061023.html",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
