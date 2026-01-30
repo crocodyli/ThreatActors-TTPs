@@ -4,7 +4,20 @@
     {
       "id": "CVE-2024-24919",
       "source": "https://www.darkreading.com/threat-intelligence/chinese-apt-oss-pocs-spy-countries",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Check Point",
+      "product": "Quantum Security Gateways",
+      "vulnerabilityName": "Check Point Quantum Security Gateways Information Disclosure Vulnerability",
+      "shortDescription": "Check Point Quantum Security Gateways contain an unspecified information disclosure vulnerability. The vulnerability potentially allows an attacker to access information on Gateways connected to the internet, with IPSec VPN, Remote Access VPN or Mobile Access enabled. This issue affects several product lines from Check Point, including CloudGuard Network, Quantum Scalable Chassis, Quantum Security Gateways, and Quantum Spark Appliances.",
+      "dateAdded": "2024-05-30",
+      "dueDate": "2024-06-20",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://support.checkpoint.com/results/sk/sk182336 ; https://nvd.nist.gov/vuln/detail/CVE-2024-24919",
+      "cwes": [
+        "CWE-200"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

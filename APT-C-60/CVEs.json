@@ -4,7 +4,20 @@
     {
       "id": "CVE-2024-7262",
       "source": "https://www.eset.com/us/about/newsroom/research/eset-research-spy-group-exploits-wps-office-zero-day-analysis-uncovers-a-second-vulnerability/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Kingsoft",
+      "product": "WPS Office",
+      "vulnerabilityName": "Kingsoft WPS Office Path Traversal Vulnerability",
+      "shortDescription": "Kingsoft WPS Office contains a path traversal vulnerability in promecefpluginhost.exe on Windows that allows an attacker to load an arbitrary Windows library.",
+      "dateAdded": "2024-09-03",
+      "dueDate": "2024-09-24",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "While CISA cannot confirm the effectiveness of patches at this time, it is recommended that mitigations be applied per vendor instructions if available. If these instructions cannot be located or if mitigations are unavailable, discontinue the use of the product.;   https://nvd.nist.gov/vuln/detail/CVE-2024-7262",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }

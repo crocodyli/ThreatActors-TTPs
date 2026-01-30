@@ -4,7 +4,20 @@
     {
       "id": "CVE-2024-8963",
       "source": "https://www.sentinelone.com/labs/follow-the-smoke-china-nexus-threat-actors-hammer-at-the-doors-of-top-tier-targets/",
-      "dateFound": "2026-01-30"
+      "dateFound": "2026-01-30",
+      "vendor": "Ivanti",
+      "product": "Cloud Services Appliance (CSA)",
+      "vulnerabilityName": "Ivanti Cloud Services Appliance (CSA) Path Traversal Vulnerability",
+      "shortDescription": "Ivanti Cloud Services Appliance (CSA) contains a path traversal vulnerability that could allow a remote, unauthenticated attacker to access restricted functionality. If CVE-2024-8963 is used in conjunction with CVE-2024-8190, an attacker could bypass admin authentication and execute arbitrary commands on the appliance.",
+      "dateAdded": "2024-09-19",
+      "dueDate": "2024-10-10",
+      "requiredAction": "As Ivanti CSA has reached End-of-Life status, users are urged to remove CSA 4.6.x from service or upgrade to the 5.0.x line of supported solutions, as future vulnerabilities on the 4.6.x version of CSA are unlikely to receive security updates.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-CSA-4-6-Cloud-Services-Appliance-CVE-2024-8963 ; https://nvd.nist.gov/vuln/detail/CVE-2024-8963",
+      "cwes": [
+        "CWE-22"
+      ],
+      "dateEnriched": "2026-01-30"
     }
   ]
 }
