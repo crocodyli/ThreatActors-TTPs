@@ -1,0 +1,10 @@
+{
+  "group": "RedNovember",
+  "cves": [
+    {
+      "id": "CVE-2024-24919",
+      "source": "https://www.darkreading.com/threat-intelligence/chinese-apt-oss-pocs-spy-countries",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
