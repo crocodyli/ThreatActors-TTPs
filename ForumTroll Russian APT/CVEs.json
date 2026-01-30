@@ -1,0 +1,10 @@
+{
+  "group": "ForumTroll (Russian APT)",
+  "cves": [
+    {
+      "id": "CVE-2025-2783",
+      "source": "https://securelist.com/operation-forumtroll-new-targeted-campaign/118492/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
