@@ -1,0 +1,10 @@
+{
+  "group": "Kaspersky Cloud Atlas APT",
+  "cves": [
+    {
+      "id": "CVE-2018-0802",
+      "source": "https://securelist.com/cloud-atlas-h1-2025-campaign/118517/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
