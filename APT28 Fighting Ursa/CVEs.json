@@ -1,0 +1,10 @@
+{
+  "group": "APT28 (Fighting Ursa)",
+  "cves": [
+    {
+      "id": "CVE-2023-23397",
+      "source": "https://unit42.paloaltonetworks.com/russian-apt-fighting-ursa-exploits-cve-2023-233397/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
