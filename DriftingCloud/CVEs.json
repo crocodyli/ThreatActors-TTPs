@@ -1,0 +1,10 @@
+{
+  "group": "DriftingCloud",
+  "cves": [
+    {
+      "id": "CVE-2022-1040",
+      "source": "https://www.volexity.com/blog/2022/06/15/driftingcloud-zero-day-sophos-firewall-exploitation-and-an-insidious-breach/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
