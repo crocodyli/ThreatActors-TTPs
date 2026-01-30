@@ -1,0 +1,10 @@
+{
+  "group": "Void Banshee",
+  "cves": [
+    {
+      "id": "CVE-2024-38112",
+      "source": "https://www.trendmicro.com/en_us/research/24/g/CVE-2024-38112-void-banshee.html",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
