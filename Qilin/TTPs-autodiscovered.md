@@ -61,3 +61,8 @@
 | T1518 | Software Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
 | T1560.001 | Archive via Utility | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
 | T1573.001 | Symmetric Cryptography | https://www.cyfirma.com/news/weekly-intelligence-report-07-november-2025/ | 2026-01-29 |
+| T1027 | Obfuscated Files or Information | https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques | 2026-01-30 |
+| T1047 | Windows Management Instrumentation | https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques | 2026-01-30 |
+| T1562 | Impair Defenses | https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques | 2026-01-30 |
+| T1112 | Modify Registry | https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques | 2026-01-30 |
+| T1204 | User Execution | https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques | 2026-01-30 |
