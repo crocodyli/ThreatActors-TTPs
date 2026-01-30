@@ -26,10 +26,11 @@
     "T1547",
     "T1562",
     "T1562.001",
+    "T1567.002",
     "T1583.001",
     "T1595.002"
   ],
-  "techniqueCount": 27,
+  "techniqueCount": 28,
   "cveCount": 0,
   "metadata": {
     "description": "Before we delve into the history and details of the Hunters International ransomware operation, let’s discuss some aspects of the Ransomware Hive operation.",
@@ -73,6 +74,7 @@
           "T1190",
           "T1490",
           "T1562.001",
+          "T1567.002",
           "T1583.001",
           "T1595.002"
         ]

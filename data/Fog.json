@@ -1,10 +1,9 @@
 {
-  "name": "Repellent Scorpius Cicada3301",
+  "name": "Fog",
   "techniques": [
-    "T1078",
-    "T1133"
+    "T1486"
   ],
-  "techniqueCount": 2,
+  "techniqueCount": 1,
   "cveCount": 0,
   "metadata": {
     "description": "---",
@@ -14,8 +13,7 @@
       {
         "name": "TTPs-autodiscovered.md",
         "techniques": [
-          "T1078",
-          "T1133"
+          "T1486"
         ]
       }
     ]

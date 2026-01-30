@@ -1,6 +1,6 @@
 {
-  "generated": "2026-01-29T23:47:22.192Z",
-  "actorCount": 80,
+  "generated": "2026-01-30T00:23:36.889Z",
+  "actorCount": 81,
   "totalTechniques": 325,
   "actors": [
     {
@@ -1172,6 +1172,14 @@
       ]
     },
     {
+      "name": "Fog",
+      "techniqueCount": 1,
+      "cveCount": 0,
+      "techniques": [
+        "T1486"
+      ]
+    },
+    {
       "name": "GLOBAL",
       "techniqueCount": 22,
       "cveCount": 0,
@@ -1273,7 +1281,7 @@
     },
     {
       "name": "Hunters International",
-      "techniqueCount": 27,
+      "techniqueCount": 28,
       "cveCount": 0,
       "techniques": [
         "T1003.002",
@@ -1301,6 +1309,7 @@
         "T1547",
         "T1562",
         "T1562.001",
+        "T1567.002",
         "T1583.001",
         "T1595.002"
       ]
@@ -2121,9 +2130,10 @@
     },
     {
       "name": "Repellent Scorpius Cicada3301",
-      "techniqueCount": 1,
+      "techniqueCount": 2,
       "cveCount": 0,
       "techniques": [
+        "T1078",
         "T1133"
       ]
     },
