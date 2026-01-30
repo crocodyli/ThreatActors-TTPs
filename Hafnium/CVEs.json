@@ -1,0 +1,10 @@
+{
+  "group": "Hafnium",
+  "cves": [
+    {
+      "id": "CVE-2021-26855",
+      "source": "https://www.security.com/threat-intelligence/microsoft-exchange-server-protection",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
