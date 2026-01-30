@@ -1,0 +1,10 @@
+{
+  "group": "UNC5820",
+  "cves": [
+    {
+      "id": "CVE-2024-47575",
+      "source": "https://cloud.google.com/blog/topics/threat-intelligence/fortimanager-zero-day-exploitation-cve-2024-47575",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
