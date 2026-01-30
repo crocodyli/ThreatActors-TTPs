@@ -1,0 +1,10 @@
+{
+  "group": "PurpleHaze",
+  "cves": [
+    {
+      "id": "CVE-2024-8963",
+      "source": "https://www.sentinelone.com/labs/follow-the-smoke-china-nexus-threat-actors-hammer-at-the-doors-of-top-tier-targets/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
