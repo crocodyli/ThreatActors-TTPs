@@ -1,0 +1,10 @@
+{
+  "group": "ForumTroll (Russian state-sponsored APT)",
+  "cves": [
+    {
+      "id": "CVE-2025-2783",
+      "source": "https://www.kaspersky.com/blog/forum-troll-apt-with-zero-day-vulnerability/53215/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
