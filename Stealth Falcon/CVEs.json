@@ -1,0 +1,10 @@
+{
+  "group": "Stealth Falcon",
+  "cves": [
+    {
+      "id": "CVE-2025-33053",
+      "source": "https://research.checkpoint.com/2025/stealth-falcon-zero-day/",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
