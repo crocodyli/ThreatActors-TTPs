@@ -1,0 +1,20 @@
+{
+  "group": "Hunters International (Water Ouroboros)",
+  "cves": [
+    {
+      "id": "CVE-2019-2725",
+      "source": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-water-ouroboros",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2017-10271",
+      "source": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-water-ouroboros",
+      "dateFound": "2026-01-30"
+    },
+    {
+      "id": "CVE-2019-2729",
+      "source": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-water-ouroboros",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
