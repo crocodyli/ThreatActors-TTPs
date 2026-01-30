@@ -13,3 +13,20 @@
 | T1036 | Masquerading | https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques | 2026-01-28 |
 | T1112 | Modify Registry | https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques | 2026-01-28 |
 | T1204 | User Execution | https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques | 2026-01-28 |
+| T1490 | Inhibit System Recovery | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1078 | Valid Accounts | https://redpiranha.net/red-piranha-2025-threat-intelligence-ransomware-report/ | 2026-01-30 |
+| T1071.001 | Web Protocols | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1566 | Phishing | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1219 | Remote Access Tools | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1547.001 | Registry Run Keys / Startup Folder | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1078.004 | Cloud Accounts | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1012 | Query Registry | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1082 | System Information Discovery | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1016 | System Network Configuration Discovery | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1021.001 | Remote Desktop Protocol | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1562.001 | Disable or Modify Tools | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1070.001 | Clear Windows Event Logs | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1005 | Data from Local System | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1567.002 | Exfiltration to Cloud Storage | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1090 | Proxy | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
+| T1486 | Data Encrypted for Impact | https://redpiranha.net/news/threat-intelligence-report-september-23-september-29-2025/ | 2026-01-30 |
