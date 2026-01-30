@@ -1,0 +1,10 @@
+{
+  "group": "Trigona",
+  "cves": [
+    {
+      "id": "CVE-2021-40539",
+      "source": "https://www.trendmicro.com/vinfo/us/security/news/ransomware-spotlight/ransomware-spotlight-trigona",
+      "dateFound": "2026-01-30"
+    }
+  ]
+}
