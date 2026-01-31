@@ -1,0 +1,10 @@
+{
+  "group": "Phantom Taurus (Chinese APT)",
+  "cves": [
+    {
+      "id": "CVE-2025-55182",
+      "source": "https://unit42.paloaltonetworks.com/",
+      "dateFound": "2026-01-31"
+    }
+  ]
+}
