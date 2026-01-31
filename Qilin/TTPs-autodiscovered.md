@@ -66,3 +66,27 @@
 | T1562 | Impair Defenses | https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques | 2026-01-30 |
 | T1112 | Modify Registry | https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques | 2026-01-30 |
 | T1204 | User Execution | https://www.picussecurity.com/resource/blog/top-5-ransomware-attack-techniques | 2026-01-30 |
+| T1129 | Shared Modules | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1542.003 | Bootkit | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1574.002 | DLL Side-Loading | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1134 | Access Token Manipulation | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1014 | Rootkit | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1027.005 | Indicator Removal from Tools | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1003 | OS Credential Dumping | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1056.001 | Keylogging | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1539 | Steal Web Session Cookie | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1552.001 | Credentials In Files | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1010 | Application Window Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1016 | System Network Configuration Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1033 | System Owner/User Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1049 | System Network Connections Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1057 | Process Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1087 | Account Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1135 | Network Share Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1614.001 | System Language Discovery | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1074 | Data Staged | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1114 | Email Collection | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1573 | Encrypted Channel | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1496 | Resource Hijacking | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1497 | Virtualization/Sandbox Evasion | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
+| T1056 | Input Capture | https://www.cyfirma.com/news/weekly-intelligence-report-28-mar-2025/ | 2026-01-31 |
