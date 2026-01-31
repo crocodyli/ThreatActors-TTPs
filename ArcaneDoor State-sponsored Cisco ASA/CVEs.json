@@ -1,0 +1,10 @@
+{
+  "group": "ArcaneDoor (State-sponsored, Cisco ASA)",
+  "cves": [
+    {
+      "id": "CVE-2025-20333",
+      "source": "https://unit42.paloaltonetworks.com/zero-day-vulnerabilities-affect-cisco-software/",
+      "dateFound": "2026-01-31"
+    }
+  ]
+}
