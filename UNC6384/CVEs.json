@@ -1,0 +1,10 @@
+{
+  "group": "UNC6384",
+  "cves": [
+    {
+      "id": "CVE-2025-9491",
+      "source": "https://blog.0patch.com/2025/12/microsoft-silently-patched-cve-2025.html",
+      "dateFound": "2026-01-31"
+    }
+  ]
+}
