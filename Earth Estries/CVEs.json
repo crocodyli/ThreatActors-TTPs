@@ -4,7 +4,20 @@
     {
       "id": "CVE-2025-5777",
       "source": "https://www.trendmicro.com/en_us/research/25/j/premier-pass-as-a-service.html",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Citrix",
+      "product": "NetScaler ADC and Gateway",
+      "vulnerabilityName": "Citrix NetScaler ADC and Gateway Out-of-Bounds Read Vulnerability",
+      "shortDescription": "Citrix NetScaler ADC and Gateway contain an out-of-bounds read vulnerability due to insufficient input validation. This vulnerability can lead to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server.",
+      "dateAdded": "2025-07-10",
+      "dueDate": "2025-07-11",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX693420 ; https://nvd.nist.gov/vuln/detail/CVE-2025-5777",
+      "cwes": [
+        "CWE-125"
+      ],
+      "dateEnriched": "2026-01-31"
     }
   ]
 }
