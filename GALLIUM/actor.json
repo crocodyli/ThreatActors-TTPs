@@ -1,9 +1,12 @@
 {
   "name": "GALLIUM",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[GALLIUM](https://attack.mitre.org/groups/G0093) is a cyberespionage group that has been active since at least 2012, primarily targeting telecommunications companies, financial institutions, and government entities in Afghanistan, Australia, Belgium, Cambodia, Malaysia, Mozambique, the Philippines, Russia, and Vietnam. This group is particularly known for launching Operation Soft Cell, a long-term campaign targeting telecommunications providers.(Citation: Cybereason Soft Cell June 2019) Security researchers have identified [GALLIUM](https://attack.mitre.org/groups/G0093) as a likely Chinese state-sponsored group, based in part on tools used and TTPs commonly associated with Chinese threat actors.(Citation: Cybereason Soft Cell June 2019)(Citation: Microsoft GALLIUM December 2019)(Citation: Unit 42 PingPull Jun 2022)",
+  "aliases": [
+    "GALLIUM",
+    "Granite Typhoon"
+  ],
+  "mitreId": "G0093",
   "techniqueCount": 31,
   "techniques": [
     "T1003.001",
@@ -40,6 +43,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.560Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.407Z",
+  "descriptionPreview": "[GALLIUM](https://attack."
 }

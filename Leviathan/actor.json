@@ -1,9 +1,19 @@
 {
   "name": "Leviathan",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Leviathan](https://attack.mitre.org/groups/G0065) is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company.(Citation: CISA AA21-200A APT40 July 2021) Active since at least 2009, [Leviathan](https://attack.mitre.org/groups/G0065) has targeted the following sectors: academia, aerospace/aviation, biomedical, defense industrial base, government, healthcare, manufacturing, maritime, and transportation across the US, Canada, Australia, Europe, the Middle East, and Southeast Asia.(Citation: CISA AA21-200A APT40 July 2021)(Citation: Proofpoint Leviathan Oct 2017)(Citation: FireEye Periscope March 2018)(Citation: CISA Leviathan 2024)",
+  "aliases": [
+    "Leviathan",
+    "MUDCARP",
+    "Kryptonite Panda",
+    "Gadolinium",
+    "BRONZE MOHAWK",
+    "TEMP.Jumper",
+    "APT40",
+    "TEMP.Periscope",
+    "Gingham Typhoon"
+  ],
+  "mitreId": "G0065",
   "techniqueCount": 50,
   "techniques": [
     "T1003",
@@ -59,6 +69,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.563Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.410Z",
+  "descriptionPreview": "[Leviathan](https://attack."
 }

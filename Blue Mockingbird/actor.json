@@ -1,9 +1,11 @@
 {
   "name": "Blue Mockingbird",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Blue Mockingbird](https://attack.mitre.org/groups/G0108) is a cluster of observed activity involving Monero cryptocurrency-mining payloads in dynamic-link library (DLL) form on Windows systems. The earliest observed Blue Mockingbird tools were created in December 2019.(Citation: RedCanary Mockingbird May 2020)",
+  "aliases": [
+    "Blue Mockingbird"
+  ],
+  "mitreId": "G0108",
   "techniqueCount": 22,
   "techniques": [
     "T1003.001",
@@ -31,6 +33,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.556Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.403Z",
+  "descriptionPreview": "[Blue Mockingbird](https://attack."
 }

@@ -1,9 +1,15 @@
 {
   "name": "Saint Bear",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Saint Bear](https://attack.mitre.org/groups/G1031) is a Russian-nexus threat actor active since early 2021, primarily targeting entities in Ukraine and Georgia. The group is notable for a specific remote access tool, [Saint Bot](https://attack.mitre.org/software/S1018), and information stealer, [OutSteel](https://attack.mitre.org/software/S1017) in campaigns. [Saint Bear](https://attack.mitre.org/groups/G1031) typically relies on phishing or web staging of malicious documents and related file types for initial access, spoofing government or related entities.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )(Citation: Cadet Blizzard emerges as novel threat actor) [Saint Bear](https://attack.mitre.org/groups/G1031) has previously been confused with [Ember Bear](https://attack.mitre.org/groups/G1003) operations, but analysis of behaviors, tools, and targeting indicates these are distinct clusters.",
+  "aliases": [
+    "Saint Bear",
+    "Storm-0587",
+    "TA471",
+    "UAC-0056",
+    "Lorec53"
+  ],
+  "mitreId": "G1031",
   "techniqueCount": 18,
   "techniques": [
     "T1027.002",
@@ -27,6 +33,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.567Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.414Z",
+  "descriptionPreview": "[Saint Bear](https://attack."
 }

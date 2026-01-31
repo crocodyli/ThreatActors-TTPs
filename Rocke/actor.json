@@ -1,9 +1,11 @@
 {
   "name": "Rocke",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Rocke](https://attack.mitre.org/groups/G0106) is an alleged Chinese-speaking adversary whose primary objective appeared to be cryptojacking, or stealing victim system resources for the purposes of mining cryptocurrency. The name [Rocke](https://attack.mitre.org/groups/G0106) comes from the email address \"rocke@live.cn\" used to create the wallet which held collected cryptocurrency. Researchers have detected overlaps between [Rocke](https://attack.mitre.org/groups/G0106) and the Iron Cybercrime Group, though this attribution has not been confirmed.(Citation: Talos Rocke August 2018)",
+  "aliases": [
+    "Rocke"
+  ],
+  "mitreId": "G0106",
   "techniqueCount": 36,
   "techniques": [
     "T1014",
@@ -45,6 +47,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.566Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.414Z",
+  "descriptionPreview": "[Rocke](https://attack."
 }

@@ -1,9 +1,11 @@
 {
   "name": "Higaisa",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Higaisa](https://attack.mitre.org/groups/G0126) is a threat group suspected to have South Korean origins. [Higaisa](https://attack.mitre.org/groups/G0126) has targeted government, public, and trade organizations in North Korea; however, they have also carried out attacks in China, Japan, Russia, Poland, and other nations. [Higaisa](https://attack.mitre.org/groups/G0126) was first disclosed in early 2019 but is assessed to have operated as early as 2009.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)(Citation: PTSecurity Higaisa 2020)",
+  "aliases": [
+    "Higaisa"
+  ],
+  "mitreId": "G0126",
   "techniqueCount": 28,
   "techniques": [
     "T1001.003",
@@ -37,6 +39,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.561Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.408Z",
+  "descriptionPreview": "[Higaisa](https://attack."
 }

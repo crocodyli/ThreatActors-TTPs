@@ -1,9 +1,15 @@
 {
   "name": "Indrik Spider",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Indrik Spider](https://attack.mitre.org/groups/G0119) is a Russia-based cybercriminal group that has been active since at least 2014. [Indrik Spider](https://attack.mitre.org/groups/G0119) initially started with the [Dridex](https://attack.mitre.org/software/S0384) banking Trojan, and then by 2017 they began running ransomware operations using [BitPaymer](https://attack.mitre.org/software/S0570), [WastedLocker](https://attack.mitre.org/software/S0612), and Hades ransomware. Following U.S. sanctions and an indictment in 2019, [Indrik Spider](https://attack.mitre.org/groups/G0119) changed their tactics and diversified their toolset.(Citation: Crowdstrike Indrik November 2018)(Citation: Crowdstrike EvilCorp March 2021)(Citation: Treasury EvilCorp Dec 2019)",
+  "aliases": [
+    "Indrik Spider",
+    "Evil Corp",
+    "Manatee Tempest",
+    "DEV-0243",
+    "UNC2165"
+  ],
+  "mitreId": "G0119",
   "techniqueCount": 33,
   "techniques": [
     "T1003.001",
@@ -42,6 +48,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.562Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.409Z",
+  "descriptionPreview": "[Indrik Spider](https://attack."
 }

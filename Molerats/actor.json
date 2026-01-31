@@ -1,9 +1,13 @@
 {
   "name": "Molerats",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Molerats](https://attack.mitre.org/groups/G0021) is an Arabic-speaking, politically-motivated threat group that has been operating since 2012. The group's victims have primarily been in the Middle East, Europe, and the United States.(Citation: DustySky)(Citation: DustySky2)(Citation: Kaspersky MoleRATs April 2019)(Citation: Cybereason Molerats Dec 2020)",
+  "aliases": [
+    "Molerats",
+    "Operation Molerats",
+    "Gaza Cybergang"
+  ],
+  "mitreId": "G0021",
   "techniqueCount": 16,
   "techniques": [
     "T1027.015",
@@ -25,6 +29,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.564Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.411Z",
+  "descriptionPreview": "[Molerats](https://attack."
 }

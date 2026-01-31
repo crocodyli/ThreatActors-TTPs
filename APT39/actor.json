@@ -1,9 +1,14 @@
 {
   "name": "APT39",
   "type": "apt",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[APT39](https://attack.mitre.org/groups/G0087) is one of several names for cyber espionage activity conducted by the Iranian Ministry of Intelligence and Security (MOIS) through the front company Rana Intelligence Computing since at least 2014. [APT39](https://attack.mitre.org/groups/G0087) has primarily targeted the travel, hospitality, academic, and telecommunications industries in Iran and across Asia, Africa, Europe, and North America to track individuals and entities considered to be a threat by the MOIS.(Citation: FireEye APT39 Jan 2019)(Citation: Symantec Chafer Dec 2015)(Citation: FBI FLASH APT39 September 2020)(Citation: Dept. of Treasury Iran Sanctions September 2020)(Citation: DOJ Iran Indictments September 2020)",
+  "aliases": [
+    "APT39",
+    "ITG07",
+    "Chafer",
+    "Remix Kitten"
+  ],
+  "mitreId": "G0087",
   "techniqueCount": 53,
   "techniques": [
     "T1003",
@@ -62,6 +67,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.554Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.401Z",
+  "descriptionPreview": "[APT39](https://attack."
 }

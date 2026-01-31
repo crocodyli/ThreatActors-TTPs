@@ -1,9 +1,12 @@
 {
   "name": "Strider",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Strider](https://attack.mitre.org/groups/G0041) is a threat group that has been active since at least 2011 and has targeted victims in Russia, China, Sweden, Belgium, Iran, and Rwanda.(Citation: Symantec Strider Blog)(Citation: Kaspersky ProjectSauron Blog)",
+  "aliases": [
+    "Strider",
+    "ProjectSauron"
+  ],
+  "mitreId": "G0041",
   "techniqueCount": 3,
   "techniques": [
     "T1090.001",
@@ -12,6 +15,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.568Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.416Z",
+  "descriptionPreview": "[Strider](https://attack."
 }

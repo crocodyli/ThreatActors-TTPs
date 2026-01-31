@@ -1,9 +1,11 @@
 {
   "name": "PLATINUM",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[PLATINUM](https://attack.mitre.org/groups/G0068) is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia. (Citation: Microsoft PLATINUM April 2016)",
+  "aliases": [
+    "PLATINUM"
+  ],
+  "mitreId": "G0068",
   "techniqueCount": 11,
   "techniques": [
     "T1003.001",
@@ -20,6 +22,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.565Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.412Z",
+  "descriptionPreview": "[PLATINUM](https://attack."
 }

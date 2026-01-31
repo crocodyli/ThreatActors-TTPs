@@ -1,9 +1,13 @@
 {
   "name": "BRONZE BUTLER",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) is a cyber espionage group with likely Chinese origins that has been active since at least 2008. The group primarily targets Japanese organizations, particularly those in government, biotechnology, electronics manufacturing, and industrial chemistry.(Citation: Trend Micro Daserf Nov 2017)(Citation: Secureworks BRONZE BUTLER Oct 2017)(Citation: Trend Micro Tick November 2019)",
+  "aliases": [
+    "BRONZE BUTLER",
+    "REDBALDKNIGHT",
+    "Tick"
+  ],
+  "mitreId": "G0060",
   "techniqueCount": 40,
   "techniques": [
     "T1003.001",
@@ -49,6 +53,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.555Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.402Z",
+  "descriptionPreview": "[BRONZE BUTLER](https://attack."
 }

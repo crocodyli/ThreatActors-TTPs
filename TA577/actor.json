@@ -1,9 +1,11 @@
 {
   "name": "TA577",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[TA577](https://attack.mitre.org/groups/G1037) is an initial access broker (IAB) that has distributed [QakBot](https://attack.mitre.org/software/S0650) and [Pikabot](https://attack.mitre.org/software/S1145), and was among the first observed groups distributing [Latrodectus](https://attack.mitre.org/software/S1160) in 2023.(Citation: Latrodectus APR 2024)",
+  "aliases": [
+    "TA577"
+  ],
+  "mitreId": "G1037",
   "techniqueCount": 6,
   "techniques": [
     "T1027.009",
@@ -15,6 +17,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.569Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.417Z",
+  "descriptionPreview": "[TA577](https://attack."
 }

@@ -1,9 +1,13 @@
 {
   "name": "LAPSUS$",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) is cyber criminal threat group that has been active since at least mid-2021. [LAPSUS$](https://attack.mitre.org/groups/G1004) specializes in large-scale social engineering and extortion operations, including destructive attacks without the use of ransomware. The group has targeted organizations globally, including in the government, manufacturing, higher education, energy, healthcare, technology, telecommunications, and media sectors.(Citation: BBC LAPSUS Apr 2022)(Citation: MSTIC DEV-0537 Mar 2022)(Citation: UNIT 42 LAPSUS Mar 2022)",
+  "aliases": [
+    "LAPSUS$",
+    "DEV-0537",
+    "Strawberry Tempest"
+  ],
+  "mitreId": "G1004",
   "techniqueCount": 43,
   "techniques": [
     "T1003.003",
@@ -52,6 +56,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.562Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.409Z",
+  "descriptionPreview": "[LAPSUS$](https://attack."
 }

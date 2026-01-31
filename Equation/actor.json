@@ -1,9 +1,11 @@
 {
   "name": "Equation",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Equation](https://attack.mitre.org/groups/G0020) is a sophisticated threat group that employs multiple remote access tools. The group is known to use zero-day exploits and has developed the capability to overwrite the firmware of hard disk drives. (Citation: Kaspersky Equation QA)",
+  "aliases": [
+    "Equation"
+  ],
+  "mitreId": "G0020",
   "techniqueCount": 4,
   "techniques": [
     "T1120",
@@ -13,6 +15,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.559Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.406Z",
+  "descriptionPreview": "[Equation](https://attack."
 }

@@ -1,9 +1,15 @@
 {
   "name": "Star Blizzard",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Star Blizzard](https://attack.mitre.org/groups/G1033) is a cyber espionage and influence group originating in Russia that has been active since at least 2019. [Star Blizzard](https://attack.mitre.org/groups/G1033) campaigns align closely with Russian state interests and have included persistent phishing and credential theft against academic, defense, government, NGO, and think tank organizations in NATO countries, particularly the US and the UK.(Citation: Microsoft Star Blizzard August 2022)(Citation: CISA Star Blizzard Advisory December 2023)(Citation: StarBlizzard)(Citation: Google TAG COLDRIVER January 2024)\n",
+  "aliases": [
+    "Star Blizzard",
+    "SEABORGIUM",
+    "Callisto Group",
+    "TA446",
+    "COLDRIVER"
+  ],
+  "mitreId": "G1033",
   "techniqueCount": 19,
   "techniques": [
     "T1059.007",
@@ -28,6 +34,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.568Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.416Z",
+  "descriptionPreview": "[Star Blizzard](https://attack."
 }

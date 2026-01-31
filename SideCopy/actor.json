@@ -1,9 +1,11 @@
 {
   "name": "SideCopy",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[SideCopy](https://attack.mitre.org/groups/G1008) is a Pakistani threat group that has primarily targeted South Asian countries, including Indian and Afghani government personnel, since at least 2019. [SideCopy](https://attack.mitre.org/groups/G1008)'s name comes from its infection chain that tries to mimic that of [Sidewinder](https://attack.mitre.org/groups/G0121), a suspected Indian threat group.(Citation: MalwareBytes SideCopy Dec 2021)",
+  "aliases": [
+    "SideCopy"
+  ],
+  "mitreId": "G1008",
   "techniqueCount": 16,
   "techniques": [
     "T1016",
@@ -25,6 +27,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.568Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.415Z",
+  "descriptionPreview": "[SideCopy](https://attack."
 }

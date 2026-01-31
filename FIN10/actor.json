@@ -1,9 +1,11 @@
 {
   "name": "FIN10",
   "type": "apt",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[FIN10](https://attack.mitre.org/groups/G0051) is a financially motivated threat group that has targeted organizations in North America since at least 2013 through 2016. The group uses stolen data exfiltrated from victims to extort organizations. (Citation: FireEye FIN10 June 2017)",
+  "aliases": [
+    "FIN10"
+  ],
+  "mitreId": "G0051",
   "techniqueCount": 11,
   "techniques": [
     "T1021.001",
@@ -20,6 +22,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.559Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.407Z",
+  "descriptionPreview": "[FIN10](https://attack."
 }

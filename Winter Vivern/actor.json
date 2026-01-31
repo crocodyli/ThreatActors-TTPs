@@ -1,9 +1,13 @@
 {
   "name": "Winter Vivern",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "Winter Vivern is a group linked to Russian and Belorussian interests active since at least 2020 targeting various European government and NGO entities, along with sporadic targeting of Indian and US victims. The group leverages a combination of document-based phishing activity and server-side exploitation for initial access, leveraging adversary-controlled and -created infrastructure for follow-on command and control.(Citation: DomainTools WinterVivern 2021)(Citation: SentinelOne WinterVivern 2023)(Citation: CERT-UA WinterVivern 2023)(Citation: ESET WinterVivern 2023)(Citation: Proofpoint WinterVivern 2023)",
+  "aliases": [
+    "Winter Vivern",
+    "TA473",
+    "UAC-0114"
+  ],
+  "mitreId": "G1035",
   "techniqueCount": 27,
   "techniques": [
     "T1020",
@@ -36,6 +40,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.571Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.420Z",
+  "descriptionPreview": "Winter Vivern is a group linked to Russian and Belorussian interests active since at least 2020 targeting various European government and NGO entities, along with sporadic targeting of Indian and US victims."
 }

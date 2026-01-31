@@ -1,9 +1,19 @@
 {
   "name": "Threat Group-3390",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) is a Chinese threat group that has extensively used strategic Web compromises to target victims.(Citation: Dell TG-3390) The group has been active since at least 2010 and has targeted organizations in the aerospace, government, defense, technology, energy, manufacturing and gambling/betting sectors.(Citation: SecureWorks BRONZE UNION June 2017)(Citation: Securelist LuckyMouse June 2018)(Citation: Trend Micro DRBControl February 2020)",
+  "aliases": [
+    "Threat Group-3390",
+    "Earth Smilodon",
+    "TG-3390",
+    "Emissary Panda",
+    "BRONZE UNION",
+    "APT27",
+    "Iron Tiger",
+    "LuckyMouse",
+    "Linen Typhoon"
+  ],
+  "mitreId": "G0027",
   "techniqueCount": 57,
   "techniques": [
     "T1003.001",
@@ -66,6 +76,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.569Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.417Z",
+  "descriptionPreview": "[Threat Group-3390](https://attack."
 }

@@ -1,9 +1,11 @@
 {
   "name": "Naikon",
   "type": "apt",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Naikon](https://attack.mitre.org/groups/G0019) is assessed to be a state-sponsored cyber espionage group attributed to the Chinese People’s Liberation Army’s (PLA) Chengdu Military Region Second Technical Reconnaissance Bureau (Military Unit Cover Designator 78020).(Citation: CameraShy) Active since at least 2010, [Naikon](https://attack.mitre.org/groups/G0019) has primarily conducted operations against government, military, and civil organizations in Southeast Asia, as well as against international bodies such as the United Nations Development Programme (UNDP) and the Association of Southeast Asian Nations (ASEAN).(Citation: CameraShy)(Citation: Baumgartner Naikon 2015) \n\nWhile [Naikon](https://attack.mitre.org/groups/G0019) shares some characteristics with [APT30](https://attack.mitre.org/groups/G0013), the two groups do not appear to be exact matches.(Citation: Baumgartner Golovkin Naikon 2015)",
+  "aliases": [
+    "Naikon"
+  ],
+  "mitreId": "G0019",
   "techniqueCount": 14,
   "techniques": [
     "T1016",
@@ -23,6 +25,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.565Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.412Z",
+  "descriptionPreview": "[Naikon](https://attack."
 }

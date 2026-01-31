@@ -1,9 +1,11 @@
 {
   "name": "RedCurl",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[RedCurl](https://attack.mitre.org/groups/G1039) is a threat actor active since 2018 notable for corporate espionage targeting a variety of locations, including Ukraine, Canada and the United Kingdom, and a variety of industries, including but not limited to travel agencies, insurance companies, and banks.(Citation: group-ib_redcurl1) [RedCurl](https://attack.mitre.org/groups/G1039) is allegedly a Russian-speaking threat actor.(Citation: group-ib_redcurl1)(Citation: group-ib_redcurl2) The group’s operations typically start with spearphishing emails to gain initial access, then the group executes discovery and collection commands and scripts to find corporate data. The group concludes operations by exfiltrating files to the C2 servers. ",
+  "aliases": [
+    "RedCurl"
+  ],
+  "mitreId": "G1039",
   "techniqueCount": 41,
   "techniques": [
     "T1003.001",
@@ -50,6 +52,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.566Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.413Z",
+  "descriptionPreview": "[RedCurl](https://attack."
 }

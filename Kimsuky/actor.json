@@ -1,9 +1,18 @@
 {
   "name": "Kimsuky",
   "type": "apt",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) is a North Korea-based cyber espionage group that has been active since at least 2012. The group initially targeted South Korean government agencies, think tanks, and subject-matter experts in various fields. Its operations expanded to include the United Nations and organizations in the government, education, business services, and manufacturing sectors across the United States, Japan, Russia, and Europe. [Kimsuky](https://attack.mitre.org/groups/G0094) has focused collection on foreign policy and national security issues tied to the Korean Peninsula, nuclear policy, and sanctions. Its operations have overlapped with other DPRK actors, likely due to ad hoc collaboration or limited resource sharing.(Citation: EST Kimsuky April 2019)(Citation: Cybereason Kimsuky November 2020)(Citation: Malwarebytes Kimsuky June 2021)(Citation: CISA AA20-301A Kimsuky)(Citation: Mandiant APT43 March 2024)(Citation: Proofpoint TA427 April 2024) Because of overlapping operations, some researchers group a wide range of North Korean state-sponsored cyber activity under the broader [Lazarus Group](https://attack.mitre.org/groups/G0032) umbrella rather than tracking separate subgroup or cluster distinctions.\n\n[Kimsuky](https://attack.mitre.org/groups/G0094) was assessed to be responsible for the 2014 Korea Hydro & Nuclear Power Co. compromise; other notable campaigns include Operation STOLEN PENCIL (2018), Operation Kabar Cobra (2019), and Operation Smoke Screen (2019).(Citation: Netscout Stolen Pencil Dec 2018)(Citation: EST Kimsuky SmokeScreen April 2019)(Citation: AhnLab Kimsuky Kabar Cobra Feb 2019)\n\nIn 2023, [Kimsuky](https://attack.mitre.org/groups/G0094) was observed using commercial large language models to assist with vulnerability research, scripting, social engineering and reconnaissance.(Citation: MSFT-AI)",
+  "aliases": [
+    "Kimsuky",
+    "Black Banshee",
+    "Velvet Chollima",
+    "Emerald Sleet",
+    "THALLIUM",
+    "APT43",
+    "TA427",
+    "Springtail"
+  ],
+  "mitreId": "G0094",
   "techniqueCount": 109,
   "techniques": [
     "T1003.001",
@@ -118,6 +127,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.562Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.409Z",
+  "descriptionPreview": "[Kimsuky](https://attack."
 }

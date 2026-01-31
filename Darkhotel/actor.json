@@ -1,9 +1,13 @@
 {
   "name": "Darkhotel",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Darkhotel](https://attack.mitre.org/groups/G0012) is a suspected South Korean threat group that has targeted victims primarily in East Asia since at least 2004. The group's name is based on cyber espionage operations conducted via hotel Internet networks against traveling executives and other select guests. [Darkhotel](https://attack.mitre.org/groups/G0012) has also conducted spearphishing campaigns and infected victims through peer-to-peer and file sharing networks.(Citation: Kaspersky Darkhotel)(Citation: Securelist Darkhotel Aug 2015)(Citation: Microsoft Digital Defense FY20 Sept 2020)",
+  "aliases": [
+    "Darkhotel",
+    "DUBNIUM",
+    "Zigzag Hail"
+  ],
+  "mitreId": "G0012",
   "techniqueCount": 24,
   "techniques": [
     "T1016",
@@ -33,6 +37,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.558Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.405Z",
+  "descriptionPreview": "[Darkhotel](https://attack."
 }

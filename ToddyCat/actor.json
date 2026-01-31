@@ -1,9 +1,11 @@
 {
   "name": "ToddyCat",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[ToddyCat](https://attack.mitre.org/groups/G1022) is a sophisticated threat group that has been active since at least 2020 using custom loaders and malware in multi-stage infection chains against government and military targets across Europe and Asia.(Citation: Kaspersky ToddyCat June 2022)(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+  "aliases": [
+    "ToddyCat"
+  ],
+  "mitreId": "G1022",
   "techniqueCount": 25,
   "techniques": [
     "T1005",
@@ -34,6 +36,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.569Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.418Z",
+  "descriptionPreview": "[ToddyCat](https://attack."
 }

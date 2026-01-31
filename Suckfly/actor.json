@@ -1,9 +1,11 @@
 {
   "name": "Suckfly",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Suckfly](https://attack.mitre.org/groups/G0039) is a China-based threat group that has been active since at least 2014. (Citation: Symantec Suckfly March 2016)",
+  "aliases": [
+    "Suckfly"
+  ],
+  "mitreId": "G0039",
   "techniqueCount": 5,
   "techniques": [
     "T1003",
@@ -14,6 +16,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.568Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.417Z",
+  "descriptionPreview": "[Suckfly](https://attack."
 }

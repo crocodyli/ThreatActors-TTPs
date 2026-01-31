@@ -1,9 +1,11 @@
 {
   "name": "Aoqin Dragon",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Aoqin Dragon](https://attack.mitre.org/groups/G1007) is a suspected Chinese cyber espionage threat group that has been active since at least 2013. [Aoqin Dragon](https://attack.mitre.org/groups/G1007) has primarily targeted government, education, and telecommunication organizations in Australia, Cambodia, Hong Kong, Singapore, and Vietnam. Security researchers noted a potential association between [Aoqin Dragon](https://attack.mitre.org/groups/G1007) and UNC94, based on malware, infrastructure, and targets.(Citation: SentinelOne Aoqin Dragon June 2022)",
+  "aliases": [
+    "Aoqin Dragon"
+  ],
+  "mitreId": "G1007",
   "techniqueCount": 9,
   "techniques": [
     "T1027.002",
@@ -18,6 +20,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.555Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.402Z",
+  "descriptionPreview": "[Aoqin Dragon](https://attack."
 }

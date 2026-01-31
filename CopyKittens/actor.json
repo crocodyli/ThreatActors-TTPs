@@ -1,9 +1,11 @@
 {
   "name": "CopyKittens",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) is an Iranian cyber espionage group that has been operating since at least 2013. It has targeted countries including Israel, Saudi Arabia, Turkey, the U.S., Jordan, and Germany. The group is responsible for the campaign known as Operation Wilted Tulip.(Citation: ClearSky CopyKittens March 2017)(Citation: ClearSky Wilted Tulip July 2017)(Citation: CopyKittens Nov 2015)",
+  "aliases": [
+    "CopyKittens"
+  ],
+  "mitreId": "G0052",
   "techniqueCount": 8,
   "techniques": [
     "T1059.001",
@@ -17,6 +19,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.557Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.405Z",
+  "descriptionPreview": "[CopyKittens](https://attack."
 }

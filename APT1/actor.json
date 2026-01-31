@@ -1,9 +1,14 @@
 {
   "name": "APT1",
   "type": "apt",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[APT1](https://attack.mitre.org/groups/G0006) is a Chinese threat group that has been attributed to the 2nd Bureau of the People’s Liberation Army (PLA) General Staff Department’s (GSD) 3rd Department, commonly known by its Military Unit Cover Designator (MUCD) as Unit 61398. (Citation: Mandiant APT1)",
+  "aliases": [
+    "APT1",
+    "Comment Crew",
+    "Comment Group",
+    "Comment Panda"
+  ],
+  "mitreId": "G0006",
   "techniqueCount": 23,
   "techniques": [
     "T1003.001",
@@ -32,6 +37,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.553Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.400Z",
+  "descriptionPreview": "[APT1](https://attack."
 }

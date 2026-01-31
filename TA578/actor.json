@@ -1,9 +1,11 @@
 {
   "name": "TA578",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[TA578](https://attack.mitre.org/groups/G1038) is a threat actor that has used contact forms and email to initiate communications with victims and to distribute malware including [Latrodectus](https://attack.mitre.org/software/S1160), [IcedID](https://attack.mitre.org/software/S0483), and [Bumblebee](https://attack.mitre.org/software/S1039).(Citation: Latrodectus APR 2024)(Citation: Bitsight Latrodectus June 2024)",
+  "aliases": [
+    "TA578"
+  ],
+  "mitreId": "G1038",
   "techniqueCount": 4,
   "techniques": [
     "T1059.007",
@@ -13,6 +15,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.569Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.417Z",
+  "descriptionPreview": "[TA578](https://attack."
 }

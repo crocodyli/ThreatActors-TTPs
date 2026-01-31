@@ -1,9 +1,11 @@
 {
   "name": "Velvet Ant",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Velvet Ant](https://attack.mitre.org/groups/G1047) is a threat actor operating since at least 2021. [Velvet Ant](https://attack.mitre.org/groups/G1047) is associated with complex persistence mechanisms, the targeting of network devices and appliances during operations, and the use of zero day exploits.(Citation: Sygnia VelvetAnt 2024A)(Citation: Sygnia VelvetAnt 2024B)",
+  "aliases": [
+    "Velvet Ant"
+  ],
+  "mitreId": "G1047",
   "techniqueCount": 22,
   "techniques": [
     "T1021.002",
@@ -31,6 +33,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.570Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.419Z",
+  "descriptionPreview": "[Velvet Ant](https://attack."
 }

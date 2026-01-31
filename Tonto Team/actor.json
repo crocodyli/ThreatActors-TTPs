@@ -1,9 +1,15 @@
 {
   "name": "Tonto Team",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) is a suspected Chinese state-sponsored cyber espionage threat group that has primarily targeted South Korea, Japan, Taiwan, and the United States since at least 2009; by 2020 they expanded operations to include other Asian as well as Eastern European countries. [Tonto Team](https://attack.mitre.org/groups/G0131) has targeted government, military, energy, mining, financial, education, healthcare, and technology organizations, including through the Heartbeat Campaign (2009-2012) and Operation Bitter Biscuit (2017).(Citation: Kaspersky CactusPete Aug 2020)(Citation: ESET Exchange Mar 2021)(Citation: FireEye Chinese Espionage October 2019)(Citation: ARS Technica China Hack SK April 2017)(Citation: Trend Micro HeartBeat Campaign January 2013)(Citation: Talos Bisonal 10 Years March 2020)",
+  "aliases": [
+    "Tonto Team",
+    "Earth Akhlut",
+    "BRONZE HUNTLEY",
+    "CactusPete",
+    "Karma Panda"
+  ],
+  "mitreId": "G0131",
   "techniqueCount": 15,
   "techniques": [
     "T1003",
@@ -24,6 +30,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.569Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.418Z",
+  "descriptionPreview": "[Tonto Team](https://attack."
 }

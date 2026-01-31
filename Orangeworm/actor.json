@@ -1,9 +1,11 @@
 {
   "name": "Orangeworm",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Orangeworm](https://attack.mitre.org/groups/G0071) is a group that has targeted organizations in the healthcare sector in the United States, Europe, and Asia since at least 2015, likely for the purpose of corporate espionage.(Citation: Symantec Orangeworm April 2018) Reverse engineering of [Kwampirs](https://attack.mitre.org/software/S0236), directly associated with [Orangeworm](https://attack.mitre.org/groups/G0071) activity, indicates significant functional and development overlaps with [Shamoon](https://attack.mitre.org/software/S0140).(Citation: Cylera Kwampirs 2022)",
+  "aliases": [
+    "Orangeworm"
+  ],
+  "mitreId": "G0071",
   "techniqueCount": 2,
   "techniques": [
     "T1021.002",
@@ -11,6 +13,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.565Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.412Z",
+  "descriptionPreview": "[Orangeworm](https://attack."
 }

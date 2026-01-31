@@ -1,9 +1,13 @@
 {
   "name": "Moses Staff",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) is a suspected Iranian threat group that has primarily targeted Israeli companies since at least September 2021. [Moses Staff](https://attack.mitre.org/groups/G1009) openly stated their motivation in attacking Israeli companies is to cause damage by leaking stolen sensitive data and encrypting the victim's networks without a ransom demand.(Citation: Checkpoint MosesStaff Nov 2021) \n\nSecurity researchers assess [Moses Staff](https://attack.mitre.org/groups/G1009) is politically motivated, and has targeted government, finance, travel, energy, manufacturing, and utility companies outside of Israel as well, including those in Italy, India, Germany, Chile, Turkey, the UAE, and the US.(Citation: Cybereason StrifeWater Feb 2022)",
+  "aliases": [
+    "Moses Staff",
+    "DEV-0500",
+    "Marigold Sandstorm"
+  ],
+  "mitreId": "G1009",
   "techniqueCount": 12,
   "techniques": [
     "T1016",
@@ -21,6 +25,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.564Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.411Z",
+  "descriptionPreview": "[Moses Staff](https://attack."
 }

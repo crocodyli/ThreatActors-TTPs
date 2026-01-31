@@ -1,9 +1,13 @@
 {
   "name": "Tropic Trooper",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) is an unaffiliated threat group that has led targeted campaigns against targets in Taiwan, the Philippines, and Hong Kong. [Tropic Trooper](https://attack.mitre.org/groups/G0081) focuses on targeting government, healthcare, transportation, and high-tech industries and has been active since 2011.(Citation: TrendMicro Tropic Trooper Mar 2018)(Citation: Unit 42 Tropic Trooper Nov 2016)(Citation: TrendMicro Tropic Trooper May 2020)",
+  "aliases": [
+    "Tropic Trooper",
+    "Pirate Panda",
+    "KeyBoy"
+  ],
+  "mitreId": "G0081",
   "techniqueCount": 40,
   "techniques": [
     "T1016",
@@ -49,6 +53,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.570Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.418Z",
+  "descriptionPreview": "[Tropic Trooper](https://attack."
 }

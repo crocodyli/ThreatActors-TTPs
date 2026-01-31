@@ -1,15 +1,17 @@
 {
   "name": "BlackOasis",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[BlackOasis](https://attack.mitre.org/groups/G0063) is a Middle Eastern threat group that is believed to be a customer of Gamma Group. The group has shown interest in prominent figures in the United Nations, as well as opposition bloggers, activists, regional news correspondents, and think tanks. (Citation: Securelist BlackOasis Oct 2017) (Citation: Securelist APT Trends Q2 2017) A group known by Microsoft as [NEODYMIUM](https://attack.mitre.org/groups/G0055) is reportedly associated closely with [BlackOasis](https://attack.mitre.org/groups/G0063) operations, but evidence that the group names are aliases has not been identified. (Citation: CyberScoop BlackOasis Oct 2017)",
+  "aliases": [
+    "BlackOasis"
+  ],
+  "mitreId": "G0063",
   "techniqueCount": 1,
   "techniques": [
     "T1027"
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.556Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.403Z",
+  "descriptionPreview": "[BlackOasis](https://attack."
 }

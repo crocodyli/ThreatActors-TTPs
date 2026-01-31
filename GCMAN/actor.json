@@ -1,9 +1,11 @@
 {
   "name": "GCMAN",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[GCMAN](https://attack.mitre.org/groups/G0036) is a threat group that focuses on targeting banks for the purpose of transferring money to e-currency services. (Citation: Securelist GCMAN)",
+  "aliases": [
+    "GCMAN"
+  ],
+  "mitreId": "G0036",
   "techniqueCount": 2,
   "techniques": [
     "T1021.004",
@@ -11,6 +13,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.560Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.407Z",
+  "descriptionPreview": "[GCMAN](https://attack."
 }

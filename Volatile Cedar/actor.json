@@ -1,9 +1,12 @@
 {
   "name": "Volatile Cedar",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Volatile Cedar](https://attack.mitre.org/groups/G0123) is a Lebanese threat group that has targeted individuals, companies, and institutions worldwide. [Volatile Cedar](https://attack.mitre.org/groups/G0123) has been operating since 2012 and is motivated by political and ideological interests.(Citation: CheckPoint Volatile Cedar March 2015)(Citation: ClearSky Lebanese Cedar Jan 2021)",
+  "aliases": [
+    "Volatile Cedar",
+    "Lebanese Cedar"
+  ],
+  "mitreId": "G0123",
   "techniqueCount": 5,
   "techniques": [
     "T1105",
@@ -14,6 +17,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.570Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.419Z",
+  "descriptionPreview": "[Volatile Cedar](https://attack."
 }

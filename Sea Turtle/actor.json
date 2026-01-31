@@ -1,9 +1,15 @@
 {
   "name": "Sea Turtle",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Sea Turtle](https://attack.mitre.org/groups/G1041) is a Türkiye-linked threat actor active since at least 2017 performing espionage and service provider compromise operations against victims in Asia, Europe, and North America. [Sea Turtle](https://attack.mitre.org/groups/G1041) is notable for targeting registrars managing ccTLDs and complex DNS-based intrusions where the threat actor compromised DNS providers to hijack DNS resolution for ultimate victims, enabling [Sea Turtle](https://attack.mitre.org/groups/G1041) to spoof log in portals and other applications for credential collection.(Citation: Talos Sea Turtle 2019)(Citation: Talos Sea Turtle 2019_2)(Citation: PWC Sea Turtle 2023)(Citation: Hunt Sea Turtle 2024)",
+  "aliases": [
+    "Sea Turtle",
+    "Teal Kurma",
+    "Marbled Dust",
+    "Cosmic Wolf",
+    "SILICON"
+  ],
+  "mitreId": "G1041",
   "techniqueCount": 27,
   "techniques": [
     "T1027.004",
@@ -36,6 +42,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.567Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.415Z",
+  "descriptionPreview": "[Sea Turtle](https://attack."
 }

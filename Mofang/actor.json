@@ -1,9 +1,11 @@
 {
   "name": "Mofang",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Mofang](https://attack.mitre.org/groups/G0103) is a likely China-based cyber espionage group, named for its frequent practice of imitating a victim's infrastructure. This adversary has been observed since at least May 2012 conducting focused attacks against government and critical infrastructure in Myanmar, as well as several other countries and sectors including military, automobile, and weapons industries.(Citation: FOX-IT May 2016 Mofang)",
+  "aliases": [
+    "Mofang"
+  ],
+  "mitreId": "G0103",
   "techniqueCount": 6,
   "techniques": [
     "T1027.013",
@@ -15,6 +17,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.564Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.411Z",
+  "descriptionPreview": "[Mofang](https://attack."
 }

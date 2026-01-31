@@ -1,9 +1,19 @@
 {
   "name": "Ke3chang",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Ke3chang](https://attack.mitre.org/groups/G0004) is a threat group attributed to actors operating out of China. [Ke3chang](https://attack.mitre.org/groups/G0004) has targeted oil, government, diplomatic, military, and NGOs in Central and South America, the Caribbean, Europe, and North America since at least 2010.(Citation: Mandiant Operation Ke3chang November 2014)(Citation: NCC Group APT15 Alive and Strong)(Citation: APT15 Intezer June 2018)(Citation: Microsoft NICKEL December 2021)",
+  "aliases": [
+    "Ke3chang",
+    "APT15",
+    "Mirage",
+    "Vixen Panda",
+    "GREF",
+    "Playful Dragon",
+    "RoyalAPT",
+    "NICKEL",
+    "Nylon Typhoon"
+  ],
+  "mitreId": "G0004",
   "techniqueCount": 46,
   "techniques": [
     "T1003.001",
@@ -55,6 +65,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.562Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.409Z",
+  "descriptionPreview": "[Ke3chang](https://attack."
 }

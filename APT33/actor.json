@@ -1,9 +1,14 @@
 {
   "name": "APT33",
   "type": "apt",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[APT33](https://attack.mitre.org/groups/G0064) is a suspected Iranian threat group that has carried out operations since at least 2013. The group has targeted organizations across multiple industries in the United States, Saudi Arabia, and South Korea, with a particular interest in the aviation and energy sectors.(Citation: FireEye APT33 Sept 2017)(Citation: FireEye APT33 Webinar Sept 2017)",
+  "aliases": [
+    "APT33",
+    "HOLMIUM",
+    "Elfin",
+    "Peach Sandstorm"
+  ],
+  "mitreId": "G0064",
   "techniqueCount": 31,
   "techniques": [
     "T1003.001",
@@ -40,6 +45,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.554Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.401Z",
+  "descriptionPreview": "[APT33](https://attack."
 }

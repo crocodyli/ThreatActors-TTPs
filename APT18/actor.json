@@ -1,9 +1,14 @@
 {
   "name": "APT18",
   "type": "apt",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[APT18](https://attack.mitre.org/groups/G0026) is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical. (Citation: Dell Lateral Movement)",
+  "aliases": [
+    "APT18",
+    "TG-0416",
+    "Dynamite Panda",
+    "Threat Group-0416"
+  ],
+  "mitreId": "G0026",
   "techniqueCount": 12,
   "techniques": [
     "T1027.013",
@@ -21,6 +26,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.553Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.400Z",
+  "descriptionPreview": "[APT18](https://attack."
 }

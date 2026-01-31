@@ -1,9 +1,19 @@
 {
   "name": "menuPass",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[menuPass](https://attack.mitre.org/groups/G0045) is a threat group that has been active since at least 2006. Individual members of [menuPass](https://attack.mitre.org/groups/G0045) are known to have acted in association with the Chinese Ministry of State Security's (MSS) Tianjin State Security Bureau and worked for the Huaying Haitai Science and Technology Development Company.(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)\n\n[menuPass](https://attack.mitre.org/groups/G0045) has targeted healthcare, defense, aerospace, finance, maritime, biotechnology, energy, and government sectors globally, with an emphasis on Japanese organizations. In 2016 and 2017, the group is known to have targeted managed IT service providers (MSPs), manufacturing and mining companies, and a university.(Citation: Palo Alto menuPass Feb 2017)(Citation: Crowdstrike CrowdCast Oct 2013)(Citation: FireEye Poison Ivy)(Citation: PWC Cloud Hopper April 2017)(Citation: FireEye APT10 April 2017)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)",
+  "aliases": [
+    "menuPass",
+    "Cicada",
+    "POTASSIUM",
+    "Stone Panda",
+    "APT10",
+    "Red Apollo",
+    "CVNX",
+    "HOGFISH",
+    "BRONZE RIVERSIDE"
+  ],
+  "mitreId": "G0045",
   "techniqueCount": 46,
   "techniques": [
     "T1003.002",
@@ -55,6 +65,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.571Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.420Z",
+  "descriptionPreview": "[menuPass](https://attack."
 }

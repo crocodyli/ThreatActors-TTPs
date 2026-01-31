@@ -1,9 +1,11 @@
 {
   "name": "Dark Caracal",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Dark Caracal](https://attack.mitre.org/groups/G0070) is threat group that has been attributed to the Lebanese General Directorate of General Security (GDGS) and has operated since at least 2012. (Citation: Lookout Dark Caracal Jan 2018)",
+  "aliases": [
+    "Dark Caracal"
+  ],
+  "mitreId": "G0070",
   "techniqueCount": 12,
   "techniques": [
     "T1005",
@@ -21,6 +23,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.558Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.405Z",
+  "descriptionPreview": "[Dark Caracal](https://attack."
 }

@@ -1,9 +1,14 @@
 {
   "name": "APT41",
   "type": "apt",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[APT41](https://attack.mitre.org/groups/G0096) is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. Active since at least 2012, [APT41](https://attack.mitre.org/groups/G0096) has been observed targeting various industries, including but not limited to healthcare, telecom, technology, finance, education, retail and video game industries in 14 countries.(Citation: apt41_mandiant) Notable behaviors include using a wide range of malware and tools to complete mission objectives. [APT41](https://attack.mitre.org/groups/G0096) overlaps at least partially with public reporting on groups including BARIUM and [Winnti Group](https://attack.mitre.org/groups/G0044).(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)\n",
+  "aliases": [
+    "APT41",
+    "Wicked Panda",
+    "Brass Typhoon",
+    "BARIUM"
+  ],
+  "mitreId": "G0096",
   "techniqueCount": 82,
   "techniques": [
     "T1003.001",
@@ -91,6 +96,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.554Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.401Z",
+  "descriptionPreview": "[APT41](https://attack."
 }

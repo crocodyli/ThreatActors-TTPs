@@ -1,9 +1,11 @@
 {
   "name": "Thrip",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Thrip](https://attack.mitre.org/groups/G0076) is an espionage group that has targeted satellite communications, telecoms, and defense contractor companies in the U.S. and Southeast Asia. The group uses custom malware as well as \"living off the land\" techniques. (Citation: Symantec Thrip June 2018)",
+  "aliases": [
+    "Thrip"
+  ],
+  "mitreId": "G0076",
   "techniqueCount": 4,
   "techniques": [
     "T1048.003",
@@ -13,6 +15,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.569Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.418Z",
+  "descriptionPreview": "[Thrip](https://attack."
 }

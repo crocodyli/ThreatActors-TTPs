@@ -1,9 +1,17 @@
 {
   "name": "Lotus Blossom",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Lotus Blossom](https://attack.mitre.org/groups/G0030) is a long-standing threat group largely targeting various entities in Asia since at least 2009. In addition to government and related targets, [Lotus Blossom](https://attack.mitre.org/groups/G0030) has also targeted entities such as digital certificate issuers.(Citation: Lotus Blossom Jun 2015)(Citation: Symantec Bilbug 2022)(Citation: Cisco LotusBlossom 2025)",
+  "aliases": [
+    "Lotus Blossom",
+    "DRAGONFISH",
+    "Spring Dragon",
+    "RADIUM",
+    "Raspberry Typhoon",
+    "Bilbug",
+    "Thrip"
+  ],
+  "mitreId": "G0030",
   "techniqueCount": 21,
   "techniques": [
     "T1012",
@@ -30,6 +38,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.563Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.410Z",
+  "descriptionPreview": "[Lotus Blossom](https://attack."
 }

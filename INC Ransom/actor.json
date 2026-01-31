@@ -1,9 +1,12 @@
 {
   "name": "INC Ransom",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[INC Ransom](https://attack.mitre.org/groups/G1032) is a ransomware and data extortion threat group associated with the deployment of [INC Ransomware](https://attack.mitre.org/software/S1139) that has been active since at least July 2023. [INC Ransom](https://attack.mitre.org/groups/G1032)  has targeted organizations worldwide most commonly in the industrial, healthcare, and education sectors in the US and Europe.(Citation: Bleeping Computer INC Ransomware March 2024)(Citation: Cybereason INC Ransomware November 2023)(Citation: Secureworks GOLD IONIC April 2024)(Citation: SentinelOne INC Ransomware)",
+  "aliases": [
+    "INC Ransom",
+    "GOLD IONIC"
+  ],
+  "mitreId": "G1032",
   "techniqueCount": 92,
   "techniques": [
     "T1003",
@@ -101,6 +104,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.562Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.409Z",
+  "descriptionPreview": "[INC Ransom](https://attack."
 }

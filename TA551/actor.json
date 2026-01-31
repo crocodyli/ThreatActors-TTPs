@@ -1,9 +1,13 @@
 {
   "name": "TA551",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[TA551](https://attack.mitre.org/groups/G0127) is a financially-motivated threat group that has been active since at least 2018. (Citation: Secureworks GOLD CABIN) The group has primarily targeted English, German, Italian, and Japanese speakers through email-based malware distribution campaigns. (Citation: Unit 42 TA551 Jan 2021)",
+  "aliases": [
+    "TA551",
+    "GOLD CABIN",
+    "Shathak"
+  ],
+  "mitreId": "G0127",
   "techniqueCount": 14,
   "techniques": [
     "T1027.003",
@@ -23,6 +27,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.569Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.417Z",
+  "descriptionPreview": "[TA551](https://attack."
 }

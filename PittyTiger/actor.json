@@ -1,9 +1,11 @@
 {
   "name": "PittyTiger",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[PittyTiger](https://attack.mitre.org/groups/G0011) is a threat group believed to operate out of China that uses multiple different types of malware to maintain command and control.(Citation: Bizeul 2014)(Citation: Villeneuve 2014)",
+  "aliases": [
+    "PittyTiger"
+  ],
+  "mitreId": "G0011",
   "techniqueCount": 2,
   "techniques": [
     "T1078",
@@ -11,6 +13,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.565Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.413Z",
+  "descriptionPreview": "[PittyTiger](https://attack."
 }

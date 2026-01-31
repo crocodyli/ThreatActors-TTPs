@@ -1,9 +1,16 @@
 {
   "name": "FIN6",
   "type": "apt",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[FIN6](https://attack.mitre.org/groups/G0037) is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)",
+  "aliases": [
+    "FIN6",
+    "Magecart Group 6",
+    "ITG08",
+    "Skeleton Spider",
+    "TAAL",
+    "Camouflage Tempest"
+  ],
+  "mitreId": "G0037",
   "techniqueCount": 40,
   "techniques": [
     "T1003.001",
@@ -49,6 +56,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.560Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.407Z",
+  "descriptionPreview": "[FIN6](https://attack."
 }

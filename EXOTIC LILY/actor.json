@@ -1,9 +1,11 @@
 {
   "name": "EXOTIC LILY",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[EXOTIC LILY](https://attack.mitre.org/groups/G1011) is a financially motivated group that has been closely linked with [Wizard Spider](https://attack.mitre.org/groups/G0102) and the deployment of ransomware including [Conti](https://attack.mitre.org/software/S0575) and [Diavol](https://attack.mitre.org/software/S0659). [EXOTIC LILY](https://attack.mitre.org/groups/G1011) may be acting as an initial access broker for other malicious actors, and has targeted a wide range of industries including IT, cybersecurity, and healthcare since at least September 2021.(Citation: Google EXOTIC LILY March 2022)",
+  "aliases": [
+    "EXOTIC LILY"
+  ],
+  "mitreId": "G1011",
   "techniqueCount": 15,
   "techniques": [
     "T1102",
@@ -24,6 +26,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.559Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.406Z",
+  "descriptionPreview": "[EXOTIC LILY](https://attack."
 }

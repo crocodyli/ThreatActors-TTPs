@@ -1,9 +1,12 @@
 {
   "name": "GOLD SOUTHFIELD",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) is a financially motivated threat group active since at least 2018 that operates the [REvil](https://attack.mitre.org/software/S0496) Ransomware-as-a Service (RaaS). [GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) provides backend infrastructure for affiliates recruited on underground forums to perpetrate high value deployments. By early 2020, [GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) started capitalizing on the new trend of stealing data and further extorting the victim to pay for their data to not get publicly leaked.(Citation: Secureworks REvil September 2019)(Citation: Secureworks GandCrab and REvil September 2019)(Citation: Secureworks GOLD SOUTHFIELD)(Citation: CrowdStrike Evolution of Pinchy Spider July 2021)",
+  "aliases": [
+    "GOLD SOUTHFIELD",
+    "Pinchy Spider"
+  ],
+  "mitreId": "G0115",
   "techniqueCount": 9,
   "techniques": [
     "T1027.010",
@@ -18,6 +21,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.560Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.408Z",
+  "descriptionPreview": "[GOLD SOUTHFIELD](https://attack."
 }

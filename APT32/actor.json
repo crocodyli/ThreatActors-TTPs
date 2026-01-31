@@ -1,9 +1,16 @@
 {
   "name": "APT32",
   "type": "apt",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[APT32](https://attack.mitre.org/groups/G0050) is a suspected Vietnam-based threat group that has been active since at least 2014. The group has targeted multiple private sector industries as well as foreign governments, dissidents, and journalists with a strong focus on Southeast Asian countries like Vietnam, the Philippines, Laos, and Cambodia. They have extensively used strategic web compromises to compromise victims.(Citation: FireEye APT32 May 2017)(Citation: Volexity OceanLotus Nov 2017)(Citation: ESET OceanLotus)",
+  "aliases": [
+    "APT32",
+    "SeaLotus",
+    "OceanLotus",
+    "APT-C-00",
+    "Canvas Cyclone",
+    "BISMUTH"
+  ],
+  "mitreId": "G0050",
   "techniqueCount": 78,
   "techniques": [
     "T1003",
@@ -87,6 +94,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.554Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.400Z",
+  "descriptionPreview": "[APT32](https://attack."
 }

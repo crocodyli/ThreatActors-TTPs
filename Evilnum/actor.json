@@ -1,9 +1,11 @@
 {
   "name": "Evilnum",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Evilnum](https://attack.mitre.org/groups/G0120) is a financially motivated threat group that has been active since at least 2018.(Citation: ESET EvilNum July 2020)",
+  "aliases": [
+    "Evilnum"
+  ],
+  "mitreId": "G0120",
   "techniqueCount": 11,
   "techniques": [
     "T1059.007",
@@ -20,6 +22,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.559Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.406Z",
+  "descriptionPreview": "[Evilnum](https://attack."
 }

@@ -1,9 +1,11 @@
 {
   "name": "DarkHydrus",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[DarkHydrus](https://attack.mitre.org/groups/G0079) is a threat group that has targeted government agencies and educational institutions in the Middle East since at least 2016. The group heavily leverages open-source tools and custom payloads for carrying out attacks. (Citation: Unit 42 DarkHydrus July 2018) (Citation: Unit 42 Playbook Dec 2017)",
+  "aliases": [
+    "DarkHydrus"
+  ],
+  "mitreId": "G0079",
   "techniqueCount": 7,
   "techniques": [
     "T1059.001",
@@ -16,6 +18,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.558Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.405Z",
+  "descriptionPreview": "[DarkHydrus](https://attack."
 }

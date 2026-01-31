@@ -1,9 +1,15 @@
 {
   "name": "Mustard Tempest",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) is an initial access broker that has operated the [SocGholish](https://attack.mitre.org/software/S1124) distribution network since at least 2017. [Mustard Tempest](https://attack.mitre.org/groups/G1020) has partnered with [Indrik Spider](https://attack.mitre.org/groups/G0119) to provide access for the download of additional malware including LockBit, [WastedLocker](https://attack.mitre.org/software/S0612), and remote access tools.(Citation: Microsoft Ransomware as a Service)(Citation: Microsoft Threat Actor Naming July 2023)(Citation: Secureworks Gold Prelude Profile)(Citation: SocGholish-update)",
+  "aliases": [
+    "Mustard Tempest",
+    "DEV-0206",
+    "TA569",
+    "GOLD PRELUDE",
+    "UNC1543"
+  ],
+  "mitreId": "G1020",
   "techniqueCount": 12,
   "techniques": [
     "T1036.005",
@@ -21,6 +27,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.564Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.412Z",
+  "descriptionPreview": "[Mustard Tempest](https://attack."
 }

@@ -1,9 +1,12 @@
 {
   "name": "Winnti Group",
   "type": "apt",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Winnti Group](https://attack.mitre.org/groups/G0044) is a threat group with Chinese origins that has been active since at least 2010. The group has heavily targeted the gaming industry, but it has also expanded the scope of its targeting.(Citation: Kaspersky Winnti April 2013)(Citation: Kaspersky Winnti June 2015)(Citation: Novetta Winnti April 2015) Some reporting suggests a number of other groups, including [Axiom](https://attack.mitre.org/groups/G0001), [APT17](https://attack.mitre.org/groups/G0025), and [Ke3chang](https://attack.mitre.org/groups/G0004), are closely linked to [Winnti Group](https://attack.mitre.org/groups/G0044).(Citation: 401 TRG Winnti Umbrella May 2018)",
+  "aliases": [
+    "Winnti Group",
+    "Blackfly"
+  ],
+  "mitreId": "G0044",
   "techniqueCount": 6,
   "techniques": [
     "T1014",
@@ -15,6 +18,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.571Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.419Z",
+  "descriptionPreview": "[Winnti Group](https://attack."
 }

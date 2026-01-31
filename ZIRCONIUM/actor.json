@@ -1,9 +1,13 @@
 {
   "name": "ZIRCONIUM",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) is a threat group operating out of China, active since at least 2017, that has targeted individuals associated with the 2020 US presidential election and prominent leaders in the international affairs community.(Citation: Microsoft Targeting Elections September 2020)(Citation: Check Point APT31 February 2021)",
+  "aliases": [
+    "ZIRCONIUM",
+    "APT31",
+    "Violet Typhoon"
+  ],
+  "mitreId": "G0128",
   "techniqueCount": 29,
   "techniques": [
     "T1012",
@@ -38,6 +42,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.571Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.420Z",
+  "descriptionPreview": "[ZIRCONIUM](https://attack."
 }

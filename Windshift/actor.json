@@ -1,9 +1,12 @@
 {
   "name": "Windshift",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Windshift](https://attack.mitre.org/groups/G0112) is a threat group that has been active since at least 2017, targeting specific individuals for surveillance in government departments and critical infrastructure across the Middle East.(Citation: SANS Windshift August 2018)(Citation: objective-see windtail1 dec 2018)(Citation: objective-see windtail2 jan 2019)",
+  "aliases": [
+    "Windshift",
+    "Bahamut"
+  ],
+  "mitreId": "G0112",
   "techniqueCount": 19,
   "techniques": [
     "T1027",
@@ -28,6 +31,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.571Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.419Z",
+  "descriptionPreview": "[Windshift](https://attack."
 }

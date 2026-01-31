@@ -1,9 +1,12 @@
 {
   "name": "APT17",
   "type": "apt",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[APT17](https://attack.mitre.org/groups/G0025) is a China-based threat group that has conducted network intrusions against U.S. government entities, the defense industry, law firms, information technology companies, mining companies, and non-government organizations. (Citation: FireEye APT17)",
+  "aliases": [
+    "APT17",
+    "Deputy Dog"
+  ],
+  "mitreId": "G0025",
   "techniqueCount": 2,
   "techniques": [
     "T1583.006",
@@ -11,6 +14,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.553Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.400Z",
+  "descriptionPreview": "[APT17](https://attack."
 }

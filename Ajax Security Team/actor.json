@@ -1,9 +1,16 @@
 {
   "name": "Ajax Security Team",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Ajax Security Team](https://attack.mitre.org/groups/G0130) is a group that has been active since at least 2010 and believed to be operating out of Iran. By 2014 [Ajax Security Team](https://attack.mitre.org/groups/G0130) transitioned from website defacement operations to malware-based cyber espionage campaigns targeting the US defense industrial base and Iranian users of anti-censorship technologies.(Citation: FireEye Operation Saffron Rose 2013)",
+  "aliases": [
+    "Ajax Security Team",
+    "Operation Woolen-Goldfish",
+    "AjaxTM",
+    "Rocket Kitten",
+    "Flying Kitten",
+    "Operation Saffron Rose"
+  ],
+  "mitreId": "G0130",
   "techniqueCount": 6,
   "techniques": [
     "T1056.001",
@@ -15,6 +22,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.554Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.401Z",
+  "descriptionPreview": "[Ajax Security Team](https://attack."
 }

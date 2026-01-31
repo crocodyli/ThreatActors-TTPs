@@ -1,9 +1,11 @@
 {
   "name": "TA459",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[TA459](https://attack.mitre.org/groups/G0062) is a threat group believed to operate out of China that has targeted countries including Russia, Belarus, Mongolia, and others. (Citation: Proofpoint TA459 April 2017)",
+  "aliases": [
+    "TA459"
+  ],
+  "mitreId": "G0062",
   "techniqueCount": 5,
   "techniques": [
     "T1059.001",
@@ -14,6 +16,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.569Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.417Z",
+  "descriptionPreview": "[TA459](https://attack."
 }

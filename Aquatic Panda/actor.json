@@ -1,9 +1,11 @@
 {
   "name": "Aquatic Panda",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) is a suspected China-based threat group with a dual mission of intelligence collection and industrial espionage. Active since at least May 2020, [Aquatic Panda](https://attack.mitre.org/groups/G0143) has primarily targeted entities in the telecommunications, technology, and government sectors.(Citation: CrowdStrike AQUATIC PANDA December 2021)",
+  "aliases": [
+    "Aquatic Panda"
+  ],
+  "mitreId": "G0143",
   "techniqueCount": 35,
   "techniques": [
     "T1003.001",
@@ -44,6 +46,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.555Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.402Z",
+  "descriptionPreview": "[Aquatic Panda](https://attack."
 }

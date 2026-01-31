@@ -1,9 +1,11 @@
 {
   "name": "The White Company",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[The White Company](https://attack.mitre.org/groups/G0089) is a likely state-sponsored threat actor with advanced capabilities. From 2017 through 2018, the group led an espionage campaign called Operation Shaheen targeting government and military organizations in Pakistan.(Citation: Cylance Shaheen Nov 2018)",
+  "aliases": [
+    "The White Company"
+  ],
+  "mitreId": "G0089",
   "techniqueCount": 7,
   "techniques": [
     "T1027.002",
@@ -16,6 +18,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.569Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.417Z",
+  "descriptionPreview": "[The White Company](https://attack."
 }

@@ -1,9 +1,12 @@
 {
   "name": "Axiom",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Axiom](https://attack.mitre.org/groups/G0001) is a suspected Chinese cyber espionage group that has targeted the aerospace, defense, government, manufacturing, and media sectors since at least 2008. Some reporting suggests a degree of overlap between [Axiom](https://attack.mitre.org/groups/G0001) and [Winnti Group](https://attack.mitre.org/groups/G0044) but the two groups appear to be distinct based on differences in reporting on TTPs and targeting.(Citation: Kaspersky Winnti April 2013)(Citation: Kaspersky Winnti June 2015)(Citation: Novetta Winnti April 2015)",
+  "aliases": [
+    "Axiom",
+    "Group 72"
+  ],
+  "mitreId": "G0001",
   "techniqueCount": 16,
   "techniques": [
     "T1001.002",
@@ -25,6 +28,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.555Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.402Z",
+  "descriptionPreview": "[Axiom](https://attack."
 }

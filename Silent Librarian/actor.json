@@ -1,9 +1,13 @@
 {
   "name": "Silent Librarian",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Silent Librarian](https://attack.mitre.org/groups/G0122) is a group that has targeted research and proprietary data at universities, government agencies, and private sector companies worldwide since at least 2013. Members of  [Silent Librarian](https://attack.mitre.org/groups/G0122) are known to have been affiliated with the Iran-based Mabna Institute which has conducted cyber intrusions at the behest of the government of Iran, specifically the Islamic Revolutionary Guard Corps (IRGC).(Citation: DOJ Iran Indictments March 2018)(Citation: Phish Labs Silent Librarian)(Citation: Malwarebytes Silent Librarian October 2020)",
+  "aliases": [
+    "Silent Librarian",
+    "TA407",
+    "COBALT DICKENS"
+  ],
+  "mitreId": "G0122",
   "techniqueCount": 13,
   "techniques": [
     "T1078",
@@ -22,6 +26,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.568Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.416Z",
+  "descriptionPreview": "[Silent Librarian](https://attack."
 }

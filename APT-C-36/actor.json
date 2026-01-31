@@ -1,9 +1,12 @@
 {
   "name": "APT-C-36",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[APT-C-36](https://attack.mitre.org/groups/G0099) is a suspected South America espionage group that has been active since at least 2018. The group mainly targets Colombian government institutions as well as important corporations in the financial sector, petroleum industry, and professional manufacturing.(Citation: QiAnXin APT-C-36 Feb2019)",
+  "aliases": [
+    "APT-C-36",
+    "Blind Eagle"
+  ],
+  "mitreId": "G0099",
   "techniqueCount": 9,
   "techniques": [
     "T1027",
@@ -18,6 +21,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.553Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.400Z",
+  "descriptionPreview": "[APT-C-36](https://attack."
 }

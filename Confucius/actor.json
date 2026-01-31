@@ -1,9 +1,12 @@
 {
   "name": "Confucius",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Confucius](https://attack.mitre.org/groups/G0142) is a cyber espionage group that has primarily targeted military personnel, high-profile personalities, business persons, and government organizations in South Asia since at least 2013. Security researchers have noted similarities between [Confucius](https://attack.mitre.org/groups/G0142) and [Patchwork](https://attack.mitre.org/groups/G0040), particularly in their respective custom malware code and targets.(Citation: TrendMicro Confucius APT Feb 2018)(Citation: TrendMicro Confucius APT Aug 2021)(Citation: Uptycs Confucius APT Jan 2021)",
+  "aliases": [
+    "Confucius",
+    "Confucius APT"
+  ],
+  "mitreId": "G0142",
   "techniqueCount": 19,
   "techniques": [
     "T1041",
@@ -28,6 +31,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.557Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.405Z",
+  "descriptionPreview": "[Confucius](https://attack."
 }

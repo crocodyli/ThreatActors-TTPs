@@ -1,9 +1,11 @@
 {
   "name": "Salt Typhoon",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Salt Typhoon](https://attack.mitre.org/groups/G1045) is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP).(Citation: US Dept. of Treasury Salt Typhoon JAN 2025)(Citation: Cisco Salt Typhoon FEB 2025)\n",
+  "aliases": [
+    "Salt Typhoon"
+  ],
+  "mitreId": "G1045",
   "techniqueCount": 14,
   "techniques": [
     "T1021.004",
@@ -23,6 +25,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.567Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.415Z",
+  "descriptionPreview": "[Salt Typhoon](https://attack."
 }

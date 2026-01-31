@@ -1,9 +1,12 @@
 {
   "name": "POLONIUM",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[POLONIUM](https://attack.mitre.org/groups/G1005) is a Lebanon-based group that has primarily targeted Israeli organizations, including critical manufacturing, information technology, and defense industry companies, since at least February 2022. Security researchers assess [POLONIUM](https://attack.mitre.org/groups/G1005) has coordinated their operations with multiple actors affiliated with Iran’s Ministry of Intelligence and Security (MOIS), based on victim overlap as well as common techniques and tooling.(Citation: Microsoft POLONIUM June 2022)",
+  "aliases": [
+    "POLONIUM",
+    "Plaid Rain"
+  ],
+  "mitreId": "G1005",
   "techniqueCount": 7,
   "techniques": [
     "T1078",
@@ -16,6 +19,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.565Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.412Z",
+  "descriptionPreview": "[POLONIUM](https://attack."
 }

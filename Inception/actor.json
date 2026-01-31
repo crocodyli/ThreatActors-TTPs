@@ -1,9 +1,13 @@
 {
   "name": "Inception",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Inception](https://attack.mitre.org/groups/G0100) is a cyber espionage group active since at least 2014. The group has targeted multiple industries and governmental entities primarily in Russia, but has also been active in the United States and throughout Europe, Asia, Africa, and the Middle East.(Citation: Unit 42 Inception November 2018)(Citation: Symantec Inception Framework March 2018)(Citation: Kaspersky Cloud Atlas December 2014)",
+  "aliases": [
+    "Inception",
+    "Inception Framework",
+    "Cloud Atlas"
+  ],
+  "mitreId": "G0100",
   "techniqueCount": 22,
   "techniques": [
     "T1005",
@@ -31,6 +35,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.562Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.409Z",
+  "descriptionPreview": "[Inception](https://attack."
 }

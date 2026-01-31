@@ -1,9 +1,11 @@
 {
   "name": "DarkVishnya",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[DarkVishnya](https://attack.mitre.org/groups/G0105) is a financially motivated threat actor targeting financial institutions in Eastern Europe. In 2017-2018 the group attacked at least 8 banks in this region.(Citation: Securelist DarkVishnya Dec 2018)",
+  "aliases": [
+    "DarkVishnya"
+  ],
+  "mitreId": "G0105",
   "techniqueCount": 10,
   "techniques": [
     "T1040",
@@ -19,6 +21,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.558Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.405Z",
+  "descriptionPreview": "[DarkVishnya](https://attack."
 }

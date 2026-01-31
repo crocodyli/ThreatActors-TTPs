@@ -1,9 +1,15 @@
 {
   "name": "Transparent Tribe",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Transparent Tribe](https://attack.mitre.org/groups/G0134) is a suspected Pakistan-based threat group that has been active since at least 2013, primarily targeting diplomatic, defense, and research organizations in India and Afghanistan.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Kaspersky Transparent Tribe August 2020)(Citation: Talos Transparent Tribe May 2021)",
+  "aliases": [
+    "Transparent Tribe",
+    "COPPER FIELDSTONE",
+    "APT36",
+    "Mythic Leopard",
+    "ProjectM"
+  ],
+  "mitreId": "G0134",
   "techniqueCount": 14,
   "techniques": [
     "T1027.013",
@@ -23,6 +29,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.569Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.418Z",
+  "descriptionPreview": "[Transparent Tribe](https://attack."
 }

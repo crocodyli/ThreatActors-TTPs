@@ -1,9 +1,11 @@
 {
   "name": "Stealth Falcon",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Stealth Falcon](https://attack.mitre.org/groups/G0038) is a threat group that has conducted targeted spyware attacks against Emirati journalists, activists, and dissidents since at least 2012. Circumstantial evidence suggests there could be a link between this group and the United Arab Emirates (UAE) government, but that has not been confirmed. (Citation: Citizen Lab Stealth Falcon May 2016)",
+  "aliases": [
+    "Stealth Falcon"
+  ],
+  "mitreId": "G0038",
   "techniqueCount": 16,
   "techniques": [
     "T1005",
@@ -25,6 +27,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.568Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.416Z",
+  "descriptionPreview": "[Stealth Falcon](https://attack."
 }

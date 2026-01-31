@@ -1,9 +1,13 @@
 {
   "name": "Cleaver",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Cleaver](https://attack.mitre.org/groups/G0003) is a threat group that has been attributed to Iranian actors and is responsible for activity tracked as Operation Cleaver. (Citation: Cylance Cleaver) Strong circumstantial evidence suggests Cleaver is linked to Threat Group 2889 (TG-2889). (Citation: Dell Threat Group 2889)",
+  "aliases": [
+    "Cleaver",
+    "Threat Group 2889",
+    "TG-2889"
+  ],
+  "mitreId": "G0003",
   "techniqueCount": 5,
   "techniques": [
     "T1003.001",
@@ -14,6 +18,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.557Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.404Z",
+  "descriptionPreview": "[Cleaver](https://attack."
 }

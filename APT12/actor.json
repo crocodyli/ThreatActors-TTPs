@@ -1,9 +1,15 @@
 {
   "name": "APT12",
   "type": "apt",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[APT12](https://attack.mitre.org/groups/G0005) is a threat group that has been attributed to China. The group has targeted a variety of victims including but not limited to media outlets, high-tech companies, and multiple governments.(Citation: Meyers Numbered Panda)",
+  "aliases": [
+    "APT12",
+    "IXESHE",
+    "DynCalc",
+    "Numbered Panda",
+    "DNSCALC"
+  ],
+  "mitreId": "G0005",
   "techniqueCount": 5,
   "techniques": [
     "T1102.002",
@@ -14,6 +20,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.553Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.400Z",
+  "descriptionPreview": "[APT12](https://attack."
 }

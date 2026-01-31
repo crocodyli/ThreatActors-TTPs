@@ -1,9 +1,12 @@
 {
   "name": "BlackTech",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[BlackTech](https://attack.mitre.org/groups/G0098) is a suspected Chinese cyber espionage group that has primarily targeted organizations in East Asia--particularly Taiwan, Japan, and Hong Kong--and the US since at least 2013. [BlackTech](https://attack.mitre.org/groups/G0098) has used a combination of custom malware, dual-use tools, and living off the land tactics to compromise media, construction, engineering, electronics, and financial company networks.(Citation: TrendMicro BlackTech June 2017)(Citation: Symantec Palmerworm Sep 2020)(Citation: Reuters Taiwan BlackTech August 2020)",
+  "aliases": [
+    "BlackTech",
+    "Palmerworm"
+  ],
+  "mitreId": "G0098",
   "techniqueCount": 14,
   "techniques": [
     "T1021.004",
@@ -23,6 +26,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.556Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.403Z",
+  "descriptionPreview": "[BlackTech](https://attack."
 }

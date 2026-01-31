@@ -1,9 +1,11 @@
 {
   "name": "Gorgon Group",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Gorgon Group](https://attack.mitre.org/groups/G0078) is a threat group consisting of members who are suspected to be Pakistan-based or have other connections to Pakistan. The group has performed a mix of criminal and targeted attacks, including campaigns against government organizations in the United Kingdom, Spain, Russia, and the United States. (Citation: Unit 42 Gorgon Group Aug 2018)",
+  "aliases": [
+    "Gorgon Group"
+  ],
+  "mitreId": "G0078",
   "techniqueCount": 16,
   "techniques": [
     "T1055.002",
@@ -25,6 +27,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.561Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.408Z",
+  "descriptionPreview": "[Gorgon Group](https://attack."
 }

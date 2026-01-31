@@ -1,9 +1,13 @@
 {
   "name": "Sidewinder",
   "type": "ransomware",
-  "description": "",
-  "aliases": [],
-  "mitreId": null,
+  "description": "[Sidewinder](https://attack.mitre.org/groups/G0121) is a suspected Indian threat actor group that has been active since at least 2012. They have been observed targeting government, military, and business entities throughout Asia, primarily focusing on Pakistan, China, Nepal, and Afghanistan.(Citation: ATT Sidewinder January 2021)(Citation: Securelist APT Trends April 2018)(Citation: Cyble Sidewinder September 2020)",
+  "aliases": [
+    "Sidewinder",
+    "T-APT-04",
+    "Rattlesnake"
+  ],
+  "mitreId": "G0121",
   "techniqueCount": 30,
   "techniques": [
     "T1016",
@@ -39,6 +43,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:53:22.568Z",
-  "descriptionPreview": ""
+  "lastUpdated": "2026-01-31T15:57:33.415Z",
+  "descriptionPreview": "[Sidewinder](https://attack."
 }
