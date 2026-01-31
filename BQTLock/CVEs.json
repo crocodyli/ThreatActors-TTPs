@@ -4,7 +4,20 @@
     {
       "id": "CVE-2025-14847",
       "source": "https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "MongoDB",
+      "product": "MongoDB and MongoDB Server",
+      "vulnerabilityName": "MongoDB and MongoDB Server Improper Handling of Length Parameter Inconsistency Vulnerability",
+      "shortDescription": "MongoDB Server contains an improper handling of length parameter inconsistency vulnerability in Zlib compressed protocol headers. This vulnerability may allow a read of uninitialized heap memory by an unauthenticated client.",
+      "dateAdded": "2025-12-29",
+      "dueDate": "2026-01-19",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://jira.mongodb.org/browse/SERVER-115508 ; https://nvd.nist.gov/vuln/detail/CVE-2025-14847",
+      "cwes": [
+        "CWE-130"
+      ],
+      "dateEnriched": "2026-01-31"
     }
   ]
 }

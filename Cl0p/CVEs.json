@@ -4,7 +4,18 @@
     {
       "id": "CVE-2025-61882",
       "source": "https://hawk-eye.io/2025/10/cve-2025-61882-oracle-e-business-suite-zero-day-under-active-exploitation/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Oracle",
+      "product": "E-Business Suite",
+      "vulnerabilityName": "Oracle E-Business Suite Unspecified Vulnerability",
+      "shortDescription": "Oracle E-Business Suite contains an unspecified vulnerability in the BI Publisher Integration component. The vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Concurrent Processing. Successful attacks can result in takeover of Oracle Concurrent Processing.",
+      "dateAdded": "2025-10-06",
+      "dueDate": "2025-10-27",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.oracle.com/security-alerts/alert-cve-2025-61882.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-61882",
+      "cwes": [],
+      "dateEnriched": "2026-01-31"
     }
   ]
 }
