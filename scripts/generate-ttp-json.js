@@ -18,11 +18,76 @@ const https = require('https');
 const OUTPUT_DIR = path.join(__dirname, '..', 'data');
 const INDEX_FILE = path.join(__dirname, '..', 'ttp-index.json');
 const MITRE_STIX_URL = 'https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json';
+const MITRE_INTRUSION_SETS_URL = 'https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/intrusion-set/intrusion-set.json';
 
 // Ensure output directory exists
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   console.log(`[TTP] Created directory: ${OUTPUT_DIR}`);
+}
+
+/**
+ * Fetch MITRE intrusion-set descriptions (APT groups)
+ */
+async function fetchMITREActorDescriptions() {
+  console.log('[TTP] Fetching MITRE intrusion-set descriptions...');
+  
+  return new Promise((resolve, reject) => {
+    https.get(MITRE_INTRUSION_SETS_URL, (res) => {
+      let data = '';
+      
+      res.on('data', (chunk) => {
+        data += chunk;
+      });
+      
+      res.on('end', () => {
+        try {
+          const stixData = JSON.parse(data);
+          const actorMap = new Map();
+          
+          console.log('[TTP] Parsing MITRE intrusion-set data...');
+          
+          for (const obj of stixData.objects || []) {
+            if (obj.type === 'intrusion-set') {
+              const name = obj.name || '';
+              const aliases = obj.aliases || [];
+              const description = obj.description || '';
+              const mitreId = obj.external_references?.find(ref => ref.source_name === 'mitre-attack')?.external_id;
+              
+              // Map by name
+              if (name) {
+                actorMap.set(name.toLowerCase(), {
+                  name,
+                  description,
+                  aliases,
+                  mitreId
+                });
+              }
+              
+              // Map by all aliases for easier lookup
+              for (const alias of aliases) {
+                if (alias) {
+                  actorMap.set(alias.toLowerCase(), {
+                    name,
+                    description,
+                    aliases,
+                    mitreId
+                  });
+                }
+              }
+            }
+          }
+          
+          console.log(`[TTP] Loaded ${actorMap.size} MITRE actor entries`);
+          resolve(actorMap);
+        } catch (err) {
+          reject(new Error(`Failed to parse MITRE intrusion-set data: ${err.message}`));
+        }
+      });
+    }).on('error', (err) => {
+      reject(new Error(`Failed to fetch MITRE intrusion-set data: ${err.message}`));
+    });
+  });
 }
 
 /**
@@ -219,12 +284,18 @@ async function main() {
   
   // Fetch MITRE descriptions first
   let mitreDescriptions;
+  let mitreActorDescriptions;
+  
   try {
-    mitreDescriptions = await fetchMITREDescriptions();
+    [mitreDescriptions, mitreActorDescriptions] = await Promise.all([
+      fetchMITREDescriptions(),
+      fetchMITREActorDescriptions()
+    ]);
   } catch (err) {
-    console.error(`[TTP] WARNING: Failed to fetch MITRE descriptions: ${err.message}`);
+    console.error(`[TTP] WARNING: Failed to fetch MITRE data: ${err.message}`);
     console.error('[TTP] Continuing without MITRE enrichment...');
     mitreDescriptions = new Map();
+    mitreActorDescriptions = new Map();
   }
   
   // Scan actor folders
@@ -285,13 +356,69 @@ async function main() {
   const indexSizeKB = (fs.statSync(INDEX_FILE).size / 1024).toFixed(2);
   console.log(`[TTP] Enriched index saved to ${INDEX_FILE} (${indexSizeKB} KB)`);
   
-  // Save individual actor files
+  // Save individual actor files to data/ folder
   for (const actor of actors) {
     const filePath = path.join(OUTPUT_DIR, `${actor.name}.json`);
     fs.writeFileSync(filePath, JSON.stringify(actor, null, 2));
   }
   
   console.log(`[TTP] Saved ${actors.length} individual actor files to ${OUTPUT_DIR}`);
+  
+  // Generate actor.json in each actor's folder with MITRE descriptions
+  console.log('[TTP] Generating actor.json files in actor folders...');
+  const rootDir = path.join(__dirname, '..');
+  let actorJsonCount = 0;
+  
+  for (const actor of actors) {
+    const actorFolderPath = path.join(rootDir, actor.name);
+    
+    // Skip if folder doesn't exist
+    if (!fs.existsSync(actorFolderPath)) {
+      continue;
+    }
+    
+    // Check if this actor has MITRE description
+    const mitreInfo = mitreActorDescriptions.get(actor.name.toLowerCase());
+    
+    // Determine actor type based on naming patterns
+    const APT_PATTERNS = [
+      /^APT\d+/i, /^APT-\d+/i,
+      /lazarus/i, /kimsuky/i, /andariel/i, /bluenoroff/i,
+      /equation group/i, /cozy bear/i, /fancy bear/i, /sandworm/i,
+      /winnti/i, /carbanak/i, /ocean lotus/i, /turla/i, /dragonfly/i,
+      /leafminer/i, /oilrig/i, /^FIN\d+/i, /admin@338/i, /naikon/i
+    ];
+    const isAPT = APT_PATTERNS.some(pattern => pattern.test(actor.name));
+    
+    // Build actor.json content
+    const actorJson = {
+      name: actor.name,
+      type: isAPT ? 'apt' : 'ransomware',
+      description: mitreInfo?.description || actor.metadata?.description || '',
+      aliases: mitreInfo?.aliases || actor.metadata?.aliases || [],
+      mitreId: mitreInfo?.mitreId || null,
+      techniqueCount: actor.techniqueCount,
+      techniques: actor.techniques,
+      cveCount: actor.cveCount,
+      cves: actor.metadata?.cves || [],
+      lastUpdated: new Date().toISOString()
+    };
+    
+    // Extract first sentence of description for preview
+    if (actorJson.description) {
+      const firstSentence = actorJson.description.match(/^[^.!?]+[.!?]/);
+      actorJson.descriptionPreview = firstSentence ? firstSentence[0].trim() : actorJson.description.slice(0, 150);
+    } else {
+      actorJson.descriptionPreview = '';
+    }
+    
+    // Write actor.json to actor's folder
+    const actorJsonPath = path.join(actorFolderPath, 'actor.json');
+    fs.writeFileSync(actorJsonPath, JSON.stringify(actorJson, null, 2));
+    actorJsonCount++;
+  }
+  
+  console.log(`[TTP] Generated ${actorJsonCount} actor.json files in actor folders`);
   console.log('[TTP] Done!');
 }
 
