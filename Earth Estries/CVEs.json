@@ -1,0 +1,10 @@
+{
+  "group": "Earth Estries",
+  "cves": [
+    {
+      "id": "CVE-2025-5777",
+      "source": "https://www.trendmicro.com/en_us/research/25/j/premier-pass-as-a-service.html",
+      "dateFound": "2026-01-31"
+    }
+  ]
+}
