@@ -18,7 +18,7 @@ const https = require('https');
 const OUTPUT_DIR = path.join(__dirname, '..', 'data');
 const INDEX_FILE = path.join(__dirname, '..', 'ttp-index.json');
 const MITRE_STIX_URL = 'https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json';
-const MITRE_INTRUSION_SETS_URL = 'https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/intrusion-set/intrusion-set.json';
+// Note: Intrusion-sets are in the main enterprise-attack.json, not a separate file
 
 // Ensure output directory exists
 if (!fs.existsSync(OUTPUT_DIR)) {
@@ -27,75 +27,11 @@ if (!fs.existsSync(OUTPUT_DIR)) {
 }
 
 /**
- * Fetch MITRE intrusion-set descriptions (APT groups)
- */
-async function fetchMITREActorDescriptions() {
-  console.log('[TTP] Fetching MITRE intrusion-set descriptions...');
-  
-  return new Promise((resolve, reject) => {
-    https.get(MITRE_INTRUSION_SETS_URL, (res) => {
-      let data = '';
-      
-      res.on('data', (chunk) => {
-        data += chunk;
-      });
-      
-      res.on('end', () => {
-        try {
-          const stixData = JSON.parse(data);
-          const actorMap = new Map();
-          
-          console.log('[TTP] Parsing MITRE intrusion-set data...');
-          
-          for (const obj of stixData.objects || []) {
-            if (obj.type === 'intrusion-set') {
-              const name = obj.name || '';
-              const aliases = obj.aliases || [];
-              const description = obj.description || '';
-              const mitreId = obj.external_references?.find(ref => ref.source_name === 'mitre-attack')?.external_id;
-              
-              // Map by name
-              if (name) {
-                actorMap.set(name.toLowerCase(), {
-                  name,
-                  description,
-                  aliases,
-                  mitreId
-                });
-              }
-              
-              // Map by all aliases for easier lookup
-              for (const alias of aliases) {
-                if (alias) {
-                  actorMap.set(alias.toLowerCase(), {
-                    name,
-                    description,
-                    aliases,
-                    mitreId
-                  });
-                }
-              }
-            }
-          }
-          
-          console.log(`[TTP] Loaded ${actorMap.size} MITRE actor entries`);
-          resolve(actorMap);
-        } catch (err) {
-          reject(new Error(`Failed to parse MITRE intrusion-set data: ${err.message}`));
-        }
-      });
-    }).on('error', (err) => {
-      reject(new Error(`Failed to fetch MITRE intrusion-set data: ${err.message}`));
-    });
-  });
-}
-
-/**
- * Fetch MITRE ATT&CK technique descriptions
+ * Fetch MITRE ATT&CK data (techniques AND intrusion-sets in one call)
  * This runs server-side during generation, so the 60MB download doesn't impact users
  */
-async function fetchMITREDescriptions() {
-  console.log('[TTP] Fetching MITRE ATT&CK descriptions...');
+async function fetchMITREData() {
+  console.log('[TTP] Fetching MITRE ATT&CK enterprise-attack.json (techniques + actors)...');
   
   return new Promise((resolve, reject) => {
     https.get(MITRE_STIX_URL, (res) => {
@@ -109,10 +45,12 @@ async function fetchMITREDescriptions() {
         try {
           const stixData = JSON.parse(data);
           const techniqueMap = new Map();
+          const actorMap = new Map();
           
           console.log('[TTP] Parsing MITRE STIX data...');
           
           for (const obj of stixData.objects || []) {
+            // Extract techniques
             if (obj.type === 'attack-pattern' && obj.external_references) {
               const mitreRef = obj.external_references.find(
                 ref => ref.source_name === 'mitre-attack' && ref.external_id
@@ -130,10 +68,37 @@ async function fetchMITREDescriptions() {
                 });
               }
             }
+            
+            // Extract intrusion-sets (threat actors)
+            if (obj.type === 'intrusion-set') {
+              const name = obj.name || '';
+              const aliases = obj.aliases || [];
+              const description = obj.description || '';
+              const mitreId = obj.external_references?.find(ref => ref.source_name === 'mitre-attack')?.external_id;
+              
+              const actorInfo = {
+                name,
+                description,
+                aliases,
+                mitreId
+              };
+              
+              // Map by name
+              if (name) {
+                actorMap.set(name.toLowerCase(), actorInfo);
+              }
+              
+              // Map by all aliases for easier lookup
+              for (const alias of aliases) {
+                if (alias) {
+                  actorMap.set(alias.toLowerCase(), actorInfo);
+                }
+              }
+            }
           }
           
-          console.log(`[TTP] Loaded ${techniqueMap.size} MITRE technique descriptions`);
-          resolve(techniqueMap);
+          console.log(`[TTP] Loaded ${techniqueMap.size} techniques and ${actorMap.size} actor entries`);
+          resolve({ techniques: techniqueMap, actors: actorMap });
         } catch (err) {
           reject(new Error(`Failed to parse MITRE data: ${err.message}`));
         }
@@ -301,15 +266,14 @@ function scanActorFolders() {
 async function main() {
   console.log('[TTP] Starting TTP JSON generation with MITRE enrichment...');
   
-  // Fetch MITRE descriptions first
+  // Fetch MITRE data (techniques + actors in one call)
   let mitreDescriptions;
   let mitreActorDescriptions;
   
   try {
-    [mitreDescriptions, mitreActorDescriptions] = await Promise.all([
-      fetchMITREDescriptions(),
-      fetchMITREActorDescriptions()
-    ]);
+    const mitreData = await fetchMITREData();
+    mitreDescriptions = mitreData.techniques;
+    mitreActorDescriptions = mitreData.actors;
   } catch (err) {
     console.error(`[TTP] WARNING: Failed to fetch MITRE data: ${err.message}`);
     console.error('[TTP] Continuing without MITRE enrichment...');
