@@ -1,0 +1,30 @@
+{
+  "group": "Nokoyawa",
+  "cves": [
+    {
+      "id": "CVE-2023-28252",
+      "source": "https://securelist.com/nokoyawa-ransomware-attacks-with-windows-zero-day/109483/",
+      "dateFound": "2026-01-31"
+    },
+    {
+      "id": "CVE-2022-24521",
+      "source": "https://securelist.com/nokoyawa-ransomware-attacks-with-windows-zero-day/109483/",
+      "dateFound": "2026-01-31"
+    },
+    {
+      "id": "CVE-2022-37969",
+      "source": "https://securelist.com/nokoyawa-ransomware-attacks-with-windows-zero-day/109483/",
+      "dateFound": "2026-01-31"
+    },
+    {
+      "id": "CVE-2023-23376",
+      "source": "https://securelist.com/nokoyawa-ransomware-attacks-with-windows-zero-day/109483/",
+      "dateFound": "2026-01-31"
+    },
+    {
+      "id": "CVE-2024-30051",
+      "source": "https://securelist.com/nokoyawa-ransomware-attacks-with-windows-zero-day/109483/",
+      "dateFound": "2026-01-31"
+    }
+  ]
+}
