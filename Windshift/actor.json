@@ -1,0 +1,33 @@
+{
+  "name": "Windshift",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 19,
+  "techniques": [
+    "T1027",
+    "T1033",
+    "T1036",
+    "T1036.001",
+    "T1047",
+    "T1057",
+    "T1059.005",
+    "T1071.001",
+    "T1082",
+    "T1105",
+    "T1189",
+    "T1204.001",
+    "T1204.002",
+    "T1518",
+    "T1518.001",
+    "T1547.001",
+    "T1566.001",
+    "T1566.002",
+    "T1566.003"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.760Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

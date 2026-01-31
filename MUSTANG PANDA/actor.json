@@ -1,0 +1,21 @@
+{
+  "name": "MUSTANG PANDA",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 7,
+  "techniques": [
+    "T1016",
+    "T1018",
+    "T1059",
+    "T1059.001",
+    "T1078",
+    "T1087",
+    "T1571"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.755Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

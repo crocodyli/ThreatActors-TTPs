@@ -1,0 +1,19 @@
+{
+  "name": "Volatile Cedar",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 5,
+  "techniques": [
+    "T1105",
+    "T1190",
+    "T1505.003",
+    "T1595.002",
+    "T1595.003"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.760Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "PLATINUM",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 11,
+  "techniques": [
+    "T1003.001",
+    "T1036",
+    "T1055",
+    "T1056.001",
+    "T1056.004",
+    "T1068",
+    "T1095",
+    "T1105",
+    "T1189",
+    "T1204.002",
+    "T1566.001"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.756Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

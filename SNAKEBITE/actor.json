@@ -1,0 +1,13 @@
+{
+  "name": "SNAKEBITE",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 0,
+  "techniques": [],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.758Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

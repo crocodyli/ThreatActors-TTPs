@@ -1,0 +1,19 @@
+{
+  "name": "Cleaver",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 5,
+  "techniques": [
+    "T1003.001",
+    "T1557.002",
+    "T1585.001",
+    "T1587.001",
+    "T1588.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.752Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

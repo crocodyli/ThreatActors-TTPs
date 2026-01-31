@@ -1,0 +1,20 @@
+{
+  "name": "Gallmaker",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 6,
+  "techniques": [
+    "T1027",
+    "T1059.001",
+    "T1204.002",
+    "T1559.002",
+    "T1560.001",
+    "T1566.001"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.754Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

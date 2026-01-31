@@ -1,0 +1,29 @@
+{
+  "name": "Tonto Team",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 15,
+  "techniques": [
+    "T1003",
+    "T1056.001",
+    "T1059.001",
+    "T1059.006",
+    "T1068",
+    "T1069.001",
+    "T1090.002",
+    "T1105",
+    "T1135",
+    "T1203",
+    "T1204.002",
+    "T1210",
+    "T1505.003",
+    "T1566.001",
+    "T1574.001"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.759Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

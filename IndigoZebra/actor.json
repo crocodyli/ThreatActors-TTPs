@@ -1,0 +1,21 @@
+{
+  "name": "IndigoZebra",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 7,
+  "techniques": [
+    "T1105",
+    "T1204.002",
+    "T1566.001",
+    "T1583.001",
+    "T1583.006",
+    "T1586.002",
+    "T1588.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.754Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

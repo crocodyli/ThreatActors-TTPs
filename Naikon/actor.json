@@ -1,0 +1,28 @@
+{
+  "name": "Naikon",
+  "type": "apt",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 14,
+  "techniques": [
+    "T1016",
+    "T1018",
+    "T1036.004",
+    "T1036.005",
+    "T1046",
+    "T1047",
+    "T1053.005",
+    "T1078.002",
+    "T1137.006",
+    "T1204.002",
+    "T1518.001",
+    "T1547.001",
+    "T1566.001",
+    "T1574.001"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.756Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

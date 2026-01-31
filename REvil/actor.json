@@ -1,0 +1,21 @@
+{
+  "name": "REvil",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 7,
+  "techniques": [
+    "T1005",
+    "T1021",
+    "T1068",
+    "T1078",
+    "T1133",
+    "T1190",
+    "T1203"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.757Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

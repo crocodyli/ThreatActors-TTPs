@@ -1,0 +1,31 @@
+{
+  "name": "Daggerfly",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 17,
+  "techniques": [
+    "T1003.002",
+    "T1012",
+    "T1036.003",
+    "T1053.005",
+    "T1059.001",
+    "T1071.001",
+    "T1082",
+    "T1105",
+    "T1136.001",
+    "T1189",
+    "T1195.002",
+    "T1204.001",
+    "T1218.011",
+    "T1553.002",
+    "T1574.001",
+    "T1584.004",
+    "T1587.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.752Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

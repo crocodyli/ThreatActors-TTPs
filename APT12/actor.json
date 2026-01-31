@@ -1,0 +1,19 @@
+{
+  "name": "APT12",
+  "type": "apt",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 5,
+  "techniques": [
+    "T1102.002",
+    "T1203",
+    "T1204.002",
+    "T1566.001",
+    "T1568.003"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.749Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

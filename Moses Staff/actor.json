@@ -1,0 +1,26 @@
+{
+  "name": "Moses Staff",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 12,
+  "techniques": [
+    "T1016",
+    "T1021.002",
+    "T1027.013",
+    "T1082",
+    "T1087.001",
+    "T1105",
+    "T1190",
+    "T1505.003",
+    "T1553.002",
+    "T1562.004",
+    "T1587.001",
+    "T1588.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.756Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

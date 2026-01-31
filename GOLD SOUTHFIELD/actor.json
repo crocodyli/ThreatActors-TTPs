@@ -1,0 +1,23 @@
+{
+  "name": "GOLD SOUTHFIELD",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 9,
+  "techniques": [
+    "T1027.010",
+    "T1059.001",
+    "T1113",
+    "T1133",
+    "T1190",
+    "T1195.002",
+    "T1199",
+    "T1219",
+    "T1566"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.754Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Mofang",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 6,
+  "techniques": [
+    "T1027.013",
+    "T1027.015",
+    "T1204.001",
+    "T1204.002",
+    "T1566.001",
+    "T1566.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.756Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

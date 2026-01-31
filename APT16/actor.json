@@ -1,0 +1,15 @@
+{
+  "name": "APT16",
+  "type": "apt",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 1,
+  "techniques": [
+    "T1584.004"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.749Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

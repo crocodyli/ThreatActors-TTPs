@@ -1,0 +1,19 @@
+{
+  "name": "TA459",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 5,
+  "techniques": [
+    "T1059.001",
+    "T1059.005",
+    "T1203",
+    "T1204.002",
+    "T1566.001"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.759Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "admin@338",
+  "type": "apt",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 12,
+  "techniques": [
+    "T1007",
+    "T1016",
+    "T1036.005",
+    "T1049",
+    "T1059.003",
+    "T1069.001",
+    "T1082",
+    "T1083",
+    "T1087.001",
+    "T1203",
+    "T1204.002",
+    "T1566.001"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.760Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "SilverTerrier",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 4,
+  "techniques": [
+    "T1071.001",
+    "T1071.002",
+    "T1071.003",
+    "T1657"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.758Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

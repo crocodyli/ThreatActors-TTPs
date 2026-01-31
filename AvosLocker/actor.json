@@ -1,0 +1,24 @@
+{
+  "name": "AvosLocker",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 10,
+  "techniques": [
+    "T1021",
+    "T1048",
+    "T1049",
+    "T1068",
+    "T1078",
+    "T1090.002",
+    "T1135",
+    "T1190",
+    "T1211",
+    "T1219"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.750Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

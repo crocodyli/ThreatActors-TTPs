@@ -1,0 +1,23 @@
+{
+  "name": "Aoqin Dragon",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 9,
+  "techniques": [
+    "T1027.002",
+    "T1036",
+    "T1083",
+    "T1091",
+    "T1203",
+    "T1204.002",
+    "T1570",
+    "T1587.001",
+    "T1588.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.750Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

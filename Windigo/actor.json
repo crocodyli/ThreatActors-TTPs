@@ -1,0 +1,21 @@
+{
+  "name": "Windigo",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 7,
+  "techniques": [
+    "T1005",
+    "T1059",
+    "T1082",
+    "T1083",
+    "T1090",
+    "T1189",
+    "T1518"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.760Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Silent Librarian",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 13,
+  "techniques": [
+    "T1078",
+    "T1110.003",
+    "T1114",
+    "T1114.003",
+    "T1583.001",
+    "T1585.002",
+    "T1588.002",
+    "T1588.004",
+    "T1589.002",
+    "T1589.003",
+    "T1594",
+    "T1598.003",
+    "T1608.005"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.758Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

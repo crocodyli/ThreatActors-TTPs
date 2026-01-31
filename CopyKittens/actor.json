@@ -1,0 +1,22 @@
+{
+  "name": "CopyKittens",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 8,
+  "techniques": [
+    "T1059.001",
+    "T1090",
+    "T1218.011",
+    "T1553.002",
+    "T1560.001",
+    "T1560.003",
+    "T1564.003",
+    "T1588.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.752Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

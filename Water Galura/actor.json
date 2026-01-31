@@ -1,0 +1,17 @@
+{
+  "name": "Water Galura",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 3,
+  "techniques": [
+    "T1486",
+    "T1585.001",
+    "T1657"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.760Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

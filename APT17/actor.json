@@ -1,0 +1,16 @@
+{
+  "name": "APT17",
+  "type": "apt",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 2,
+  "techniques": [
+    "T1583.006",
+    "T1585"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.749Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

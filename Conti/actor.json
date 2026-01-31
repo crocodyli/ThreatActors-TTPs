@@ -1,0 +1,16 @@
+{
+  "name": "Conti",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 2,
+  "techniques": [
+    "T1486",
+    "T1567"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.752Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

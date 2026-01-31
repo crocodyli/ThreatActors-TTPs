@@ -1,0 +1,32 @@
+{
+  "name": "Chaos",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 18,
+  "techniques": [
+    "T1005",
+    "T1012",
+    "T1016",
+    "T1021.001",
+    "T1059",
+    "T1070.001",
+    "T1071.001",
+    "T1078",
+    "T1078.004",
+    "T1082",
+    "T1090",
+    "T1219",
+    "T1486",
+    "T1490",
+    "T1547.001",
+    "T1562.001",
+    "T1566",
+    "T1567.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.751Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

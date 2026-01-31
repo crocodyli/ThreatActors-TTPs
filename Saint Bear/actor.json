@@ -1,0 +1,32 @@
+{
+  "name": "Saint Bear",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 18,
+  "techniques": [
+    "T1027.002",
+    "T1027.013",
+    "T1059",
+    "T1059.001",
+    "T1059.003",
+    "T1059.007",
+    "T1112",
+    "T1203",
+    "T1204.001",
+    "T1204.002",
+    "T1497",
+    "T1553.002",
+    "T1562.001",
+    "T1566.001",
+    "T1583.006",
+    "T1589.002",
+    "T1608.001",
+    "T1656"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.758Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

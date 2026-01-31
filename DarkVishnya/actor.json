@@ -1,0 +1,24 @@
+{
+  "name": "DarkVishnya",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 10,
+  "techniques": [
+    "T1040",
+    "T1046",
+    "T1059.001",
+    "T1110",
+    "T1135",
+    "T1200",
+    "T1219",
+    "T1543.003",
+    "T1571",
+    "T1588.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.752Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

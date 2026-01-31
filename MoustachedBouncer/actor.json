@@ -1,0 +1,22 @@
+{
+  "name": "MoustachedBouncer",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 8,
+  "techniques": [
+    "T1027.002",
+    "T1059.001",
+    "T1059.007",
+    "T1068",
+    "T1074.002",
+    "T1090",
+    "T1113",
+    "T1659"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.756Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

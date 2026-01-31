@@ -1,0 +1,19 @@
+{
+  "name": "RedEcho",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 5,
+  "techniques": [
+    "T1071.001",
+    "T1568",
+    "T1571",
+    "T1573.002",
+    "T1583.001"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.757Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

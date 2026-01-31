@@ -1,0 +1,20 @@
+{
+  "name": "Winnti Group",
+  "type": "apt",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 6,
+  "techniques": [
+    "T1014",
+    "T1057",
+    "T1083",
+    "T1105",
+    "T1553.002",
+    "T1583.001"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.760Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

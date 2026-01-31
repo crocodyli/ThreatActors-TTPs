@@ -1,0 +1,16 @@
+{
+  "name": "GCMAN",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 2,
+  "techniques": [
+    "T1021.004",
+    "T1021.005"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.754Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Malteiro",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 12,
+  "techniques": [
+    "T1027.013",
+    "T1055.001",
+    "T1059.005",
+    "T1082",
+    "T1140",
+    "T1204.002",
+    "T1518.001",
+    "T1555",
+    "T1555.003",
+    "T1566.001",
+    "T1614.001",
+    "T1657"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.755Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

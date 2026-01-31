@@ -1,0 +1,33 @@
+{
+  "name": "Beast",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 19,
+  "techniques": [
+    "T1016",
+    "T1021.002",
+    "T1036",
+    "T1047",
+    "T1055",
+    "T1057",
+    "T1070.004",
+    "T1078.001",
+    "T1078.002",
+    "T1083",
+    "T1106",
+    "T1119",
+    "T1135",
+    "T1486",
+    "T1489",
+    "T1490",
+    "T1543.003",
+    "T1566",
+    "T1620"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.751Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

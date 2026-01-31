@@ -1,0 +1,20 @@
+{
+  "name": "TA577",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 6,
+  "techniques": [
+    "T1027.009",
+    "T1059.003",
+    "T1059.007",
+    "T1204.001",
+    "T1566.002",
+    "T1586.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.759Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

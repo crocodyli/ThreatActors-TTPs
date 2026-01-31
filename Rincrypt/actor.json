@@ -1,0 +1,28 @@
+{
+  "name": "Rincrypt",
+  "type": "ransomware",
+  "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 14,
+  "techniques": [
+    "T1005",
+    "T1027",
+    "T1036",
+    "T1059",
+    "T1082",
+    "T1083",
+    "T1129",
+    "T1140",
+    "T1202",
+    "T1486",
+    "T1497.001",
+    "T1518.001",
+    "T1548",
+    "T1574.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.757Z",
+  "descriptionPreview": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|"
+}

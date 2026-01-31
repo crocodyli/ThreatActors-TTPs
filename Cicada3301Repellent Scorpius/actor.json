@@ -1,0 +1,16 @@
+{
+  "name": "Cicada3301Repellent Scorpius",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 2,
+  "techniques": [
+    "T1078",
+    "T1190"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.752Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Suckfly",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 5,
+  "techniques": [
+    "T1003",
+    "T1046",
+    "T1059.003",
+    "T1078",
+    "T1553.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.759Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

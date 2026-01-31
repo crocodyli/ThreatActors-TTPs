@@ -1,0 +1,15 @@
+{
+  "name": "FSociety-Flocker",
+  "type": "ransomware",
+  "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 1,
+  "techniques": [
+    "T1567.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.753Z",
+  "descriptionPreview": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|"
+}

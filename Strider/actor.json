@@ -1,0 +1,17 @@
+{
+  "name": "Strider",
+  "type": "ransomware",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 3,
+  "techniques": [
+    "T1090.001",
+    "T1556.002",
+    "T1564.005"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.759Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}

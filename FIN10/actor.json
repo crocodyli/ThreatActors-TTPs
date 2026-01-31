@@ -1,0 +1,25 @@
+{
+  "name": "FIN10",
+  "type": "apt",
+  "description": "| Technique | Name | Source | Date |",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 11,
+  "techniques": [
+    "T1021.001",
+    "T1033",
+    "T1053.005",
+    "T1059.001",
+    "T1059.003",
+    "T1070.004",
+    "T1078",
+    "T1078.003",
+    "T1547.001",
+    "T1570",
+    "T1588.002"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:36:47.753Z",
+  "descriptionPreview": "| Technique | Name | Source | Date |"
+}
