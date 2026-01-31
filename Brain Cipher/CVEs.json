@@ -1,0 +1,20 @@
+{
+  "group": "INC Ransomware",
+  "cves": [
+    {
+      "id": "CVE-2017-11882",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-12-december-2025/",
+      "dateFound": "2026-01-31"
+    },
+    {
+      "id": "CVE-2017-17215",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-12-december-2025/",
+      "dateFound": "2026-01-31"
+    },
+    {
+      "id": "CVE-2025-12819",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-12-december-2025/",
+      "dateFound": "2026-01-31"
+    }
+  ]
+}
