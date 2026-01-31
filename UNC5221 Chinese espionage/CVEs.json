@@ -1,0 +1,15 @@
+{
+  "group": "UNC5221 (Chinese espionage)",
+  "cves": [
+    {
+      "id": "CVE-2023-46805",
+      "source": "https://services.google.com/fh/files/misc/m-trends-2025-en.pdf",
+      "dateFound": "2026-01-31"
+    },
+    {
+      "id": "CVE-2024-21887",
+      "source": "https://unit42.paloaltonetworks.com/threat-brief-ivanti-cve-2023-46805-cve-2024-21887/",
+      "dateFound": "2026-01-31"
+    }
+  ]
+}
