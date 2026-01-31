@@ -1,0 +1,15 @@
+{
+  "group": "Spectra",
+  "cves": [
+    {
+      "id": "CVE-2021-26855",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/",
+      "dateFound": "2026-01-31"
+    },
+    {
+      "id": "CVE-2025-30223",
+      "source": "https://www.cyfirma.com/news/weekly-intelligence-report-04-apr-2025/",
+      "dateFound": "2026-01-31"
+    }
+  ]
+}
