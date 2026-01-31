@@ -1,7 +1,7 @@
 {
   "name": "FIN10",
   "type": "apt",
-  "description": "| Technique | Name | Source | Date |",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 11,
@@ -20,6 +20,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.753Z",
-  "descriptionPreview": "| Technique | Name | Source | Date |"
+  "lastUpdated": "2026-01-31T15:53:22.559Z",
+  "descriptionPreview": ""
 }

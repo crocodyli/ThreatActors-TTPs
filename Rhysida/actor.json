@@ -1,7 +1,7 @@
 {
   "name": "Rhysida",
   "type": "ransomware",
-  "description": "Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023. The group utilizes a namesake ransomware through phishing attacks and Cobalt Strike to breach the targets' networks and depl",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 39,
@@ -48,6 +48,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.757Z",
-  "descriptionPreview": "Rhysida is a ransomware-as-a-service (RAAS) group that emerged in May 2023."
+  "lastUpdated": "2026-01-31T15:53:22.566Z",
+  "descriptionPreview": ""
 }

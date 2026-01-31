@@ -38,7 +38,7 @@
   "techniqueCount": 33,
   "cveCount": 0,
   "metadata": {
-    "description": "| **TACTIC** | **TECHNIQUE** | **DETAILS** |",
+    "description": "| Initial Access | Phishing (T1566) | Targeted emails containing malicious payloads, links, or attachments that trick users into executing code or divulging credentials.",
     "aliases": [],
     "cves": [],
     "files": [

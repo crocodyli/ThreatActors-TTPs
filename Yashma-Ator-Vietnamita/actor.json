@@ -1,7 +1,7 @@
 {
   "name": "Yashma-Ator-Vietnamita",
   "type": "ransomware",
-  "description": "Cisco Talos has identified a new, previously unknown threat actor of Vietnamese origin conducting a ransomware operation that began at least on June 4, 2023.",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 25,
@@ -34,6 +34,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.760Z",
-  "descriptionPreview": "Cisco Talos has identified a new, previously unknown threat actor of Vietnamese origin conducting a ransomware operation that began at least on June 4, 2023."
+  "lastUpdated": "2026-01-31T15:53:22.571Z",
+  "descriptionPreview": ""
 }

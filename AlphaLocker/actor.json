@@ -1,7 +1,7 @@
 {
   "name": "AlphaLocker",
   "type": "ransomware",
-  "description": "| **TACTIC** | **TECHNIQUE (ID)** | **DETAILS** |",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 5,
@@ -14,6 +14,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.750Z",
-  "descriptionPreview": "| **TACTIC** | **TECHNIQUE (ID)** | **DETAILS** |"
+  "lastUpdated": "2026-01-31T15:53:22.554Z",
+  "descriptionPreview": ""
 }

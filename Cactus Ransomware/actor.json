@@ -1,7 +1,7 @@
 {
   "name": "Cactus Ransomware",
   "type": "ransomware",
-  "description": "|     Tactic                             |     Technique                                                         |     Details                                                                          ",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 24,
@@ -31,12 +31,8 @@
     "T1567.002",
     "T1570"
   ],
-  "cveCount": 3,
-  "cves": [
-    "CVE-2023-41265",
-    "CVE-2023-41266",
-    "CVE-2023-48365"
-  ],
-  "lastUpdated": "2026-01-31T15:36:47.751Z",
-  "descriptionPreview": "|     Tactic                             |     Technique                                                         |     Details                        "
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:53:22.556Z",
+  "descriptionPreview": ""
 }

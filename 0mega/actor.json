@@ -1,7 +1,7 @@
 {
   "name": "0mega",
   "type": "ransomware",
-  "description": "| **Access Type / Vulnerability** | **Exploitation Description** |",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 7,
@@ -16,6 +16,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.748Z",
-  "descriptionPreview": "| **Access Type / Vulnerability** | **Exploitation Description** |"
+  "lastUpdated": "2026-01-31T15:53:22.552Z",
+  "descriptionPreview": ""
 }

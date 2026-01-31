@@ -1,7 +1,7 @@
 {
   "name": "RansomHub",
   "type": "ransomware",
-  "description": "|     Tactic    \t|     Technique    \t|     Details    \t|",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 78,
@@ -87,6 +87,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.757Z",
-  "descriptionPreview": "|     Tactic    \t|     Technique    \t|     Details    \t|"
+  "lastUpdated": "2026-01-31T15:53:22.566Z",
+  "descriptionPreview": ""
 }

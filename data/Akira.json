@@ -86,19 +86,11 @@
     "T1657"
   ],
   "techniqueCount": 83,
-  "cveCount": 7,
+  "cveCount": 0,
   "metadata": {
-    "description": "| Technique | Name | Source | Date |",
+    "description": "| **Initial Access** | External Remote Services (T1133) | Use of **VPN** or **RDP** connections with stolen credentials; exploitation of misconfigured remote access portals.",
     "aliases": [],
-    "cves": [
-      "CVE-2020-3259",
-      "CVE-2023-20269",
-      "CVE-2024-40766",
-      "CVE-2025-20333",
-      "CVE-2025-4059",
-      "CVE-2025-40596",
-      "CVE-2025-40599"
-    ],
+    "cves": [],
     "files": [
       {
         "name": "Akira-TTP.md",

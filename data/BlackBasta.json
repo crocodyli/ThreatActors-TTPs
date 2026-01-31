@@ -54,7 +54,7 @@
   "techniqueCount": 49,
   "cveCount": 0,
   "metadata": {
-    "description": "| Tactic \t| Technique \t| Details \t|",
+    "description": "| Initial Acces \t| Phishing (T1566) \t| The actors use spearphishing emails to gain initial access.",
     "aliases": [],
     "cves": [],
     "files": [

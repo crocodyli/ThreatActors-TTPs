@@ -1,7 +1,7 @@
 {
   "name": "Play",
   "type": "ransomware",
-  "description": "| Technique | Name | Source | Date |",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 38,
@@ -45,13 +45,8 @@
     "T1588.002",
     "T1657"
   ],
-  "cveCount": 4,
-  "cves": [
-    "CVE-2018-13379",
-    "CVE-2020-12812",
-    "CVE-2022-41040",
-    "CVE-2022-41082"
-  ],
-  "lastUpdated": "2026-01-31T15:36:47.757Z",
-  "descriptionPreview": "| Technique | Name | Source | Date |"
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:53:22.565Z",
+  "descriptionPreview": ""
 }

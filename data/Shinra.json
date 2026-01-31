@@ -39,7 +39,7 @@
   "techniqueCount": 34,
   "cveCount": 0,
   "metadata": {
-    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
+    "description": "|    <br>Execution (TA0002) \t| Windows Management   Instrumentation T1047 \t| The ransomware uses wmic.",
     "aliases": [],
     "cves": [],
     "files": [

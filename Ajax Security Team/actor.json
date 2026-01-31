@@ -1,7 +1,7 @@
 {
   "name": "Ajax Security Team",
   "type": "ransomware",
-  "description": "| Technique | Name | Source | Date |",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 6,
@@ -15,6 +15,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.750Z",
-  "descriptionPreview": "| Technique | Name | Source | Date |"
+  "lastUpdated": "2026-01-31T15:53:22.554Z",
+  "descriptionPreview": ""
 }

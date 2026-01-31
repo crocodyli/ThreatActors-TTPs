@@ -41,16 +41,11 @@
     "T1657"
   ],
   "techniqueCount": 38,
-  "cveCount": 4,
+  "cveCount": 0,
   "metadata": {
-    "description": "| Technique | Name | Source | Date |",
+    "description": "| Process Hacker | https://processhacker.",
     "aliases": [],
-    "cves": [
-      "CVE-2018-13379",
-      "CVE-2020-12812",
-      "CVE-2022-41040",
-      "CVE-2022-41082"
-    ],
+    "cves": [],
     "files": [
       {
         "name": "README.md",

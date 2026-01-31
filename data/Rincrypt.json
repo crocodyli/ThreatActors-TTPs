@@ -19,7 +19,7 @@
   "techniqueCount": 14,
   "cveCount": 0,
   "metadata": {
-    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
+    "description": "| Execution   TA0002 \t| Sared Modules T1129 \t| Shares operating system modules.",
     "aliases": [],
     "cves": [],
     "files": [

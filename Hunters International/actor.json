@@ -1,7 +1,7 @@
 {
   "name": "Hunters International",
   "type": "ransomware",
-  "description": "|      **Tática**      |             **Técnica**               |                                                      **Detalhes**                                                                      ",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 28,
@@ -37,6 +37,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.754Z",
-  "descriptionPreview": "|      **Tática**      |             **Técnica**               |                                                      **Detalhes**                    "
+  "lastUpdated": "2026-01-31T15:53:22.562Z",
+  "descriptionPreview": ""
 }

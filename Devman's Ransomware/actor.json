@@ -1,7 +1,7 @@
 {
   "name": "Devman's Ransomware",
   "type": "ransomware",
-  "description": "| Tactic \t| Tactic \t| Technique (ID - Name) \t| Details \t|",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 18,
@@ -27,6 +27,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.753Z",
-  "descriptionPreview": "| Tactic \t| Tactic \t| Technique (ID - Name) \t| Details \t|"
+  "lastUpdated": "2026-01-31T15:53:22.558Z",
+  "descriptionPreview": ""
 }

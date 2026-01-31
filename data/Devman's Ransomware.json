@@ -23,7 +23,7 @@
   "techniqueCount": 18,
   "cveCount": 0,
   "metadata": {
-    "description": "| Tactic \t| Tactic \t| Technique (ID - Name) \t| Details \t|",
+    "description": "DEVMAN is a RaaS (Ransomware-as-a-Service) group that is believed to have emerged in April 2025.",
     "aliases": [],
     "cves": [],
     "files": [

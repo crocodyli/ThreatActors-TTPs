@@ -1,7 +1,7 @@
 {
   "name": "Cuba",
   "type": "ransomware",
-  "description": "|  TÁTICA                               \t|  TÉCNICA                                                                                                        \t|  DETALHES                                 ",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 12,
@@ -21,6 +21,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.752Z",
-  "descriptionPreview": "|  TÁTICA                               \t|  TÉCNICA                                                                                                   "
+  "lastUpdated": "2026-01-31T15:53:22.558Z",
+  "descriptionPreview": ""
 }

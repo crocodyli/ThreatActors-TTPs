@@ -60,7 +60,7 @@
   "techniqueCount": 55,
   "cveCount": 0,
   "metadata": {
-    "description": "| TACTIC                          \t| TECHNIQUE                                                                                                     \t| DETAILS   \t|",
+    "description": "| Resource   Development \t| Acquire Access   (T1650) \t| BlackSuit actors may   leverage brokers to gain initial access.",
     "aliases": [],
     "cves": [],
     "files": [

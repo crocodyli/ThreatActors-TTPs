@@ -1,7 +1,7 @@
 {
   "name": "DragonForce",
   "type": "ransomware",
-  "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 5,
@@ -14,6 +14,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.753Z",
-  "descriptionPreview": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|"
+  "lastUpdated": "2026-01-31T15:53:22.559Z",
+  "descriptionPreview": ""
 }

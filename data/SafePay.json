@@ -70,7 +70,7 @@
   "techniqueCount": 65,
   "cveCount": 0,
   "metadata": {
-    "description": "SafePay ransomware started in October 2024 as a new ransomware service, using some of the leaked LockBit source code. Soon after launching, the group made a big impact in the ransomware world, hacking",
+    "description": "SafePay ransomware started in October 2024 as a new ransomware service, using some of the leaked LockBit source code.",
     "aliases": [],
     "cves": [],
     "files": [

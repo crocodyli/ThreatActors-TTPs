@@ -1,7 +1,7 @@
 {
   "name": "BianLian",
   "type": "ransomware",
-  "description": "| Tatica ID | Tecnica ID | Nome | Descricao |",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 47,
@@ -56,6 +56,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.751Z",
-  "descriptionPreview": "| Tatica ID | Tecnica ID | Nome | Descricao |"
+  "lastUpdated": "2026-01-31T15:53:22.555Z",
+  "descriptionPreview": ""
 }

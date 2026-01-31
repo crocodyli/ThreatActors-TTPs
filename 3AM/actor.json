@@ -1,7 +1,7 @@
 {
   "name": "3AM",
   "type": "ransomware",
-  "description": "|              Tactic             |                               Technique                              |                                                                   Details                    ",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 11,
@@ -20,6 +20,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.749Z",
-  "descriptionPreview": "|              Tactic             |                               Technique                              |                                            "
+  "lastUpdated": "2026-01-31T15:53:22.552Z",
+  "descriptionPreview": ""
 }

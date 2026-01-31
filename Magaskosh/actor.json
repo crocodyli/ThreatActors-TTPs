@@ -1,7 +1,7 @@
 {
   "name": "Magaskosh",
   "type": "ransomware",
-  "description": "| Tactic                              | Technique                                                             | Detail                                                                                  ",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 9,
@@ -18,6 +18,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.755Z",
-  "descriptionPreview": "| Tactic                              | Technique                                                             | Detail                                "
+  "lastUpdated": "2026-01-31T15:53:22.563Z",
+  "descriptionPreview": ""
 }

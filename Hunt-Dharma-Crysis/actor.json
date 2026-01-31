@@ -1,7 +1,7 @@
 {
   "name": "Hunt-Dharma-Crysis",
   "type": "ransomware",
-  "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 19,
@@ -28,6 +28,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.754Z",
-  "descriptionPreview": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|"
+  "lastUpdated": "2026-01-31T15:53:22.561Z",
+  "descriptionPreview": ""
 }

@@ -1,7 +1,7 @@
 {
   "name": "8base",
   "type": "ransomware",
-  "description": "| **TACTIC** | **TECHNIQUE** | **DETAILS** |",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 33,
@@ -42,6 +42,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.749Z",
-  "descriptionPreview": "| **TACTIC** | **TECHNIQUE** | **DETAILS** |"
+  "lastUpdated": "2026-01-31T15:53:22.553Z",
+  "descriptionPreview": ""
 }

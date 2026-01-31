@@ -1,13 +1,13 @@
 {
   "name": "HsHarada",
   "type": "ransomware",
-  "description": "**HSHARADA RANSOMWARE**",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 0,
   "techniques": [],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.754Z",
-  "descriptionPreview": "**HSHARADA RANSOMWARE**"
+  "lastUpdated": "2026-01-31T15:53:22.561Z",
+  "descriptionPreview": ""
 }

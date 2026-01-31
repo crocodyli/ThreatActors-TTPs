@@ -6,7 +6,7 @@
   "techniqueCount": 1,
   "cveCount": 0,
   "metadata": {
-    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
+    "description": "| Exfiltration   (TA0010) \t| Exfiltration Over Web Service:   Exfiltration to Cloud Storage (T1567.",
     "aliases": [],
     "cves": [],
     "files": [

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-31T15:36:47.724Z",
+  "generated": "2026-01-31T15:53:22.529Z",
   "actorCount": 254,
   "totalTechniques": 535,
   "mitreEnriched": false,
@@ -4731,7 +4731,7 @@
     {
       "name": "Akira",
       "techniqueCount": 83,
-      "cveCount": 7,
+      "cveCount": 0,
       "techniques": [
         "T1003",
         "T1003.001",
@@ -5958,7 +5958,7 @@
     {
       "name": "Cactus Ransomware",
       "techniqueCount": 24,
-      "cveCount": 3,
+      "cveCount": 0,
       "techniques": [
         "T1003",
         "T1003.001",
@@ -9730,7 +9730,7 @@
     {
       "name": "Play",
       "techniqueCount": 38,
-      "cveCount": 4,
+      "cveCount": 0,
       "techniques": [
         "T1003",
         "T1003.001",
@@ -11813,7 +11813,7 @@
     {
       "name": "Vice Society",
       "techniqueCount": 34,
-      "cveCount": 1,
+      "cveCount": 0,
       "techniques": [
         "T1003.003",
         "T1005",

@@ -1,7 +1,7 @@
 {
   "name": "LockBit",
   "type": "ransomware",
-  "description": "| Initial   Access                                                 |           |                                                                                                                        ",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 70,
@@ -79,6 +79,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.755Z",
-  "descriptionPreview": "| Initial   Access                                                 |           |                                                                      "
+  "lastUpdated": "2026-01-31T15:53:22.563Z",
+  "descriptionPreview": ""
 }

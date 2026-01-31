@@ -1,13 +1,13 @@
 {
   "name": "Comandos",
   "type": "ransomware",
-  "description": "| COMANDO | DESCRIÇÃO |",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 0,
   "techniques": [],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.752Z",
-  "descriptionPreview": "| COMANDO | DESCRIÇÃO |"
+  "lastUpdated": "2026-01-31T15:53:22.557Z",
+  "descriptionPreview": ""
 }

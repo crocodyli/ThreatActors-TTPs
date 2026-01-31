@@ -1,7 +1,7 @@
 {
   "name": "DoNex",
   "type": "ransomware",
-  "description": "|    <br>Tactics    \t|    <br>Technique    \t|    <br>Details    \t|",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 33,
@@ -42,6 +42,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.753Z",
-  "descriptionPreview": "|    <br>Tactics    \t|    <br>Technique    \t|    <br>Details    \t|"
+  "lastUpdated": "2026-01-31T15:53:22.559Z",
+  "descriptionPreview": ""
 }

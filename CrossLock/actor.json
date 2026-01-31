@@ -1,13 +1,13 @@
 {
   "name": "CrossLock",
   "type": "ransomware",
-  "description": "| **Tactic** | **Technique** | **Sub-Technique**",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 0,
   "techniques": [],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T15:36:47.752Z",
-  "descriptionPreview": "| **Tactic** | **Technique** | **Sub-Technique**"
+  "lastUpdated": "2026-01-31T15:53:22.558Z",
+  "descriptionPreview": ""
 }

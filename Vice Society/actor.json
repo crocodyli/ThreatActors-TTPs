@@ -1,7 +1,7 @@
 {
   "name": "Vice Society",
   "type": "ransomware",
-  "description": "| Technique | Name | Source | Date |",
+  "description": "",
   "aliases": [],
   "mitreId": null,
   "techniqueCount": 34,
@@ -41,10 +41,8 @@
     "T1566",
     "T1567"
   ],
-  "cveCount": 1,
-  "cves": [
-    "CVE-2021-34527"
-  ],
-  "lastUpdated": "2026-01-31T15:36:47.760Z",
-  "descriptionPreview": "| Technique | Name | Source | Date |"
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T15:53:22.570Z",
+  "descriptionPreview": ""
 }
