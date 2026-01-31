@@ -1,6 +1,6 @@
 {
-  "generated": "2026-01-31T15:57:33.373Z",
-  "actorCount": 254,
+  "generated": "2026-01-31T19:28:51.120Z",
+  "actorCount": 255,
   "totalTechniques": 535,
   "mitreEnriched": true,
   "techniques": {
@@ -14814,6 +14814,21 @@
         "T1497.003",
         "T1529",
         "T1547.001"
+      ]
+    },
+    {
+      "name": "Trinity",
+      "techniqueCount": 8,
+      "cveCount": 0,
+      "techniques": [
+        "T1083",
+        "T1134",
+        "T1140",
+        "T1204.002",
+        "T1486",
+        "T1490",
+        "T1491.001",
+        "T1570"
       ]
     },
     {

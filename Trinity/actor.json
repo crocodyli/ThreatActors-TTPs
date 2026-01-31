@@ -1,19 +1,22 @@
 {
-  "name": "DragonForce",
+  "name": "Trinity",
   "type": "ransomware",
   "description": "",
   "aliases": [],
   "mitreId": null,
-  "techniqueCount": 5,
+  "techniqueCount": 8,
   "techniques": [
-    "T1005.002",
-    "T1070.004",
     "T1083",
+    "T1134",
+    "T1140",
+    "T1204.002",
     "T1486",
-    "T1562.001"
+    "T1490",
+    "T1491.001",
+    "T1570"
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T19:28:51.161Z",
+  "lastUpdated": "2026-01-31T19:28:51.176Z",
   "descriptionPreview": ""
 }
