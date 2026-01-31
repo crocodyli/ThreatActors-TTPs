@@ -25,6 +25,7 @@
     "T1105",
     "T1112",
     "T1134.001",
+    "T1190",
     "T1204.001",
     "T1204.002",
     "T1482",
@@ -38,7 +39,7 @@
     "T1588.002",
     "T1588.003"
   ],
-  "techniqueCount": 36,
+  "techniqueCount": 37,
   "cveCount": 0,
   "metadata": {
     "description": "",
@@ -47,7 +48,9 @@
     "files": [
       {
         "name": "TTPs-autodiscovered.md",
-        "techniques": []
+        "techniques": [
+          "T1190"
+        ]
       },
       {
         "name": "TTPs-mitre.md",

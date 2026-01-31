@@ -1,7 +1,7 @@
 {
-  "generated": "2026-01-31T19:28:51.120Z",
-  "actorCount": 255,
-  "totalTechniques": 535,
+  "generated": "2026-01-31T20:50:13.196Z",
+  "actorCount": 257,
+  "totalTechniques": 536,
   "mitreEnriched": true,
   "techniques": {
     "T1041": {
@@ -4865,6 +4865,19 @@
         "SaaS"
       ]
     },
+    "T1484": {
+      "name": "Domain or Tenant Policy Modification",
+      "description": "Adversaries may modify the configuration settings of a domain or identity tenant to evade defenses and/or escalate privileges in centrally managed environments. Such services provide a centralized means of managing identity resources such as devices and accounts, and often include configuration settings that may apply between domains or tenants such as trust relationships, identity syncing, or identity federation.\n\nModifications to domain or tenant settings may include altering domain Group Policy Objects (GPOs) in Microsoft Active Directory (AD) or changing trust settings for domains, including federation trusts relationships between domains or tenants.\n\nWith sufficient permissions, adversaries can modify domain or tenant policy settings. Since configuration settings for these services apply to a large number of identity resources, there are a great number of potential attacks malicious outcomes that can stem from this abuse. Examples of such abuse include:  \n\n* modifying GPOs to push a malicious [Scheduled Task](https://attack.mitre.org/techniques/T1053/005) to computers throughout the domain environment(Citation: ADSecurity GPO Persistence 2016)(Citation: Wald0 Guide to GPOs)(Citation: Harmj0y Abusing GPO Permissions)\n* modifying domain trusts to include an adversary-controlled domain, allowing adversaries to  forge access tokens that will subsequently be accepted by victim domain resources(Citation: Microsoft - Customer Guidance on Recent Nation-State Cyber Attacks)\n* changing configuration settings within the AD environment to implement a [Rogue Domain Controller](https://attack.mitre.org/techniques/T1207).\n* adding new, adversary-controlled federated identity providers to identity tenants, allowing adversaries to authenticate as any user managed by the victim tenant (Citation: Okta Cross-Tenant Impersonation 2023)\n\nAdversaries may temporarily modify domain or tenant policy, carry out a malicious action(s), and then revert the change to remove suspicious indicators.",
+      "url": "https://attack.mitre.org/techniques/T1484",
+      "tactics": [
+        "defense-evasion",
+        "privilege-escalation"
+      ],
+      "platforms": [
+        "Windows",
+        "Identity Provider"
+      ]
+    },
     "T1558.002": {
       "name": "Silver Ticket",
       "description": "Adversaries who have the password hash of a target service account (e.g. SharePoint, MSSQL) may forge Kerberos ticket granting service (TGS) tickets, also known as silver tickets. Kerberos TGS tickets are also known as service tickets.(Citation: ADSecurity Silver Tickets)\n\nSilver tickets are more limited in scope in than golden tickets in that they only enable adversaries to access a particular resource (e.g. MSSQL) and the system that hosts the resource; however, unlike golden tickets, adversaries with the ability to forge silver tickets are able to create TGS tickets without interacting with the Key Distribution Center (KDC), potentially making detection more difficult.(Citation: ADSecurity Detecting Forged Tickets)\n\nPassword hashes for target services may be obtained using [OS Credential Dumping](https://attack.mitre.org/techniques/T1003) or [Kerberoasting](https://attack.mitre.org/techniques/T1558/003).",
@@ -6253,6 +6266,18 @@
         "Office Suite"
       ]
     },
+    "T1548.004": {
+      "name": "Elevated Execution with Prompt",
+      "description": "Adversaries may leverage the <code>AuthorizationExecuteWithPrivileges</code> API to escalate privileges by prompting the user for credentials.(Citation: AppleDocs AuthorizationExecuteWithPrivileges) The purpose of this API is to give application developers an easy way to perform operations with root privileges, such as for application installation or updating. This API does not validate that the program requesting root privileges comes from a reputable source or has been maliciously modified. \n\nAlthough this API is deprecated, it still fully functions in the latest releases of macOS. When calling this API, the user will be prompted to enter their credentials but no checks on the origin or integrity of the program are made. The program calling the API may also load world writable files which can be modified to perform malicious behavior with elevated privileges.\n\nAdversaries may abuse <code>AuthorizationExecuteWithPrivileges</code> to obtain root privileges in order to install malicious software on victims and install persistence mechanisms.(Citation: Death by 1000 installers; it's all broken!)(Citation: Carbon Black Shlayer Feb 2019)(Citation: OSX Coldroot RAT) This technique may be combined with [Masquerading](https://attack.mitre.org/techniques/T1036) to trick the user into granting escalated privileges to malicious code.(Citation: Death by 1000 installers; it's all broken!)(Citation: Carbon Black Shlayer Feb 2019) This technique has also been shown to work by modifying legitimate programs present on the machine that make use of this API.(Citation: Death by 1000 installers; it's all broken!)",
+      "url": "https://attack.mitre.org/techniques/T1548/004",
+      "tactics": [
+        "privilege-escalation",
+        "defense-evasion"
+      ],
+      "platforms": [
+        "macOS"
+      ]
+    },
     "T1137.004": {
       "name": "Outlook Home Page",
       "description": "Adversaries may abuse Microsoft Outlook's Home Page feature to obtain persistence on a compromised system. Outlook Home Page is a legacy feature used to customize the presentation of Outlook folders. This feature allows for an internal or external URL to be loaded and presented whenever a folder is opened. A malicious HTML page can be crafted that will execute code when loaded by Outlook Home Page.(Citation: SensePost Outlook Home Page)\n\nOnce malicious home pages have been added to the user’s mailbox, they will be loaded when Outlook is started. Malicious Home Pages will execute when the right Outlook folder is loaded/reloaded.(Citation: SensePost Outlook Home Page)\n",
@@ -6322,19 +6347,6 @@
         "macOS",
         "Windows",
         "Network Devices"
-      ]
-    },
-    "T1484": {
-      "name": "Domain or Tenant Policy Modification",
-      "description": "Adversaries may modify the configuration settings of a domain or identity tenant to evade defenses and/or escalate privileges in centrally managed environments. Such services provide a centralized means of managing identity resources such as devices and accounts, and often include configuration settings that may apply between domains or tenants such as trust relationships, identity syncing, or identity federation.\n\nModifications to domain or tenant settings may include altering domain Group Policy Objects (GPOs) in Microsoft Active Directory (AD) or changing trust settings for domains, including federation trusts relationships between domains or tenants.\n\nWith sufficient permissions, adversaries can modify domain or tenant policy settings. Since configuration settings for these services apply to a large number of identity resources, there are a great number of potential attacks malicious outcomes that can stem from this abuse. Examples of such abuse include:  \n\n* modifying GPOs to push a malicious [Scheduled Task](https://attack.mitre.org/techniques/T1053/005) to computers throughout the domain environment(Citation: ADSecurity GPO Persistence 2016)(Citation: Wald0 Guide to GPOs)(Citation: Harmj0y Abusing GPO Permissions)\n* modifying domain trusts to include an adversary-controlled domain, allowing adversaries to  forge access tokens that will subsequently be accepted by victim domain resources(Citation: Microsoft - Customer Guidance on Recent Nation-State Cyber Attacks)\n* changing configuration settings within the AD environment to implement a [Rogue Domain Controller](https://attack.mitre.org/techniques/T1207).\n* adding new, adversary-controlled federated identity providers to identity tenants, allowing adversaries to authenticate as any user managed by the victim tenant (Citation: Okta Cross-Tenant Impersonation 2023)\n\nAdversaries may temporarily modify domain or tenant policy, carry out a malicious action(s), and then revert the change to remove suspicious indicators.",
-      "url": "https://attack.mitre.org/techniques/T1484",
-      "tactics": [
-        "defense-evasion",
-        "privilege-escalation"
-      ],
-      "platforms": [
-        "Windows",
-        "Identity Provider"
       ]
     },
     "T1547.004": {
@@ -8938,7 +8950,7 @@
     },
     {
       "name": "BlackSuit",
-      "techniqueCount": 55,
+      "techniqueCount": 56,
       "cveCount": 0,
       "techniques": [
         "T1003",
@@ -8973,6 +8985,7 @@
         "T1195.002",
         "T1218",
         "T1218.010",
+        "T1484",
         "T1484.001",
         "T1486",
         "T1490",
@@ -10391,7 +10404,7 @@
     },
     {
       "name": "FIN8",
-      "techniqueCount": 36,
+      "techniqueCount": 37,
       "cveCount": 0,
       "techniques": [
         "T1003.001",
@@ -10418,6 +10431,7 @@
         "T1105",
         "T1112",
         "T1134.001",
+        "T1190",
         "T1204.001",
         "T1204.002",
         "T1482",
@@ -10455,9 +10469,10 @@
     },
     {
       "name": "Fog",
-      "techniqueCount": 1,
+      "techniqueCount": 2,
       "cveCount": 0,
       "techniques": [
+        "T1020",
         "T1486"
       ]
     },
@@ -11777,7 +11792,7 @@
     },
     {
       "name": "LockBit",
-      "techniqueCount": 70,
+      "techniqueCount": 76,
       "cveCount": 0,
       "techniques": [
         "T1003",
@@ -11785,6 +11800,7 @@
         "T1003.003",
         "T1003.008",
         "T1005",
+        "T1016",
         "T1016.001",
         "T1018",
         "T1021",
@@ -11833,22 +11849,27 @@
         "T1133",
         "T1134.001",
         "T1135",
+        "T1136",
         "T1136.001",
         "T1136.002",
         "T1189",
         "T1190",
         "T1204.002",
+        "T1218.005",
         "T1219",
         "T1222.001",
         "T1485",
         "T1486",
         "T1489",
         "T1490",
+        "T1543.003",
         "T1547.001",
+        "T1552.001",
         "T1560",
         "T1562.001",
         "T1562.002",
         "T1566",
+        "T1567.002",
         "T1570"
       ]
     },
@@ -11977,7 +11998,7 @@
     },
     {
       "name": "Lynx",
-      "techniqueCount": 72,
+      "techniqueCount": 83,
       "cveCount": 0,
       "techniques": [
         "T1003",
@@ -11985,8 +12006,10 @@
         "T1003.004",
         "T1003.005",
         "T1005",
+        "T1012",
         "T1016",
         "T1018",
+        "T1021.001",
         "T1027",
         "T1027.003",
         "T1027.004",
@@ -11995,6 +12018,7 @@
         "T1036",
         "T1036.005",
         "T1041",
+        "T1046",
         "T1047",
         "T1049",
         "T1053",
@@ -12016,9 +12040,11 @@
         "T1078",
         "T1082",
         "T1083",
+        "T1087.001",
         "T1087.002",
         "T1090",
         "T1090.002",
+        "T1098.007",
         "T1102.001",
         "T1102.002",
         "T1104",
@@ -12030,7 +12056,10 @@
         "T1125",
         "T1129",
         "T1132.001",
+        "T1133",
         "T1134",
+        "T1135",
+        "T1136.002",
         "T1137.001",
         "T1140",
         "T1185",
@@ -12047,8 +12076,11 @@
         "T1486",
         "T1489",
         "T1490",
+        "T1543.003",
+        "T1560.001",
         "T1564",
         "T1564.001",
+        "T1567",
         "T1573",
         "T1573.001",
         "T1573.002"
@@ -12064,11 +12096,12 @@
     },
     {
       "name": "MUSTANG PANDA",
-      "techniqueCount": 7,
+      "techniqueCount": 8,
       "cveCount": 0,
       "techniques": [
         "T1016",
         "T1018",
+        "T1027",
         "T1059",
         "T1059.001",
         "T1078",
@@ -12752,6 +12785,14 @@
       ]
     },
     {
+      "name": "Nokoyawa",
+      "techniqueCount": 1,
+      "cveCount": 0,
+      "techniques": [
+        "T1548.004"
+      ]
+    },
+    {
       "name": "Nomadic Octopus",
       "techniqueCount": 7,
       "cveCount": 0,
@@ -12983,14 +13024,6 @@
       ]
     },
     {
-      "name": "Picus Red Report 2024",
-      "techniqueCount": 1,
-      "cveCount": 0,
-      "techniques": [
-        "T1486"
-      ]
-    },
-    {
       "name": "PittyTiger",
       "techniqueCount": 2,
       "cveCount": 0,
@@ -13072,24 +13105,34 @@
     },
     {
       "name": "Qilin",
-      "techniqueCount": 61,
+      "techniqueCount": 85,
       "cveCount": 0,
       "techniques": [
+        "T1003",
         "T1003.001",
         "T1005",
         "T1007",
+        "T1010",
+        "T1014",
+        "T1016",
         "T1018",
         "T1027",
         "T1027.001",
         "T1027.003",
+        "T1027.005",
+        "T1033",
         "T1036",
         "T1036.002",
         "T1036.005",
         "T1039",
         "T1047",
+        "T1049",
         "T1053.002",
         "T1053.005",
         "T1055",
+        "T1056",
+        "T1056.001",
+        "T1057",
         "T1059",
         "T1059.001",
         "T1059.003",
@@ -13098,9 +13141,11 @@
         "T1070.004",
         "T1071",
         "T1071.001",
+        "T1074",
         "T1080",
         "T1082",
         "T1083",
+        "T1087",
         "T1087.002",
         "T1095",
         "T1102.001",
@@ -13108,8 +13153,12 @@
         "T1106",
         "T1112",
         "T1113",
+        "T1114",
         "T1124",
+        "T1129",
         "T1132.001",
+        "T1134",
+        "T1135",
         "T1140",
         "T1189",
         "T1202",
@@ -13121,20 +13170,28 @@
         "T1486",
         "T1489",
         "T1490",
+        "T1496",
+        "T1497",
         "T1518",
         "T1518.001",
+        "T1539",
+        "T1542.003",
         "T1543.003",
         "T1547.001",
         "T1548",
         "T1548.002",
         "T1550.003",
+        "T1552.001",
         "T1560.001",
         "T1562",
         "T1562.001",
         "T1566.001",
+        "T1573",
         "T1573.001",
         "T1574.001",
+        "T1574.002",
         "T1588.002",
+        "T1614.001",
         "T1620"
       ]
     },
@@ -14186,7 +14243,7 @@
     },
     {
       "name": "Spectra",
-      "techniqueCount": 33,
+      "techniqueCount": 57,
       "cveCount": 0,
       "techniques": [
         "T1003",
@@ -14221,7 +14278,31 @@
         "T1190",
         "T1202",
         "T1218",
-        "T1222"
+        "T1222",
+        "T1485",
+        "T1486",
+        "T1489",
+        "T1490",
+        "T1496",
+        "T1497",
+        "T1518",
+        "T1518.001",
+        "T1542",
+        "T1542.003",
+        "T1543",
+        "T1543.003",
+        "T1547",
+        "T1547.001",
+        "T1548",
+        "T1552",
+        "T1552.001",
+        "T1562",
+        "T1562.001",
+        "T1564",
+        "T1564.001",
+        "T1564.003",
+        "T1574",
+        "T1574.002"
       ]
     },
     {
@@ -14358,6 +14439,14 @@
         "T1588.002",
         "T1656",
         "T1667"
+      ]
+    },
+    {
+      "name": "Storm-2460",
+      "techniqueCount": 1,
+      "cveCount": 0,
+      "techniques": [
+        "T1548.004"
       ]
     },
     {
@@ -15025,6 +15114,14 @@
       "cveCount": 0,
       "techniques": [
         "T1110"
+      ]
+    },
+    {
+      "name": "UNC5936",
+      "techniqueCount": 1,
+      "cveCount": 0,
+      "techniques": [
+        "T1190"
       ]
     },
     {

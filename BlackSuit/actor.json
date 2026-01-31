@@ -4,7 +4,7 @@
   "description": "",
   "aliases": [],
   "mitreId": null,
-  "techniqueCount": 55,
+  "techniqueCount": 56,
   "techniques": [
     "T1003",
     "T1003.001",
@@ -38,6 +38,7 @@
     "T1195.002",
     "T1218",
     "T1218.010",
+    "T1484",
     "T1484.001",
     "T1486",
     "T1490",
@@ -64,6 +65,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T19:28:51.158Z",
+  "lastUpdated": "2026-01-31T20:50:13.226Z",
   "descriptionPreview": ""
 }

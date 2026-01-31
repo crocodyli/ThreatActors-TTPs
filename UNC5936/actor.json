@@ -1,0 +1,15 @@
+{
+  "name": "UNC5936",
+  "type": "ransomware",
+  "description": "",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 1,
+  "techniques": [
+    "T1190"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T20:50:13.241Z",
+  "descriptionPreview": ""
+}

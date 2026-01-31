@@ -7,7 +7,7 @@
     "Syssphinx"
   ],
   "mitreId": "G0061",
-  "techniqueCount": 36,
+  "techniqueCount": 37,
   "techniques": [
     "T1003.001",
     "T1016.001",
@@ -33,6 +33,7 @@
     "T1105",
     "T1112",
     "T1134.001",
+    "T1190",
     "T1204.001",
     "T1204.002",
     "T1482",
@@ -48,6 +49,6 @@
   ],
   "cveCount": 0,
   "cves": [],
-  "lastUpdated": "2026-01-31T19:28:51.163Z",
+  "lastUpdated": "2026-01-31T20:50:13.230Z",
   "descriptionPreview": "[FIN8](https://attack."
 }

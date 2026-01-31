@@ -33,6 +33,7 @@
     "T1195.002",
     "T1218",
     "T1218.010",
+    "T1484",
     "T1484.001",
     "T1486",
     "T1490",
@@ -57,7 +58,7 @@
     "T1608.006",
     "T1650"
   ],
-  "techniqueCount": 55,
+  "techniqueCount": 56,
   "cveCount": 0,
   "metadata": {
     "description": "| Resource   Development \t| Acquire Access   (T1650) \t| BlackSuit actors may   leverage brokers to gain initial access.",
@@ -113,6 +114,7 @@
           "T1195.002",
           "T1218",
           "T1218.010",
+          "T1484",
           "T1490",
           "T1557",
           "T1558",

@@ -1,0 +1,15 @@
+{
+  "name": "Storm-2460",
+  "type": "ransomware",
+  "description": "",
+  "aliases": [],
+  "mitreId": null,
+  "techniqueCount": 1,
+  "techniques": [
+    "T1548.004"
+  ],
+  "cveCount": 0,
+  "cves": [],
+  "lastUpdated": "2026-01-31T20:50:13.239Z",
+  "descriptionPreview": ""
+}
