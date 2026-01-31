@@ -1,0 +1,10 @@
+{
+  "group": "SLIME60, SLIME61",
+  "cves": [
+    {
+      "id": "CVE-2024-3400",
+      "source": "https://teamt5.org/en/posts/alerts-of-exploiting-palo-alto-global-protect-cve-2024-3400/",
+      "dateFound": "2026-01-31"
+    }
+  ]
+}
