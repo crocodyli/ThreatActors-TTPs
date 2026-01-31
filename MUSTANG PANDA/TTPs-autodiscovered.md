@@ -15,3 +15,4 @@
 | Multiple | Discovery, lateral movement techniques | https://www.sophos.com/en-us/blog/game-of-clones-sophos-and-the-mitre-attck-enterprise-2025-evaluations | 2026-01-26 |
 | T1571 | Non-Standard Port | https://www.sophos.com/en-us/blog/game-of-clones-sophos-and-the-mitre-attck-enterprise-2025-evaluations | 2026-01-29 |
 | T1059.001 | Command and Scripting Interpreter: PowerShell | https://www.sophos.com/en-us/blog/game-of-clones-sophos-and-the-mitre-attck-enterprise-2025-evaluations | 2026-01-29 |
+| T1059 | Command and Scripting Interpreter | https://www.crowdstrike.com/en-us/blog/crowdstrike-achieves-100-percent-2025-mitre-attack-enterprise-evaluation/ | 2026-01-31 |
