@@ -29,3 +29,24 @@
 | T1555.003 | Credentials from Web Browsers | https://socradar.io/blog/dark-web-profile-bqtlock-ransomware/ | 2026-01-29 |
 | T1622 | Debugger Evasion | https://socradar.io/blog/dark-web-profile-bqtlock-ransomware/ | 2026-01-29 |
 | T1490 | Inhibit System Recovery | https://socradar.io/blog/dark-web-profile-bqtlock-ransomware/ | 2026-01-29 |
+| T1566.001 | Spearphishing Attachment | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1566.002 | Spearphishing Link | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1059.001 | PowerShell | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1204.001 | Malicious Link | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1204.004 | Malicious Copy and Paste | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1566 | Phishing | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1190 | Exploit Public-Facing Application | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1204 | User Execution | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1059 | Command and Scripting Interpreter | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1134 | Access Token Manipulation | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1036 | Masquerading | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1497 | Virtualization/Sandbox Evasion | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1003 | OS Credential Dumping | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1057 | Process Discovery | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1083 | File and Directory Discovery | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1021 | Remote Services | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1091 | Replication Through Removable Media | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1005 | Data from Local System | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1102 | Web Service | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1048.003 | Exfiltration Over Unencrypted Non-C2 Protocol | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
+| T1491 | Defacement | https://redpiranha.net/news/threat-intelligence-report-december-30-2025-january-5-2026 | 2026-01-31 |
