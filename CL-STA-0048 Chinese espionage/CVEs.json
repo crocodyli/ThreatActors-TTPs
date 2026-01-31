@@ -1,0 +1,10 @@
+{
+  "group": "CL-STA-0048 (Chinese espionage)",
+  "cves": [
+    {
+      "id": "CVE-2025-31324",
+      "source": "https://unit42.paloaltonetworks.com/espionage-campaign-targets-south-asian-entities/",
+      "dateFound": "2026-01-31"
+    }
+  ]
+}
