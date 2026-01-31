@@ -1,0 +1,10 @@
+{
+  "group": "UAT-8837 (China-nexus)",
+  "cves": [
+    {
+      "id": "CVE-2025-53690",
+      "source": "https://blog.talosintelligence.com/uat-8837/",
+      "dateFound": "2026-01-31"
+    }
+  ]
+}
