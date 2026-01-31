@@ -3,12 +3,13 @@
   "techniques": [
     "T1016",
     "T1018",
+    "T1059",
     "T1059.001",
     "T1078",
     "T1087",
     "T1571"
   ],
-  "techniqueCount": 6,
+  "techniqueCount": 7,
   "cveCount": 0,
   "metadata": {
     "description": "| Technique | Name | Source | Date |",
@@ -20,6 +21,7 @@
         "techniques": [
           "T1016",
           "T1018",
+          "T1059",
           "T1059.001",
           "T1078",
           "T1087",
