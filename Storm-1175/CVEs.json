@@ -1,0 +1,10 @@
+{
+  "group": "Storm-1175",
+  "cves": [
+    {
+      "id": "CVE-2025-10035",
+      "source": "https://www.microsoft.com/en-us/security/blog/2025/10/06/investigating-active-exploitation-of-cve-2025-10035-goanywhere-managed-file-transfer-vulnerability/",
+      "dateFound": "2026-01-31"
+    }
+  ]
+}
