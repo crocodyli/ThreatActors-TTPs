@@ -1,0 +1,10 @@
+{
+  "group": "Linen Typhoon, Violet Typhoon, Storm-2603",
+  "cves": [
+    {
+      "id": "CVE-2025-53770",
+      "source": "https://dailysecurityreview.com/resources/cve-vulnerability-alerts/post-patch-toolshell-exploit-cve-2025-53770-abused-in-microsoft-sharepoint/",
+      "dateFound": "2026-01-31"
+    }
+  ]
+}
