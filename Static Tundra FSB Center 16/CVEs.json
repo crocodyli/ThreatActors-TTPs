@@ -4,7 +4,20 @@
     {
       "id": "CVE-2018-0171",
       "source": "https://blog.talosintelligence.com/static-tundra/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Cisco",
+      "product": "IOS and IOS XE",
+      "vulnerabilityName": "Cisco IOS and IOS XE Software Smart Install Remote Code Execution Vulnerability",
+      "shortDescription": "Cisco IOS and IOS XE Software improperly validates packet data, allowing an unauthenticated, remote attacker to trigger a reload of an affected device, cause a denial-of-service (DoS) condition, or perform code execution on the affected device.",
+      "dateAdded": "2021-11-03",
+      "dueDate": "2022-05-03",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2018-0171",
+      "cwes": [
+        "CWE-20"
+      ],
+      "dateEnriched": "2026-01-31"
     }
   ]
 }

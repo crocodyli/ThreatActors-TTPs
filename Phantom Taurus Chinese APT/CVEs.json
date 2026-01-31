@@ -4,7 +4,18 @@
     {
       "id": "CVE-2025-55182",
       "source": "https://unit42.paloaltonetworks.com/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Meta",
+      "product": "React Server Components",
+      "vulnerabilityName": "Meta React Server Components Remote Code Execution Vulnerability",
+      "shortDescription": "Meta React Server Components contains a remote code execution vulnerability that could allow unauthenticated remote code execution by exploiting a flaw in how React decodes payloads sent to React Server Function endpoints. Please note CVE-2025-66478 has been rejected, but it is associated with CVE-2025- 55182.",
+      "dateAdded": "2025-12-05",
+      "dueDate": "2025-12-12",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182",
+      "cwes": [],
+      "dateEnriched": "2026-01-31"
     }
   ]
 }

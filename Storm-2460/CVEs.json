@@ -4,12 +4,38 @@
     {
       "id": "CVE-2025-29824",
       "source": "https://www.microsoft.com/en-us/security/blog/2025/04/08/exploitation-of-clfs-zero-day-leads-to-ransomware-activity/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Common Log File System (CLFS) Driver Use-After-Free Vulnerability",
+      "shortDescription": "Microsoft Windows Common Log File System (CLFS) Driver contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.",
+      "dateAdded": "2025-04-08",
+      "dueDate": "2025-04-29",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-29824 ; https://nvd.nist.gov/vuln/detail/CVE-2025-29824",
+      "cwes": [
+        "CWE-416"
+      ],
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2025-24983",
       "source": "https://www.microsoft.com/en-us/security/blog/2025/04/08/exploitation-of-clfs-zero-day-leads-to-ransomware-activity/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Win32k Use-After-Free Vulnerability",
+      "shortDescription": "Microsoft Windows Win32 Kernel Subsystem contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.",
+      "dateAdded": "2025-03-11",
+      "dueDate": "2025-04-01",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-24983 ; https://nvd.nist.gov/vuln/detail/CVE-2025-24983",
+      "cwes": [
+        "CWE-416"
+      ],
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2025-29814",

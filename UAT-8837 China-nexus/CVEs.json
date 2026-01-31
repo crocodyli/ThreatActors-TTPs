@@ -4,7 +4,20 @@
     {
       "id": "CVE-2025-53690",
       "source": "https://blog.talosintelligence.com/uat-8837/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Sitecore",
+      "product": "Multiple Products",
+      "vulnerabilityName": "Sitecore Multiple Products Deserialization of Untrusted Data Vulnerability",
+      "shortDescription": "Sitecore Experience Manager (XM), Experience Platform (XP), Experience Commerce (XC), and Managed Cloud contain a deserialization of untrusted data vulnerability involving the use of default machine keys. This flaw allows attackers to exploit exposed ASP.NET machine keys to achieve remote code execution. ",
+      "dateAdded": "2025-09-04",
+      "dueDate": "2025-09-25",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB1003865 ; https://nvd.nist.gov/vuln/detail/CVE-2025-53690",
+      "cwes": [
+        "CWE-502"
+      ],
+      "dateEnriched": "2026-01-31"
     }
   ]
 }

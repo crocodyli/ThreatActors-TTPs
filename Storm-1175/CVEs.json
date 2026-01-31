@@ -4,7 +4,21 @@
     {
       "id": "CVE-2025-10035",
       "source": "https://www.microsoft.com/en-us/security/blog/2025/10/06/investigating-active-exploitation-of-cve-2025-10035-goanywhere-managed-file-transfer-vulnerability/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Fortra",
+      "product": "GoAnywhere MFT",
+      "vulnerabilityName": "Fortra GoAnywhere MFT Deserialization of Untrusted Data Vulnerability",
+      "shortDescription": "Fortra GoAnywhere MFT contains a deserialization of untrusted data vulnerability allows an actor with a validly forged license response signature to deserialize an arbitrary actor-controlled object, possibly leading to command injection.",
+      "dateAdded": "2025-09-29",
+      "dueDate": "2025-10-20",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.fortra.com/security/advisories/product-security/fi-2025-012 ; https://nvd.nist.gov/vuln/detail/CVE-2025-10035",
+      "cwes": [
+        "CWE-502",
+        "CWE-77"
+      ],
+      "dateEnriched": "2026-01-31"
     }
   ]
 }

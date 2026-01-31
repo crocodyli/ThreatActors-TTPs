@@ -4,7 +4,20 @@
     {
       "id": "CVE-2025-53770",
       "source": "https://dailysecurityreview.com/resources/cve-vulnerability-alerts/post-patch-toolshell-exploit-cve-2025-53770-abused-in-microsoft-sharepoint/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Microsoft",
+      "product": "SharePoint",
+      "vulnerabilityName": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
+      "shortDescription": "Microsoft SharePoint Server on-premises contains a deserialization of untrusted data vulnerability that could allow an unauthorized attacker to execute code over a network. This vulnerability could be chained with CVE-2025-53771. CVE-2025-53770 is a patch bypass for CVE-2025-49704, and the updates for CVE-2025-53770 include more robust protection than those for CVE-2025-49704.",
+      "dateAdded": "2025-07-20",
+      "dueDate": "2025-07-21",
+      "requiredAction": "Disconnect public-facing versions of SharePoint Server that have reached their end-of-life (EOL) or end-of-service (EOS) to include SharePoint Server 2013 and earlier versions. For supported versions, please follow the mitigations according to CISA (URL listed below in Notes) and vendor instructions (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "CISA Mitigation Instructions: https://www.cisa.gov/news-events/alerts/2025/07/20/microsoft-releases-guidance-exploitation-sharepoint-vulnerability-cve-2025-53770; https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/ ; https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53770 ; https://nvd.nist.gov/vuln/detail/CVE-2025-53770",
+      "cwes": [
+        "CWE-502"
+      ],
+      "dateEnriched": "2026-01-31"
     }
   ]
 }

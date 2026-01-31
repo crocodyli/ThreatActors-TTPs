@@ -4,27 +4,94 @@
     {
       "id": "CVE-2023-28252",
       "source": "https://securelist.com/nokoyawa-ransomware-attacks-with-windows-zero-day/109483/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Common Log File System (CLFS) Driver Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability that allows for privilege escalation.",
+      "dateAdded": "2023-04-11",
+      "dueDate": "2023-05-02",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-28252;  https://nvd.nist.gov/vuln/detail/CVE-2023-28252",
+      "cwes": [
+        "CWE-122"
+      ],
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2022-24521",
       "source": "https://securelist.com/nokoyawa-ransomware-attacks-with-windows-zero-day/109483/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows CLFS Driver Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft Windows Common Log File System (CLFS) Driver contains an unspecified vulnerability that allows for privilege escalation.",
+      "dateAdded": "2022-04-13",
+      "dueDate": "2022-05-04",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://nvd.nist.gov/vuln/detail/CVE-2022-24521",
+      "cwes": [
+        "CWE-787",
+        "CWE-1285"
+      ],
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2022-37969",
       "source": "https://securelist.com/nokoyawa-ransomware-attacks-with-windows-zero-day/109483/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Common Log File System (CLFS) Driver Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability that allows for privilege escalation.",
+      "dateAdded": "2022-09-14",
+      "dueDate": "2022-10-05",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-37969;  https://nvd.nist.gov/vuln/detail/CVE-2022-37969",
+      "cwes": [
+        "CWE-20",
+        "CWE-787"
+      ],
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2023-23376",
       "source": "https://securelist.com/nokoyawa-ransomware-attacks-with-windows-zero-day/109483/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Common Log File System (CLFS) Driver Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft Windows Common Log File System (CLFS) driver contains an unspecified vulnerability that allows for privilege escalation.",
+      "dateAdded": "2023-02-14",
+      "dueDate": "2023-03-07",
+      "requiredAction": "Apply updates per vendor instructions.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-23376;  https://nvd.nist.gov/vuln/detail/CVE-2023-23376",
+      "cwes": [
+        "CWE-122"
+      ],
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2024-30051",
       "source": "https://securelist.com/nokoyawa-ransomware-attacks-with-windows-zero-day/109483/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Microsoft",
+      "product": "DWM Core Library",
+      "vulnerabilityName": " Microsoft DWM Core Library Privilege Escalation Vulnerability",
+      "shortDescription": "Microsoft DWM Core Library contains a privilege escalation vulnerability that allows an attacker to gain SYSTEM privileges.",
+      "dateAdded": "2024-05-14",
+      "dueDate": "2024-06-04",
+      "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30051; https://nvd.nist.gov/vuln/detail/CVE-2024-30051",
+      "cwes": [
+        "CWE-122"
+      ],
+      "dateEnriched": "2026-01-31"
     }
   ]
 }

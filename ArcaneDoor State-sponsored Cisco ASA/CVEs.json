@@ -4,7 +4,20 @@
     {
       "id": "CVE-2025-20333",
       "source": "https://unit42.paloaltonetworks.com/zero-day-vulnerabilities-affect-cisco-software/",
-      "dateFound": "2026-01-31"
+      "dateFound": "2026-01-31",
+      "vendor": "Cisco",
+      "product": "Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense",
+      "vulnerabilityName": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Buffer Overflow Vulnerability",
+      "shortDescription": "Cisco Secure Firewall Adaptive Security (ASA) Appliance and Secure Firewall Threat Defense (FTD) Software VPN Web Server contain a buffer overflow vulnerability that allows for remote code execution. This vulnerability could be chained with CVE-2025-20362.",
+      "dateAdded": "2025-09-25",
+      "dueDate": "2025-09-26",
+      "requiredAction": "The KEV due date refers to the deadline by which FCEB agencies are expected to review and begin implementing the guidance outlined in Emergency Directive (ED) 25-03 (URL listed below in Notes). Agencies must follow the mitigation steps provided by CISA (URL listed below in Notes) and vendor’s instructions (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "CISA Mitigation Instructions: https://www.cisa.gov/news-events/directives/ed-25-03-identify-and-mitigate-potential-compromise-cisco-devices ; https://www.cisa.gov/news-events/directives/supplemental-direction-ed-25-03-core-dump-and-hunt-instructions ; https://www.cisa.gov/eviction-strategies-tool/create-from-template ; https://sec.cloudapps.cisco.com/security/center/resources/asa_ftd_continued_attacks ;    https://sec.cloudapps.cisco.com/security/center/private/resources/asa_ftd_continued_attacks#Details ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-webvpn-z5xP8EUB ; https://nvd.nist.gov/vuln/detail/CVE-2025-20333",
+      "cwes": [
+        "CWE-120"
+      ],
+      "dateEnriched": "2026-01-31"
     }
   ]
 }
