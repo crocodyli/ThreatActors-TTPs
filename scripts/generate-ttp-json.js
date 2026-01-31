@@ -173,10 +173,29 @@ function extractMetadata(content) {
   
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
+    const trimmed = line.trim();
     
-    // Extract description (first non-empty paragraph)
-    if (!metadata.description && line.trim() && !line.startsWith('#')) {
-      metadata.description = line.trim().substring(0, 200); // First 200 chars
+    // Extract description (first meaningful paragraph - skip tables, headers, short lines)
+    if (!metadata.description && trimmed) {
+      // Skip markdown headers
+      if (trimmed.startsWith('#')) continue;
+      
+      // Skip table separators (|---|---|)
+      if (trimmed.includes('|') && trimmed.includes('-')) continue;
+      
+      // Skip pure table rows (multiple pipes but short content)
+      if (trimmed.includes('|') && trimmed.split('|').filter(Boolean).every(cell => cell.trim().length < 30)) continue;
+      
+      // Skip very short lines (likely titles or list items)
+      if (trimmed.length < 40) continue;
+      
+      // Skip lines that start with list markers
+      if (/^[-*•]\s/.test(trimmed)) continue;
+      
+      // This looks like actual prose - take first sentence or first 200 chars
+      const firstSentence = trimmed.match(/^[^.!?]+[.!?]/);
+      metadata.description = firstSentence ? firstSentence[0].trim() : trimmed.substring(0, 200);
+      break; // Found description, stop looking
     }
     
     // Extract aliases
@@ -394,7 +413,7 @@ async function main() {
     const actorJson = {
       name: actor.name,
       type: isAPT ? 'apt' : 'ransomware',
-      description: mitreInfo?.description || actor.metadata?.description || '',
+      description: mitreInfo?.description || '', // Only use MITRE, not markdown extraction
       aliases: mitreInfo?.aliases || actor.metadata?.aliases || [],
       mitreId: mitreInfo?.mitreId || null,
       techniqueCount: actor.techniqueCount,
