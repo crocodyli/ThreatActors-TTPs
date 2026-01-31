@@ -8,7 +8,7 @@
       "affectedProducts": [],
       "exploitedByMalware": false,
       "exploitedByActiveCampaigns": false,
-      "dateEnriched": "2026-01-30",
+      "dateEnriched": "2026-01-31",
       "vendor": "OpenPLC",
       "product": "ScadaBR",
       "vulnerabilityName": "OpenPLC ScadaBR Cross-site Scripting Vulnerability",

@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-01-30"
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2014-6271",
@@ -35,7 +35,7 @@
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-01-30"
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2014-7169",
@@ -53,7 +53,7 @@
       "cwes": [
         "CWE-78"
       ],
-      "dateEnriched": "2026-01-30"
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2014-6277",
@@ -74,7 +74,7 @@
       "knownRansomwareCampaignUse": "Unknown",
       "notes": "https://www.jenkins.io/security/advisory/2017-04-26/ ; https://nvd.nist.gov/vuln/detail/CVE-2017-1000353",
       "cwes": [],
-      "dateEnriched": "2026-01-30"
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2025-21043",
@@ -92,7 +92,7 @@
       "cwes": [
         "CWE-787"
       ],
-      "dateEnriched": "2026-01-30"
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2025-4008",
@@ -111,7 +111,7 @@
         "CWE-306",
         "CWE-77"
       ],
-      "dateEnriched": "2026-01-30"
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2025-32463",
@@ -129,7 +129,7 @@
       "cwes": [
         "CWE-829"
       ],
-      "dateEnriched": "2026-01-30"
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2025-59689",
@@ -147,7 +147,7 @@
       "cwes": [
         "CWE-77"
       ],
-      "dateEnriched": "2026-01-30"
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2025-10035",
@@ -166,7 +166,7 @@
         "CWE-502",
         "CWE-77"
       ],
-      "dateEnriched": "2026-01-30"
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2025-20352",
@@ -184,7 +184,7 @@
       "cwes": [
         "CWE-121"
       ],
-      "dateEnriched": "2026-01-30"
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2021-21311",
@@ -202,7 +202,7 @@
       "cwes": [
         "CWE-918"
       ],
-      "dateEnriched": "2026-01-30"
+      "dateEnriched": "2026-01-31"
     }
   ]
 }

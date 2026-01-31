@@ -17,7 +17,7 @@
       "cwes": [
         "CWE-74"
       ],
-      "dateEnriched": "2026-01-30"
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2017-10271",
@@ -33,7 +33,7 @@
       "knownRansomwareCampaignUse": "Known",
       "notes": "https://nvd.nist.gov/vuln/detail/CVE-2017-10271",
       "cwes": [],
-      "dateEnriched": "2026-01-30"
+      "dateEnriched": "2026-01-31"
     },
     {
       "id": "CVE-2019-2729",
