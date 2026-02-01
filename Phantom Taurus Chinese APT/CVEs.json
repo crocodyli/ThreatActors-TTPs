@@ -15,7 +15,7 @@
       "knownRansomwareCampaignUse": "Known",
       "notes": "Check for signs of potential compromise on all internet accessible REACT instances after applying mitigations. For more information, please see: https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components ; https://github.com/vercel-labs/fix-react2shell-next?tab=readme-ov-file ; https://nvd.nist.gov/vuln/detail/CVE-2025-55182",
       "cwes": [],
-      "dateEnriched": "2026-01-31"
+      "dateEnriched": "2026-02-01"
     }
   ]
 }

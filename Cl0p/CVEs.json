@@ -15,7 +15,7 @@
       "knownRansomwareCampaignUse": "Known",
       "notes": "https://www.oracle.com/security-alerts/alert-cve-2025-61882.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-61882",
       "cwes": [],
-      "dateEnriched": "2026-01-31"
+      "dateEnriched": "2026-02-01"
     }
   ]
 }
