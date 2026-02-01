@@ -4,20 +4,78 @@
  * scripts/generate-ttp-json.js
  * 
  * Reads all markdown files from threat actor folders and generates:
- * - ttp-index.json: Complete indexed JSON of all TTPs
+ * - ttp-index.json: Complete indexed JSON of all TTPs with MITRE enrichment
  * - data/[actor-name].json: Individual actor files
  */
 
 const fs = require('fs');
 const path = require('path');
+const https = require('https');
 
 const OUTPUT_DIR = path.join(__dirname, '..', 'data');
 const INDEX_FILE = path.join(__dirname, '..', 'ttp-index.json');
+const MITRE_STIX_URL = 'https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json';
 
 // Ensure output directory exists
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   console.log(`[TTP] Created directory: ${OUTPUT_DIR}`);
+}
+
+/**
+ * Fetch MITRE ATT&CK data
+ */
+async function fetchMITREData() {
+  console.log('[TTP] Fetching MITRE ATT&CK data...');
+  
+  return new Promise((resolve, reject) => {
+    https.get(MITRE_STIX_URL, (res) => {
+      let data = '';
+      
+      res.on('data', (chunk) => {
+        data += chunk;
+      });
+      
+      res.on('end', () => {
+        try {
+          const json = JSON.parse(data);
+          console.log('[TTP] MITRE data fetched successfully');
+          resolve(json);
+        } catch (e) {
+          reject(e);
+        }
+      });
+    }).on('error', reject);
+  });
+}
+
+/**
+ * Build technique map from MITRE data
+ */
+function buildTechniqueMap(mitreData) {
+  const techniqueMap = {};
+  
+  for (const obj of mitreData.objects) {
+    if (obj.type === 'attack-pattern') {
+      // Find the MITRE technique ID
+      const mitreRef = obj.external_references?.find(ref => ref.source_name === 'mitre-attack');
+      const techniqueId = mitreRef?.external_id;
+      
+      if (techniqueId) {
+        techniqueMap[techniqueId] = {
+          id: techniqueId,
+          name: obj.name || '',
+          description: obj.description || '',
+          url: `https://attack.mitre.org/techniques/${techniqueId.replace('.', '/')}`,
+          tactics: obj.kill_chain_phases?.map(phase => phase.phase_name) || [],
+          platforms: obj.x_mitre_platforms || []
+        };
+      }
+    }
+  }
+  
+  console.log(`[TTP] Built technique map with ${Object.keys(techniqueMap).length} techniques`);
+  return techniqueMap;
 }
 
 function extractTechniques(content) {
@@ -160,31 +218,44 @@ const actors = scanActorFolders();
 
 console.log(`[TTP] Found ${actors.length} threat actors`);
 
-// Generate index
-const index = {
-  generated: new Date().toISOString(),
-  actorCount: actors.length,
-  totalTechniques: new Set(actors.flatMap(a => a.techniques)).size,
-  actors: actors.map(a => ({
-    name: a.name,
-    techniqueCount: a.techniqueCount,
-    cveCount: a.cveCount,
-    techniques: a.techniques,
-    description: a.metadata.description || '',
-    descriptionPreview: a.metadata.description ? a.metadata.description.substring(0, 100) : '',
-    aliases: a.metadata.aliases || []
-  }))
-};
+// Main async function
+(async () => {
+  try {
+    // Fetch MITRE data
+    const mitreData = await fetchMITREData();
+    const techniqueMap = buildTechniqueMap(mitreData);
 
-// Save index
-fs.writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2));
-console.log(`[TTP] Index saved to ${INDEX_FILE}`);
+    // Generate index with MITRE enrichment
+    const index = {
+      generated: new Date().toISOString(),
+      actorCount: actors.length,
+      totalTechniques: new Set(actors.flatMap(a => a.techniques)).size,
+      actors: actors.map(a => ({
+        name: a.name,
+        techniqueCount: a.techniqueCount,
+        cveCount: a.cveCount,
+        techniques: a.techniques,
+        description: a.metadata.description || '',
+        descriptionPreview: a.metadata.description ? a.metadata.description.substring(0, 100) : '',
+        aliases: a.metadata.aliases || []
+      })),
+      techniques: techniqueMap  // Add enriched technique details
+    };
 
-// Save individual actor files
-for (const actor of actors) {
-  const filePath = path.join(OUTPUT_DIR, `${actor.name}.json`);
-  fs.writeFileSync(filePath, JSON.stringify(actor, null, 2));
-}
+    // Save index
+    fs.writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2));
+    console.log(`[TTP] Index saved to ${INDEX_FILE}`);
 
-console.log(`[TTP] Saved ${actors.length} individual actor files to ${OUTPUT_DIR}`);
-console.log('[TTP] Done!');
+    // Save individual actor files
+    for (const actor of actors) {
+      const filePath = path.join(OUTPUT_DIR, `${actor.name}.json`);
+      fs.writeFileSync(filePath, JSON.stringify(actor, null, 2));
+    }
+
+    console.log(`[TTP] Saved ${actors.length} individual actor files to ${OUTPUT_DIR}`);
+    console.log('[TTP] Done!');
+  } catch (error) {
+    console.error('[TTP] Error:', error);
+    process.exit(1);
+  }
+})();
