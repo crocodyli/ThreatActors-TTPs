@@ -57,7 +57,7 @@
   "techniqueCount": 52,
   "cveCount": 0,
   "metadata": {
-    "description": "| Execution                                                                            | TA0002    | ALPHV executes commands during its operation.",
+    "description": "| Initial Access                          | ID    | Use                                                                                                                                                 ",
     "aliases": [],
     "cves": [],
     "files": [

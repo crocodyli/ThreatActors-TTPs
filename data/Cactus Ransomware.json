@@ -27,11 +27,15 @@
     "T1570"
   ],
   "techniqueCount": 24,
-  "cveCount": 0,
+  "cveCount": 3,
   "metadata": {
-    "description": "|     Resource Development     TA0042    |     Malvertising      T1538.",
+    "description": "|     Tactic                             |     Technique                                                         |     Details                                                                          ",
     "aliases": [],
-    "cves": [],
+    "cves": [
+      "CVE-2023-41265",
+      "CVE-2023-41266",
+      "CVE-2023-48365"
+    ],
     "files": [
       {
         "name": "Cactus-TTP.md",

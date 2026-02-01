@@ -14,7 +14,7 @@
   "techniqueCount": 9,
   "cveCount": 0,
   "metadata": {
-    "description": "| Execution (TA0002)                 | Native API (T1106)                                                    | Adversaries may interact with the operating system's Native API to execute behaviors.",
+    "description": "| Tactic                              | Technique                                                             | Detail                                                                                  ",
     "aliases": [],
     "cves": [],
     "files": [

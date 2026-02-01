@@ -10,7 +10,7 @@
   "techniqueCount": 5,
   "cveCount": 0,
   "metadata": {
-    "description": "| Initial Access (TA0001) | Phishing (T1566) | Use of phishing emails to compromise the target system, typically containing malicious attachments or links.",
+    "description": "| **TACTIC** | **TECHNIQUE (ID)** | **DETAILS** |",
     "aliases": [],
     "cves": [],
     "files": [

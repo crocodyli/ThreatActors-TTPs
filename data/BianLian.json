@@ -52,7 +52,7 @@
   "techniqueCount": 47,
   "cveCount": 0,
   "metadata": {
-    "description": "| T1059 | Command and Scripting Interpreter | Unknown | Unknown |",
+    "description": "| Tatica ID | Tecnica ID | Nome | Descricao |",
     "aliases": [],
     "cves": [],
     "files": [

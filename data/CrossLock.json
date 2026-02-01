@@ -4,7 +4,7 @@
   "techniqueCount": 0,
   "cveCount": 0,
   "metadata": {
-    "description": "| Execution| Command and Scripting Interpreter| Windows Command Shell",
+    "description": "| **Tactic** | **Technique** | **Sub-Technique**",
     "aliases": [],
     "cves": [],
     "files": [

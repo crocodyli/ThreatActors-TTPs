@@ -16,7 +16,7 @@
   "techniqueCount": 11,
   "cveCount": 0,
   "metadata": {
-    "description": "| Persistence (TA0003)           | Create Account (T1136)                                                | The threat actor using the 3AM ransomware performed account creation to ensure persistence.",
+    "description": "|              Tactic             |                               Technique                              |                                                                   Details                    ",
     "aliases": [],
     "cves": [],
     "files": [

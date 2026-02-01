@@ -33,7 +33,7 @@
   "techniqueCount": 28,
   "cveCount": 0,
   "metadata": {
-    "description": "|      **Execution**      |          Native API T1106             | The threat actor utilizes the application programming interface to execute malicious behaviors.",
+    "description": "|      **Tática**      |             **Técnica**               |                                                      **Detalhes**                                                                      ",
     "aliases": [],
     "cves": [],
     "files": [

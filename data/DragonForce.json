@@ -10,7 +10,7 @@
   "techniqueCount": 5,
   "cveCount": 0,
   "metadata": {
-    "description": "| Execution \t| User Execution (T1005.",
+    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
     "aliases": [],
     "cves": [],
     "files": [

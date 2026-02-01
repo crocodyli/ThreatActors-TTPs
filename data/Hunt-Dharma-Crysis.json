@@ -24,7 +24,7 @@
   "techniqueCount": 19,
   "cveCount": 0,
   "metadata": {
-    "description": "| Execution   (TA0002) \t| Command and Scripting   Interpreter (T1059) \t| Accept command line arguments \t|",
+    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
     "aliases": [],
     "cves": [],
     "files": [

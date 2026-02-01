@@ -45,7 +45,7 @@
   "techniqueCount": 40,
   "cveCount": 0,
   "metadata": {
-    "description": "| Initial Access \t| Valid Accounts   (T1078) \t| Initial access   through brute force or compromised credentials of legitimate RDP accounts.",
+    "description": "| TACTIC  \t| TECHNIQUE  \t| DETAILS \t|",
     "aliases": [],
     "cves": [],
     "files": [
